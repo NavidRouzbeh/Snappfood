@@ -6,9 +6,8 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-     <Grid>hiii
-        <Button variant='outlined'>ddd</Button>
-        <Button variant='contained'>ssss</Button>
+     <Grid>
+
      </Grid>
 
   )

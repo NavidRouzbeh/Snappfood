@@ -73,6 +73,7 @@ export const theme = createTheme({
 //     1:'0px 1px 0pxrgba(58,61,66,0.06),0px 2px 8px -2pxrgba(0,0,0,0.05)'
 //   ],
   typography:{
+    fontFamily:'IranSans',
     //title app section
     h1:{
         fontSize:'2rem',
