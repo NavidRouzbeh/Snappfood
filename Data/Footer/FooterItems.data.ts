@@ -1,7 +1,14 @@
+import { ReactNode } from "react"
+
 interface FooterItemsType{
     id:number
     title:string,
 }
+interface FooterSocialsType{
+    id:number,
+    icon:ReactNode
+}
+
 export const footerItems1:FooterItemsType[]=[
     {id:1,title:'درباره اسنپ فود'},
     {id:2,title:'همکاری با ما'},
