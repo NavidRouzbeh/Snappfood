@@ -9,7 +9,7 @@ import { SocialMediaItems } from "../../../Data/Footer/SocialMedia.data";
 
 const FooterDesktop = () => {
     return (
-        <Grid bgcolor={'rgb(249, 250, 251)'} width={'100%'}  position={'absolute'} bottom={0} p={4}>
+        <Grid bgcolor={'rgb(249, 250, 251)'} width={'100%'}   p={4}>
             <Grid container display={'flex'} flexWrap={'wrap'} spacing={3} >
                 <Grid item display={'flex'}  md={5} xs={8} >
                    <Grid marginLeft={1}>
