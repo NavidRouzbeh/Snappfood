@@ -4,7 +4,9 @@ import SectionApp from '../Component/Home/SectionApp'
 import SectionCities from '../Component/Home/SectionCities'
 export default function Home() {
   return (
-     <Grid container   xs={12}  display={'flex'} flexDirection={"column"} justifyContent={"center"} alignItems={"center"}>
+
+     <Grid container   xs={12}  display={'flex'} justifyContent={"center"} alignItems={"center"}>
+
       <SectionApp/>
       <RegistrationSeller/>
       <SectionCities/>
