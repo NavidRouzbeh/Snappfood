@@ -8,7 +8,7 @@ const CategoryContainer =()=>{
             <Grid xs={12}  p={3}>
                 <Typography>دسته بندی</Typography>
             </Grid>
-            <Grid container sx={{overflowX:'scroll'}} flexShrink={0} justifyContent={'space-around'} flexWrap={'wrap'} >
+            <Grid container bgcolor={'blue'} xs={12} sx={{flexWrap:{xs:'nowrap',sm:'wrap'},overflowX:{xs:'scroll',sm:'hidden'}}} flexShrink={0} justifyContent={'space-around'} >
                 <CategoryCards/>
                 <CategoryCards/>
                 <CategoryCards/>
