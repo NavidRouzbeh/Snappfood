@@ -11,8 +11,12 @@ const SectionApp = () => {
   return (
 
     <Grid container bgcolor={"#EDEFF0"} borderRadius={"0  0 70px 0"} pb={10} sx={{ width:{ xs:"12", lg: "90%"} , display: { sm: "flex", xs: "none" }}} mt={13} display={"flex"} justifyContent={"space-around"}>
-      njhbg
-    </Grid>
+      <Grid container item position={"relative"} xs={4} ml={10}>
+        <Grid item position={"absolute"} bottom={0.5} right={"3.4375rem"} sx={{display: { md: "flex", xs: "none" } }}  >
+          <Image width={424} src={appsection} alt={",mnjhbgvf"} />
+        </Grid>
+      </Grid>
+          </Grid>
   )
 }
 
