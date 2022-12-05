@@ -1,5 +1,6 @@
 import { Grid, useMediaQuery, useTheme } from "@mui/material";
 import FooterDesktop from "./FooterDesktop";
+import FooterMobile from "./FooterMobile";
 
 const Footer = () => {
   const theme=useTheme()
@@ -7,7 +8,7 @@ const Footer = () => {
     return (
        <Grid>
         {isDesktop?
-          <FooterDesktop/>:null
+          <FooterDesktop/>:<FooterMobile/>
         }
        </Grid>
       );
