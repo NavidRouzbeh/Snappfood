@@ -10,13 +10,13 @@ import Image from 'next/image'
 const SectionApp = () => {
   return (
 
-    <Grid container bgcolor={"#EDEFF0"} borderRadius={"0  0 70px 0"} pb={10} sx={{ width:{ xs:"12", lg: "90%"} , display: { sm: "flex", xs: "none" }}} mt={13} display={"flex"} justifyContent={"space-around"}>
+    <Grid container bgcolor={"#EDEFF0"} borderRadius={"0  0 70px 0"} pb={10} sx={{ width: { xs: "12", lg: "90%" }, display: { sm: "flex", xs: "none" } }} mt={13} display={"flex"} justifyContent={"space-around"}>
       <Grid container item position={"relative"} xs={4} ml={10}>
-        <Grid item position={"absolute"} bottom={0.5} right={"3.4375rem"} sx={{display: { md: "flex", xs: "none" } }}  >
+        <Grid item position={"absolute"} bottom={0.5} right={"3.4375rem"} sx={{ display: { md: "flex", xs: "none" } }}  >
           <Image width={424} src={appsection} alt={",mnjhbgvf"} />
         </Grid>
       </Grid>
-      <Grid container item md={6}  dir={"rtl"} sx={{paddingRight:{xs:"20px" , md:"0px"} , marginRight:{md:"80px" , xs:"0px"}}} >
+      <Grid container item md={6} dir={"rtl"} sx={{ paddingRight: { xs: "20px", md: "0px" }, marginRight: { md: "80px", xs: "0px" } }} >
         <Grid item mt={7}>
           <Typography variant="h1" >{"اپلیکیشن اسنپ‌فود"}</Typography>
         </Grid>
@@ -26,11 +26,11 @@ const SectionApp = () => {
         <Grid item mt={8} md={12}  >
           <Typography variant='body2' color={"#000"}>{" برای دریافت لینک دانلود اپلیکیشن، شماره موبایلتان رو وارد کنید "}</Typography>
           <Grid item md={10} mt={2} borderRadius={2} p={1} display={"flex"} bgcolor={"#fff"} alignItems={"center"} justifyContent={"space-between"}>
-            <Typography  color={"#909090"}>{"*********۰۹"}</Typography>
+            <Typography color={"#909090"}>{"*********۰۹"}</Typography>
             <Button sx={{ bgcolor: "#FF00A6", height: "35px", width: "130px" }} variant="contained">{"دریافت لینک"}</Button>
           </Grid>
         </Grid>
-        <Grid item mt={10}  xs={12} display={"flex"}  justifyContent="space-around">
+        <Grid item mt={10} xs={12} display={"flex"} justifyContent="space-around">
           <Grid item bgcolor={"#040404"} borderRadius={1} p={1}  >
             <Image width={120} color={"#fff"} src={play} alt={",mnjhbgvf"} />
           </Grid>
@@ -47,7 +47,7 @@ const SectionApp = () => {
 
       </Grid>
 
-          </Grid>
+    </Grid>
   )
 }
 
