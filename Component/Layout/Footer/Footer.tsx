@@ -1,6 +1,15 @@
+import { Grid, useMediaQuery, useTheme } from "@mui/material";
+import FooterDesktop from "./FooterDesktop";
+
 const Footer = () => {
+  const theme=useTheme()
+  const isDesktop=useMediaQuery(theme.breakpoints.up('sm'))
     return (
-        <div>lll</div>
+       <Grid>
+        {isDesktop?
+          <FooterDesktop/>:null
+        }
+       </Grid>
       );
 }
  
