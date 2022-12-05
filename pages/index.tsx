@@ -1,13 +1,9 @@
-import { Button } from '@mui/material'
 import Grid  from '@mui/material/Grid'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-
+import SectionApp from '../Component/Home/SectionApp'
 export default function Home() {
   return (
-     <Grid>
-
+     <Grid container   xs={12} bgcolor={"red"} display={'flex'} justifyContent={"center"} alignItems={"center"}>
+      <SectionApp/>
      </Grid>
 
   )
