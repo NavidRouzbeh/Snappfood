@@ -39,13 +39,12 @@ const ProfileMobileData:ProfileMobileTypes[]=[
     {id:8,icon:favourit,title:'رستوران های مورد علاقه'},
     {id:9,icon:list,title:'لیست پرداخت ها'},
     {id:10,icon:exit,title:'خروج'},
-
 ]
 
 const ProfileMobile =()=>{
     return(
         <Box sx={style}>
-            <Grid width={'100%'} bgcolor={'red'} height={40} position={'fixed'}></Grid>
+            <Grid width={'100%'} height={45} position={'fixed'} bgcolor={'#F9FAFB'}></Grid>
             <Grid xs={12} mt={4} sx={{overflowY:'scroll',cursor:'pointer'}}>
                 <Grid p={2} display={'flex'} justifyContent={'space-between'} alignItems={'center'}>
                     <Grid>
@@ -69,19 +68,13 @@ const ProfileMobile =()=>{
                         </Grid>
                     </Grid>
                     <Divider/>
+                    
                     </>
                 ))}
-
-                {/* <Grid p={2} display={'flex'} justifyContent={'space-between'} alignItems={'center'}>
-                    <Grid display={'flex'} alignItems={'center'}>
-                        <Image src={Club} alt=''/>
-                        <Typography mr={'8px'} variant={'subtitle2'} fontWeight={300}>عنوان ایکون</Typography>
-                    </Grid>
-                    <Grid>
-                        <ArrowBackIosOutlinedIcon fontSize="small" sx={{color:"rgb(58,61,66)"}}/>
-                    </Grid>
+                <Grid display={'flex'} flexDirection={'row-reverse'} p={2}>
+                    <Typography variant="body2">نسخه 5.6.6</Typography>
                 </Grid>
-                <Divider/> */}
+                <Grid height={65}></Grid>
             </Grid>
         </Box>
     )

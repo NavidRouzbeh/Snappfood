@@ -15,6 +15,7 @@ const FooterMobile= () => {
   const [value, setValue] = React.useState(0);
   const [openprofile,setOpenProfile] =React.useState(false)
   const handleOpenProfile = () => setOpenProfile(true);
+  const handleCloseProfile =() =>setOpenProfile(false);
   // const navigate=useNavigate()
   // const handleChangePageCurrent=()=>{
   //     navigate('/CurrentPrice')
@@ -37,6 +38,7 @@ const FooterMobile= () => {
           icon={<HomeIcon />}
           //icon={<Image src={Home} alt={''}/>}
         //   onClick={handleChangePageHome}
+          onClick={handleCloseProfile}
         />
         <BottomNavigationAction
           label="  سفارش ها"
