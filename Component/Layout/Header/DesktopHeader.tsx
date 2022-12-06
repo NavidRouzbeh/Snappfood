@@ -11,7 +11,7 @@ import ProfileDesktop from "../../Home/SectionProfile/ProfileDesktop";
 
 
 const DesktopHeader = () => {
-    const [show,setShow]=useState(false)
+    const [show,setShow]=useState<boolean>(false)
     const [open,setOpen] = useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
