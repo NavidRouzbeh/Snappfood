@@ -11,30 +11,25 @@ import shb from "../../Assets/Images/shila.jpg";
 
 const DesktopVendor = () => {
 
-  const imageStyle = {
-    height: '100%',
-    objectFit:'cover'
-  }
-
     return(
 
     <Card  sx={{height:'21.3125rem', width:'18.5rem' }}>
       
       <Grid style={{height:'40%'}}>
-        <Image src={shb} alt="" style={imageStyle} />
+        <Image src={shb} alt="" style={{height: '100%', objectFit:'cover'}} />
       </Grid>
-      <Grid style={{height:'60%'}}>
-        <Grid >
+      <Grid sx={{position:'relative'}} display={'flex'} justifyContent={'center'} style={{height:'%60'}}>
+        <Grid sx={{position:'absolute', right:100, top:-66}} >
           <Image src={shl} alt="" style={{ 
             width:'5.5rem',
             height: '5.5rem',
             border: '1px solid rgba(58, 61, 66, 0.06)',
             borderRadius: '0.75rem',
-            position:'relative', right:'100px', bottom:'66px'}}/>
+            }}/>
         </Grid>
-        <Grid  style={{position:'relative', bottom:'55px'}}>
+        <Grid alignItems={'center'} justifyContent={'center'} display={'flex'} flexDirection={'column'}>
           <Grid>
-            <Typography variant='h3' textAlign={'center'}>پیتزا شیلا (سعادت آباد)</Typography>
+            <Typography variant='h3'>پیتزا شیلا (سعادت آباد)</Typography>
           </Grid>
           <Grid>
             <Grid display={'flex'} justifyContent={'center'} gap={1}>
@@ -44,17 +39,15 @@ const DesktopVendor = () => {
             <Typography  variant='subtitle1' textAlign={'center'} sx={{mt:'5px'}}>فست‌فود، پیتزا، ساندویچ</Typography>
           </Grid>
           <Grid>
-            <Grid>
-              <Box textAlign={'center'} sx={{
+              <Box display={'flex'} justifyContent={'center'} alignItems={'center'}  sx={{
                 backgroundColor:'red',
                 borderRadius:'4.5rem',
-                width:'70%',
+                width:'200px',
                 height:'40px',
                 boxShadow: 'rgb(58 61 66 / 6%) 0px 1px 0px'
               }}>
                 <Typography variant='subtitle1'>پیک فروشنده</Typography>
               </Box>
-            </Grid>
           </Grid>
         </Grid>
       </Grid>
