@@ -6,8 +6,8 @@ import CardParty from '../Component/Home/SwipperParty/CardParty'
 export default function Home() {
   return (
 
-     <Grid container   xs={12}  display={'flex'} justifyContent={"center"} alignItems={"center"}>
-      <CardParty/>
+     <Grid container xs={12}  display={'flex'} justifyContent={"center"} alignItems={"center"}>
+     
 
       <SectionApp/>
       <RegistrationSeller/>
