@@ -7,10 +7,11 @@ import SnappLogo from "../../../Assets/Icons/snappfood.svg";
 import LocationIcon from "../../Assets/Icons/LocationIcon.svg";
 import ProfileIcon from "../../../Assets/Icons/ProfileIcon.svg"
 import { useState } from "react";
+import ProfileDesktop from "../../Home/SectionProfile/ProfileDesktop";
 
 
 const DesktopHeader = () => {
-
+    const [show,setShow]=useState(false)
     const [open,setOpen] = useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
@@ -48,8 +49,9 @@ const DesktopHeader = () => {
             {/* <TextField id="filled-basic" label="جستجو در اسنپ فود" variant="filled" /> */}
             </Grid>
             <Grid display={{sm:'none', md:'flex'}} gap={4}>
-                <Grid>
-                <IconButton>
+                <Grid position={'relative'}>
+                <IconButton onClick={()=>setShow(!show)}>
+                    {show ? <ProfileDesktop/> : null}
                     <PersonOutlinedIcon/>
                 </IconButton>
                 </Grid>
@@ -66,8 +68,9 @@ const DesktopHeader = () => {
                     <SearchIcon/>
                 </IconButton>
                 </Grid>
-                <Grid>
-                <IconButton>
+                <Grid position={'relative'}>
+                <IconButton onClick={()=>setShow(!show)}>
+                    {show ? <ProfileDesktop/> : null}
                     <PersonOutlinedIcon/>
                 </IconButton>
                 </Grid>
