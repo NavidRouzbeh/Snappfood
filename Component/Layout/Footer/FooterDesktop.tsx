@@ -1,7 +1,6 @@
 import { Grid, Typography } from "@mui/material";
 import Image from "next/image";
-import snap from './snap.svg'
-import telegram from './telegram.svg'
+import snap from '../../../Assets/Svgs/snap.svg'
 import pic1 from "../../../Assets/Images/namad.png"
 import pic2 from "../../../Assets/Images/senf.png"
 import { footerItems1, footerItems2 } from "../../../Data/Footer/FooterItems.data";
