@@ -7,6 +7,6 @@ import Header from '../Component/Layout/Header/Header';
 
 export default function Home() {
   return (
-    <Header/>
+    <Grid></Grid>
   )
 }
