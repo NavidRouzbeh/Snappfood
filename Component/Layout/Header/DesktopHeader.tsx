@@ -3,9 +3,9 @@ import { Grid, Typography, IconButton, useMediaQuery, useTheme, Button, Modal, B
 import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 import ListAltIcon from '@mui/icons-material/ListAlt';
 import SearchIcon from '@mui/icons-material/Search';
-import SnappLogo from "../../Assets/Icons/snappfood.svg";
+import SnappLogo from "../../../Assets/Icons/snappfood.svg";
 import LocationIcon from "../../Assets/Icons/LocationIcon.svg";
-import ProfileIcon from "../../Assets/Icons/ProfileIcon.svg"
+import ProfileIcon from "../../../Assets/Icons/ProfileIcon.svg"
 import { useState } from "react";
 
 

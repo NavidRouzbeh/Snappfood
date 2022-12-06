@@ -1,9 +1,9 @@
 import { Grid, IconButton, Typography, Modal, Box, Button } from "@mui/material";
 import SearchIcon from '@mui/icons-material/Search';
 import Image from "next/image";
-import HamMenu from "../../Assets/Icons/HamMenuIcon.svg";
-import AddressArrow from "../../Assets/Icons/AddressArrowIcon.svg";
-import Cart from "../../Assets/Icons/CartIcon.svg";
+import HamMenu from "../../../Assets/Icons/HamMenuIcon.svg";
+import AddressArrow from "../../../Assets/Icons/AddressArrowIcon.svg";
+import Cart from "../../../Assets/Icons/CartIcon.svg";
 import { useState } from "react";
 
 
