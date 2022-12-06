@@ -12,8 +12,5 @@ export default function Home() {
       <RegistrationSeller/>
       <SectionCities/>
      </Grid>
-
-
-
   )
 }
