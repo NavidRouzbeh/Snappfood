@@ -12,11 +12,7 @@ import Image from 'next/image'
 const SectionApp = () => {
   return (
     <Grid container bgcolor={"#EDEFF0"} borderRadius={"0  0 70px 0"} pb={10} sx={{ width: { xs: "99%", lg: "90%" }, display: { sm: "flex", xs: "none" } }} mt={13} display={"flex"} justifyContent={"space-around"}>
-      <Grid container item position={"relative"} xs={4} sx={{marginLeft:{md:"65px"}}} >
-        <Grid item position={"absolute"} bottom={0.5} right={"3.4375rem"} sx={{ display: { md: "flex", sm: "none" } }}  >
-          <Image width={424} src={appsection} alt={",mnjhbgvf"} />
-        </Grid>
-      </Grid>
+     
       <Grid container item md={6} xs={12} dir={"rtl"} sx={{ paddingRight: { xs: "20px", md: "0px" }, marginRight: { md: "80px", xs: "0px" } }} >
 
         <Grid item mt={7}>
@@ -27,7 +23,7 @@ const SectionApp = () => {
         </Grid>
         <Grid item mt={8} xs={12} >
           <Typography variant='subtitle1' fontWeight={700} color={"#000"}>{" برای دریافت لینک دانلود اپلیکیشن، شماره موبایلتان رو وارد کنید "}</Typography>
-          <Grid item sm={7} md={6} mt={2} borderRadius={2} p={1} display={"flex"} bgcolor={"#fff"} alignItems={"center"} justifyContent={"space-between"}>
+          <Grid item xs={5} md={6} mt={2} borderRadius={2} p={1} display={"flex"} bgcolor={"#fff"} alignItems={"center"} justifyContent={"space-between"}>
             <Typography color={"#909090"}>{"*********۰۹"}</Typography>
             <Button sx={{ bgcolor: "#FF00A6", height: "35px", width: "115px" }} variant="contained">{"دریافت لینک"}</Button>
           </Grid>
@@ -45,6 +41,11 @@ const SectionApp = () => {
           <Grid item p={1} >
             <Image width={130} src={iapps} alt={",mnjhbgvf"} />
           </Grid>
+        </Grid>
+      </Grid>
+      <Grid container item position={"relative"} xs={4} sx={{marginLeft:{md:"65px"}}} >
+        <Grid item position={"absolute"} bottom={0.5} left={"1.4375rem"} sx={{ display: { md: "flex", sm: "none" } }}  >
+          <Image width={424} src={appsection} alt={",mnjhbgvf"} />
         </Grid>
       </Grid>
     </Grid>
