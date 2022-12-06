@@ -8,9 +8,13 @@ import PermIdentitySharpIcon from '@mui/icons-material/PermIdentitySharp';
 // import { useNavigate } from 'react-router-dom';
 import Image from "next/image";
 import Home from './Home.svg'
+import Modal from '@mui/material/Modal';
+import ProfileMobile from "../../Home/SectionProfile/ProfileMobile";
 
 const FooterMobile= () => {
   const [value, setValue] = React.useState(0);
+  const [openprofile,setOpenProfile] =React.useState(false)
+  const handleOpenProfile = () => setOpenProfile(true);
   // const navigate=useNavigate()
   // const handleChangePageCurrent=()=>{
   //     navigate('/CurrentPrice')
@@ -45,7 +49,14 @@ const FooterMobile= () => {
           value={"3"}
           icon={<PermIdentitySharpIcon />}
         //   onClick={handleChangePageCurrent}
+        onClick={handleOpenProfile}
         />
+        <Modal
+        open={openprofile}
+        // onClose={handleClose}
+        >
+          <ProfileMobile/>
+        </Modal>
       </BottomNavigation>
     </Box>
   );
