@@ -8,7 +8,7 @@ import nut from "../../Assets/Images/navbar/nut.png"
 import restoren from "../../Assets/Images/navbar/restoren.png"
 import sweet from "../../Assets/Images/navbar/sweet.png"
 
-interface NavbarSectionType{
+export interface NavbarSectionType{
     id:number
     title:string,
     image:StaticImageData

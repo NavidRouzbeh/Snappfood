@@ -8,11 +8,11 @@ import { NavbarSectionItem } from '../../../Data/NavbarSection/NavbarSection.dat
 
 const NavbarSection = () => {
     return (
-        <Grid container flexWrap={"wrap"} borderBottom={"1px solid #EBEDF0"} pt={4} minWidth={"100px"}  sx={{overflowx:"auto" , cursor:"pointer"}} >
+        <Grid container display={"flex"}  borderBottom={{sm:"1px solid #EBEDF0"}} flexWrap={"wrap"} pt={4} sx={{overflowX:{sm:"auto", xs:"hidden" } ,  minWidth:'100px' , cursor:"pointer" , position:"sticky"}} >
             {
                 NavbarSectionItem.map(item =>(
-                    <Grid item xs={3} sm={1.5} key={item.id}  display={"flex"}  justifyContent={"center"} alignItems={"center"} flexDirection={"column"} >
-                    <Grid item  mb={3} sx={{bgcolor:{xs:"#f5f3ff" , sm:"#fff"} , padding:{xs:"20px 23px" , sm:"0"}}}  borderRadius={4}  >
+                    <Grid item xs={4}  sm={1.5} key={item.id}  display={"flex"}  justifyContent={"center"} alignItems={"center"} flexDirection={"column"} >
+                    <Grid item  mb={3} sx={{bgcolor:{xs:"#f5f3ff" , sm:"#fff"} , padding:{xs:"25px 32px" , sm:"0"}}}  borderRadius={4}  >
                     <Image style={{width:"40px" , height:"40px"}} src={item.image} alt={"dfg"} />
                     </Grid>
                     <Grid item mb={3}>

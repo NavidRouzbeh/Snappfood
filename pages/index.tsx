@@ -5,13 +5,16 @@ import SectionApp from '../Component/Home/SectionApp'
 import SectionCities from '../Component/Home/SectionCities'
 export default function Home() {
      return (
-
-          <Grid container xs={12} display={'flex'} justifyContent={"center"} flexDirection={"column"} alignItems={"center"}>
+          <>
                <NavbarSection />
-               <SectionApp />
-               <RegistrationSeller />
-               <SectionCities />
-          </Grid>
+               <Grid container xs={12} display={'flex'} justifyContent={"center"} flexDirection={"column"} alignItems={"center"}>
+
+                    <SectionApp />
+                    <RegistrationSeller />
+                    <SectionCities />
+               </Grid>
+          </>
+
 
 
 
