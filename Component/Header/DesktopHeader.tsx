@@ -27,7 +27,7 @@ const DesktopHeader = () => {
                 <Typography variant="body2"> <Image src={ProfileIcon} alt=""/>تهران، محله سعادت آباد، بلوار جوریکی،نبش کوچه نهم غربی</Typography>
                 </Grid>
             </Grid>
-            <Grid>
+            <Grid display={{sm:'none', md:"flex"}}>
                 <Button onClick={handleOpen}
                 style={{ color:'rgb(166, 170, 173)', backgroundColor:'rgb(235, 237, 240)', width: '29vw', height: '3rem', borderRadius: '0.625rem' }}>
                     <SearchIcon/>
@@ -47,7 +47,7 @@ const DesktopHeader = () => {
                 </Modal>
             {/* <TextField id="filled-basic" label="جستجو در اسنپ فود" variant="filled" /> */}
             </Grid>
-            <Grid display={'flex'} gap={4}>
+            <Grid display={{sm:'none', md:'flex'}} gap={4}>
                 <Grid>
                 <IconButton>
                     <PersonOutlinedIcon/>
@@ -56,6 +56,24 @@ const DesktopHeader = () => {
                 <Grid>
                 <IconButton>
                     <ListAltIcon/><Typography color={'rgb(58, 61, 66)'} fontSize={'0.875rem'} fontWeight={700} >سفارش‌ها</Typography>
+                </IconButton>
+                </Grid>
+            </Grid>
+
+            <Grid display={{sm:'flex', md:'none'}} gap={2}>
+                <Grid>
+                <IconButton>
+                    <SearchIcon/>
+                </IconButton>
+                </Grid>
+                <Grid>
+                <IconButton>
+                    <PersonOutlinedIcon/>
+                </IconButton>
+                </Grid>
+                <Grid>
+                <IconButton>
+                    <ListAltIcon/><Typography color={'rgb(58, 61, 66)'} fontSize={'0.875rem'} fontWeight={700} ></Typography>
                 </IconButton>
                 </Grid>
             </Grid>
