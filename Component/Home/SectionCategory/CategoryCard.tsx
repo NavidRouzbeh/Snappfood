@@ -19,7 +19,7 @@ const CategoryCards = ({ pic, title }: CategoryTypes) => {
         "rgb(58 61 66 / 6%) 0px 1px 0px, rgb(0 0 0 / 30%) 0px 8px 32px -16px;"
       }
     >
-      <Grid display={"flex"} sx={{ position: "relative" }} height={{ md: 100 }}>
+      <Grid display={"flex"} sx={{ position: "relative" }} height={{xs:110, md: 100 }}>
         <Image
           style={{
             height: "100%",
@@ -55,8 +55,9 @@ const CategoryCards = ({ pic, title }: CategoryTypes) => {
         <Grid
           display={{ xs: "flex", sm: "none" }}
           position={"absolute"}
-          right={50}
+          right={40}
           top={30}
+
         >
           <Typography variant="subtitle2" sx={{ color: "white" }}>
             {title}
