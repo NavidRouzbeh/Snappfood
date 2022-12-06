@@ -1,16 +1,17 @@
-import { Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid";
 
 const style={
     width:'100%',
     height:'100%',
-    
+    bgcolor:'white',
+    border: '2px solid #000',
 }
 const ProfileMobile =()=>{
     return(
-        <Grid sx={style}>
+        <Box sx={style}>
             <Typography>dddd</Typography>
-        </Grid>
+        </Box>
     )
 }
 
