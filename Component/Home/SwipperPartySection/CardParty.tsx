@@ -7,11 +7,11 @@ const CardParty = () => {
   return (
     <Grid
       width={"200px"}
-     
+      bgcolor={'common.white'}
       borderRadius={"0.5rem"}
       sx={{ cursor: "pointer" }}
       boxShadow={"0px 2px 8px rgba(0,0,0,0.08),0px 8px 32px rgba(0,0,0,0.16)"}
-      mr={2}
+   
     >
       <Grid
         height={"20rem"}
