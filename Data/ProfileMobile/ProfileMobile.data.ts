@@ -9,10 +9,11 @@ import favourit from '../../Assets/Svgs/ProfileMobileSvg/favourit.svg'
 import list from '../../Assets/Svgs/ProfileMobileSvg/list.svg'
 import exit from '../../Assets/Svgs/ProfileMobileSvg/exit.svg'
 import { ReactNode } from "react";
+import { StaticImageData } from 'next/image'
 
 interface ProfileMobileTypes{
     id:number,
-    icon:ReactNode,
+    icon:StaticImageData,
     title:string
 }
 export const ProfileMobileData:ProfileMobileTypes[]=[
