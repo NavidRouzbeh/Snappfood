@@ -1,13 +1,10 @@
 import Image from 'next/image';
 import { Grid, Box } from '@mui/material';
 import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { CardActionArea } from '@mui/material';
-import shl from "../../Assets/Images/shila_logo.jpg";
-import shb from "../../Assets/Images/shila.jpg";
-
+import Logo from "../../Assets/Images/shila_logo.jpg";
+import Background from "../../Assets/Images/shila.jpg";
+import CouriorLogo from "../../Assets/Icons/CourierIcon.svg";
 
 const DesktopVendor = () => {
 
@@ -16,11 +13,11 @@ const DesktopVendor = () => {
     <Card  sx={{height:'21.3125rem', width:'18.5rem' }}>
       
       <Grid style={{height:'40%'}}>
-        <Image src={shb} alt="" style={{height: '100%', objectFit:'cover'}} />
+        <Image src={Background} alt="" style={{height: '100%', objectFit:'cover'}} />
       </Grid>
       <Grid sx={{position:'relative', height:'%60'}} display={'flex'} justifyContent={'center'}>
         <Grid sx={{position:'absolute', right:100, top:-66}} >
-          <Image src={shl} alt="" style={{ 
+          <Image src={Logo} alt="" style={{ 
             width:'5.5rem',
             height: '5.5rem',
             border: '1px solid rgba(58, 61, 66, 0.06)',
@@ -43,11 +40,16 @@ const DesktopVendor = () => {
                 mt:'1.5rem',
                 backgroundColor:'rgb(255, 255, 255)',
                 borderRadius:'4.5rem',
-                width:'200px',
+                width:'210px',
                 height:'40px',
                 boxShadow: 'rgb(58 61 66 / 16%) 0px 1px 0px'
               }}>
-                <Typography variant='subtitle1'>پیک فروشنده</Typography>
+                <Grid display={'flex'} gap={1} >
+                  <Image src={CouriorLogo} alt="" />
+                  <Typography variant='subtitle1'>پیک فروشنده</Typography>
+                  <Typography variant='subtitle1'> ۱۵,۰۰۰ </Typography>
+                  <Typography variant='subtitle1'>تومان</Typography>
+                </Grid>
               </Box>
           </Grid>
         </Grid>
