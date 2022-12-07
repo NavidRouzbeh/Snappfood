@@ -16,7 +16,7 @@ const ProfileMobile =()=>{
     return(
         <Box sx={style}>
             <Grid width={'100%'} height={45} position={'fixed'} bgcolor={'#F9FAFB'}></Grid>
-            <Grid xs={12} mt={4} sx={{overflowY:'scroll',cursor:'pointer'}}>
+            <Grid xs={12} mt={4} sx={{overflowY:'scroll'}}>
                 <Grid p={2} display={'flex'} justifyContent={'space-between'} alignItems={'center'}>
                     <Grid>
                         <Typography variant="h3">مریم کهن</Typography>
@@ -29,7 +29,7 @@ const ProfileMobile =()=>{
                 <Divider/>
                 {ProfileMobileData.map(item=>(
                     <>
-                    <Grid p={2} display={'flex'} justifyContent={'space-between'} alignItems={'center'}>
+                    <Grid p={2} display={'flex'} justifyContent={'space-between'} alignItems={'center'} sx={{cursor:'pointer'}}>
                         <Grid display={'flex'} alignItems={'center'}>
                             <Image src={item.icon} alt=''/>
                             <Typography mr={'8px'} variant={'subtitle2'} fontWeight={300}>{item.title}</Typography>
