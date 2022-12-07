@@ -5,6 +5,7 @@ import SectionApp from "../Component/Home/SectionApp";
 import CategoryContainer from "../Component/Home/SectionCategory/CategoryContainer";
 import SectionCities from "../Component/Home/SectionCities";
 import CardParty from "../Component/Home/SwipperParty/CardParty";
+import SectionSwipperParty from "../Component/Home/SwipperParty/SectionSwipperparty";
 export default function Home() {
   return (
     <>
@@ -17,6 +18,7 @@ export default function Home() {
         justifyContent={"center"}
         alignItems={"center"}
       >
+        <SectionSwipperParty/>
         <CategoryContainer />
 
         <SectionApp />
