@@ -19,7 +19,7 @@ const DesktopHeader = () => {
 
     return(
         
-        <Grid container boxSizing={'border-box'} justifyContent={'space-between'} alignItems={'center'} sx={{ bgcolor:'#F9FAFB' , width:'100%', height:'4.5rem', p:'1rem'}}>
+        <Grid container position={'fixed'} zIndex={1200} justifyContent={'space-between'} alignItems={'center'} sx={{ bgcolor:'#F9FAFB' , width:'100%', height:'4.5rem', p:'1rem'}}>
             <Grid item display={'flex'} gap={3} alignItems={'center'} >
                 <Grid>
                 <Image src={SnappLogo} alt="" style={{width:'68px',height:'34px'}} />

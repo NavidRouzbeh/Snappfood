@@ -26,7 +26,7 @@ const categorydata: CategoryTypes[] = [
 
 const CategoryContainer = () => {
   return (
-    <Grid xs={11} sx={{ direction: "rtl" }}>
+    <Grid xs={11} position={'relative'} top={80} sx={{ direction: "rtl" }}>
       <Grid p={3} mr={{ md: 4 }}>
         <Typography variant="subtitle2" sx={{ color: "rgb(83, 86, 92)" }}>
           دسته‌بندی‌ ها
