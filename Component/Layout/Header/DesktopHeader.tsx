@@ -7,6 +7,7 @@ import SnappLogo from "../../../Assets/Icons/snappfood.svg";
 import LocationIcon from "../../Assets/Icons/LocationIcon.svg";
 import ProfileIcon from "../../../Assets/Icons/ProfileIcon.svg"
 import { useState } from "react";
+import SearchBar from "../../Home/SectionSearch/SearchBar";
 
 
 const DesktopHeader = () => {
@@ -39,11 +40,12 @@ const DesktopHeader = () => {
                     aria-labelledby="modal-modal-title"
                     aria-describedby="modal-modal-description"
                 >
-                    <Box >
-                    <Typography>
+                    {/* <Box > */}
+                        <SearchBar/>
+                    {/* <Typography>
                         search
                     </Typography>
-                    </Box>
+                    </Box> */}
                 </Modal>
             {/* <TextField id="filled-basic" label="جستجو در اسنپ فود" variant="filled" /> */}
             </Grid>
