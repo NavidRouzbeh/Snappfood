@@ -4,7 +4,7 @@ import Card from '@mui/material/Card';
 import Typography from '@mui/material/Typography';
 import Logo from "../../Assets/Images/shila_logo.jpg";
 import Background from "../../Assets/Images/shila.jpg";
-import CouriorLogo from "../../Assets/Icons/CourierIcon.svg";
+import CourierLogo from "../../Assets/Icons/CourierIcon.svg";
 
 const DesktopVendor = () => {
 
@@ -45,7 +45,7 @@ const DesktopVendor = () => {
                 boxShadow: 'rgb(58 61 66 / 16%) 0px 1px 0px'
               }}>
                 <Grid display={'flex'} gap={1} >
-                  <Image src={CouriorLogo} alt="" />
+                  <Image src={CourierLogo} alt="" />
                   <Typography variant='subtitle1'>پیک فروشنده</Typography>
                   <Typography variant='subtitle1'> ۱۵,۰۰۰ </Typography>
                   <Typography variant='subtitle1'>تومان</Typography>
