@@ -37,7 +37,10 @@ const MobileVendorCard = () => {
                             <Typography variant="subtitle1" sx={{fontSize:'0.7rem'}}>(۲۳,۳۰۲ )</Typography>
                             <Typography variant="subtitle1" sx={{fontSize:'0.7rem'}}>۴.۵</Typography>
                         </Grid>
-
+                </Grid>
+                <Grid sx={{mt:3}}>
+                    <Typography variant="subtitle1">فست‌فود، پیتزا، ساندویچ</Typography>
+                    <Typography sx={{mt:2}} variant="subtitle1">پیک فروشنده ۱۵,۰۰۰ تومان</Typography>
                 </Grid>
             </Grid>
 
