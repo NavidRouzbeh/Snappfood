@@ -30,7 +30,7 @@ const DesktopHeader = () => {
             </Grid>
             <Grid display={{sm:'none', md:"flex"}} position={'relative'} right={-79} >
                 <Button onClick={handleOpen}
-                style={{ color:'rgb(166, 170, 173)', backgroundColor:'rgb(235, 237, 240)', width: '29vw', height: '3rem', borderRadius: '0.625rem' }}>
+                style={{ color:'rgb(166, 170, 173)', backgroundColor:'rgb(235, 237, 240)', width: '29vw', height: '3rem', borderRadius: '0.625rem', justifyContent:'flex-start' }}>
                     <SearchIcon/>
                     جست‌وجو در اسنپ‌فود
                 </Button>
