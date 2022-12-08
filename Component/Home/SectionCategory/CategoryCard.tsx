@@ -41,9 +41,9 @@ const CategoryCards = ({ pic, title }: CategoryTypes) => {
             bgcolor={"white"}
             p={"3px"}
             borderRadius={"4px 0 4px 0"}
-            sx={{ cursor: "pointer" }}
+            sx={{ cursor: "pointer"}}
           >
-            <Typography variant="subtitle2" mr={'8px'} sx={{ fontWeight: 400 }}>
+            <Typography variant="subtitle2" mr={'8px'} sx={{ fontWeight: 400,'&:hover':{ml:1} }}>
               {title}
             </Typography>
             <ArrowBackIosRoundedIcon
@@ -51,17 +51,17 @@ const CategoryCards = ({ pic, title }: CategoryTypes) => {
             />
           </Grid>
         </Grid>
-        {/* <Grid
+        <Grid
           display={{ xs: "flex", sm: "none" }}
           position={"absolute"}
-          right={40}
-          top={30}
+          right={'30%'}
+          top={'30%'}
 
         >
           <Typography variant="subtitle2" sx={{ color: "white" }}>
             {title}
           </Typography>
-        </Grid> */}
+        </Grid>
       </Grid>
     </Grid>
   );
