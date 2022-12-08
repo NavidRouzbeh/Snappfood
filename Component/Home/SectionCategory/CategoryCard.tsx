@@ -1,7 +1,7 @@
 import { Grid, Typography } from "@mui/material";
 import Image from "next/image";
 import ArrowBackIosRoundedIcon from "@mui/icons-material/ArrowBackIosRounded";
-import { CategoryTypes } from "./CategoryContainer";
+import { CategoryTypes } from "../../../Data/CategorySection/CategorySection.data";
 
 const CategoryCards = ({ pic, title }: CategoryTypes) => {
   return (
