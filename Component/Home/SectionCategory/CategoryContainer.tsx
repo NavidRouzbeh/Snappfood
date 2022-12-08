@@ -6,9 +6,9 @@ import { categorydata } from "../../../Data/CategorySection/CategorySection.data
 const CategoryContainer = () => {
   return (
     <Grid xs={11} position={'relative'} top={80} sx={{ direction: "rtl" }}>
-      <Grid p={3} mr={{ md: 4 }}>
+      <Grid p={3} mr={{ md: -1.5 }}>
         <Typography variant="subtitle2" sx={{ color: "rgb(83, 86, 92)" }}>
-          دسته‌بندی‌ ها
+          دسته‌ بندی‌ ها
         </Typography>
       </Grid>
       <Grid
@@ -18,7 +18,7 @@ const CategoryContainer = () => {
         sx={{
           flexWrap: { xs: "nowrap", sm: "wrap" },
           overflowX: { xs: "scroll", sm: "hidden" },
-          mr: { md: 8 },
+          mr: { md: 2 },
         }}
         gap={4}
       >
