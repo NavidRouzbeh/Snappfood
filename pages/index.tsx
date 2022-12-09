@@ -21,9 +21,8 @@ export default function Home() {
         justifyContent={"center"}
         alignItems={"center"}
       >
-        <SectionSwipperParty/>
         <CategoryContainer />
-
+        <SectionSwipperParty/>
         <SectionApp />
         <RegistrationSeller />
         <SectionCities />
