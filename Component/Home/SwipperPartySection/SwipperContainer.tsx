@@ -33,7 +33,7 @@ const SwipperContainer = () => {
   }, [page])
     return ( 
        <Grid  position={'relative'} display={'flex'} >
-        <Grid onClick={handleNextSlide} bgcolor={'common.white'} width={40} height={40} display={{xs:'none',md:'flex'}}  sx={{cursor:'pointer',zIndex:1300,top:'50%'}} borderRadius={'50%'}  alignItems={'center'} justifyContent={'center'} position={'absolute'}  boxShadow={'rgb(58 61 66 / 6%) 0px 1px 0px, rgb(0 0 0 / 20%) 0px 4px 16px -8px'}  >
+        <Grid onClick={handleNextSlide} bgcolor={'common.white'} width={40} height={40} display={{xs:'none',md:'flex'}}  sx={{cursor:'pointer',zIndex:100,top:'45%'}} borderRadius={'50%'}  alignItems={'center'} justifyContent={'center'} position={'absolute'}  boxShadow={'rgb(58 61 66 / 6%) 0px 1px 0px, rgb(0 0 0 / 20%) 0px 4px 16px -8px'}  >
          <ArrowForwardIosRoundedIcon color={'primary'}/>
         </Grid>
         <Swiper
@@ -67,7 +67,7 @@ const SwipperContainer = () => {
           <SwiperSlide><CardParty/></SwiperSlide>
           <SwiperSlide><CardParty/></SwiperSlide>
         </Swiper>
-        <Grid onClick={handlePrevSlide}  bgcolor={'common.white'} width={40} height={40} sx={{cursor:'pointer',zIndex:1300,left:0,top:'50%'}}  borderRadius={'50%'} display={{xs:'none',md:'flex'}} alignItems={'center'} justifyContent={'center'} position={'absolute'} boxShadow={'rgb(58 61 66 / 6%) 0px 1px 0px, rgb(0 0 0 / 20%) 0px 4px 16px -8px'}>
+        <Grid onClick={handlePrevSlide}  bgcolor={'common.white'} width={40} height={40} sx={{cursor:'pointer',zIndex:100,left:0,top:'45%'}}  borderRadius={'50%'} display={{xs:'none',md:'flex'}} alignItems={'center'} justifyContent={'center'} position={'absolute'} boxShadow={'rgb(58 61 66 / 6%) 0px 1px 0px, rgb(0 0 0 / 20%) 0px 4px 16px -8px'}>
           <ArrowBackIosRoundedIcon color={'primary'}/>
         </Grid> 
         </Grid>
