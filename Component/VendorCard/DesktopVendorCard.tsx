@@ -40,7 +40,7 @@ const DesktopVendor = () => {
             <Typography  variant='subtitle1' textAlign={'center'} sx={{mt:'0.5rem'}}>فست‌فود، پیتزا، ساندویچ</Typography>
           </Grid>
           <Grid>
-              <Box display={'flex'} justifyContent={'center'} alignItems={'center'}  sx={{
+              <Grid display={'flex'} justifyContent={'center'} alignItems={'center'}  sx={{
                 mt:'1.5rem',
                 backgroundColor:'rgb(255, 255, 255)',
                 borderRadius:'4.5rem',
@@ -54,7 +54,7 @@ const DesktopVendor = () => {
                   <Typography variant='subtitle1'> ۱۵,۰۰۰ </Typography>
                   <Typography variant='subtitle1'>تومان</Typography>
                 </Grid>
-              </Box>
+              </Grid>
           </Grid>
         </Grid>
       </Grid>
