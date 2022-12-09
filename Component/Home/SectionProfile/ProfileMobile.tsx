@@ -2,20 +2,12 @@ import { Box, Divider, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import ArrowBackIosOutlinedIcon from '@mui/icons-material/ArrowBackIosOutlined';
 import { ProfileMobileData } from "../../../Data/ProfileMobile/ProfileMobile.data";
-
-
-import Image from "next/image";
 import ProfileMobileRow from "./ProfileMobileRow";
-const style={
-    width:'100%',
-    height:'100%',
-    bgcolor:'white',
-    overflowY:'scroll'
-}
+
 
 const ProfileMobile =()=>{
     return(
-        <Box sx={style}>
+        <Box sx={{width:'100%',height:'100%',bgcolor:'white',overflowY:'scroll'}}>
             <Grid width={'100%'} height={45} position={'fixed'} bgcolor={'#F9FAFB'}></Grid>
             <Grid xs={12} mt={4} sx={{overflowY:'scroll'}}>
                 <Grid p={2} display={'flex'} justifyContent={'space-between'} alignItems={'center'}>
