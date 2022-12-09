@@ -11,9 +11,9 @@ import { useState } from "react";
 
 const DesktopHeader = () => {
 
-    const [open,setOpen] = useState(false);
-    const handleOpen = () => setOpen(true);
-    const handleClose = () => setOpen(false);
+    const [openSearchBar,setOpenSearchBar] = useState(false);
+    const handleOpen = () => setOpenSearchBar(true);
+    const handleClose = () => setOpenSearchBar(false);
 
 
     return(
@@ -29,12 +29,12 @@ const DesktopHeader = () => {
             </Grid>
             <Grid display={{sm:'none', md:"flex"}}>
                 <Button onClick={handleOpen}
-                style={{ color:'rgb(166, 170, 173)', backgroundColor:'rgb(235, 237, 240)', width: '29vw', height: '3rem', borderRadius: '0.625rem' }}>
+                sx={{ color:'rgb(166, 170, 173)', backgroundColor:'rgb(235, 237, 240)', width: '29vw', height: '3rem', borderRadius: '0.625rem' }}>
                     <SearchIcon/>
                     جست‌وجو در اسنپ‌فود
                 </Button>
                 <Modal
-                    open={open}
+                    open={openSearchBar}
                     onClose={handleClose}
                     aria-labelledby="modal-modal-title"
                     aria-describedby="modal-modal-description"

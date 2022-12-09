@@ -9,9 +9,9 @@ import { useState } from "react";
 
 const MobileHeader = () => {
 
-    const [open,setOpen] = useState(false);
-    const handleOpen = () => setOpen(true);
-    const handleClose = () => setOpen(false);
+    const [openSearchBar,setOpenSearchBar] = useState(false);
+    const handleOpen = () => setOpenSearchBar(true);
+    const handleClose = () => setOpenSearchBar(false);
 
     return(
         <Grid>
@@ -23,13 +23,13 @@ const MobileHeader = () => {
                 </Grid>
                 <Grid>
                     <Grid item display={'flex'} gap={1} justifyContent={'center'} alignItems={'center'}>
-                        <Typography variant="subtitle1" style={{color:'black'}}>
+                        <Typography variant="subtitle1" sx={{color:'black'}}>
                         موقعیت انتخابی
                         </Typography>
                         <Image src={AddressArrow} alt="" />
                     </Grid>
                     <Grid>
-                        <Typography variant="subtitle1" style={{color:'black'}}>
+                        <Typography variant="subtitle1" sx={{color:'black'}}>
                             تهران،سعادت آباد، بلوار ...
                         </Typography>
                     </Grid>
@@ -43,23 +43,23 @@ const MobileHeader = () => {
             <Grid item  >
                 <Grid>
                 <Button onClick={handleOpen}
-                style={{ justifyContent:'space-between', color:'rgb(166, 170, 173)', backgroundColor:'rgb(235, 237, 240)', width: '90%', height: '3rem', borderRadius: '0.625rem' }}>
+                sx={{ justifyContent:'space-between', color:'rgb(166, 170, 173)', backgroundColor:'rgb(235, 237, 240)', width: '90%', height: '3rem', borderRadius: '0.625rem' }}>
                     <Grid>جست‌وجو در اسنپ‌فود</Grid>
                     <Grid>
                         <SearchIcon/>
                     </Grid>
                 </Button>
                 <Modal
-                open={open}
+                open={openSearchBar}
                 onClose={handleClose}
                 aria-labelledby="modal-modal-title"
                 aria-describedby="modal-modal-description"
                 >
-                    <Box >
+                    <Grid >
                         <Typography>
                             search
                         </Typography>
-                    </Box>
+                    </Grid>
                 </Modal>
                 </Grid>
             </Grid>
