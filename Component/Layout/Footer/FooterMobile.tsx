@@ -19,7 +19,7 @@ const FooterMobile= () => {
   //     navigate('/')
   // }
   return (
-    <Box sx={{ width: "100%" }} position={"fixed"} bottom={0} boxShadow={'0 -1px 0  rgba(0, 0, 0, 0.1)'}>
+    <Box sx={{ width: "100%",zIndex:1000}} position={"fixed"} bottom={0} boxShadow={'0 -1px 0  rgba(0, 0, 0, 0.1)'} >
       <BottomNavigation
         showLabels
         value={value}
