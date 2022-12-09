@@ -11,7 +11,7 @@ import exit from '../../Assets/Svgs/ProfileMobileSvg/exit.svg'
 import { ReactNode } from "react";
 import { StaticImageData } from 'next/image'
 
-interface ProfileMobileTypes{
+export interface ProfileMobileTypes{
     id:number,
     icon:StaticImageData,
     title:string

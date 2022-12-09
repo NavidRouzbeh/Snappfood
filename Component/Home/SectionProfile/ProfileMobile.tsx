@@ -5,6 +5,7 @@ import { ProfileMobileData } from "../../../Data/ProfileMobile/ProfileMobile.dat
 
 
 import Image from "next/image";
+import ProfileMobileRow from "./ProfileMobileRow";
 const style={
     width:'100%',
     height:'100%',
@@ -28,19 +29,7 @@ const ProfileMobile =()=>{
                 </Grid>
                 <Divider/>
                 {ProfileMobileData.map(item=>(
-                    <>
-                    <Grid p={2} display={'flex'} justifyContent={'space-between'} alignItems={'center'} sx={{cursor:'pointer'}}>
-                        <Grid display={'flex'} alignItems={'center'}>
-                            <Image src={item.icon} alt=''/>
-                            <Typography mr={'8px'} variant={'subtitle2'} fontWeight={300}>{item.title}</Typography>
-                        </Grid>
-                        <Grid>
-                            <ArrowBackIosOutlinedIcon fontSize="small" sx={{color:"rgb(58,61,66)"}}/>
-                        </Grid>
-                    </Grid>
-                    <Divider/>
-                    
-                    </>
+                    <ProfileMobileRow {...item}/>
                 ))}
                 <Grid display={'flex'} flexDirection={'row-reverse'} p={2}>
                     <Typography variant="body2">نسخه 5.6.6</Typography>
