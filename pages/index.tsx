@@ -4,6 +4,11 @@ import RegistrationSeller from "../Component/Home/RegistrationSeller";
 import SectionApp from "../Component/Home/SectionApp";
 import CategoryContainer from "../Component/Home/SectionCategory/CategoryContainer";
 import SectionCities from "../Component/Home/SectionCities";
+
+import CardParty from "../Component/Home/SwipperPartySection/CardParty";
+import SwipperContainer from "../Component/Home/SwipperPartySection/SwipperContainer";
+import SectionSwipperParty from "../Component/Home/SwipperPartySection/SwipperpartySection";
+
 export default function Home() {
   return (
     <>
@@ -16,6 +21,7 @@ export default function Home() {
         justifyContent={"center"}
         alignItems={"center"}
       >
+        <SectionSwipperParty/>
         <CategoryContainer />
 
         <SectionApp />
