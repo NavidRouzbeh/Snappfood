@@ -6,11 +6,15 @@ import star from "../../../Assets/Svgs/star.svg";
 const CardParty = () => {
   return (
     <Grid
-      width={"200px"}
+      minWidth={'90%'}
+      xs={6}
+      md={4}
+      lg={3}
+      mx={1}
       bgcolor={'common.white'}
       borderRadius={"0.5rem"}
       sx={{ cursor: "pointer" }}
-      boxShadow={"0px 2px 8px rgba(0,0,0,0.08),0px 8px 32px rgba(0,0,0,0.16)"}
+      // boxShadow={"0px 2px 8px rgba(0,0,0,0.08),0px 8px 32px rgba(0,0,0,0.16)"}
    
     >
       <Grid
@@ -20,6 +24,7 @@ const CardParty = () => {
         alignItems={"center"}
         justifyContent={"space-between"}
         m={2}
+        //  width={'100%'}
       >
         <Grid>
           <Typography variant="body2" color={'rgb(58, 61, 66)'} mb={1}>
