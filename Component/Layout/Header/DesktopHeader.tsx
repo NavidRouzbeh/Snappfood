@@ -11,8 +11,8 @@ import ProfileDesktop from "../../Home/SectionProfile/ProfileDesktop";
 
 
 const DesktopHeader = () => {
-    const [showprofile,setShowProfile]=useState<boolean>(false)
-    const [open,setOpen] = useState(false);
+    const [showProfile,setShowProfile]=useState<boolean>(false)
+    const [open,setOpen] = useState<boolean>(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
 
@@ -50,8 +50,8 @@ const DesktopHeader = () => {
             </Grid>
             <Grid display={{sm:'none', md:'flex'}} gap={4}>
                 <Grid position={'relative'}>
-                <IconButton onClick={()=>setShowProfile(!showprofile)}>
-                    {showprofile ? <ProfileDesktop/> : null}
+                <IconButton onClick={()=>setShowProfile(!showProfile)}>
+                    {showProfile ? <ProfileDesktop/> : null}
                     <PersonOutlinedIcon/>
                 </IconButton>
                 </Grid>
@@ -69,8 +69,8 @@ const DesktopHeader = () => {
                 </IconButton>
                 </Grid>
                 <Grid position={'relative'}>
-                <IconButton onClick={()=>setShowProfile(!showprofile)}>
-                    {showprofile ? <ProfileDesktop/> : null}
+                <IconButton onClick={()=>setShowProfile(!showProfile)}>
+                    {showProfile ? <ProfileDesktop/> : null}
                     <PersonOutlinedIcon/>
                 </IconButton>
                 </Grid>
