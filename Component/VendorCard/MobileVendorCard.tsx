@@ -4,6 +4,10 @@ import Image from "next/image";
 import Background from "../../Assets/Images/shila.jpg"
 import Logo from "../../Assets/Images/shila_logo.jpg"
 import { Typography } from "@mui/material";
+import StarIcon from '@mui/icons-material/Star';
+
+
+
 const MobileVendorCard = () => {
 
     return(
@@ -35,11 +39,14 @@ const MobileVendorCard = () => {
 
                         <Grid display={'flex'} alignItems={'center'} gap={1}>
                             <Typography variant="subtitle1" sx={{fontSize:'0.7rem'}}>(۲۳,۳۰۲ )</Typography>
-                            <Typography variant="subtitle1" sx={{fontSize:'0.7rem'}}>۴.۵</Typography>
+                            <Grid display={'flex'} alignItems={'center'} sx={{backgroundColor:'rgba(91, 168, 41, 0.08)', color:'#5ba839'}}>
+                                <Typography variant="subtitle1" sx={{fontSize:'0.7rem'}}>۴.۵</Typography>
+                                <StarIcon sx={{width:12, height:12}} />
+                            </Grid>
                         </Grid>
                 </Grid>
                 <Grid sx={{mt:3}}>
-                    <Typography variant="subtitle1">فست‌فود، پیتزا، ساندویچ</Typography>
+                    <Typography variant="subtitle1" sx={{color:'black'}}>فست‌فود، پیتزا، ساندویچ</Typography>
                     <Typography sx={{mt:2}} variant="subtitle1">پیک فروشنده ۱۵,۰۰۰ تومان</Typography>
                 </Grid>
             </Grid>

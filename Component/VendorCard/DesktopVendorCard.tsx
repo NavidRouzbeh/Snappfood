@@ -5,6 +5,7 @@ import Typography from '@mui/material/Typography';
 import Logo from "../../Assets/Images/shila_logo.jpg";
 import Background from "../../Assets/Images/shila.jpg";
 import CourierLogo from "../../Assets/Icons/CourierIcon.svg";
+import StarIcon from '@mui/icons-material/Star';
 
 const DesktopVendor = () => {
 
@@ -12,7 +13,7 @@ const DesktopVendor = () => {
 
     <Card  sx={{height:'21.3125rem', width:'18.5rem' }}>
       
-      <Grid style={{height:'40%'}}>
+      <Grid sx={{height:'40%'}}>
         <Image src={Background} alt="" style={{height: '100%', objectFit:'cover'}} />
       </Grid>
       <Grid sx={{position:'relative', height:'%60'}} display={'flex'} justifyContent={'center'}>
@@ -30,7 +31,10 @@ const DesktopVendor = () => {
           </Grid>
           <Grid>
             <Grid display={'flex'} justifyContent={'center'} gap={1} sx={{mt:'0.5rem'}}>
-              <Typography variant='subtitle1'>۴.۵</Typography>
+              <Grid display={'flex'} textAlign={'center'}>
+                <StarIcon sx={{ color:'orange', width:12, height:12 }} />
+                <Typography variant='subtitle1'>۴.۵</Typography>
+              </Grid>
               <Typography variant='subtitle1'>(۲۳,۳۰۲ )</Typography>
             </Grid>
             <Typography  variant='subtitle1' textAlign={'center'} sx={{mt:'0.5rem'}}>فست‌فود، پیتزا، ساندویچ</Typography>
