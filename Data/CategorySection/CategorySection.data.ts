@@ -19,6 +19,6 @@ export  const categorydata: CategoryTypes[] = [
     { id: 2, pic: berger, title: "برگر" },
     { id: 3, pic: sandwitch, title: "ساندویچ" },
     { id: 4, pic: sokhary, title: "سوخاری" },
-    { id: 5, pic: salad, title: "سالاد" },
-    { id: 6, pic: pasta, title: "پاستا" },
+    { id: 5, pic: pasta, title: "پاستا" },
+    { id: 6, pic: salad, title: "سالاد" },
   ];
