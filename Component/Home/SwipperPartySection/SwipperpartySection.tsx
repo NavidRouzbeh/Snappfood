@@ -1,5 +1,5 @@
 import Grid from "@mui/material/Grid"
-import CardParty from "./CardParty";
+import CardParty from "./CardPartyDesktop";
 import SwipperContainer from "./SwipperContainer";
 import TimerSwipperParty from "./TimerSwipperParty";
 

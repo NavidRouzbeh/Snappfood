@@ -5,7 +5,7 @@ import SectionApp from "../Component/Home/SectionApp";
 import CategoryContainer from "../Component/Home/SectionCategory/CategoryContainer";
 import SectionCities from "../Component/Home/SectionCities";
 
-import CardParty from "../Component/Home/SwipperPartySection/CardParty";
+import CardParty from "../Component/Home/SwipperPartySection/CardPartyDesktop";
 import SwipperContainer from "../Component/Home/SwipperPartySection/SwipperContainer";
 import SectionSwipperParty from "../Component/Home/SwipperPartySection/SwipperpartySection";
 

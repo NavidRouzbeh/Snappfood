@@ -3,7 +3,7 @@ import StarIcon from "@mui/icons-material/Star";
 import Image from "next/image";
 import disi from "../../../Assets/Images/disi.jpeg";
 import star from "../../../Assets/Svgs/star.svg";
-const CardParty = () => {
+const CardPartyDesktop = () => {
   return (
     <Grid
       minWidth={'90%'}
@@ -128,4 +128,4 @@ const CardParty = () => {
   );
 };
 
-export default CardParty;
+export default CardPartyDesktop;
