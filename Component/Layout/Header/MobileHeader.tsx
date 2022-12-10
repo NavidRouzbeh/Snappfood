@@ -1,10 +1,15 @@
-import { Grid, IconButton, Typography, Modal, Box, Button } from "@mui/material";
+import { useState } from "react";
+import { Grid, IconButton, Typography, Modal, Box, Button, Divider } from "@mui/material";
 import SearchIcon from '@mui/icons-material/Search';
 import Image from "next/image";
 import HamMenu from "../../../Assets/Icons/HamMenuIcon.svg";
 import AddressArrow from "../../../Assets/Icons/AddressArrowIcon.svg";
 import Cart from "../../../Assets/Icons/CartIcon.svg";
-import { useState } from "react";
+import HamMenuSupport from "../../../Assets/Icons/HamMenuSupport.svg";
+import HamMenuStore from "../../../Assets/Icons/HamMenuStore.svg";
+import SellerRegister from "../../../Assets/Icons/SellerRegister.svg";
+import HamMenuArrow from "../../../Assets/Icons/HamMenuArrow.svg";
+import CloseIcon from "../../../Assets/Icons/CloseIcon.svg";
 
 
 const MobileHeader = () => {
@@ -29,16 +34,41 @@ const MobileHeader = () => {
                     aria-labelledby="modal-modal-title"
                     aria-describedby="modal-modal-description"
                     >
-                        <Grid sx={{width:'100%', height:'100%', bgColor:'white' }}>
-                            <Grid>
-                                <Typography>poshtibani</Typography>
+                        <Grid display={'flex'} flexDirection={'column'} alignItems={'center'} sx={{width:'100%', height:'100%', bgcolor:'white' }}>
+                            <Grid display={'flex'} alignItems={'flex-start'} sx={{width:'100%', pt:1, pb:2}}>
+                                <Button onClick={handleCloseHamMenu}><Image src={CloseIcon} alt='' /></Button>
                             </Grid>
-                            <Grid>
-                                <Typography>poshtibani</Typography>
+                            
+                            <Grid display={'flex'} alignItems={'center'} justifyContent={'space-between'} sx={{width:'100%', height:'5rem', px:2.5}}>
+                                <Grid display={'flex'} alignItems={'center'}>
+                                    <Image src={HamMenuSupport} alt=''/>
+                                    <Typography variant="subtitle2" fontWeight={100} sx={{pr:1.5}}>پشتیبانی</Typography>
+                                </Grid>
+                                <Grid>
+                                    <Image src={HamMenuArrow} alt=''/>
+                                </Grid>
                             </Grid>
-                            <Grid>
-                                <Typography>poshtibani</Typography>
+                            <Divider sx={{width:'90%' }}/>
+                            <Grid display={'flex'} alignItems={'center'} justifyContent={'space-between'} sx={{width:'100%', height:'5rem', px:2.5}}>
+                                <Grid display={'flex'} alignItems={'center'}>
+                                    <Image src={HamMenuStore} alt=''/>
+                                    <Typography variant="subtitle2" fontWeight={100} sx={{pr:1.5}}>معرفی فروشگاه</Typography>
+                                </Grid>
+                                <Grid>
+                                    <Image src={HamMenuArrow} alt=''/>
+                                </Grid>
                             </Grid>
+                            <Divider sx={{width:'90%' }}/>
+                            <Grid display={'flex'} alignItems={'center'} justifyContent={'space-between'} sx={{width:'100%', height:'5rem', px:2.5}}>
+                                <Grid display={'flex'} alignItems={'center'}>
+                                    <Image src={SellerRegister} alt=''/>
+                                    <Typography variant="subtitle2" fontWeight={100} sx={{pr:1.5}}>ثبت نام فروشندگان</Typography>
+                                </Grid>
+                                <Grid>
+                                    <Image src={HamMenuArrow} alt=''/>
+                                </Grid>
+                            </Grid>
+                            <Divider sx={{width:'90%' }}/>
                         </Grid>
                     </Modal>
                 </Grid>
