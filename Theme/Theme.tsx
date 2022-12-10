@@ -78,7 +78,7 @@ export const theme = createTheme({
     ...Array(19).fill('none'),
   ] as Shadows,
   typography:{
-    fontFamily:'IranSans',
+    fontFamily:'IranSansMobile',
     //title app section
     h1:{
         fontSize:'2rem',
