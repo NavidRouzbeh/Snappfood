@@ -55,7 +55,7 @@ export const StyledTextField = styled(TextField)(({theme}) => ({
     width: '100%',
     background: 'white',
     height: 50,
-    borderRadius:4,
+    borderRadius:8,
     border:'1px solid black',
     zIndex:12000,
     ":default":{
