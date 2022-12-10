@@ -9,6 +9,7 @@ import Box from "@mui/system/Box";
 import {styled} from "@mui/material";
 import NavbarSearch from "./NavbarSearch";
 import HeaderSearch from "./HeaderSearch";
+import ProductDetailCardSearch from "./ProductDetailCardSearch";
 
 const SearchBar =()=>{
     // const theme = useTheme()
@@ -32,6 +33,7 @@ const SearchBar =()=>{
                     <Divider/>
                     <Grid display={'flex'} flexDirection={'column'} p={2}>
                         <NavbarSearch num={70} title={'محصولات'}/>
+                        <ProductDetailCardSearch/>
                     </Grid>
                 {/* </Grid> */}
             </Grid>
@@ -51,11 +53,9 @@ export const StyledTextField = styled(TextField)(({theme}) => ({
     background: 'white',
     height: 46,
     borderRadius: '100px',
-    'label': {
-        ...theme.typography['h1'],
+    'text': {
+        ...theme.typography['h2'],
         color: 'red',
-        // marginTop: -10,
-        // marginLeft: 35
     },
 
     // 'label.Mui-focused': {
@@ -75,7 +75,7 @@ export const StyledTextField = styled(TextField)(({theme}) => ({
     // }
 
     'fieldset': {
-        border: 0
+        border: 1
     },
 }))
 

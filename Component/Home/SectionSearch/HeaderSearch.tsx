@@ -6,7 +6,7 @@ const HeaderSearch =()=>{
     return(
         <Grid display={'flex'} p={2} alignItems={'center'}>
             <GridViewOutlinedIcon fontSize="small"/>
-            <Typography mr={2} variant={'subtitle1'} fontSize={'0.8rem'}>دسته‌بندی</Typography>
+            <Typography mr={2} variant={'subtitle1'} fontSize={'0.8rem'} color={'rgb(58,61,66)'}>دسته‌بندی</Typography>
             <Typography mr={'4px'} variant={'subtitle2'} fontSize={'0.8rem'}>جوجه کباب</Typography>
         </Grid>
     )
