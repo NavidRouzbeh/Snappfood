@@ -5,6 +5,8 @@ import HamMenu from "../../../Assets/Icons/HamMenuIcon.svg";
 import AddressArrow from "../../../Assets/Icons/AddressArrowIcon.svg";
 import Cart from "../../../Assets/Icons/CartIcon.svg";
 import { useState } from "react";
+import SearchBar from "../../Home/SectionSearch/SearchBar";
+import ArrowForwardIosRoundedIcon from '@mui/icons-material/ArrowForwardIosRounded';
 
 
 const MobileHeader = () => {
@@ -34,7 +36,7 @@ const MobileHeader = () => {
                         </Typography>
                     </Grid>
                 </Grid>
-                <Grid>
+                <Grid zIndex={12000}>
                 <IconButton>
                         <Image src={Cart} alt="" />
                     </IconButton>
@@ -54,12 +56,20 @@ const MobileHeader = () => {
                 onClose={handleClose}
                 aria-labelledby="modal-modal-title"
                 aria-describedby="modal-modal-description"
+                sx={{bgcolor:'#fff'}}
+                hideBackdrop={true}
                 >
-                    <Box >
+                    <>
+                        <IconButton onClick={handleClose} >
+                            <ArrowForwardIosRoundedIcon sx={{ color:'#404040' }}/>
+                        </IconButton>
+                        <SearchBar/>
+                    </>
+                    {/* <Box >
                         <Typography>
                             search
                         </Typography>
-                    </Box>
+                    </Box> */}
                 </Modal>
                 </Grid>
             </Grid>
