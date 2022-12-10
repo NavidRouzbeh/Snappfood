@@ -1,65 +1,40 @@
 import Grid from "@mui/material/Grid";
 import StorefrontIcon from '@mui/icons-material/Storefront';
 import GridViewOutlinedIcon from '@mui/icons-material/GridViewOutlined';
-import KeyboardArrowLeftRoundedIcon from '@mui/icons-material/KeyboardArrowLeftRounded';
-import { Divider, TextField, Typography, useTheme } from "@mui/material";
+// import { useTheme } from "@mui/material";
+import TextField  from "@mui/material/TextField";
+import Divider  from "@mui/material/Divider";
+import Typography from "@mui/material/Typography";
 import Box from "@mui/system/Box";
-
-const style = {
-    top: '10%',
-    width: 510,
-    // height:300,
-    bgcolor: 'background.paper',
-    boxShadow: 24,
-    p: 4,
-    borderRadius:2,
-  };
+import {styled} from "@mui/material";
+import NavbarSearch from "./NavbarSearch";
+import HeaderSearch from "./HeaderSearch";
 
 const SearchBar =()=>{
-    const theme = useTheme()
+    // const theme = useTheme()
+    // console.log(parseInt('1.25rem'))
     return(
         <Grid display={'flex'} justifyContent={'center'}>
-            <Grid position={'relative'} bgcolor={'#fff'} mt={2} borderRadius={2} border={1} xs={4}>
+            <Grid position={'relative'} bgcolor={'#fff'} mt={2} borderRadius={2} border={1} width={{sm:'45vw',md:'29vw'}}>
                 <StyledTextField/>
             </Grid>
-            <Box sx={style} position={'absolute'} height={"fit-content"}>
+            <Grid sx={{top:'11%',bgcolor: 'background.paper',boxShadow:2,borderRadius:2}} width={{sm:'45vw',md:'29vw'}} position={'absolute'} height={"fit-content"}>
                 {/* <Grid display={'flex'} flexDirection={'column'} bgcolor={'red'} p={'3px'}> */}
-                    <Grid display={'flex'} p={2} alignItems={'center'}>
-                        <GridViewOutlinedIcon fontSize="small"/>
-                        <Typography mr={2} variant={'subtitle1'} fontSize={'0.8rem'}>دسته‌بندی</Typography>
-                        <Typography mr={'4px'} variant={'subtitle2'} fontSize={'0.8rem'}>جوجه کباب</Typography>
-                    </Grid>
+                    <HeaderSearch/>
                     <Divider/>
                     <Grid display={'flex'} flexDirection={'column'} p={2}>
-                        <Grid display={'flex'} justifyContent={'space-between'} alignItems={'center'} width={'100%'}>
-                            <Grid>
-                                <Typography variant={'subtitle1'} fontSize={'0.8rem'} color={'rgb(58, 61, 66)'}>فروشگاه‌ها</Typography>
-                            </Grid>
-                            <Grid display={'flex'} alignItems={'center'}>
-                                <Typography variant={'subtitle1'} fontSize={'0.8rem'} color={'success.main'}>مشاهده همه (2)</Typography>
-                                <KeyboardArrowLeftRoundedIcon color="success"/>
-                            </Grid>
-                        </Grid>
-                        <Grid display={'flex'} xs={6} mt={2} alignItems={'center'}>
+                        <NavbarSearch num={2} title={'فروشگاه‌ها'}/>
+                        <Grid display={'flex'} xs={8} mt={2} alignItems={'center'}>
                             <StorefrontIcon fontSize="small"/>
-                            <Typography mr={'5px'} variant={'subtitle1'} fontSize={'0.8rem'} color={'rgb(58, 61, 66)'}>اکبر جوجه تهرانپارس</Typography>
+                            <Typography mr={2} variant={'subtitle1'} fontSize={'0.8rem'} color={'rgb(58, 61, 66)'}>اکبر جوجه تهرانپارس</Typography>
                         </Grid>
                     </Grid>
                     <Divider/>
                     <Grid display={'flex'} flexDirection={'column'} p={2}>
-                        <Grid display={'flex'} justifyContent={'space-between'} alignItems={'center'} width={'100%'}>
-                            <Grid>
-                                <Typography variant={'subtitle1'} fontSize={'0.8rem'} color={'rgb(58, 61, 66)'}>محصولات</Typography>
-                            </Grid>
-                            <Grid display={'flex'} alignItems={'center'}>
-                                <Typography variant={'subtitle1'} fontSize={'0.8rem'} color={'success.main'}>مشاهده همه (70)</Typography>
-                                <KeyboardArrowLeftRoundedIcon color="success"/>
-                            </Grid>
-                        </Grid>
+                        <NavbarSearch num={70} title={'محصولات'}/>
                     </Grid>
                 {/* </Grid> */}
-
-            </Box>
+            </Grid>
         </Grid>
     )
 }
@@ -68,13 +43,13 @@ export default SearchBar;
 
 
 
-import {styled} from "@mui/material";
+
 
 
 export const StyledTextField = styled(TextField)(({theme}) => ({
     width: '100%',
     background: 'white',
-    height: 50,
+    height: 46,
     borderRadius: '100px',
     'label': {
         ...theme.typography['h1'],

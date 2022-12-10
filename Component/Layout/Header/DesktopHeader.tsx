@@ -15,8 +15,7 @@ const DesktopHeader = () => {
     const [open,setOpen] = useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
-
-
+    
     return(
         
         <Grid container boxSizing={'border-box'} justifyContent={'space-between'} alignItems={'center'} sx={{ bgcolor:'#F9FAFB' , width:'100%', height:'4.5rem', p:'1rem'}}>
@@ -40,12 +39,7 @@ const DesktopHeader = () => {
                     aria-labelledby="modal-modal-title"
                     aria-describedby="modal-modal-description"
                 >
-                    {/* <Box > */}
-                        <SearchBar/>
-                    {/* <Typography>
-                        search
-                    </Typography>
-                    </Box> */}
+                    <SearchBar/>
                 </Modal>
             {/* <TextField id="filled-basic" label="جستجو در اسنپ فود" variant="filled" /> */}
             </Grid>
@@ -63,7 +57,7 @@ const DesktopHeader = () => {
             </Grid>
 
             <Grid display={{sm:'flex', md:'none'}} gap={2}>
-                <Grid>
+                <Grid onClick={handleOpen}>
                 <IconButton>
                     <SearchIcon/>
                 </IconButton>
