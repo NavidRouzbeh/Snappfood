@@ -20,21 +20,27 @@ const MobileHeader = () => {
         <Grid>
             <Grid item display={'flex'} alignItems={'top'} justifyContent={'space-between'} sx={{ bgcolor:'#F9FAFB', height:'50px', width:'100%', pt:0.5, px:1.5}}>
                 <Grid>
-                    <IconButton>
+                    <IconButton onClick={handleOpenHamMenu}>
                         <Image src={HamMenu} alt="" />
                     </IconButton>
-                    {/* <Modal
-                    open={openSearchBar}
-                    onClose={handleCloseSearch}
+                    <Modal
+                    open={openHamMenu}
+                    onClose={handleCloseHamMenu}
                     aria-labelledby="modal-modal-title"
                     aria-describedby="modal-modal-description"
                     >
-                        <Grid >
-                            <Typography>
-                                search
-                            </Typography>
+                        <Grid sx={{width:'100%', height:'100%', bgColor:'white' }}>
+                            <Grid>
+                                <Typography>poshtibani</Typography>
+                            </Grid>
+                            <Grid>
+                                <Typography>poshtibani</Typography>
+                            </Grid>
+                            <Grid>
+                                <Typography>poshtibani</Typography>
+                            </Grid>
                         </Grid>
-                    </Modal> */}
+                    </Modal>
                 </Grid>
                 <Grid>
                     <Grid display={'flex'} gap={1} sx={{alignItems:'center', justifyContent:'center', mt:0.5}}>

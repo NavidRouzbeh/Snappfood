@@ -7,6 +7,8 @@ import Header from '../Component/Layout/Header/Header';
 
 export default function Home() {
   return (
-    <Grid></Grid>
+    <Grid>
+      <Header />
+    </Grid>
   )
 }
