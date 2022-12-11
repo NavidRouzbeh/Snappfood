@@ -1,7 +1,7 @@
 import Grid from "@mui/material/Grid";
 import StorefrontIcon from '@mui/icons-material/Storefront';
 import InputAdornment from '@mui/material/InputAdornment';
-import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
+import SearchIcon from '@mui/icons-material/Search';
 import Divider  from "@mui/material/Divider";
 import Typography from "@mui/material/Typography";
 import NavbarSearch from "./NavbarSearch";
@@ -24,7 +24,7 @@ const SearchBar =()=>{
                     InputProps={{
                     startAdornment: (
                     <InputAdornment position={'start'}>
-                        <SearchOutlinedIcon />
+                        <SearchIcon sx={{color:'black'}}/>
                     </InputAdornment>
                     ),
                 }}/>
