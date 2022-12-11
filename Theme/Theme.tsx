@@ -2,7 +2,7 @@ import {  createTheme, Shadows } from '@mui/material/styles';
 
 
 export const theme = createTheme({
-    direction:'rtl',
+    // direction:'rtl',
     components:{
         MuiCssBaseline:{
             styleOverrides:{
