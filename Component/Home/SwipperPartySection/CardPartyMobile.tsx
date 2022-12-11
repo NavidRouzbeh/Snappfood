@@ -8,7 +8,7 @@ import peik from '../../../Assets/Svgs/peik.svg'
 
 const CardPartyMobile = () => {
     return ( 
-        <Grid mt={30} boxShadow={'0 2px 12px 0 rgba(0, 0, 0, 0.1)'} width={500}  p={1} sx={{cursor:'pointer'}} >
+        <Grid  boxShadow={'0 2px 12px 0 rgba(0, 0, 0, 0.1)'} minWidth={272} width={'70vw'}  p={1} sx={{cursor:'pointer'}} >
             <Grid  mb={1.5} display={'flex'} gap={1.5}>
                 <Grid >
                     <Image src={food} alt={'food'} style={{width:'82px',height:'82px',border:'1px solid rgb(166, 179, 199)',borderRadius:5}}  />
