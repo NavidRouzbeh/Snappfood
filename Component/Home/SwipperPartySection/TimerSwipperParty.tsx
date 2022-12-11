@@ -24,7 +24,7 @@ const TimerSwipperParty = () => {
           justifyContent={"space-between"}
           m={2}
         >
-          <Grid display={'flex'}>
+          <Grid display={'flex'} color={'common.white'}>
             <Typography>2:45</Typography>
             <Typography><AccessTimeIcon/></Typography>
           </Grid> 
