@@ -17,13 +17,13 @@ export interface NavbarSectionType{
 
 export const NavbarSectionItem:NavbarSectionType[]=[
     {id:1 , image:restoren , title:"رستوران "},
-    {id:1 , image:cafe , title:"کافه "},
-    {id:1 , image:sweet , title:"شیرینی  "},
-    {id:1 , image:bakery , title:"نانوا "},
-    {id:1 , image:fruit , title:"میوه "},
-    {id:1 , image:nut , title:"پروتین "},
-    {id:1 , image:icecream , title:"بستنی "},
-    {id:1 , image:meat , title:"آجیل "},
+    {id:2 , image:cafe , title:"کافه "},
+    {id:3 , image:sweet , title:"شیرینی  "},
+    {id:4 , image:bakery , title:"نانوا "},
+    {id:5 , image:fruit , title:"میوه "},
+    {id:6 , image:meat , title:"پروتئین "},
+    {id:7 , image:icecream , title:"بستنی "},
+    {id:8 , image:nut , title:"آجیل "},
 
 ]
 
