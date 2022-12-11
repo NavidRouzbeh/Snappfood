@@ -8,14 +8,14 @@ import { NavbarSectionItem } from '../../../Data/NavbarSection/NavbarSection.dat
 
 const NavbarSection = () => {
     return (
-        <Grid container display={"flex"} position={'sticky'} top={60} bgcolor={'#F9FAFB'} zIndex={200} borderBottom={{sm:"1px solid #EBEDF0"}} flexWrap={"wrap"} pt={4} sx={{overflowX:{sm:"auto", xs:"hidden" } ,  minWidth:'100px' , cursor:"pointer"}} >
+        <Grid container display={"flex"} bgcolor={"#fff"} position={'sticky'} zIndex={200} borderBottom={{sm:"1px solid #EBEDF0"}} flexWrap={"wrap"} pt={4} sx={{overflowX:{sm:"auto", xs:"hidden" } ,  minWidth:'100px' , top:{sm:"60px" , xs:"0" }}} >
             {
                 NavbarSectionItem.map(item =>(
-                    <Grid item xs={4}  sm={1.5} key={item.id}  display={"flex"}  justifyContent={"center"} alignItems={"center"} flexDirection={"column"} >
-                    <Grid item  mb={3} sx={{bgcolor:{xs:"#f5f3ff" , sm:"#fff"} , padding:{xs:"25px 32px" , sm:"0"}}}  borderRadius={4}  >
+                    <Grid item xs={4} mb={2} sm={1.5} key={item.id}  display={"flex"}  justifyContent={"center"} alignItems={"center"} flexDirection={"column"} sx={{cursor:"pointer"}}>
+                    <Grid item  sx={{bgcolor:{xs:"#F3F5F9" , sm:"#fff"} , p:{xs:"25px 32px" , sm:"0"}}}  borderRadius={4}  >
                     <Image style={{width:"40px" , height:"40px"}} src={item.image} alt={"dfg"} />
                     </Grid>
-                    <Grid item mb={3}>
+                    <Grid item mt={1}>
                     <Typography variant='subtitle1' color={"rgb(83, 86, 92)"}>{item.title}</Typography>
                     </Grid>
                 </Grid>
