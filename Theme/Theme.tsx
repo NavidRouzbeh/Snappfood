@@ -100,6 +100,10 @@ export const theme = createTheme({
         color:'rgb(58, 61, 66)',
         lineHeight:'1.75rem'
     },
+    h6:{
+        fontSize:'10px',
+        fontWeight:600,
+    },
     //card description
     subtitle1:{
         fontSize:'0.75rem',
