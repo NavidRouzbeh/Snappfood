@@ -11,8 +11,8 @@ import ProfileDesktop from "../../Home/SectionProfile/ProfileDesktop";
 
 
 const DesktopHeader = () => {
-    const [showprofile,setShowProfile]=useState<boolean>(false)
-    const [open,setOpen] = useState(false);
+    const [showProfile,setShowProfile]=useState<boolean>(false)
+    const [open,setOpen] = useState<boolean>(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
 
@@ -28,9 +28,9 @@ const DesktopHeader = () => {
                 <Typography variant="body2"> <Image src={ProfileIcon} alt=""/>تهران، محله سعادت آباد، بلوار جوریکی،نبش کوچه نهم غربی</Typography>
                 </Grid>
             </Grid>
-            <Grid display={{sm:'none', md:"flex"}}>
+            <Grid display={{sm:'none', md:"flex"}} position={'relative'} right={-79} >
                 <Button onClick={handleOpen}
-                style={{ color:'rgb(166, 170, 173)', backgroundColor:'rgb(235, 237, 240)', width: '29vw', height: '3rem', borderRadius: '0.625rem' }}>
+                style={{ color:'rgb(166, 170, 173)', backgroundColor:'rgb(235, 237, 240)', width: '29vw', height: '3rem', borderRadius: '0.625rem', justifyContent:'flex-start' }}>
                     <SearchIcon/>
                     جست‌وجو در اسنپ‌فود
                 </Button>
@@ -50,8 +50,8 @@ const DesktopHeader = () => {
             </Grid>
             <Grid display={{sm:'none', md:'flex'}} gap={4}>
                 <Grid position={'relative'}>
-                <IconButton onClick={()=>setShowProfile(!showprofile)}>
-                    {showprofile ? <ProfileDesktop/> : null}
+                <IconButton onClick={()=>setShowProfile(!showProfile)}>
+                    {showProfile ? <ProfileDesktop/> : null}
                     <PersonOutlinedIcon/>
                 </IconButton>
                 </Grid>
@@ -69,8 +69,8 @@ const DesktopHeader = () => {
                 </IconButton>
                 </Grid>
                 <Grid position={'relative'}>
-                <IconButton onClick={()=>setShowProfile(!showprofile)}>
-                    {showprofile ? <ProfileDesktop/> : null}
+                <IconButton onClick={()=>setShowProfile(!showProfile)}>
+                    {showProfile ? <ProfileDesktop/> : null}
                     <PersonOutlinedIcon/>
                 </IconButton>
                 </Grid>
