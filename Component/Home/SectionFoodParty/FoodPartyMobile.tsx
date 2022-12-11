@@ -7,11 +7,11 @@ import Image from "next/image";
 
 import foodParty from '../../../Assets/Svgs/foodParty.svg'
 import seeallParty from '../../../Assets/Images/seeallparty.svg'
-import CardPartyMobile from "../SwipperPartySection/CardPartyMobile";
+import CardPartyMobile from "./CardPartyMobile";
 
 const FoodPartyMobile = () => {
     return ( 
-        <Grid xs={11} mt={20} >
+        <Grid  mt={20} >
             <Grid display={'flex'} justifyContent={'space-between'} xs={12}>
                 <Grid display={'flex'}>
                     <Grid><Image src={foodParty} alt={'foodparty'} /></Grid>

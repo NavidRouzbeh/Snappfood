@@ -5,16 +5,13 @@ import SectionApp from "../Component/Home/SectionApp";
 import CategoryContainer from "../Component/Home/SectionCategory/CategoryContainer";
 import SectionCities from "../Component/Home/SectionCities";
 
-import CardParty from "../Component/Home/SwipperPartySection/CardPartyDesktop";
-import CardPartyMobile from "../Component/Home/SwipperPartySection/CardPartyMobile";
-import SwipperContainer from "../Component/Home/SwipperPartySection/SwipperContainer";
-import SectionSwipperParty from "../Component/Home/SwipperPartySection/SwipperpartySection";
+
+import SectionFoodParty from "../Component/Home/SectionFoodParty/SectionFoodParty";
 
 export default function Home() {
   return (
     <>
       <NavbarSection />
-      <CardPartyMobile/>
       <Grid
         container
         xs={12}
@@ -22,8 +19,8 @@ export default function Home() {
         justifyContent={"center"}
         alignItems={"center"}
       >
-        <CategoryContainer />
-        <SectionSwipperParty/>
+        <CategoryContainer /> 
+        <SectionFoodParty/>
         <SectionApp />
         <RegistrationSeller />
         <SectionCities />
