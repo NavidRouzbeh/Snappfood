@@ -1,24 +1,19 @@
 import Grid from "@mui/material/Grid";
 import StorefrontIcon from '@mui/icons-material/Storefront';
-import GridViewOutlinedIcon from '@mui/icons-material/GridViewOutlined';
 import InputAdornment from '@mui/material/InputAdornment';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
-// import { useTheme } from "@mui/material";
-import TextField  from "@mui/material/TextField";
 import Divider  from "@mui/material/Divider";
 import Typography from "@mui/material/Typography";
-import Box from "@mui/system/Box";
-import {styled} from "@mui/material";
 import NavbarSearch from "./NavbarSearch";
 import HeaderSearch from "./HeaderSearch";
 import ProductDetailCardSearch from "./ProductDetailCardSearch";
 import { useState } from "react";
+import { StyledTextField } from "../../../Styled/StyledTextField";
 
 const SearchBar =()=>{
     // const theme = useTheme()
-    // console.log(parseInt('1.25rem'))
     const [valueSearch,setValueSearch]=useState('')
-    const handleInputSearch=(e:any)=>{
+    const handleInputSearch=(e:React.ChangeEvent<HTMLInputElement>)=>{
         setValueSearch(e.target.value)
     }
     return(
@@ -81,46 +76,4 @@ const SearchBar =()=>{
 }
 
 export default SearchBar;
-
-
-
-
-
-
-export const StyledTextField = styled(TextField)(({theme}) => ({
-    width: '100%',
-    background: 'white',
-    height: 50,
-    borderRadius:8,
-    border:'1px solid black',
-    'text': {
-        ...theme.typography['h2'],
-        color: 'red',
-    },
-   
-    // 'label.Mui-focused': {
-    //     color: 'black',
-    //     marginLeft: 0
-    // },
-
-    '& .MuiOutlinedInput-root': {
-        // borderRadius: '100px',
-        // height: 50,
-        '& fieldset': {
-            border: 0,
-        },
-        // '&.Mui-focused':{
-            
-        // },
-        // '&.Mui-focused fieldset': {
-        //     height:48,
-        //     background:'#F9FAFB',
-        //     zIndex:0
-        // },
-    },
-
-    'fieldset': {
-        border: 1
-    },
-}))
 
