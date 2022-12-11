@@ -2,6 +2,7 @@ import Grid from "@mui/material/Grid";
 import StorefrontIcon from '@mui/icons-material/Storefront';
 import InputAdornment from '@mui/material/InputAdornment';
 import SearchIcon from '@mui/icons-material/Search';
+import HighlightOffIcon from '@mui/icons-material/HighlightOff';
 import Divider  from "@mui/material/Divider";
 import Typography from "@mui/material/Typography";
 import NavbarSearch from "./NavbarSearch";
@@ -9,6 +10,7 @@ import HeaderSearch from "./HeaderSearch";
 import ProductDetailCardSearch from "./ProductDetailCardSearch";
 import { useState } from "react";
 import { StyledTextField } from "../../../Styled/StyledTextField";
+import { IconButton } from "@mui/material";
 
 const SearchBar =()=>{
     // const theme = useTheme()
@@ -21,10 +23,16 @@ const SearchBar =()=>{
             <Grid position={'relative'} mt={2} width={{xs:'90%',sm:'45vw',md:'29vw'}}>
                 <StyledTextField 
                     onChange={handleInputSearch}
+                    value={valueSearch}
                     InputProps={{
                     startAdornment: (
                     <InputAdornment position={'start'}>
-                        <SearchIcon sx={{color:'black'}}/>
+                        {valueSearch.length ===0 ? 
+                            <SearchIcon sx={{color:'black'}}/> : 
+                            <IconButton onClick={()=>(setValueSearch(''))}>
+                                <HighlightOffIcon sx={{color:'black'}}/>
+                            </IconButton>
+                        }
                     </InputAdornment>
                     ),
                 }}/>
