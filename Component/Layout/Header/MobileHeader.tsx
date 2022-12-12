@@ -1,9 +1,9 @@
 import { Grid, IconButton, Typography, Modal, Box, Button } from "@mui/material";
 import SearchIcon from '@mui/icons-material/Search';
 import Image from "next/image";
-import HamMenu from "../../Assets/Icons/HamMenuIcon.svg";
-import AddressArrow from "../../Assets/Icons/AddressArrowIcon.svg";
-import Cart from "../../Assets/Icons/CartIcon.svg";
+import HamMenu from "../../../Assets/Icons/HamMenuIcon.svg";
+import AddressArrow from "../../../Assets/Icons/AddressArrowIcon.svg";
+import Cart from "../../../Assets/Icons/CartIcon.svg";
 import { useState } from "react";
 
 
@@ -16,7 +16,7 @@ const MobileHeader = () => {
     return(
         <Grid>
             <Grid item display={'flex'} alignItems={'center'} justifyContent={'space-between'} sx={{ bgcolor:'#F9FAFB', height:'50px', width:'100%'}}>
-                <Grid>
+                <Grid zIndex={12000}>
                     <IconButton>
                         <Image src={HamMenu} alt="" />
                     </IconButton>
@@ -34,7 +34,7 @@ const MobileHeader = () => {
                         </Typography>
                     </Grid>
                 </Grid>
-                <Grid>
+                <Grid zIndex={12000}>
                 <IconButton>
                         <Image src={Cart} alt="" />
                     </IconButton>
