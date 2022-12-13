@@ -13,7 +13,7 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Pagination, Navigation } from "swiper";
-import CardParty from "./CardParty";
+import CardPartyDesktop from "./CardPartyDesktop";
 import { Grid } from "@mui/material";
 const SwipperContainer = () => {
   const [page, setPage] = useState(0)
@@ -57,15 +57,15 @@ const SwipperContainer = () => {
             },
           }}
         >
-          <SwiperSlide><CardParty/></SwiperSlide>
-          <SwiperSlide><CardParty/></SwiperSlide>
-          <SwiperSlide><CardParty/></SwiperSlide>
-          <SwiperSlide><CardParty/></SwiperSlide>
-          <SwiperSlide><CardParty/></SwiperSlide>
-          <SwiperSlide><CardParty/></SwiperSlide>
-          <SwiperSlide><CardParty/></SwiperSlide>
-          <SwiperSlide><CardParty/></SwiperSlide>
-          <SwiperSlide><CardParty/></SwiperSlide>
+          <SwiperSlide><CardPartyDesktop/></SwiperSlide>
+          <SwiperSlide><CardPartyDesktop/></SwiperSlide>
+          <SwiperSlide><CardPartyDesktop/></SwiperSlide>
+          <SwiperSlide><CardPartyDesktop/></SwiperSlide>
+          <SwiperSlide><CardPartyDesktop/></SwiperSlide>
+          <SwiperSlide><CardPartyDesktop/></SwiperSlide>
+          <SwiperSlide><CardPartyDesktop/></SwiperSlide>
+          <SwiperSlide><CardPartyDesktop/></SwiperSlide>
+          <SwiperSlide><CardPartyDesktop/></SwiperSlide>
         </Swiper>
         <Grid onClick={handlePrevSlide}  bgcolor={'common.white'} width={40} height={40} sx={{cursor:'pointer',zIndex:100,left:0,top:'45%'}}  borderRadius={'50%'} display={{xs:'none',md:'flex'}} alignItems={'center'} justifyContent={'center'} position={'absolute'} boxShadow={'rgb(58 61 66 / 6%) 0px 1px 0px, rgb(0 0 0 / 20%) 0px 4px 16px -8px'}>
           <ArrowBackIosRoundedIcon color={'primary'}/>

@@ -7,7 +7,7 @@ import Image from "next/image";
 import pic from '../../../Assets/Images/placeholder.png'
 import pic1 from '../../../Assets/Images/foodparty.png'
 import { Unstable_Grid } from "@mui/system";
-const TimerSwipperParty = () => {
+const TimerFoodPartyDesktop = () => {
     return ( 
      <Grid
         // width={"200px"}
@@ -24,7 +24,7 @@ const TimerSwipperParty = () => {
           justifyContent={"space-between"}
           m={2}
         >
-          <Grid display={'flex'}>
+          <Grid display={'flex'} color={'common.white'}>
             <Typography>2:45</Typography>
             <Typography><AccessTimeIcon/></Typography>
           </Grid> 
@@ -54,4 +54,4 @@ const TimerSwipperParty = () => {
      );
 }
  
-export default TimerSwipperParty;
+export default TimerFoodPartyDesktop;

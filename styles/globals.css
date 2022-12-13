@@ -8,9 +8,13 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   direction: rtl;
 }
-@font-face {
+/* @font-face {
   font-family: "IranSans";
   src: url(../Assets/Fonts/FontsFree-Net-ir_sans.ttf);
+} */
+@font-face {
+  font-family: "IranSansMobile";
+  src: url(../Assets/Fonts/IRANSansMobile.ttf);
 }
 a {
   color: inherit;
