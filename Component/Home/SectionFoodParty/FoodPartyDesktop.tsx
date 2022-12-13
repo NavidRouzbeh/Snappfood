@@ -1,7 +1,7 @@
 import Grid from "@mui/material/Grid"
 import { SwiperSlide } from "swiper/react";
 import CardPartyDesktop from "./CardPartyDesktop";
-import SwipperContainer from "./SwipperContainer";
+import SwipperContainer from "../../Swiper/SwipperContainer";
 import TimerFoodPartyDesktop from "./TimerFoodPartyDesktop";
 
 const FoodPartyDesktop = () => {
@@ -9,7 +9,6 @@ const FoodPartyDesktop = () => {
     return ( 
         <Grid container xs={12} width={'100%'} style={{"backgroundImage":'radial-gradient(100% 100% at 0% 0%, rgb(252, 95, 153) 0%, rgb(225, 36, 146) 100%)'}} borderRadius={"0.25rem 0.25rem 7.5rem "} p={3} sx={{ mx:'auto', display: { xs: "none",sm:'flex' }}}   >
               <TimerFoodPartyDesktop />
-              <Grid>;;;;;</Grid>
               <Grid xs={9} item>
                 <SwipperContainer>
                   {m.map(item=>(
