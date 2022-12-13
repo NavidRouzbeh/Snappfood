@@ -8,17 +8,18 @@ import LocationIcon from "../../Assets/Icons/LocationIcon.svg";
 import ProfileIcon from "../../../Assets/Icons/ProfileIcon.svg"
 import { useState } from "react";
 import SearchBar from "../../Home/SectionSearch/SearchBar";
+import ProfileDesktop from "../../Home/SectionProfile/ProfileDesktop";
 
 
 const DesktopHeader = () => {
-
-    const [open,setOpen] = useState(false);
+    const [showProfile,setShowProfile]=useState<boolean>(false)
+    const [open,setOpen] = useState<boolean>(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
     
     return(
         
-        <Grid container boxSizing={'border-box'} justifyContent={'space-between'} alignItems={'center'} sx={{ bgcolor:'#F9FAFB' , width:'100%', height:'4.5rem', p:'1rem'}}>
+        <Grid container position={'fixed'} zIndex={1200} justifyContent={'space-between'} alignItems={'center'} sx={{ bgcolor:'#F9FAFB' , width:'100%', height:'4.5rem', p:'1rem'}}>
             <Grid item display={'flex'} gap={3} alignItems={'center'} >
                 <Grid>
                 <Image src={SnappLogo} alt="" style={{width:'68px',height:'34px'}} />
@@ -27,9 +28,9 @@ const DesktopHeader = () => {
                 <Typography variant="body2"> <Image src={ProfileIcon} alt=""/>تهران، محله سعادت آباد، بلوار جوریکی،نبش کوچه نهم غربی</Typography>
                 </Grid>
             </Grid>
-            <Grid display={{sm:'none', md:"flex"}}>
+            <Grid display={{sm:'none', md:"flex"}} position={'relative'} right={-79} >
                 <Button onClick={handleOpen}
-                style={{ color:'rgb(166, 170, 173)', backgroundColor:'rgb(235, 237, 240)', width: '29vw', height: '3rem', borderRadius: '0.625rem' }}>
+                style={{ color:'rgb(166, 170, 173)', backgroundColor:'rgb(235, 237, 240)', width: '29vw', height: '3rem', borderRadius: '0.625rem', justifyContent:'flex-start' }}>
                     <SearchIcon/>
                     جست‌وجو در اسنپ‌فود
                 </Button>
@@ -44,8 +45,9 @@ const DesktopHeader = () => {
             {/* <TextField id="filled-basic" label="جستجو در اسنپ فود" variant="filled" /> */}
             </Grid>
             <Grid display={{sm:'none', md:'flex'}} gap={4}>
-                <Grid>
-                <IconButton>
+                <Grid position={'relative'}>
+                <IconButton onClick={()=>setShowProfile(!showProfile)}>
+                    {showProfile ? <ProfileDesktop/> : null}
                     <PersonOutlinedIcon/>
                 </IconButton>
                 </Grid>
@@ -62,8 +64,9 @@ const DesktopHeader = () => {
                     <SearchIcon/>
                 </IconButton>
                 </Grid>
-                <Grid>
-                <IconButton>
+                <Grid position={'relative'}>
+                <IconButton onClick={()=>setShowProfile(!showProfile)}>
+                    {showProfile ? <ProfileDesktop/> : null}
                     <PersonOutlinedIcon/>
                 </IconButton>
                 </Grid>

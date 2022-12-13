@@ -8,7 +8,7 @@ import { NavbarSectionItem } from '../../../Data/NavbarSection/NavbarSection.dat
 
 const NavbarSection = () => {
     return (
-        <Grid container display={"flex"}  borderBottom={{sm:"1px solid #EBEDF0"}} flexWrap={"wrap"} pt={4} sx={{overflowX:{sm:"auto", xs:"hidden" } ,  minWidth:'100px' , cursor:"pointer" , position:"sticky"}} >
+        <Grid container display={"flex"} position={'sticky'} top={60} bgcolor={'#F9FAFB'} zIndex={200} borderBottom={{sm:"1px solid #EBEDF0"}} flexWrap={"wrap"} pt={4} sx={{overflowX:{sm:"auto", xs:"hidden" } ,  minWidth:'100px' , cursor:"pointer"}} >
             {
                 NavbarSectionItem.map(item =>(
                     <Grid item xs={4}  sm={1.5} key={item.id}  display={"flex"}  justifyContent={"center"} alignItems={"center"} flexDirection={"column"} >

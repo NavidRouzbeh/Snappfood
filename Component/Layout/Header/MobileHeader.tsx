@@ -18,7 +18,7 @@ const MobileHeader = () => {
     return(
         <Grid>
             <Grid item display={'flex'} alignItems={'center'} justifyContent={'space-between'} sx={{ bgcolor:'#F9FAFB', height:'50px', width:'100%'}}>
-                <Grid>
+                <Grid zIndex={12000}>
                     <IconButton>
                         <Image src={HamMenu} alt="" />
                     </IconButton>

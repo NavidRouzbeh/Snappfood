@@ -8,9 +8,14 @@ import PermIdentitySharpIcon from '@mui/icons-material/PermIdentitySharp';
 // import { useNavigate } from 'react-router-dom';
 import Image from "next/image";
 import Home from './Home.svg'
+import Modal from '@mui/material/Modal';
+import ProfileMobile from "../../Home/SectionProfile/ProfileMobile";
 
 const FooterMobile= () => {
   const [value, setValue] = React.useState(0);
+  const [openprofile,setOpenProfile] =React.useState(false)
+  const handleOpenProfile = () => setOpenProfile(true);
+  const handleCloseProfile =() =>setOpenProfile(false);
   // const navigate=useNavigate()
   // const handleChangePageCurrent=()=>{
   //     navigate('/CurrentPrice')
@@ -19,7 +24,9 @@ const FooterMobile= () => {
   //     navigate('/')
   // }
   return (
-    <Box sx={{ width: "100%" }} position={"fixed"} bottom={0} boxShadow={'0 -1px 0  rgba(0, 0, 0, 0.1)'}>
+
+    <Box sx={{ width: "100%" }} position={"fixed"} zIndex={12000} bottom={0} boxShadow={'0 -1px 0  rgba(0, 0, 0, 0.1)'}>
+
       <BottomNavigation
         showLabels
         value={value}
@@ -33,6 +40,7 @@ const FooterMobile= () => {
           icon={<HomeIcon />}
           //icon={<Image src={Home} alt={''}/>}
         //   onClick={handleChangePageHome}
+          onClick={handleCloseProfile}
         />
         <BottomNavigationAction
           label="  سفارش ها"
@@ -45,7 +53,14 @@ const FooterMobile= () => {
           value={"3"}
           icon={<PermIdentitySharpIcon />}
         //   onClick={handleChangePageCurrent}
+        onClick={handleOpenProfile}
         />
+        <Modal
+        open={openprofile}
+        // onClose={handleClose}
+        >
+          <ProfileMobile/>
+        </Modal>
       </BottomNavigation>
     </Box>
   );
