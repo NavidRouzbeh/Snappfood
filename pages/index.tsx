@@ -4,27 +4,30 @@ import RegistrationSeller from "../Component/Home/RegistrationSeller";
 import SectionApp from "../Component/Home/SectionApp";
 import CategoryContainer from "../Component/Home/SectionCategory/CategoryContainer";
 import SectionCities from "../Component/Home/SectionCities";
+import CategorySidebar from "../Component/CategorySidebar/CategorySidebarContainer";
 
 
 import SectionFoodParty from "../Component/Home/SectionFoodParty/SectionFoodParty";
 
 export default function Home() {
   return (
-    <>
-      <NavbarSection />
-      <Grid
-        container
-        xs={12}
-        display={"flex"}
-        justifyContent={"center"}
-        alignItems={"center"}
-      >
-        <CategoryContainer /> 
-        <SectionFoodParty/>
-        <SectionApp />
-        <RegistrationSeller />
-        <SectionCities />
-      </Grid>
-    </>
+
+    <CategorySidebar/>
+    // <>
+    //   <NavbarSection />
+    //   <Grid
+    //     container
+    //     xs={12}
+    //     display={"flex"}
+    //     justifyContent={"center"}
+    //     alignItems={"center"}
+    //   >
+    //     <CategoryContainer /> 
+    //     <SectionFoodParty/>
+    //     <SectionApp />
+    //     <RegistrationSeller />
+    //     <SectionCities />
+    //   </Grid>
+    // </>
   );
 }
