@@ -3,9 +3,9 @@ import Box from '@mui/material/Box';
 import { Grid, Typography, Button, IconButton } from '@mui/material'
 import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 import {useState } from 'react';
-import CachedIcon from '@mui/icons-material/Cached';
+import AvTimerIcon from '@mui/icons-material/AvTimer';
 import SectionOrdersCart from './SectionOrdersCart';
-import SectionOrdersModal from './SectionOrdersModal';
+
 
 export interface MenuBarProps {
     state: boolean,
@@ -18,8 +18,8 @@ const SectionOrders = ({ state, toggleDrawer }: MenuBarProps): JSX.Element => {
         <>
             <SwipeableDrawer open={state}  sx={{ left:0 , height:"100%" , overflowY:"scroll"}} onClose={toggleDrawer(false)}  onOpen={toggleDrawer(true)}  >
                 <Box p={"0 16px"} width={430} role="presentation"   >
-                        <Grid mt={1.25} mb={1.25}><Typography variant='subtitle1' color={"#53565c"} fontWeight={700} >{"سفارشات پیشین"}</Typography></Grid>
-                        <Grid border={"1px solid #e6e6e6"} borderRadius={2} minHeight={550} height={"auto"}>
+                        <Grid m={"0.8rem 0"} ><Typography variant='subtitle1' fontSize={"0.67rem"} color={"#53565c"} fontWeight={700} >{"سفارش‌های پیشین"}</Typography></Grid>
+                        <Grid border={"1px solid #e6e6e6"} borderRadius={3} minHeight={550} height={"auto"}>
                           
                             <>
                                 <Grid item borderBottom={"0.0625rem solid rgba(58, 61, 66, 0.06)"}>
@@ -37,7 +37,7 @@ const SectionOrders = ({ state, toggleDrawer }: MenuBarProps): JSX.Element => {
                         </Grid>
                         <Grid  display={"flex"} justifyContent={"center"} alignItems={"center"}mt={1}>
                             <Button sx={{height: "3.75rem", boxShadow: "rgb(58 61 66 / 6%) 0px 1px 0px, rgb(0 0 0 / 20%) 0px 4px 16px -8px", border: "0.09375rem solid rgba(0, 133, 66, 0.06)", color: "rgb(0, 184, 98)",gap:0.5, borderRadius: "50px" }}>
-                                <CachedIcon />
+                                <AvTimerIcon/>
                                 <Typography fontWeight={700} fontSize={"0.875rem"} lineHeight={"1.25rem"}>{"مشاهده همه سفارش‌ها"}</Typography>
                             </Button>
                         </Grid>
