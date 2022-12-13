@@ -1,10 +1,31 @@
-import { Button } from '@mui/material'
-import Grid  from '@mui/material/Grid'
-import Card from "../Component/VendorCard/VendorCard";
 
+import Grid from "@mui/material/Grid";
+import NavbarSection from "../Component/Home/NavbarSection/NavbarSection";
+import RegistrationSeller from "../Component/Home/RegistrationSeller";
+import SectionApp from "../Component/Home/SectionApp";
+import CategoryContainer from "../Component/Home/SectionCategory/CategoryContainer";
+import SectionCities from "../Component/Home/SectionCities";
+
+
+import SectionFoodParty from "../Component/Home/SectionFoodParty/SectionFoodParty";
 
 export default function Home() {
   return (
-    <Card/>
-  )
+    <>
+      <NavbarSection />
+      <Grid
+        container
+        xs={12}
+        display={"flex"}
+        justifyContent={"center"}
+        alignItems={"center"}
+      >
+        <CategoryContainer /> 
+        <SectionFoodParty/>
+        <SectionApp />
+        <RegistrationSeller />
+        <SectionCities />
+      </Grid>
+    </>
+  );
 }

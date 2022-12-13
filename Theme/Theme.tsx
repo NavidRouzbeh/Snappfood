@@ -1,4 +1,4 @@
-import {  createTheme } from '@mui/material/styles';
+import {  createTheme, Shadows } from '@mui/material/styles';
 
 
 export const theme = createTheme({
@@ -6,10 +6,12 @@ export const theme = createTheme({
     components:{
         MuiCssBaseline:{
             styleOverrides:{
+                boxSizing:'border-box',
                 body:{
                     a:{
                         textDecoration:'none'
-                    }
+                    },
+                    
                 },
                 
             },
@@ -65,15 +67,18 @@ export const theme = createTheme({
         dark:'#008542'
     }
   },
-//   shadows: [...createTheme({}).shadows.map((shadow, i) => (
-//     i === 1 ? '0 0 18px 0 rgba(9, 32, 46, 0.2)' : shadow
-//   ))],
-//   shadows:[
-//     0:'none'
-//     1:'0px 1px 0pxrgba(58,61,66,0.06),0px 2px 8px -2pxrgba(0,0,0,0.05)'
-//   ],
+  shadows:[
+    'none',
+    'rgb(58 61 66 / 6%) 0px 1px 0px, rgb(0 0 0 / 30%) 0px 8px 32px -16px',
+    " 0px 1px 0pxrgba(58,61,66,0.06),0px 2px 8px -2pxrgba(0,0,0,0.05)",
+    "0px 1px 0pxrgba(58,61,66,0.06),0px 4px 16px -8pxrgba(0,0,0,0.2)",
+    "0px 1px 0pxrgba(58,61,66,0.06),0px 8px 32px -16pxrgba(0,0,0,0.3)",
+    "0px 2px 8pxrgba(0,0,0,0.08),0px 8px 32pxrgba(0,0,0,0.16)",
+    //tedad shadow
+    ...Array(19).fill('none'),
+  ] as Shadows,
   typography:{
-    fontFamily:'IranSans',
+    fontFamily:'IranSansMobile',
     //title app section
     h1:{
         fontSize:'2rem',
@@ -94,6 +99,10 @@ export const theme = createTheme({
         fontWeight:700,
         color:'rgb(58, 61, 66)',
         lineHeight:'1.75rem'
+    },
+    h6:{
+        fontSize:'10px',
+        fontWeight:600,
     },
     //card description
     subtitle1:{
