@@ -56,9 +56,12 @@ const SortingDropDown = () => {
                 open={showMenu}
                 onClose={handleClose}
             >
-                <MenuItem onClick={() => {setSortSelector("profile"),setShowMenu(false)}}>Profile</MenuItem>
-                <MenuItem onClick={() => {setSortSelector("profile2"),setShowMenu(false)}}>My account</MenuItem>
-                <MenuItem onClick={() => {setSortSelector("profile4"),setShowMenu(false)}}>Logout</MenuItem>
+                <MenuItem onClick={() => {setSortSelector("بالاترین امتیاز"),setShowMenu(false)}}>بالاترین امتیاز</MenuItem>
+                <MenuItem onClick={() => {setSortSelector("نزدیک‌ترین"),setShowMenu(false)}}>نزدیک‌ترین</MenuItem>
+                <MenuItem onClick={() => {setSortSelector("جدید‌ترین"),setShowMenu(false)}}>جدید‌ترین</MenuItem>
+                <MenuItem onClick={() => {setSortSelector("ارزانترین"),setShowMenu(false)}}>ارزانترین</MenuItem>
+                <MenuItem onClick={() => {setSortSelector("عملکرد کلی"),setShowMenu(false)}}>عملکرد کلی</MenuItem>
+                <MenuItem onClick={() => {setSortSelector("گرانترین"),setShowMenu(false)}}>گرانترین</MenuItem>
             </Menu>
         </Grid>
     )
