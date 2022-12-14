@@ -4,7 +4,7 @@ import { Grid, Typography, Button, IconButton } from '@mui/material'
 import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 import {useState } from 'react';
 import AvTimerIcon from '@mui/icons-material/AvTimer';
-import SectionOrdersCart from './SectionOrdersCart';
+import SectionOrdersCard from './SectionOrdersCard';
 
 
 export interface MenuBarProps {
@@ -23,13 +23,13 @@ const SectionOrders = ({ state, toggleDrawer }: MenuBarProps): JSX.Element => {
                           
                             <>
                                 <Grid item borderBottom={"0.0625rem solid rgba(58, 61, 66, 0.06)"}>
-                                    <SectionOrdersCart setOpen={setOpen} open={open} />
+                                    <SectionOrdersCard setOpen={setOpen} open={open} />
                                 </Grid>
                                 <Grid item borderBottom={"0.0625rem solid rgba(58, 61, 66, 0.06)"}>
-                                    <SectionOrdersCart setOpen={setOpen} open={open} />
+                                    <SectionOrdersCard setOpen={setOpen} open={open} />
                                 </Grid>
                                 <Grid item borderBottom={"0.0625rem solid rgba(58, 61, 66, 0.06)"}>
-                                    <SectionOrdersCart setOpen={setOpen} open={open} />
+                                    <SectionOrdersCard setOpen={setOpen} open={open} />
                                 </Grid>
                               
                           

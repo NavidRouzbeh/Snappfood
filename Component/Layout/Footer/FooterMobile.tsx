@@ -12,7 +12,7 @@ import PermIdentitySharpIcon from '@mui/icons-material/PermIdentitySharp';
 import Modal from '@mui/material/Modal';
 
 import ProfileMobile from "../../Home/SectionProfile/ProfileMobile";
-import SectionOrdersCart from "../../Home/SectionOrders/SectionOrdersCart";
+import SectionOrdersCard from "../../Home/SectionOrders/SectionOrdersCard";
 
 import { useState } from "react";
 
@@ -58,10 +58,10 @@ const FooterMobile = () => {
         <Modal open={openOrders} >
           <Grid  mb={30} width={"100%"} overflow={"scroll"}  height={"100%"} pt={6} bgcolor={"#fff"} display={{ xs: "block", sm: "none" }}>
             <Grid ><Typography fontSize={"15px"} fontWeight={700} mr={2} color={"#404040"} >{"سفارش‌های پیشین "}</Typography></Grid> 
-              <SectionOrdersCart setOpen={setOpen} open={open} />
-              <SectionOrdersCart setOpen={setOpen} open={open} />
-              <SectionOrdersCart setOpen={setOpen} open={open} />
-              <SectionOrdersCart setOpen={setOpen} open={open} />
+              <SectionOrdersCard setOpen={setOpen} open={open} />
+              <SectionOrdersCard setOpen={setOpen} open={open} />
+              <SectionOrdersCard setOpen={setOpen} open={open} />
+              <SectionOrdersCard setOpen={setOpen} open={open} />
           </Grid>
           {/* <SectionOrdersCart /> */}
         </Modal>
