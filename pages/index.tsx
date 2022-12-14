@@ -4,14 +4,13 @@ import RegistrationSeller from "../Component/Home/RegistrationSeller";
 import SectionApp from "../Component/Home/SectionApp";
 import CategoryContainer from "../Component/Home/SectionCategory/CategoryContainer";
 import SectionCities from "../Component/Home/SectionCities";
-import SortingDropDown from "../Component/SortingDropDown/SortingDropDown";
-
+import Cart from "../Component/Cart/Cart";
 import SectionFoodParty from "../Component/Home/SectionFoodParty/SectionFoodParty";
 
 export default function Home() {
   return (
 
-    <SortingDropDown/>
+    <Cart />
     // <>
     //   <NavbarSection />
     //   <Grid
