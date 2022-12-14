@@ -6,7 +6,7 @@ const SectionFoodParty = () => {
     const theme = useTheme();
     const isDesktop = useMediaQuery(theme.breakpoints.up('sm'));
     return ( 
-        <Grid xs={11} my={20}>
+        <Grid xs={11} mx={'auto'} >
         {isDesktop?
            <FoodPartyDesktop/>:<FoodPartyMobile/>
         }
