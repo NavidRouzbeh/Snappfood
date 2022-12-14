@@ -7,10 +7,12 @@ import SnappLogo from "../../../Assets/Icons/snappfood.svg";
 import LocationIcon from "../../Assets/Icons/LocationIcon.svg";
 import ProfileIcon from "../../../Assets/Icons/ProfileIcon.svg"
 import { useState } from "react";
+import SearchBar from "../../Home/SectionSearch/SearchBar";
 import ProfileDesktop from "../../Home/SectionProfile/ProfileDesktop";
 import SectionOrders from "../../Home/SectionOrders/SectionOrders";
 
 const DesktopHeader = () => {
+
     const [showprofile, setShowProfile] = useState<boolean>(false)
     const [open, setOpen] = useState(false);
     const handleOpen = () => setOpen(true);
@@ -35,6 +37,7 @@ const DesktopHeader = () => {
     return (
 
         <Grid container position={'fixed'} zIndex={1200} justifyContent={'space-between'} alignItems={'center'} sx={{ bgcolor: '#F9FAFB', width: '100%', height: '4.5rem', p: '1rem' }}>
+
             <Grid item display={'flex'} gap={3} alignItems={'center'} >
                 <Grid>
                     <Image src={SnappLogo} alt="" style={{ width: '68px', height: '34px' }} />
@@ -43,10 +46,13 @@ const DesktopHeader = () => {
                     <Typography variant="body2"> <Image src={ProfileIcon} alt="" />تهران، محله سعادت آباد، بلوار جوریکی،نبش کوچه نهم غربی</Typography>
                 </Grid>
             </Grid>
+
             <Grid display={{ sm: 'none', md: "flex" }}>
                 <Button onClick={handleOpen}
                     style={{ color: 'rgb(166, 170, 173)', backgroundColor: 'rgb(235, 237, 240)', width: '29vw', height: '3rem', borderRadius: '0.625rem' }}>
                     <SearchIcon />
+
+
                     جست‌وجو در اسنپ‌فود
                 </Button>
                 <Modal
@@ -55,20 +61,26 @@ const DesktopHeader = () => {
                     aria-labelledby="modal-modal-title"
                     aria-describedby="modal-modal-description"
                 >
+
                     <Box >
                         <Typography>
                             search
                         </Typography>
                     </Box>
+
+
                 </Modal>
                 {/* <TextField id="filled-basic" label="جستجو در اسنپ فود" variant="filled" /> */}
             </Grid>
             <Grid display={{ sm: 'none', md: 'flex' }} gap={4}>
                 <Grid position={'relative'}>
+
                     <IconButton onClick={() => setShowProfile(!showprofile)}>
                         {showprofile ? <ProfileDesktop /> : null}
                         <PersonOutlinedIcon />
                     </IconButton>
+
+
                 </Grid>
                 <Grid>
                     <IconButton onClick={toggleDrawer(true)} >
@@ -77,6 +89,7 @@ const DesktopHeader = () => {
                     <SectionOrders state={state} toggleDrawer={toggleDrawer} />
                 </Grid>
             </Grid>
+
 
             <Grid display={{ sm: 'flex', md: 'none' }} gap={2}>
                 <Grid>
@@ -89,6 +102,8 @@ const DesktopHeader = () => {
                         {showprofile ? <ProfileDesktop /> : null}
                         <PersonOutlinedIcon />
                     </IconButton>
+
+
                 </Grid>
                 <Grid>
                     <IconButton onClick={toggleDrawer(true)} sx={{ display: { xs: "none", sm: "flex" } }}>
