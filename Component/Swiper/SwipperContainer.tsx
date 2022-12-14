@@ -1,6 +1,8 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
+import { ReactNode } from "react";
+
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper} from "swiper/react";
 import ArrowForwardIosRoundedIcon from '@mui/icons-material/ArrowForwardIosRounded';
 import ArrowBackIosRoundedIcon from '@mui/icons-material/ArrowBackIosRounded';
 
@@ -8,14 +10,13 @@ import ArrowBackIosRoundedIcon from '@mui/icons-material/ArrowBackIosRounded';
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
-// import "../";
-
 // import required modules
 import { Pagination, Navigation } from "swiper";
-import CardParty from "./CardParty";
 import { Grid } from "@mui/material";
-const SwipperContainer = () => {
+interface SwiperPropsType{
+  children:ReactNode,
+}
+const SwipperContainer = ({children}:SwiperPropsType) => {
   const [page, setPage] = useState(0)
   const swiperRef = useRef<any>(null)
 
@@ -57,15 +58,8 @@ const SwipperContainer = () => {
             },
           }}
         >
-          <SwiperSlide><CardParty/></SwiperSlide>
-          <SwiperSlide><CardParty/></SwiperSlide>
-          <SwiperSlide><CardParty/></SwiperSlide>
-          <SwiperSlide><CardParty/></SwiperSlide>
-          <SwiperSlide><CardParty/></SwiperSlide>
-          <SwiperSlide><CardParty/></SwiperSlide>
-          <SwiperSlide><CardParty/></SwiperSlide>
-          <SwiperSlide><CardParty/></SwiperSlide>
-          <SwiperSlide><CardParty/></SwiperSlide>
+         {children}
+  
         </Swiper>
         <Grid onClick={handlePrevSlide}  bgcolor={'common.white'} width={40} height={40} sx={{cursor:'pointer',zIndex:100,left:0,top:'45%'}}  borderRadius={'50%'} display={{xs:'none',md:'flex'}} alignItems={'center'} justifyContent={'center'} position={'absolute'} boxShadow={'rgb(58 61 66 / 6%) 0px 1px 0px, rgb(0 0 0 / 20%) 0px 4px 16px -8px'}>
           <ArrowBackIosRoundedIcon color={'primary'}/>

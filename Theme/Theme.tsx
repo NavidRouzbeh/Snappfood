@@ -2,7 +2,7 @@ import {  createTheme, Shadows } from '@mui/material/styles';
 
 
 export const theme = createTheme({
-    direction:'rtl',
+    // direction:'rtl',
     components:{
         MuiCssBaseline:{
             styleOverrides:{
@@ -78,7 +78,7 @@ export const theme = createTheme({
     ...Array(19).fill('none'),
   ] as Shadows,
   typography:{
-    fontFamily:'IranSans',
+    fontFamily:'IranSansMobile',
     //title app section
     h1:{
         fontSize:'2rem',
@@ -99,6 +99,10 @@ export const theme = createTheme({
         fontWeight:700,
         color:'rgb(58, 61, 66)',
         lineHeight:'1.75rem'
+    },
+    h6:{
+        fontSize:'10px',
+        fontWeight:600,
     },
     //card description
     subtitle1:{
