@@ -1,5 +1,7 @@
-import { Grid, Button, Menu, MenuItem, Divider } from "@mui/material";
+import { Grid, Button, Menu, MenuItem, Divider, Typography } from "@mui/material";
 import { useState } from "react";
+import Image from "next/image";
+import DownArrow from '../../Assets/Icons/DownArrow.svg';
 
 
 
@@ -37,10 +39,16 @@ const SortingDropDown = () => {
                     height:'100%'
                 }}
             >
-                <Grid container>
-                    <Grid>{sortSelector}</Grid>
-                    <Divider orientation="vertical" sx={{height:30}} />
-                    <Grid></Grid>
+                <Grid container sx={{alignItems:'center', justifyContent:'space-between'}}>
+                    <Grid>
+                            <Typography variant="subtitle2">
+                                {sortSelector}
+                            </Typography>
+                        </Grid>
+                    <Grid display={'flex'} sx={{alignItems:'center'}}>
+                        <Divider orientation="vertical" sx={{height:30, ml:1.5}} />
+                        <Image src={DownArrow} alt="" />
+                    </Grid>
                 </Grid>
             </Button>
             <Menu
