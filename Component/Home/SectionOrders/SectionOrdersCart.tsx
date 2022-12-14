@@ -48,12 +48,12 @@ const SectionOrdersCart = (): JSX.Element => {
                 </Grid>
                 <Grid item display={{xs:"block" , sm:"none"}} m={1} dir={"ltr"} ><Typography  fontSize={"1rem"} fontWeight={700} >{"138,000 تومان "}</Typography></Grid>
                 <Grid item display={"flex"} flexDirection={"column"} mb={2}>
-                    <Grid display={"flex"} alignItems={"center"} justifyContent={"space-between"} p={"8px 16px"} mt={1} borderRadius={"0.25rem"} sx={{ border:{ xs:"0.09375rem solid rgba(58, 61, 66, 0.06)" , sm:"none"} }} bgcolor={"rgba(0, 133, 66, 0.06)"}>
+                    <Grid display={"flex"} alignItems={"center"} justifyContent={"space-between"} p={{sm:"8px 10px" , xs:"5px 3px"}} mt={1} borderRadius={"0.25rem"} sx={{ border:{ xs:"0.09375rem solid rgba(58, 61, 66, 0.06)" , sm:"none"} }} bgcolor={"rgba(0, 133, 66, 0.06)"}>
                         <Typography variant='body2'  fontSize={"0.53rem"} color={"#3a3d42"} display={{xs:"none" , sm:"block"}}>{"نظرتان را درباره این سفارش به اشتراک بگذارید."}</Typography>
                         <Typography fontSize={"10px"} fontWeight={500} display={{xs:"block" , sm:"none"}}>{"هنوز به این سفارش امتیازی نداده‌اید"}</Typography>
                         <Grid item display={"flex"} alignItems={'center'}>
                         <Typography fontWeight={900} fontSize={"0.66rem"}  color={"rgb(0, 184, 98)"}>{"ثبت نظر "}</Typography>
-                        <Typography  display={{xs:"flex" , sm:"none"}} color={"rgb(0, 184, 98)"}><NavigateBeforeIcon/></Typography>
+                        <Typography  display={{xs:"flex" , sm:"none"}} color={"rgb(0, 184, 98)"}><NavigateBeforeIcon style={{fontSize:"1rem"}}/></Typography>
                         </Grid>
                     </Grid>
                     <Grid display={"flex"} mb={1} flexDirection={{xs:"row-reverse" , sm:"row"}} height={"38px"} justifyContent={"space-between"} alignItems={"center"} mt={1.5}>

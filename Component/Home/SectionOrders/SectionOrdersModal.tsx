@@ -35,7 +35,7 @@ const SectionOrdersModal = ({ setOpen, open }: ModalBoxProps): JSX.Element => {
                         </IconButton>
                     </Grid>
                     <Grid p={1} mt={1} justifyContent={"space-between"} display={{xs:"flex" , sm:"block"}}>
-                        <Typography id="modal-modal-title" variant="h2">
+                        <Typography fontWeight={700} fontSize={"1.4rem"} color={"#3a3d42"}>
                             {"فاکتور سفارش"}
                         </Typography>
                         <Grid item display={{xs:"black" , sm:"none"}}>
@@ -44,14 +44,14 @@ const SectionOrdersModal = ({ setOpen, open }: ModalBoxProps): JSX.Element => {
                         </IconButton>
                     </Grid>
                         <Typography  mt={1} color={"#53565c"} fontSize={"0.875rem"} fontWeight={400} display={{xs:"none" , sm:"block"}} component="h2">
-                            {"زستوران و کترینک  بزرگان"}
+                            {"رستوران و کترینک  بزرگان"}
                         </Typography>
                     </Grid>
                     <Grid mt={1} display={"flex"} justifyContent={"space-between"} p={1} pb={1} borderBottom={"0.0625rem solid rgba(58, 61, 66, 0.06)"}>
-                        <Typography fontSize={"0.875rem"} fontWeight={400} color={"#3a3d42"}>
-                            {"چلوجوجه "}
+                        <Typography fontSize={"0.775rem"} fontWeight={400} color={"#3a3d42"}>
+                            {" چلو جوجه کباب "}
                         </Typography>
-                        <Typography fontSize={"0.875rem"} fontWeight={700} color={"#3a3d42"} >
+                        <Typography fontSize={"0.775rem"} fontWeight={700} color={"#3a3d42"} >
                             {"69,000  تومان"}
                         </Typography>
                     </Grid>
@@ -65,10 +65,10 @@ const SectionOrdersModal = ({ setOpen, open }: ModalBoxProps): JSX.Element => {
                             </Typography>
                         </Grid>
                         <Grid  display={{xs:"none" , sm:"Flex"}} justifyContent={"space-between"}>
-                            <Typography fontSize={"0.875rem"} lineHeight={"1.5rem"} fontWeight={400} color={"#3a3d42"}>
+                            <Typography fontSize={"0.775rem"} lineHeight={"1.5rem"} fontWeight={400} color={"#3a3d42"}>
                                 {" هزینه ارسال "}
                             </Typography>
-                            <Typography  fontSize={"0.875rem"} lineHeight={"1.5rem"} fontWeight={400} color={"#3a3d42"}>
+                            <Typography  fontSize={"0.775rem"} lineHeight={"1.5rem"} fontWeight={400} color={"#3a3d42"}>
                                 {"رایگان "}
                             </Typography>
                         </Grid>
