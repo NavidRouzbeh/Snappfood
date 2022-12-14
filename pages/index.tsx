@@ -21,6 +21,7 @@ export default function Home() {
       >
         <CategoryContainer /> 
         <SectionFoodParty/>
+        <CardResturantContainer/>
         <SectionApp />
         <RegistrationSeller />
         <SectionCities />

@@ -12,8 +12,7 @@ const FoodPartyDesktop = () => {
               <Grid xs={9} item>
                 <SwipperContainer>
                   {m.map(item=>(
-                  <SwiperSlide><CardPartyDesktop/></SwiperSlide>
-
+                    <SwiperSlide><CardPartyDesktop/></SwiperSlide>
                   ))}
                 </SwipperContainer>
               </Grid>
