@@ -1,4 +1,4 @@
-import { Grid, Button, Menu, MenuItem } from "@mui/material";
+import { Grid, Button, Menu, MenuItem, Divider } from "@mui/material";
 import { useState } from "react";
 
 
@@ -32,16 +32,21 @@ const SortingDropDown = () => {
                 id="basic-button"
                 aria-haspopup="true"
                 onClick={handleClick}
+                sx={{
+                    width:'100%',
+                    height:'100%'
+                }}
             >
-                {sortSelector}
+                <Grid container>
+                    <Grid>{sortSelector}</Grid>
+                    <Divider orientation="vertical" sx={{height:30}} />
+                    <Grid></Grid>
+                </Grid>
             </Button>
             <Menu
                 id="basic-menu"
                 open={showMenu}
                 onClose={handleClose}
-                MenuListProps={{
-                'aria-labelledby': 'basic-button',
-                }}
             >
                 <MenuItem onClick={() => {setSortSelector("profile"),setShowMenu(false)}}>Profile</MenuItem>
                 <MenuItem onClick={() => {setSortSelector("profile2"),setShowMenu(false)}}>My account</MenuItem>
