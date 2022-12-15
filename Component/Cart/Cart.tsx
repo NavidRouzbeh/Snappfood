@@ -1,7 +1,8 @@
 import { Grid, Typography } from "@mui/material";
 import Image from "next/image";
 import DeliveryTime from "../../Assets/Icons/DeliveryTime.svg";
-import CartDownArrow from "../../Assets/Icons/CartDownArrow.svg"
+import CartDownArrow from "../../Assets/Icons/CartDownArrow.svg";
+import Deliveryman from '../../Assets/Icons/Deliveryman.svg';
 
 
 const Cart = () => {
@@ -28,8 +29,26 @@ const Cart = () => {
                     <Image src={CartDownArrow} alt='' />
                 </Grid>
             </Grid>
-            <Grid></Grid>
-            <Grid></Grid>
+
+            <Grid
+            display={'flex'}
+            alignItems='center'
+            justifyContent={'space-between'}
+            sx={{
+                height:'50px',
+                bgcolor:'white',
+                borderRadius:'0.5rem',
+                px:1
+            }}
+            >
+                <Grid display={'flex'} >
+                    <Image src={Deliveryman} alt='' />
+                    <Typography variant="subtitle1" sx={{pr:'5px'}}>پیک فروشنده رایگان</Typography>
+                </Grid>
+            </Grid>
+            <Grid>
+                
+            </Grid>
         </Grid>
 
     )
