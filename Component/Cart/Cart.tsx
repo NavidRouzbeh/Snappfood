@@ -1,4 +1,5 @@
-import { Grid, IconButton, Typography, Divider } from "@mui/material";
+import { Grid, IconButton, Typography, Divider, Button } from "@mui/material";
+import TextareaAutosize from '@mui/base/TextareaAutosize';
 import Image from "next/image";
 import DeliveryTime from "../../Assets/Icons/DeliveryTime.svg";
 import CartDownArrow from "../../Assets/Icons/CartDownArrow.svg";
@@ -78,16 +79,28 @@ const Cart = () => {
                         </Grid>
                     </Grid>
                 </Grid>
-                <Divider />
-                <Grid>
-                    <Grid>
-                        <Typography></Typography>
-                        
+                <Divider sx={{color:'black', width:'90%'}}/>
+                <Grid sx={{width:'100%'}}>
+                    <Grid display={'flex'} justifyContent={'space-between'} >
+                        <Typography variant="subtitle1">مجموع</Typography>
+                        <Typography variant="subtitle1"> ۱۹۱,۰۰۰ تومان</Typography>
                     </Grid>
-                    <Grid></Grid>
-                    <Grid></Grid>
+                    <Grid display={'flex'} justifyContent={'space-between'}>
+                        <Typography variant="subtitle1">مالیات</Typography>
+                        <Typography variant="subtitle1">رایگان</Typography>
+                    </Grid>
+                    <Grid display={'flex'} justifyContent={'space-between'}>
+                        <Typography variant="subtitle1">هزینه ارسال</Typography>
+                        <Typography variant="subtitle1">رایگان</Typography>
+                    </Grid>
                 </Grid>
-                <Grid></Grid>
+                <Divider sx={{color:'black', width:'90%'}}/>
+                <Grid display={'flex'} justifyContent={'space-between'} sx={{width:'100%'}}>
+                        <Typography variant="subtitle1"> قابل پرداخت</Typography>
+                        <Typography variant="subtitle1"> ۱۹۱,۰۰۰ تومان</Typography>
+                </Grid>
+                <TextareaAutosize placeholder="توضیحات سفارش..." style={{backgroundColor:'white', color:'black', minWidth:'80%', maxWidth:'80%', minHeight:'7rem'}}/>
+                <Button><Typography>ثبت سفارش</Typography></Button>
             </Grid>
         </Grid>
 
