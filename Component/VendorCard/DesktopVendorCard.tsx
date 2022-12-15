@@ -11,7 +11,7 @@ const DesktopVendor = () => {
 
     return(
 
-    <Card  sx={{height:'21.3125rem', width:'18.5rem',p:4 }}>
+    <Card  sx={{height:'21.3125rem', width:'18.5rem',my:2}}>
       
       <Grid sx={{height:'40%'}}>
         <Image src={Background} alt="" style={{height: '100%', objectFit:'cover'}} />
