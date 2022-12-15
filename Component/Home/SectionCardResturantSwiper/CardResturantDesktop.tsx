@@ -11,9 +11,7 @@ import MobileVendorCard from '../../VendorCard/MobileVendorCard';
 import CardResturantMobile from './CardResturantMobile';
 import HeaderCardResturant from './HeaderCardResturant';
 
-const CardResturantContainer =()=>{
-    // const theme = useTheme();
-    // const isDesktop = useMediaQuery(theme.breakpoints.up('sm'));
+const CardResturantDesktop =()=>{
   const m:number[]=[0,1,3,4,5,6,7,8];
     return(
         <Grid>
@@ -33,4 +31,4 @@ const CardResturantContainer =()=>{
     )
 }
 
-export default CardResturantContainer;
+export default CardResturantDesktop;

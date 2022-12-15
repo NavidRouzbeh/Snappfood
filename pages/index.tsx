@@ -3,7 +3,7 @@ import Grid from "@mui/material/Grid";
 import NavbarSection from "../Component/Home/NavbarSection/NavbarSection";
 import RegistrationSeller from "../Component/Home/RegistrationSeller";
 import SectionApp from "../Component/Home/SectionApp";
-import CardResturantContainer from "../Component/Home/SectionCardResturantSwiper/CardResturantContainer";
+import CardResturantContainer from "../Component/Home/SectionCardResturantSwiper/CardResturantDesktop";
 import SectionCardResturant from "../Component/Home/SectionCardResturantSwiper/SectionCardResturant";
 import CategoryContainer from "../Component/Home/SectionCategory/CategoryContainer";
 import SectionCities from "../Component/Home/SectionCities";
