@@ -1,4 +1,4 @@
-interface CardtitleresturantType{
+export interface CardtitleresturantType{
     id:number,
     title:string,
 }

@@ -15,17 +15,18 @@ const MobileVendorCard = () => {
         <Card sx={{
             width:'20rem',
             height:'15.5rem',
-            borderRadius:'0.4rem'
+            borderRadius:'0.4rem',
+            flexShrink:0
         }}>
 
             <Grid sx={{
                 width:'100%',
-                height:'40%'
+                height:'50%'
             }}>
                 <Image style={{ width:'100%', height:'100%', objectFit:'cover'}} src={Background} alt='' />
             </Grid>
 
-            <Grid sx={{position:'absolute', width:'20rem', py:3.5, px:2}}>
+            <Grid sx={{position:'relative', width:'20rem', py:3.5, px:2}}>
                 <Grid sx={{position:'absolute', right:10, top:-50}} >
                     <Image src={Logo} alt="" style={{ 
                         width:'4.5rem',
@@ -45,7 +46,7 @@ const MobileVendorCard = () => {
                             </Grid>
                         </Grid>
                 </Grid>
-                <Grid sx={{mt:3}}>
+                <Grid mt={1}>
                     <Typography variant="subtitle1" sx={{color:'black'}}>فست‌فود، پیتزا، ساندویچ</Typography>
                     <Typography sx={{mt:2}} variant="subtitle1">پیک فروشنده ۱۵,۰۰۰ تومان</Typography>
                 </Grid>

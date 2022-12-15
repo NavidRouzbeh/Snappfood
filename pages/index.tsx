@@ -4,6 +4,7 @@ import NavbarSection from "../Component/Home/NavbarSection/NavbarSection";
 import RegistrationSeller from "../Component/Home/RegistrationSeller";
 import SectionApp from "../Component/Home/SectionApp";
 import CardResturantContainer from "../Component/Home/SectionCardResturantSwiper/CardResturantContainer";
+import SectionCardResturant from "../Component/Home/SectionCardResturantSwiper/SectionCardResturant";
 import CategoryContainer from "../Component/Home/SectionCategory/CategoryContainer";
 import SectionCities from "../Component/Home/SectionCities";
 import SectionFoodParty from "../Component/Home/SectionFoodParty/SectionFoodParty";
@@ -11,7 +12,7 @@ import SectionFoodParty from "../Component/Home/SectionFoodParty/SectionFoodPart
 export default function Home() {
   return (
     <>
-      <NavbarSection />
+      {/* <NavbarSection /> */}
       <Grid
         container
         xs={12}
@@ -21,7 +22,7 @@ export default function Home() {
       >
         <CategoryContainer /> 
         <SectionFoodParty/>
-        <CardResturantContainer/>
+        <SectionCardResturant/>
         <SectionApp />
         <RegistrationSeller />
         <SectionCities />
