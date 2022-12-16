@@ -12,7 +12,7 @@ import SectionFoodParty from "../Component/Home/SectionFoodParty/SectionFoodPart
 export default function Home() {
   return (
     <>
-      {/* <NavbarSection /> */}
+      <NavbarSection />
       <Grid
         container
         xs={12}
