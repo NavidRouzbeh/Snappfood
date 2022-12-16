@@ -1,3 +1,16 @@
+// --------bamahas------------
+import bamahas98 from '../../Assets/Images/bamahas/bamahas.98.hot.jpeg';
+import bamahasargentina from '../../Assets/Images/bamahas/bamahas.agentina.hot.jpeg';
+import bamahaschicken from '../../Assets/Images/bamahas/bamahas.chicken.hot.jpeg';
+import bamahasbacon from '../../Assets/Images/bamahas/bamahas.bacon.cold.jpeg';
+import bamahasjambon from '../../Assets/Images/bamahas/bamahas.jambon.cold.jpeg';
+import bamahasmix from '../../Assets/Images/bamahas/bamahas.mix.cold.jpeg';
+import bamahaspasta from '../../Assets/Images/bamahas/bamahas.pasta.jpeg';
+import bamahassalad from '../../Assets/Images/bamahas/bamahas.salad.jpeg';
+import bamahastorshi from '../../Assets/Images/bamahas/bamahas.torshi.jpeg';
+import bamahasdrink from '../../Assets/Images/bamahas/bamahas.drink.jpeg';
+import bamahaslogo from '../../Assets/Images/bamahas/bamahas.logo.jpg';
+import bamahasbackground from '../../Assets/Images/bamahas/bamahas.background.jpeg';
 
 export const DataBase = [
   { id: 1, 
@@ -26,4 +39,139 @@ export const DataBase = [
         {id:12,category:'پیش غذا',name:'',images:'',price:145000,material:''},
     ]
     },
+// ---------------------------------------------
+    { id: 2, 
+      name: "باماهاس", 
+      star:4.4,
+      score:10011,
+      address:'',
+      delivery:7000,
+      logo:{bamahaslogo},
+      picture:bamahasbackground,
+      coupon:false,
+      discount:true,
+      categories: ["ساندویچ گرم", "ساندویچ سرد",'پاستا','پیش غدا','نوشیدنی'] ,
+      foods:[
+          {id:1,category:'ساندویچ گرم',name:'ساندویچ کوکتل آرژانتینی',images:{bamahas98},price:178000,material:'کوکتل بخارپز ممتاز میکاییلیان،پیاز جعفری،گوجه،خیارشور و سس مخصوص باماهاس'},
+          {id:2,category:'ساندویچ گرم',name:'ساندویچ فیله پیچ تنوری',images:{bamahaschicken},price:165000,material:'فیله مرغ طعم دار شده،پنیر و پیاز جعفری،گوجه،خیارشور و سس مخصوص باماهاس'},
+          {id:3,category:'ساندویچ گرم',name:'ساندویچ شکارچیان نود و هشت',images:{bamahas98},price:200000,material:'سوسیس چوریتسو،کاهو،گوجه،خیارشور و سس مخصوص باماهاس'},
+          {id:4,category:'ساندویچ سرد',name:'ساندویچ بیکن مخصوص باماهاس (سرد)',images:{bamahasbacon},price:198000,material:'بیکن بره ۹۰٪ میکاییلیان،بیکن گوشت ۹۰٪ میکاییلیان،چیپس،پیاز جعفری و گوجه'},
+          {id:5,category:'ساندویچ سرد',name:'ساندویچ ژامبون مرغ (سرد)',images:{bamahasjambon},price:88000,material:'ژامبون مرغ ۹۰٪ میکاییلیان،پیاز جعفری،گوجه،خیارشور و سس مخصوص باماهاس'},
+          {id:6,category:'ساندویچ سرد',name:'ساندویچ مخلوط (سرد)',images:{bamahasmix},price:99000,material:'بیکن گوشت ۹۰٪ میکاییلیان،ژامبون مرغ۹۰٪،پیاز جعفری،گوجه،خیارشور و سس مخصوص باماهاس'},
+          {id:7,category:'پاستا',name:'پاستا با سس آلفردو',images:{bamahaspasta},price:150000,material:'پاستا،فیله مرغ طعم دار،سس آلفردو'},
+          {id:8,category:'نوشیدنی',name:'کوکاکولا',images:{bamahasdrink},price:12000,material:''},
+          {id:9,category:'نوشیدنی',name:'فانتا',images:{bamahasdrink},price:12000,material:''},
+          {id:10,category:'نوشیدنی',name:'اسپرایت',images:{bamahasdrink},price:12000,material:''},
+          {id:11,category:'پیش غذا',name:'سالاد سوییسی',images:{bamahassalad},price:20000,material:'سیب زمینی،ماست،پیازچه،خیارشور'},
+          {id:12,category:'پیش غذا',name:'ترشی تند هالوپینو',images:{bamahastorshi},price:12000,material:'فلفل هالوپینو،ادویه مخصوص باماهاس'},
+      ]
+      },
+
+      { id: 1, 
+        name: "شیلا", 
+        star:4,
+        score:6056,
+        address:'',
+        delivery:5000,
+        logo:'',
+        picture:'',
+        coupon:false,
+        discount:true,
+        categories: ["پیتزا", "سوخاری",'نوشیدنی','پیش غدا','خاچاپوری','هات داگ'] ,
+        foods:[
+            {id:1,category:'پیتزا',name:'',images:'',price:145000,material:''},
+            {id:2,category:'پیتزا',name:'',images:'',price:165000,material:''},
+            {id:3,category:'پیتزا',name:'',images:'',price:145000,material:''},
+            {id:4,category:'سوخاری',name:'',images:'',price:145000,material:''},
+            {id:5,category:'سوخاری',name:'',images:'',price:145000,material:''},
+            {id:6,category:'سوخاری',name:'',images:'',price:145000,material:''},
+            {id:7,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
+            {id:8,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
+            {id:9,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
+            {id:10,category:'پیش غذا',name:'',images:'',price:145000,material:''},
+            {id:11,category:'پیش غذا',name:'',images:'',price:145000,material:''},
+            {id:12,category:'پیش غذا',name:'',images:'',price:145000,material:''},
+        ]
+        },
+
+        { id: 1, 
+          name: "شیلا", 
+          star:4,
+          score:6056,
+          address:'',
+          delivery:5000,
+          logo:'',
+          picture:'',
+          coupon:false,
+          discount:true,
+          categories: ["پیتزا", "سوخاری",'نوشیدنی','پیش غدا','خاچاپوری','هات داگ'] ,
+          foods:[
+              {id:1,category:'پیتزا',name:'',images:'',price:145000,material:''},
+              {id:2,category:'پیتزا',name:'',images:'',price:165000,material:''},
+              {id:3,category:'پیتزا',name:'',images:'',price:145000,material:''},
+              {id:4,category:'سوخاری',name:'',images:'',price:145000,material:''},
+              {id:5,category:'سوخاری',name:'',images:'',price:145000,material:''},
+              {id:6,category:'سوخاری',name:'',images:'',price:145000,material:''},
+              {id:7,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
+              {id:8,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
+              {id:9,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
+              {id:10,category:'پیش غذا',name:'',images:'',price:145000,material:''},
+              {id:11,category:'پیش غذا',name:'',images:'',price:145000,material:''},
+              {id:12,category:'پیش غذا',name:'',images:'',price:145000,material:''},
+          ]
+          },
+
+          { id: 1, 
+            name: "شیلا", 
+            star:4,
+            score:6056,
+            address:'',
+            delivery:5000,
+            logo:'',
+            picture:'',
+            coupon:false,
+            discount:true,
+            categories: ["پیتزا", "سوخاری",'نوشیدنی','پیش غدا','خاچاپوری','هات داگ'] ,
+            foods:[
+                {id:1,category:'پیتزا',name:'',images:'',price:145000,material:''},
+                {id:2,category:'پیتزا',name:'',images:'',price:165000,material:''},
+                {id:3,category:'پیتزا',name:'',images:'',price:145000,material:''},
+                {id:4,category:'سوخاری',name:'',images:'',price:145000,material:''},
+                {id:5,category:'سوخاری',name:'',images:'',price:145000,material:''},
+                {id:6,category:'سوخاری',name:'',images:'',price:145000,material:''},
+                {id:7,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
+                {id:8,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
+                {id:9,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
+                {id:10,category:'پیش غذا',name:'',images:'',price:145000,material:''},
+                {id:11,category:'پیش غذا',name:'',images:'',price:145000,material:''},
+                {id:12,category:'پیش غذا',name:'',images:'',price:145000,material:''},
+            ]
+            },
+
+            { id: 1, 
+              name: "شیلا", 
+              star:4,
+              score:6056,
+              address:'',
+              delivery:5000,
+              logo:'',
+              picture:'',
+              coupon:false,
+              discount:true,
+              categories: ["پیتزا", "سوخاری",'نوشیدنی','پیش غدا','خاچاپوری','هات داگ'] ,
+              foods:[
+                  {id:1,category:'پیتزا',name:'',images:'',price:145000,material:''},
+                  {id:2,category:'پیتزا',name:'',images:'',price:165000,material:''},
+                  {id:3,category:'پیتزا',name:'',images:'',price:145000,material:''},
+                  {id:4,category:'سوخاری',name:'',images:'',price:145000,material:''},
+                  {id:5,category:'سوخاری',name:'',images:'',price:145000,material:''},
+                  {id:6,category:'سوخاری',name:'',images:'',price:145000,material:''},
+                  {id:7,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
+                  {id:8,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
+                  {id:9,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
+                  {id:10,category:'پیش غذا',name:'',images:'',price:145000,material:''},
+                  {id:11,category:'پیش غذا',name:'',images:'',price:145000,material:''},
+                  {id:12,category:'پیش غذا',name:'',images:'',price:145000,material:''},
+              ]
+              },
 ];
