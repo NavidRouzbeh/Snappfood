@@ -9,29 +9,50 @@ import ProfileIcon from "../../../Assets/Icons/ProfileIcon.svg"
 import { useState } from "react";
 import SearchBar from "../../Home/SectionSearch/SearchBar";
 import ProfileDesktop from "../../Home/SectionProfile/ProfileDesktop";
-
+import SectionOrders from "../../Home/SectionOrders/SectionOrders";
 
 const DesktopHeader = () => {
-    const [showProfile,setShowProfile]=useState<boolean>(false)
-    const [open,setOpen] = useState<boolean>(false);
+
+    const [showprofile, setShowProfile] = useState<boolean>(false)
+    const [open, setOpen] = useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
-    
-    return(
-        
-        <Grid container position={'fixed'} zIndex={1200} justifyContent={'space-between'} alignItems={'center'} sx={{ bgcolor:'#F9FAFB' , width:'100%', height:'4.5rem', p:'1rem'}}>
+    const [state, setState] = useState<boolean>(false)
+    const toggleDrawer =
+        (open: boolean) =>
+            (event: React.KeyboardEvent | React.MouseEvent) => {
+                if (
+                    // event &&
+                    event.type === 'keydown' &&
+                    ((event as React.KeyboardEvent).key === 'Tab' ||
+                        (event as React.KeyboardEvent).key === 'Shift')
+                ) {
+                    return;
+                }
+
+                setState(open);
+            };
+
+
+    return (
+
+        <Grid container position={'fixed'} zIndex={1200} justifyContent={'space-between'} alignItems={'center'} sx={{ bgcolor: '#F9FAFB', width: '100%', height: '4.5rem', p: '1rem' }}>
+
             <Grid item display={'flex'} gap={3} alignItems={'center'} >
                 <Grid>
-                <Image src={SnappLogo} alt="" style={{width:'68px',height:'34px'}} />
+                    <Image src={SnappLogo} alt="" style={{ width: '68px', height: '34px' }} />
                 </Grid>
                 <Grid>
-                <Typography variant="body2"> <Image src={ProfileIcon} alt=""/>تهران، محله سعادت آباد، بلوار جوریکی،نبش کوچه نهم غربی</Typography>
+                    <Typography variant="body2"> <Image src={ProfileIcon} alt="" />تهران، محله سعادت آباد، بلوار جوریکی،نبش کوچه نهم غربی</Typography>
                 </Grid>
             </Grid>
-            <Grid display={{sm:'none', md:"flex"}} position={'relative'} right={-79} >
+
+            <Grid display={{ sm: 'none', md: "flex" }}>
                 <Button onClick={handleOpen}
-                style={{ color:'rgb(166, 170, 173)', backgroundColor:'rgb(235, 237, 240)', width: '29vw', height: '3rem', borderRadius: '0.625rem', justifyContent:'flex-start' }}>
-                    <SearchIcon/>
+                    style={{ color: 'rgb(166, 170, 173)', backgroundColor: 'rgb(235, 237, 240)', width: '29vw', height: '3rem', borderRadius: '0.625rem' }}>
+                    <SearchIcon />
+
+
                     جست‌وجو در اسنپ‌فود
                 </Button>
                 <Modal
@@ -40,40 +61,55 @@ const DesktopHeader = () => {
                     aria-labelledby="modal-modal-title"
                     aria-describedby="modal-modal-description"
                 >
-                    <SearchBar/>
+
+                    <Box >
+                        <Typography>
+                            search
+                        </Typography>
+                    </Box>
+
+
                 </Modal>
-            {/* <TextField id="filled-basic" label="جستجو در اسنپ فود" variant="filled" /> */}
+                {/* <TextField id="filled-basic" label="جستجو در اسنپ فود" variant="filled" /> */}
             </Grid>
-            <Grid display={{sm:'none', md:'flex'}} gap={4}>
+            <Grid display={{ sm: 'none', md: 'flex' }} gap={4}>
                 <Grid position={'relative'}>
-                <IconButton onClick={()=>setShowProfile(!showProfile)}>
-                    {showProfile ? <ProfileDesktop/> : null}
-                    <PersonOutlinedIcon/>
-                </IconButton>
+
+                    <IconButton onClick={() => setShowProfile(!showprofile)}>
+                        {showprofile ? <ProfileDesktop /> : null}
+                        <PersonOutlinedIcon />
+                    </IconButton>
+
+
                 </Grid>
                 <Grid>
-                <IconButton>
-                    <ListAltIcon/><Typography color={'rgb(58, 61, 66)'} fontSize={'0.875rem'} fontWeight={700} >سفارش‌ها</Typography>
-                </IconButton>
+                    <IconButton onClick={toggleDrawer(true)} >
+                        <ListAltIcon /><Typography color={'rgb(58, 61, 66)'} fontSize={'0.875rem'} fontWeight={700} >سفارش‌ها</Typography>
+                    </IconButton>
+                    <SectionOrders state={state} toggleDrawer={toggleDrawer} />
                 </Grid>
             </Grid>
 
-            <Grid display={{sm:'flex', md:'none'}} gap={2}>
-                <Grid onClick={handleOpen}>
-                <IconButton>
-                    <SearchIcon/>
-                </IconButton>
+
+            <Grid display={{ sm: 'flex', md: 'none' }} gap={2}>
+                <Grid>
+                    <IconButton>
+                        <SearchIcon />
+                    </IconButton>
                 </Grid>
                 <Grid position={'relative'}>
-                <IconButton onClick={()=>setShowProfile(!showProfile)}>
-                    {showProfile ? <ProfileDesktop/> : null}
-                    <PersonOutlinedIcon/>
-                </IconButton>
+                    <IconButton onClick={() => setShowProfile(!showprofile)}>
+                        {showprofile ? <ProfileDesktop /> : null}
+                        <PersonOutlinedIcon />
+                    </IconButton>
+
+
                 </Grid>
                 <Grid>
-                <IconButton>
-                    <ListAltIcon/><Typography color={'rgb(58, 61, 66)'} fontSize={'0.875rem'} fontWeight={700} ></Typography>
-                </IconButton>
+                    <IconButton onClick={toggleDrawer(true)} sx={{ display: { xs: "none", sm: "flex" } }}>
+                        <ListAltIcon /><Typography color={'rgb(58, 61, 66)'} fontSize={'0.875rem'} fontWeight={700} ></Typography>
+                    </IconButton>
+                    <SectionOrders state={state} toggleDrawer={toggleDrawer} />
                 </Grid>
             </Grid>
 
