@@ -8,6 +8,7 @@ import SectionCities from "../Component/Home/SectionCities";
 
 
 import SectionFoodParty from "../Component/Home/SectionFoodParty/SectionFoodParty";
+import SectionPopular from "../Component/Market/SectionPopular/SectionPopular";
 
 export default function Home() {
   return (
