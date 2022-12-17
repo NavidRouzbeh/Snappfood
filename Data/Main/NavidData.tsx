@@ -41,6 +41,21 @@ import burgerlandheydey from '../../Assets/Images/burgerland/burgerland.drink.he
 import burgerlandorengina from '../../Assets/Images/burgerland/burgerland.drink.orengina.jpeg';
 import burgerlandicon from '../../Assets/Images/burgerland/burgerland.logo.jpeg';
 import burgerlandback from '../../Assets/Images/burgerland/burgerland.background.jpeg';
+//---------------downtown----------
+import downtownback from '../../Assets/Images/downtown/downtown.back.jpeg';
+import downtownbuffalo from '../../Assets/Images/downtown/downtown.buffalo.jpeg';
+import downtownburger from '../../Assets/Images/downtown/downtown.burger.jpeg';
+import downtownmid from '../../Assets/Images/downtown/downtown.burger.midt.jpeg';
+import downtownup from '../../Assets/Images/downtown/downtown.burger.upt.jpeg';
+import downtowncoca from '../../Assets/Images/downtown/downtown.coca.jpeg';
+import downtownsalad from '../../Assets/Images/downtown/downtown.greecesalad.jpeg';
+import downtownlogo from '../../Assets/Images/downtown/downtown.logo.jpeg';
+import downtownallinone from '../../Assets/Images/downtown/downtown.pizza.allinone.jpeg';
+import downtownpeperoni from '../../Assets/Images/downtown/downtown.pizza.peperoni.jpeg';
+import downtownturkey from '../../Assets/Images/downtown/downtown.pizza.turkey.jpeg';
+import downtownring from '../../Assets/Images/downtown/downtown.rings.jpeg';
+import downtownsprite from '../../Assets/Images/downtown/downtown.sprite.jpeg';
+import downtownwater from '../../Assets/Images/downtown/downtown.water.jpeg';
 
 
 // ---------------------------------------------
@@ -133,51 +148,27 @@ export const NavidData = [
           score:6990,
           address:'',
           delivery:24000,
-          logo:'',
-          picture:'',
+          logo:{downtownlogo},
+          picture:{downtownback},
           coupon:false,
           discount:true,
           categories: ["پیتزا", "سوخاری",'نوشیدنی','پیش غدا','برگر'] ,
           foods:[
-              {id:1,category:'پیتزا',name:'پیتزا پپرونی',images:'',price:143500,material:'خمیر تازه با سس تومیتو دان تان،پنیر موتزارلا و پارمسان'},
-              {id:2,category:'پیتزا',name:'',images:'',price:165000,material:''},
-              {id:3,category:'پیتزا',name:'',images:'',price:145000,material:''},
-              {id:4,category:'برگر',name:'',images:'',price:145000,material:''},
-              {id:5,category:'برگر',name:'',images:'',price:145000,material:''},
-              {id:6,category:'سوخاری',name:'',images:'',price:145000,material:''},
-              {id:7,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
-              {id:8,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
-              {id:9,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
-              {id:10,category:'پیش غذا',name:'',images:'',price:145000,material:''},
-              {id:11,category:'پیش غذا',name:'',images:'',price:145000,material:''},
-              {id:12,category:'پیش غذا',name:'',images:'',price:145000,material:''},
+              {id:1,category:'پیتزا',name:'پیتزا پپرونی',images:{downtownpeperoni},price:143500,material:'خمیر تازه با سس تومیتو دان تان،پنیر موتزارلا و پارمسان'},
+              {id:2,category:'پیتزا',name:'آل این وان',images:{downtownallinone},price:148500,material:'خمیر تازه با سس تومیتو،پنیر موتزارلا و پارمسان،پپرونی،فلفل دلمه ای،پیاز،زیتون سبز و قارچ'},
+              {id:3,category:'پیتزا',name:'تورکی ان پستو',images:{downtownturkey},price:152000,material:'خمیر تازه،پنیر موتزارلا،بوقلمون مزه دار شده'},
+              {id:4,category:'برگر',name:'دان تان برگر',images:{downtownburger},price:148500,material:'۱۵۰ گرم گوشت تازهگوساله،کرمینی ماشروم،کاهوی باتاویا،پنیر و قارچ'},
+              {id:5,category:'برگر',name:'مید تن برگر',images:{downtownmid},price:147500,material:'۱۵۰ گرم گوشت تازه گوساله،پنیر زرد آمریکن،کاهوی باتاویا،گوجه،پیاز،کرانچی فرایز'},
+              {id:6,category:'برگر',name:'آپ تان برگر',images:{downtownup},price:147500,material:'۱۵۰ گرم گوشت تازه گوساله،پنیر زرد آمریکن،کاهوی باتاویا،گوجه و پیاز کاراملی'},
+              {id:7,category:'نوشیدنی',name:'آب معدنی کوچک',images:{downtownwater},price:4000,material:'۵۰۰ میلی لیتر'},
+              {id:8,category:'نوشیدنی',name:'نوشابه قوطی کوکاکولا',images:{downtowncoca},price:12000,material:'۳۳۰ میلی لیتر'},
+              {id:9,category:'نوشیدنی',name:'نوشابه قوطی اسپرایت',images:{downtownsprite},price:12000,material:'۳۳۰ میلی لیتر'},
+              {id:10,category:'پیش غذا',name:'رینگز',images:{downtownring},price:69500,material:'پیاز حلقه ای با آرد،پنیر پارمسان و پنیر رومانو'},
+              {id:11,category:'پیش غذا',name:'بوفالو وینگز',images:{downtownbuffalo},price:79500,material:'کتف مرف تاباسکو با ماست یونانی'},
+              {id:12,category:'پیش غذا',name:'سالاد یونانی',images:{downtownsalad},price:102500,material:'کاهوی لیتل جم،خیار،گوجه،زیتون سیاه،پنیر سفید فتا'},
           ]
-          },
+          }
 
-          { id: 1, 
-            name: "شیلا", 
-            star:4,
-            score:6056,
-            address:'',
-            delivery:5000,
-            logo:'',
-            picture:'',
-            coupon:false,
-            discount:true,
-            categories: ["پیتزا", "سوخاری",'نوشیدنی','پیش غدا','خاچاپوری','هات داگ'] ,
-            foods:[
-                {id:1,category:'پیتزا',name:'',images:'',price:145000,material:''},
-                {id:2,category:'پیتزا',name:'',images:'',price:165000,material:''},
-                {id:3,category:'پیتزا',name:'',images:'',price:145000,material:''},
-                {id:4,category:'سوخاری',name:'',images:'',price:145000,material:''},
-                {id:5,category:'سوخاری',name:'',images:'',price:145000,material:''},
-                {id:6,category:'سوخاری',name:'',images:'',price:145000,material:''},
-                {id:7,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
-                {id:8,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
-                {id:9,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
-                {id:10,category:'پیش غذا',name:'',images:'',price:145000,material:''},
-                {id:11,category:'پیش غذا',name:'',images:'',price:145000,material:''},
-                {id:12,category:'پیش غذا',name:'',images:'',price:145000,material:''},
-            ]
-        }
+          
+    
     ]
