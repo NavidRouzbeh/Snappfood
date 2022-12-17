@@ -26,6 +26,22 @@ import barojfries2 from '../../Assets/Images/baroj/baroj.appit.frieswithcheese.j
 import barojonion from '../../Assets/Images/baroj/baroj.appit.onion.jpeg';
 import barojlogo from '../../Assets/Images/baroj.logo.png';
 import barojbackground from '../../Assets/Images/baroj/baroj.background.jpeg';
+//---------burgerland----------
+import burgerlandpizzaspecial from '../../Assets/Images/burgerland/burgerland.pizza.special.jpeg';
+import burgerlandpizzapeproni from '../../Assets/Images/burgerland/burgerland.pizza.peperoni.jpeg';
+import burgerlandpizzastake from '../../Assets/Images/burgerland/burgerland.pizza.stake.jpeg';
+import burgerlandfried from '../../Assets/Images/burgerland/burgerland.fried.chicken.jpeg';
+import burgerlandsandwichchicken from '../../Assets/Images/burgerland/burgerland.sandwich.chickenwrap.jpeg';
+import burgerlandsandwichrost from '../../Assets/Images/burgerland/burgerland.sandwich.rostbeef.jpeg';
+import burgerlandfries from '../../Assets/Images/burgerland/burgerland.appit.fries.jpeg';
+import burgerlandgarlicb from '../../Assets/Images/burgerland/burgerland.appit.garlicbread.jpeg';
+import burgerlandsalad from '../../Assets/Images/burgerland/burgerland.appit.salad.jpeg';
+import burgerlandsoda from '../../Assets/Images/burgerland/burgerland.drink.soda.jpeg';
+import burgerlandheydey from '../../Assets/Images/burgerland/burgerland.drink.heydey.jpeg';
+import burgerlandorengina from '../../Assets/Images/burgerland/burgerland.drink.orengina.jpeg';
+import burgerlandicon from '../../Assets/Images/burgerland/burgerland.logo.jpeg';
+import burgerlandback from '../../Assets/Images/burgerland/burgerland.background.jpeg';
+
 
 // ---------------------------------------------
 export const NavidData = [
@@ -84,50 +100,50 @@ export const NavidData = [
       ]
       },
 
-      { id: 1, 
-        name: "شیلا", 
-        star:4,
-        score:6056,
+      { id: 3, 
+        name: "برگرلند", 
+        star:4.2,
+        score:25504,
         address:'',
-        delivery:5000,
-        logo:'',
-        picture:'',
+        delivery:17000,
+        logo:{burgerlandicon},
+        picture:{burgerlandback},
         coupon:false,
         discount:true,
-        categories: ["پیتزا", "سوخاری",'نوشیدنی','پیش غدا','خاچاپوری','هات داگ'] ,
+        categories: ["پیتزا", "سوخاری",'نوشیدنی','پیش غدا','ساندویچ','چیکن برگر'] ,
         foods:[
-            {id:1,category:'پیتزا',name:'',images:'',price:145000,material:''},
-            {id:2,category:'پیتزا',name:'',images:'',price:165000,material:''},
-            {id:3,category:'پیتزا',name:'',images:'',price:145000,material:''},
-            {id:4,category:'سوخاری',name:'',images:'',price:145000,material:''},
-            {id:5,category:'سوخاری',name:'',images:'',price:145000,material:''},
-            {id:6,category:'سوخاری',name:'',images:'',price:145000,material:''},
-            {id:7,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
-            {id:8,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
-            {id:9,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
-            {id:10,category:'پیش غذا',name:'',images:'',price:145000,material:''},
-            {id:11,category:'پیش غذا',name:'',images:'',price:145000,material:''},
-            {id:12,category:'پیش غذا',name:'',images:'',price:145000,material:''},
+            {id:1,category:'پیتزا',name:'پیتزا مخصوص',images:{burgerlandpizzaspecial},price:118800,material:'خمیر پیتزا آمریکایی،سس مخصوص،کالباس گوشت،پپرونی،قارچ،زیتون سبز،پنیر و فلفل دلمه ای'},
+            {id:2,category:'پیتزا',name:'پیتزا استیک',images:{burgerlandpizzastake},price:125200,material:'خمیر پیتزا آمریکایی،سس سیر و ریحان،پنیر،فیله گوساله،قارچ،فلفل دلمه ای و پیازچه'},
+            {id:3,category:'پیتزا',name:'پیتزا پپرونی',images:{burgerlandpizzapeproni},price:126000,material:'خمیر پیتزا آمریکایی،سس مخصوص،پنیر،پپرونی،قارچ'},
+            {id:4,category:'سوخاری',name:'چیکن استریپس',images:{burgerlandfried},price:130000,material:'چهار عدد فیله سوخاری،سیب زمینی مخصوص،پنیر پارمزان،سس تایلندی تند،سس مخصوص'},
+            {id:5,category:'ساندویچ',name:'ساندویچ چیکن رپ',images:{burgerlandsandwichchicken},price:77200,material:'دو عدد فیله سوخاری،سس مخصوص،رلیش سبزیجات،پنیر زرد،کاهو،نان ترتیلا'},
+            {id:6,category:'ساندویچ',name:'ساندویچ رست بیف',images:{burgerlandsandwichrost},price:108400,material:'رست بیف،قارچ،پنیر ورقه ای،ریحان،سس اسموکی،سیب زمینی خلالی'},
+            {id:7,category:'نوشیدنی',name:'نوشابه قوطی',images:{burgerlandsoda},price:12000,material:'۳۳۰ میلی لیتر'},
+            {id:8,category:'نوشیدنی',name:'هی دی قوطی',images:{burgerlandheydey},price:13500,material:'۳۳۰ میلی لیتر'},
+            {id:9,category:'نوشیدنی',name:'اورنجینا',images:{burgerlandorengina},price:7500,material:'۳۲۰ میلی لیتر'},
+            {id:10,category:'پیش غذا',name:'سیب زمینی مخصوص',images:{burgerlandfries},price:61500,material:'۲۵۰ گرم سیب زمینی سرخ شده،ادویه مخصوص،پنیر پارمزان'},
+            {id:11,category:'پیش غذا',name:'سالاد برگرلند',images:{burgerlandsalad},price:103500,material:'کاهو فرانسوی سبز،کاهو فرانسوی قرمز،گوجه خشک در روغن،زیتون سیاه و گوجه گیلاسی'},
+            {id:12,category:'پیش غذا',name:'نان سیر',images:{burgerlandgarlicb},price:62500,material:'خمیر مخصوص،سس سیر و ریحان،پنیر مخصوص'},
         ]
         },
 
-        { id: 1, 
-          name: "شیلا", 
-          star:4,
-          score:6056,
+        { id: 4, 
+          name: "دان تان", 
+          star:4.4,
+          score:6990,
           address:'',
-          delivery:5000,
+          delivery:24000,
           logo:'',
           picture:'',
           coupon:false,
           discount:true,
-          categories: ["پیتزا", "سوخاری",'نوشیدنی','پیش غدا','خاچاپوری','هات داگ'] ,
+          categories: ["پیتزا", "سوخاری",'نوشیدنی','پیش غدا','برگر'] ,
           foods:[
-              {id:1,category:'پیتزا',name:'',images:'',price:145000,material:''},
+              {id:1,category:'پیتزا',name:'پیتزا پپرونی',images:'',price:143500,material:'خمیر تازه با سس تومیتو دان تان،پنیر موتزارلا و پارمسان'},
               {id:2,category:'پیتزا',name:'',images:'',price:165000,material:''},
               {id:3,category:'پیتزا',name:'',images:'',price:145000,material:''},
-              {id:4,category:'سوخاری',name:'',images:'',price:145000,material:''},
-              {id:5,category:'سوخاری',name:'',images:'',price:145000,material:''},
+              {id:4,category:'برگر',name:'',images:'',price:145000,material:''},
+              {id:5,category:'برگر',name:'',images:'',price:145000,material:''},
               {id:6,category:'سوخاری',name:'',images:'',price:145000,material:''},
               {id:7,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
               {id:8,category:'نوشیدنی',name:'',images:'',price:145000,material:''},
