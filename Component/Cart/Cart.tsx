@@ -7,13 +7,16 @@ import Deliveryman from '../../Assets/Icons/Deliveryman.svg';
 import Delete from "../../Assets/Icons/Delete.svg";
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
+import add from '../../Assets/Icons/add.svg'
 
 
 const Cart = () => {
 
     return(
 
-        <Grid sx={{ bgcolor:'red', maxWidth:'25%'}}>
+        <Grid display={'flex'} flexDirection={'column'}
+        gap={1}
+         sx={{ bgcolor:'red', maxWidth:'25%'}}>
             <Grid
             display={'flex'}
             alignItems='center'
@@ -55,11 +58,13 @@ const Cart = () => {
             flexDirection={'column'}
             alignItems='center'
             justifyContent={'space-between'}
+            gap={1.5}
             sx={{
                 height:'auto',
                 bgcolor:'white',
                 borderRadius:'0.5rem',
-                px:1
+                py:1 ,
+                px:1.5
             }}
             >
                 <Grid display={'flex'} alignItems={'center'} justifyContent={'space-between'} sx={{width:'100%'}}>
@@ -68,11 +73,11 @@ const Cart = () => {
                         <Image src={Delete} alt='' />
                     </IconButton>
                 </Grid>
-                <Grid display={'flex'} flexDirection={'column'}  sx={{width:'100%'}}>
+                <Grid display={'flex'} flexDirection={'column'} gap={1.5} sx={{width:'100%'}}>
                     <Typography variant="subtitle1">ساندویج</Typography>
                     <Grid display={'flex'} alignItems={'center'} justifyContent={'space-between'}>
                         <Typography variant="subtitle1"> ۲۶۸,۰۰۰ تومان</Typography>
-                        <Grid display={'flex'} alignItems={'center'}>
+                        <Grid display={'flex'} alignItems={'center'} gap={2}>
                             <IconButton sx={{width:'1rem', height:'1rem', border: '0.09375rem solid rgba(255, 0, 166, 0.06)', borderRadius:50}}><RemoveIcon  /></IconButton>
                             <Typography variant="subtitle1">1</Typography>
                             <IconButton sx={{ width:'1rem', height:'1rem', border: '0.09375rem solid rgba(255, 0, 166, 0.06)', borderRadius:50}}><AddIcon /></IconButton>
@@ -80,7 +85,7 @@ const Cart = () => {
                     </Grid>
                 </Grid>
                 <Divider sx={{color:'black', width:'90%'}}/>
-                <Grid sx={{width:'100%'}}>
+                <Grid display={'flex'} flexDirection={'column'} gap={1} sx={{width:'100%'}}>
                     <Grid display={'flex'} justifyContent={'space-between'} >
                         <Typography variant="subtitle1">مجموع</Typography>
                         <Typography variant="subtitle1"> ۱۹۱,۰۰۰ تومان</Typography>
@@ -99,8 +104,8 @@ const Cart = () => {
                         <Typography variant="subtitle1"> قابل پرداخت</Typography>
                         <Typography variant="subtitle1"> ۱۹۱,۰۰۰ تومان</Typography>
                 </Grid>
-                <TextareaAutosize placeholder="توضیحات سفارش..." style={{backgroundColor:'white', color:'black', minWidth:'80%', maxWidth:'80%', minHeight:'7rem'}}/>
-                <Button><Typography>ثبت سفارش</Typography></Button>
+                <TextareaAutosize placeholder="توضیحات سفارش..." style={{backgroundColor:'white', color:'black', minWidth:'95%', maxWidth:'95%', minHeight:'7rem', marginTop:12}}/>
+                <Button sx={{my:2}}><Typography>ثبت سفارش</Typography></Button>
             </Grid>
         </Grid>
 
