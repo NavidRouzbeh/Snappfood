@@ -56,7 +56,21 @@ import downtownturkey from '../../Assets/Images/downtown/downtown.pizza.turkey.j
 import downtownring from '../../Assets/Images/downtown/downtown.rings.jpeg';
 import downtownsprite from '../../Assets/Images/downtown/downtown.sprite.jpeg';
 import downtownwater from '../../Assets/Images/downtown/downtown.water.jpeg';
-
+//-------------grillguys--------------
+import grillfries from '../../Assets/Images/Grillguys/grill.appit.fries.jpg';
+import grillmac from '../../Assets/Images/Grillguys/grill.appit.mac.jpeg';
+import grillsalad from '../../Assets/Images/Grillguys/grill.appit.salad.jpg';
+import grilljossy from '../../Assets/Images/Grillguys/grill.burger.jossy.jpg';
+import grillmushroom from '../../Assets/Images/Grillguys/grill.burger.mushroom.jpg';
+import grillpatty from '../../Assets/Images/Grillguys/grill.burger.patty.jpg';
+import grillcoca from '../../Assets/Images/Grillguys/grill.drink.coca.jpg';
+import grillfanta from '../../Assets/Images/Grillguys/grill.drink.fanta.jpg';
+import grillwater from '../../Assets/Images/Grillguys/grill.drink.water.jpeg';
+import grillfried from '../../Assets/Images/Grillguys/grill.fried.jpg';
+import grillchicken from '../../Assets/Images/Grillguys/grill.sandwich.chicken.jpg';
+import grillrost from '../../Assets/Images/Grillguys/grill.sandwich.rostbeef.jpg';
+import grillback from '../../Assets/Images/Grillguys/Grillguys.back.jpg';
+import grilllogo from '../../Assets/Images/Grillguys/grillguys.logo.jpg';
 
 // ---------------------------------------------
 export const NavidData = [
@@ -167,7 +181,34 @@ export const NavidData = [
               {id:11,category:'پیش غذا',name:'بوفالو وینگز',images:{downtownbuffalo},price:79500,material:'کتف مرف تاباسکو با ماست یونانی'},
               {id:12,category:'پیش غذا',name:'سالاد یونانی',images:{downtownsalad},price:102500,material:'کاهوی لیتل جم،خیار،گوجه،زیتون سیاه،پنیر سفید فتا'},
           ]
-          }
+          },
+
+          { id: 5, 
+            name: "گریل گایز", 
+            star:4.6,
+            score:11436,
+            address:'',
+            delivery:7500,
+            logo:{grilllogo},
+            picture:{grillback},
+            coupon:false,
+            discount:true,
+            categories: ["ساندویچ", "سوخاری",'نوشیدنی','پیش غدا','برگر'] ,
+            foods:[
+                {id:1,category:'ساندویچ',name:'ساندویچ رست بیف',images:{grillrost},price:92700,material:'۱۲۵ گرم گوشت رست بیف، سیب زمینی، پنیر زرد ورقه ای، سس مخصوص، قارچ، ریحان'},
+                {id:2,category:'سوخاری',name:'فیله استریپس ۳ تکه نرمال',images:{grillfried},price:123900,material:'سه تکه فیله مرینت شده سوخاری، سیب زمینی سرخ کرده، نان سبوس، سس مخصوص'},
+                {id:3,category:'ساندویچ',name:'ساندویچ مِگا چیکن رپ',images:{grillchicken},price:88400,material:'۲ عدد فیله سوخاری، کاهو،سالسا گوجه، سس مخصوص'},
+                {id:4,category:'برگر',name:'پَتی مَتی',images:{grillpatty},price:105800,material:' گوشت تازه گوساله، ۲ اسلایس پنیر زرد، نان مخصوص، کاهو باتاویا، گوجه فرنگی، پیاز تازه، سس تاوزند آیلند، سس تارتار'},
+                {id:5,category:'برگر',name:'جوسی لوسی',images:{grilljossy},price:105800,material:' گوشت تازه گوساله، ۲ اسلایس پنیر زرد، نان مخصوص، کاهوی باتاویا، گوجه فرنگی، سس گریل گایز'},
+                {id:6,category:'برگر',name:'ماشروم لاورز',images:{grillmushroom},price:112700,material:' گوشت تازه گوساله، ۲ اسلایس پنیر امنتال، نان مخصوص، کریمینی ماشروم، میکس پیاز کاراملی و قارچ، کاهوی باتاویا، سس گریل گایز '},
+                {id:7,category:'نوشیدنی',name:'آب معدنی کوچک',images:{grillwater},price:4000,material:'۵۰۰ میلی لیتر'},
+                {id:8,category:'نوشیدنی',name:'نوشابه قوطی کوکاکولا',images:{grillcoca},price:12000,material:'۳۳۰ میلی لیتر'},
+                {id:9,category:'نوشیدنی',name:'نوشابه قوطی فانتا',images:{grillfanta},price:12000,material:'۳۳۰ میلی لیتر'},
+                {id:10,category:'پیش غذا',name:'مک اند چیز',images:{grillmac},price:55300,material:'۳ عدد توپ سوخاری شده(ترکیب پنیر و پاستا پنه )، سس مخصوص'},
+                {id:11,category:'پیش غذا',name:'گایز فرایز',images:{grillfries},price:56600,material:'سیب زمینی مخصوص با سس گایز فرایز'},
+                {id:12,category:'پیش غذا',name:'سالاد فکتوری چاپد',images:{grillsalad},price:67800,material:'کاهو فرانسه، کاهو پیچ، کاهو رسمی، سینه مرغ گریل شده، بیکن گریل شده، ذرت  گریل شده،  زیتون سیاه، جوانه شبدر، هویج، گشنیز، سس رنچ'},
+            ]
+            }
 
           
     
