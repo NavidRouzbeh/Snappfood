@@ -8,11 +8,15 @@ import SectionCardResturant from "../Component/Home/SectionCardResturantSwiper/S
 import CategoryContainer from "../Component/Home/SectionCategory/CategoryContainer";
 import SectionCities from "../Component/Home/SectionCities";
 import SectionFoodParty from "../Component/Home/SectionFoodParty/SectionFoodParty";
+import MobileCart from "../Component/Cart/MobileCart";
+
 
 export default function Home() {
   return (
     <>
-      <NavbarSection />
+
+    <MobileCart />
+      {/* <NavbarSection />
       <Grid
         container
         xs={12}
@@ -26,7 +30,7 @@ export default function Home() {
         <SectionApp />
         <RegistrationSeller />
         <SectionCities />
-      </Grid>
+      </Grid> */}
     </>
   );
 }
