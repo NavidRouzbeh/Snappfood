@@ -73,12 +73,12 @@ const MobileCart = () => {
                         </Grid>
                     </Grid>
                 </Grid>
-                <Divider sx={{color:'black', width:'90%'}}/>
+                <Divider sx={{color:'black', width:'97%'}}/>
                 <Grid display={'flex'} flexDirection={'column'} gap={1} sx={{width:'100%', mt:4}}>
                     <Typography variant="subtitle2">توضیحات</Typography>
                     <Typography variant="subtitle1">توضیحات سفارش خود را اینجا بنویسید</Typography>
                 </Grid>
-                <Divider sx={{color:'black', width:'90%'}}/>
+                <Divider sx={{color:'black', width:'97%'}}/>
                 <Grid display={'flex'} justifyContent={'space-between'} sx={{width:'100%', mt:4}}>
                         <Typography variant="subtitle1"> جمع سفارش </Typography>
                         <Typography variant="subtitle1"> ۱۶۶,۰۰۰ تومان</Typography>
@@ -98,8 +98,8 @@ const MobileCart = () => {
             </Grid>
             <Grid>
                 <Grid display={'flex'} flexDirection={'column'} sx={{width:'100%'}}>
-                        <Divider sx={{color:'black', width:'90%'}}/>
-                        <Grid display={'flex'} justifyContent={'space-between'} alignItems={'center'} sx={{width:'100%'}}>
+                        <Divider sx={{color:'black', width:'97%'}}/>
+                        <Grid display={'flex'} justifyContent={'space-between'} alignItems={'center'} sx={{width:'100%', px:4}}>
                             <Grid >
                                 <Typography variant="subtitle1">جمع کل</Typography>
                                 <Typography variant="subtitle1">۱۸۸,۴۴۰ تومان</Typography>
