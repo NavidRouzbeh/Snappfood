@@ -98,33 +98,4 @@ export const DataBase = [
             {id:14,category:'سوخاری',name:'چیکن استریپس',images:pitko14,price:169000,material:'۴ عدد فیله مرغ، سالاد کلم، سیب زمینی سرخ کرده، نان بروچن، سس سیر ،سس سانتافه(مخصوص تند) ،سس انار'},
         ]
         },
-        { id: 3, 
-            name: "تیک آف", 
-            star:4,
-            score:6056,
-            address:'',
-            delivery:5000,
-            logo:'',
-            picture:'',
-            coupon:false,
-            discount:true,
-            categories: ["سالاد", "نوشیدنی",'ساندویچ','سوخاری','پیتزا'] ,
-            foods:[
-                {id:1,category:'سالاد',name:'',images:'',price:145000,material:''},
-                {id:2,category:'سالاد',name:'',images:'',price:165000,material:''},
-                {id:3,category:'سوخاری',name:'',images:'',price:145000,material:''},
-                {id:4,category:'سوخاری',name:'',images:'',price:145000,material:''},
-                {id:5,category:'سوخاری',name:'',images:'',price:145000,material:''},
-                {id:6,category:'سوخاری',name:'',images:'',price:145000,material:''},
-                {id:7,category:'ساندویچ ',name:'',images:'',price:145000,material:''},
-                {id:8,category:'ساندویچ ',name:'',images:'',price:145000,material:''},
-                {id:9,category:'ساندویچ ',name:'',images:'',price:145000,material:''},
-                {id:10,category:'ساندویچ',name:'',images:'',price:145000,material:''},
-                {id:11,category:'ساندویچ ',name:'',images:'',price:145000,material:''},
-                {id:12,category:'پیتزا',name:'',images:'',price:145000,material:''},
-                {id:13,category:'پیتزا',name:'',images:'',price:145000,material:''},
-                {id:14,category:'پیتزا',name:'',images:'',price:145000,material:''},
-    
-            ]
-            },
   ];
