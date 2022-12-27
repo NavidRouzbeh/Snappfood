@@ -2,23 +2,40 @@ import { Grid } from "@mui/material";
 import { wrap } from "module";
 import { useRef } from "react";
 import Cardpopular from "./CardPopular";
-
-const SectionPopular=()=>{
-  const foodRef=useRef<null>(null)
-  const apptizerRef=useRef<null>(null)
-  const drinkRef=useRef<null>(null)
-  const scrollToSection=(elementRef:any)=>{
-    window.scrollTo({
-      top:elementRef.current.offsetTop,
-      behavior:"smooth"
-    })
-  }
+interface SectionPopularType {
+  market:{}
+}
+const SectionPopular=({market}:SectionPopularType)=>{
+  // const foodRef=useRef<null>(null)
+  // const apptizerRef=useRef<null>(null)
+  // const drinkRef=useRef<null>(null)
+  // const scrollToSection=(elementRef:any)=>{
+  //   window.scrollTo({
+  //     top:elementRef.current.offsetTop,
+  //     behavior:"smooth"
+  //   })
+  // }
+  console.log(market[0].categories)
     return(
       
 
      <Grid  border={"1px solid #EBEDF0"}  item xs={12} sm={6} >
       <Grid >
-        <Grid xs={12} textAlign={'center'} p={2} ref={foodRef}>{' غذاها'}</Grid>
+      
+        {market[0].categories?.map(cat=>(
+          <>
+                <Grid xs={12} textAlign={'center'} p={2} >{cat}</Grid>
+                  <Grid display={'flex'} flexWrap={'wrap'} >
+                    <Cardpopular/>
+                    <Cardpopular/>
+                    <Cardpopular/>
+                    <Cardpopular/>
+                  </Grid>
+           </>
+        ))}
+   
+
+        {/* <Grid xs={12} textAlign={'center'} p={2} >{' غذاها'}</Grid>
         <Grid display={'flex'} flexWrap={'wrap'} >
           <Cardpopular/>
           <Cardpopular/>
@@ -39,8 +56,9 @@ const SectionPopular=()=>{
           <Cardpopular/>
           <Cardpopular/>
         </Grid>
-      </Grid>
+      </Grid> */}
     </Grid>
+  </Grid>
 
 
 
