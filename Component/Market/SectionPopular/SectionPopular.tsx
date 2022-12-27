@@ -16,7 +16,7 @@ const SectionPopular=()=>{
     return(
       
 
-     <Grid  border={"1px solid #EBEDF0"}  width={'100%'}>
+     <Grid  border={"1px solid #EBEDF0"}  item xs={12} sm={6} >
       <Grid >
         <Grid xs={12} textAlign={'center'} p={2} ref={foodRef}>{' غذاها'}</Grid>
         <Grid display={'flex'} flexWrap={'wrap'} >

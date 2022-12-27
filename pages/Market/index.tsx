@@ -9,12 +9,12 @@ import CommentDes from "../../Component/Market/Comment/CommentDes";
 
 const market=()=>{
     return(
-        <Grid display={'flex'} pt={10}>
+        <Grid display={'flex'} pt={10} container>
            <Rec/>
            <SectionPopular/>
            <Cart />
-           <Comment  />
-          <CommentDes/>
+           {/* <Comment  />
+          <CommentDes/> */}
         </Grid>
      
 
