@@ -7,9 +7,9 @@ import Layout from '../Component/Layout/Layout'
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
-      {/* <Layout> */}
+      <Layout>
         <Component {...pageProps} />
-      {/* </Layout> */}
+      </Layout>
     </ThemeProvider>
   )
 }

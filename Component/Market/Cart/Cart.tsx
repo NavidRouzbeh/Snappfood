@@ -1,10 +1,10 @@
 import { Grid, IconButton, Typography, Divider, Button } from "@mui/material";
 import TextareaAutosize from '@mui/base/TextareaAutosize';
 import Image from "next/image";
-import DeliveryTime from "../../Assets/Icons/DeliveryTime.svg";
-import CartDownArrow from "../../Assets/Icons/CartDownArrow.svg";
-import Deliveryman from '../../Assets/Icons/Deliveryman.svg';
-import Delete from "../../Assets/Icons/Delete.svg";
+import DeliveryTime from "../../../Assets/Icons/DeliveryTime.svg";
+import CartDownArrow from "../../../Assets/Icons/CartDownArrow.svg";
+import Deliveryman from '../../../Assets/Icons/Deliveryman.svg';
+import Delete from "../../../Assets/Icons/Delete.svg";
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 import add from '../../Assets/Icons/add.svg'
