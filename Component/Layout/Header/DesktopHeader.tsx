@@ -86,7 +86,7 @@ const DesktopHeader = () => {
 
             <Grid display={{ sm: 'flex', md: 'none' }} gap={2}>
                 <Grid>
-                    <IconButton>
+                    <IconButton onClick={handleOpen}>
                         <SearchIcon />
                     </IconButton>
                 </Grid>
