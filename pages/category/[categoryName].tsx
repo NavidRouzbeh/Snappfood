@@ -14,19 +14,22 @@ interface CategoryNameProps {
 const CategoryName = ({markets}:CategoryNameProps) => {
     console.log(markets)
     return(
-
+    
         <Grid>
             <SortingDropDown/>
-            <VendorCard/>
+            {markets.map(market=>
+              <VendorCard/>
+            )}
+            
             <CategorySidebarContainer/>
         </Grid>
     )
 
 }
 
-export async function getStaticProps(contex:GetStaticPropsContext) {
+export async function getStaticProps(context:GetStaticPropsContext) {
 
-    const markets = await getMarkets(contex.params?.categoryName)  
+    const markets = await getMarkets(context.params?.categoryName)  
 
     return {
       props: {
