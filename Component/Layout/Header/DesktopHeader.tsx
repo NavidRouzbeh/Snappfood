@@ -36,7 +36,7 @@ const DesktopHeader = () => {
 
     return (
 
-        <Grid container position={'fixed'} zIndex={1200} justifyContent={'space-between'} alignItems={'center'} sx={{ bgcolor: '#F9FAFB', width: '100%', height: '4.5rem', p: '1rem' }}>
+        <Grid display={'flex'} position={'sticky'} zIndex={1200} justifyContent={'space-between'} alignItems={'center'} sx={{ bgcolor: '#F9FAFB', width: '100%', height: '4.5rem', p: '1rem' }}>
 
             <Grid item display={'flex'} gap={3} alignItems={'center'} >
                 <Grid>

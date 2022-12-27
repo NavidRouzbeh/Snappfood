@@ -15,14 +15,22 @@ const CategoryName = ({markets}:CategoryNameProps) => {
     console.log(markets)
     return(
     
-        <Grid>
+        <Grid display={'flex'} flexDirection={'column'} sx={{width:'100%', px:30}}>
+          <Grid display={'flex'} justifyContent={'flex-end'} sx={{width:'100%'}}>
             <SortingDropDown/>
-            {markets.map(market=>
-              <VendorCard/>
-            )}
-            
-            <CategorySidebarContainer/>
+          </Grid>
+          <Grid display={'flex'} flexDirection={'row'} sx={{width:'100%'}}>
+            <Grid>
+              <CategorySidebarContainer/>
+            </Grid>
+            <Grid>
+              {markets.map(market=>
+                <VendorCard/>
+              )}
+            </Grid>
+          </Grid>
         </Grid>
+
     )
 
 }
