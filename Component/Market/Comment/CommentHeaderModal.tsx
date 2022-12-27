@@ -1,8 +1,8 @@
 import React from 'react'
 import { Grid, Typography } from '@mui/material'
 import Image from 'next/image'
-import pic from "../../../assets/images/sun.jpeg"
-import pic1 from "../../../assets/images/map.png"
+import pic from "../../../Assets/Images/sun.jpeg"
+import pic1 from "../../../Assets/Images/map.png"
 import MnueComment from './MnueComment';
 const CommentHeaderModal = () => {
     return (

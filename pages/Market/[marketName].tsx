@@ -5,6 +5,8 @@ import Rec from "../../Component/Market/rectangular/Rec"
 import Cart from "../../Component/Market/Cart/Cart"
 import { getFoodMarket } from "../../API/getFoodMarket"
 import { MainData } from "../../Data/Main/MainData"
+import Comment from "../../Component/Market/Comment/Comment"
+import CommentDes from "../../Component/Market/Comment/CommentDes"
 
 interface MarketNameProps {
     market:{}
@@ -19,8 +21,8 @@ const MarketName = ({market}:MarketNameProps) => {
            <Rec/>
            <SectionPopular/>
            <Cart />
-           {/* <Comment  />
-          <CommentDes/> */}
+           <Comment  />
+          <CommentDes/>
         </Grid>
      
     )
