@@ -56,9 +56,15 @@ import Sahar2 from '../../Assets/Images/ImageDatabase/sahar/crosan2.jpg'
 import Sahar3 from '../../Assets/Images/ImageDatabase/sahar/nan1.jpg'
 //-----------------------------------------------------------------------
 import Yas from '../../Assets/Images/ImageDatabase/yas.jpg'
-
-
-
+import Yas1 from '../../Assets/Images/ImageDatabase/nan1.jpg'
+import Yas2 from '../../Assets/Images/ImageDatabase/nan2.jpg'
+//nuts
+import Shaklogo from '../../Assets/Images/ImageDatabase/shak/logoshak.jpg'
+import Shak from '../../Assets/Images/ImageDatabase/shak/shak.jpg'
+import Shak1 from '../../Assets/Images/ImageDatabase/shak/badam1.jpg'
+import Shak2 from '../../Assets/Images/ImageDatabase/shak/badam2.jpg'
+import Shak3 from '../../Assets/Images/ImageDatabase/shak/badam3.jpg'
+import Shak4 from '../../Assets/Images/ImageDatabase/shak/badam4.jpg'
 
 
 
@@ -185,15 +191,32 @@ export const DataBase = [
             address:'پیروزی، صد دستگاه، نبش کوچه رشیدی، نان سنگک سنتی یاس',
             delivery:20000,
             logo:Saharlogo,
-            picture:Zari,
+            picture:Yas,
             coupon:false,
             discount:true,
             categories: ["سنگک"] ,
             foods:[
-                {id:1,category:'',name:'',images:Pitko1,price:199000,material:''},
-                {id:2,category:'',name:'',images:Pitko2,price:219000,material:''},
-                {id:3,category:'',name:'پیتزا آمریکانو ایتالیایی',images:Pitko3,price:179000,material:''},
-                {id:4,category:'',name:'همبرگر',images:Pitko4,price:125000,material:''},
+                {id:1,category:'سنگک',name:'سنگک سنتی دو رو کنجد',images:Yas1,price:10000,material:'یک عدد'},
+                {id:2,category:'سنگک',name:'سنگک سنتی ساده بزرگ',images:Yas2,price:7000,material:'بک عدد'},
+            ]
+        },
+        { id: 7, 
+            category:'nuts',
+            name: "آجیل و خشکبار شکپوی", 
+            star:4.7,
+            score:723,
+            address:'دلگشا، کوچه شهید رضایی، بلوار نیکنام شرقی، پلاک ۴۶، آجیل و خشکبار شکپوی',
+            delivery:30000,
+            logo:Shaklogo,
+            picture:Shak,
+            coupon:false,
+            discount:true,
+            categories: ["آجیل شور","آجیل خام"] ,
+            foods:[
+                {id:1,category:'آجیل شور',name:'بادام هندی شور',images:Shak1,price:10000,material:'بادام هندی ۲۴۰ شور ۲۵۰ گرم'},
+                {id:2,category:'آجیل شور',name:'آجیل مغز شور',images:Shak2,price:510000,material:'مغز پسته، مغز فندق، مغز بادام، مغز بادام هندی سایز ۳۲۰'},
+                {id:3,category:'آجیل خام',name:'آجیل چهار مغز خام',images:Shak3,price:420000,material:'پسته احمد آقایی خام با پوست، فندق خام، بادام درختی خام، بادام هندی خام'},
+                {id:4,category:'آجیل خام',name:'پسته احمد آقایی خام',images:Shak4,price:540000,material:'محصول: رفسنجان'},
             ]
         },
 ];
