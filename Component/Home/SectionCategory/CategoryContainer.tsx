@@ -5,7 +5,7 @@ import { categorydata } from "../../../Data/CategorySection/CategorySection.data
 
 const CategoryContainer = () => {
   return (
-    <Grid xs={11} position={'relative'} top={{xs:230,sm:80}}>
+    <Grid container xs={11} my={6}>
       <Grid p={3} mr={{ md: 1 }}>
         <Typography variant="subtitle2" sx={{ color: "rgb(83, 86, 92)" }}>
           دسته‌ بندی‌ ها

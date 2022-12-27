@@ -9,7 +9,7 @@ const Header = () => {
     const isDesktop = useMediaQuery(theme.breakpoints.up("sm"));
 
     return(
-        <Grid>
+        <Grid xs={12} position={'sticky'}>
             {isDesktop? (<DesktopHeader/>):(<MobileHeader/>)}
         </Grid>
     )

@@ -2,8 +2,22 @@ import { Divider, Grid, Typography } from "@mui/material";
 import StarIcon from "@mui/icons-material/Star";
 import Image from "next/image";
 import disi from "../../../Assets/Images/disi.jpeg";
+import ModalCartParty from "../SwipperPartySection/ModalCartParty/ModalCartParty";
+import React, { useState } from "react";
+
+
+export interface ModalBoxProps {
+  open: boolean,
+  // setOpen:(arg0: boolean)=> boolean
+  setOpen: (arg0: boolean) => boolean
+}
+// console.log(handleOpen)
 import star from "../../../Assets/Svgs/star.svg";
 const CardPartyDesktop = () => {
+  const [open, setOpen] = useState<boolean>(false)
+
+  const handleOpen = () => setOpen(!open);
+
   return (
     <Grid
       minWidth={'90%'}
@@ -15,8 +29,9 @@ const CardPartyDesktop = () => {
       borderRadius={"0.5rem"}
       sx={{ cursor: "pointer" }}
       // boxShadow={"0px 2px 8px rgba(0,0,0,0.08),0px 8px 32px rgba(0,0,0,0.16)"}
-   
+      onClick={handleOpen}
     >
+      <ModalCartParty setOpen={setOpen} open={open}/>
       <Grid
         height={"20rem"}
         display={"flex"}
