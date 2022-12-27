@@ -56,6 +56,7 @@ import Sahar2 from '../../Assets/Images/ImageDatabase/sahar/crosan2.jpg'
 import Sahar3 from '../../Assets/Images/ImageDatabase/sahar/nan1.jpg'
 //-----------------------------------------------------------------------
 import Yas from '../../Assets/Images/ImageDatabase/yas.jpg'
+import Yaslogo from '../../Assets/Images/ImageDatabase/logoyas.jpg'
 import Yas1 from '../../Assets/Images/ImageDatabase/nan1.jpg'
 import Yas2 from '../../Assets/Images/ImageDatabase/nan2.jpg'
 //nuts
@@ -190,7 +191,7 @@ export const DataBase = [
             score:558,
             address:'پیروزی، صد دستگاه، نبش کوچه رشیدی، نان سنگک سنتی یاس',
             delivery:20000,
-            logo:Saharlogo,
+            logo:Yaslogo,
             picture:Yas,
             coupon:false,
             discount:true,
