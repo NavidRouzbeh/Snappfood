@@ -61,14 +61,7 @@ const DesktopHeader = () => {
                     aria-labelledby="modal-modal-title"
                     aria-describedby="modal-modal-description"
                 >
-
-                    <Box >
-                        <Typography>
-                            search
-                        </Typography>
-                    </Box>
-
-
+                    <SearchBar/>
                 </Modal>
                 {/* <TextField id="filled-basic" label="جستجو در اسنپ فود" variant="filled" /> */}
             </Grid>
