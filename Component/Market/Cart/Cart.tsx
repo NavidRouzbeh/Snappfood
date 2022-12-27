@@ -15,8 +15,11 @@ const Cart = () => {
     return(
 
         <Grid display={'flex'} flexDirection={'column'}
-        gap={1}
-         sx={{ bgcolor:'red', maxWidth:'25%'}}>
+        gap={1} 
+        item
+        xs={12} 
+         md={3}
+         sx={{ bgcolor:'red'}}>
             <Grid
             display={'flex'}
             alignItems='center'
