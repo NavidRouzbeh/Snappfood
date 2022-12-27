@@ -15,14 +15,9 @@ const SectionPopular=()=>{
   }
     return(
       
-      <Grid display={'flex'} >
-      <Grid width={'50%'}>
-      <Grid onClick={()=>scrollToSection(foodRef)} >{' غذاها'}</Grid>
-      <Grid onClick={()=>scrollToSection(apptizerRef)}>{' پیش غذا'}</Grid>
-      <Grid onClick={()=>scrollToSection(drinkRef)}>{' نوشیدنی'}</Grid>
-      </Grid>
-     <Grid  border={"1px solid #EBEDF0"} my={20} width={'50%'}>
-      <Grid xs={12}>
+
+     <Grid  border={"1px solid #EBEDF0"}  width={'100%'}>
+      <Grid >
         <Grid xs={12} textAlign={'center'} p={2} ref={foodRef}>{' غذاها'}</Grid>
         <Grid display={'flex'} flexWrap={'wrap'} >
           <Cardpopular/>
@@ -46,7 +41,7 @@ const SectionPopular=()=>{
         </Grid>
       </Grid>
     </Grid>
-      </Grid>
+
 
 
     )
