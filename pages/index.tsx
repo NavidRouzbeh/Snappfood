@@ -1,4 +1,3 @@
-
 import Grid from "@mui/material/Grid";
 import NavbarSection from "../Component/Home/NavbarSection/NavbarSection";
 import RegistrationSeller from "../Component/Home/RegistrationSeller";
