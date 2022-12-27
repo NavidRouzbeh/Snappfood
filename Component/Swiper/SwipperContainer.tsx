@@ -13,6 +13,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Pagination, Navigation } from "swiper";
 import { Grid } from "@mui/material";
+import DesktopVendor from "../VendorCard/DesktopVendorCard";
 interface SwiperPropsType{
   children:ReactNode,
 }
@@ -58,8 +59,7 @@ const SwipperContainer = ({children}:SwiperPropsType) => {
             },
           }}
         >
-         {children}
-  
+          {children}
         </Swiper>
         <Grid onClick={handlePrevSlide}  bgcolor={'common.white'} width={40} height={40} sx={{cursor:'pointer',zIndex:100,left:0,top:'45%'}}  borderRadius={'50%'} display={{xs:'none',md:'flex'}} alignItems={'center'} justifyContent={'center'} position={'absolute'} boxShadow={'rgb(58 61 66 / 6%) 0px 1px 0px, rgb(0 0 0 / 20%) 0px 4px 16px -8px'}>
           <ArrowBackIosRoundedIcon color={'primary'}/>

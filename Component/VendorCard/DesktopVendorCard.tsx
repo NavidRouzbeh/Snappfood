@@ -11,13 +11,13 @@ const DesktopVendor = () => {
 
     return(
 
-    <Card  sx={{height:'21.3125rem', width:'18.5rem' }}>
+    <Card  sx={{height:'21.3125rem', width:'21rem',my:2,cursor:'pointer'}}>
       
       <Grid sx={{height:'40%'}}>
-        <Image src={Background} alt="" style={{height: '100%', objectFit:'cover'}} />
+        <Image src={Background} alt="" style={{height: '100%',width:'100%', objectFit:'cover'}} />
       </Grid>
       <Grid sx={{position:'relative', height:'%60'}} display={'flex'} justifyContent={'center'}>
-        <Grid sx={{position:'absolute', right:100, top:-66}} >
+        <Grid sx={{position:'absolute', right:100, top:-66}} boxShadow={2} >
           <Image src={Logo} alt="" style={{ 
             width:'5.5rem',
             height: '5.5rem',

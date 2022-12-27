@@ -6,9 +6,23 @@ import Image from "next/image";
 import food from '../../../Assets/Images/food2.jpeg'
 import peik from '../../../Assets/Svgs/peik.svg'
 
+
+import { useState } from "react";
+import ModalCartParty from "../SwipperPartySection/ModalCartParty/ModalCartParty";
+
+export interface ModalBoxProps {
+    open: boolean,
+    // setOpen:(arg0: boolean)=> boolean
+    setOpen: (arg0: boolean) => boolean
+  }
 const CardPartyMobile = () => {
+
+   
+        const [open, setOpen] = useState<boolean>(false)
+      
+        const handleOpen = () => setOpen(!open);
     return ( 
-        <Grid  boxShadow={'0 2px 12px 0 rgba(0, 0, 0, 0.1)'} minWidth={272} width={'70vw'}  p={1} sx={{cursor:'pointer'}} >
+        <Grid  boxShadow={'0 2px 12px 0 rgba(0, 0, 0, 0.1)'} minWidth={272} width={'70vw'}  p={1} sx={{cursor:'pointer'}}    onClick={handleOpen}>
             <Grid  mb={1.5} display={'flex'} gap={1.5}>
                 <Grid >
                     <Image src={food} alt={'food'} style={{width:'82px',height:'82px',border:'1px solid rgb(166, 179, 199)',borderRadius:5}}  />
@@ -54,7 +68,7 @@ const CardPartyMobile = () => {
                     </Grid>
                 </Grid>
             </Grid>
-
+            <ModalCartParty setOpen={setOpen} open={open}/>
         </Grid>
      );
 }
