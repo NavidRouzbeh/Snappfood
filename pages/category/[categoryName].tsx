@@ -3,6 +3,7 @@ import { Grid } from "@mui/material";
 import { GetStaticProps, GetStaticPropsContext } from "next";
 import { getMarkets } from "../../API/getMarkets";
 import CategorySidebarContainer from "../../Component/CategorySidebar/CategorySidebarContainer";
+import NavbarSection from "../../Component/Home/NavbarSection/NavbarSection";
 import SortingDropDown from "../../Component/SortingDropDown/SortingDropDown";
 import VendorCard from "../../Component/VendorCard/VendorCard";
 import { categoryData } from "../../Data/Main/categoryData";
@@ -14,13 +15,15 @@ interface CategoryNameProps {
 const CategoryName = ({markets}:CategoryNameProps) => {
     console.log(markets)
     return(
-    
-        <Grid display={'flex'} flexDirection={'column'} sx={{width:'100%', px:30}}>
+
+        <>
+        <NavbarSection/>
+        <Grid display={'flex'} flexDirection={'column'} sx={{py:10, px:2}}>
           <Grid display={'flex'} justifyContent={'flex-end'} sx={{width:'100%'}}>
             <SortingDropDown/>
           </Grid>
           <Grid display={'flex'} flexDirection={'row'} sx={{width:'100%'}}>
-            <Grid>
+            <Grid sx={{minWidth:'25%'}}>
               <CategorySidebarContainer/>
             </Grid>
             <Grid>
@@ -30,6 +33,7 @@ const CategoryName = ({markets}:CategoryNameProps) => {
             </Grid>
           </Grid>
         </Grid>
+        </>
 
     )
 
