@@ -36,7 +36,7 @@ const DesktopHeader = () => {
 
     return (
 
-        <Grid display={'flex'} position={'sticky'} zIndex={1200} justifyContent={'space-between'} alignItems={'center'} sx={{ bgcolor: '#F9FAFB', width: '100%', height: '4.5rem', p: '1rem' }}>
+        <Grid display={'flex'} position={'fixed'} zIndex={1200} justifyContent={'space-between'} alignItems={'center'} sx={{ bgcolor: '#F9FAFB', width: '100%', height: '4.5rem', p: '1rem' }}>
 
             <Grid item display={'flex'} gap={3} alignItems={'center'} >
                 <Grid>
@@ -47,13 +47,13 @@ const DesktopHeader = () => {
                 </Grid>
             </Grid>
 
-            <Grid display={{ sm: 'none', md: "flex" }}>
+            <Grid position={'relative'}  sx={{left:105}} display={{ sm: 'none', md: "flex" }}>
                 <Button onClick={handleOpen}
                     style={{ color: 'rgb(166, 170, 173)', backgroundColor: 'rgb(235, 237, 240)', width: '29vw', height: '3rem', borderRadius: '0.625rem' }}>
-                    <SearchIcon />
-
-
-                    جست‌وجو در اسنپ‌فود
+                    <Grid display={'flex'} justifyContent={'flex-start'} sx={{width:'100%'}}>
+                        <SearchIcon />
+                        جست‌وجو در اسنپ‌فود
+                    </Grid>
                 </Button>
                 <Modal
                     open={open}
