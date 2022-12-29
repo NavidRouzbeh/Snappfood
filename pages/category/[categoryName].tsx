@@ -4,6 +4,7 @@ import { GetStaticProps, GetStaticPropsContext } from "next";
 import { getMarkets } from "../../API/getMarkets";
 import CategorySidebarContainer from "../../Component/CategorySidebar/CategorySidebarContainer";
 import SortingDropDown from "../../Component/SortingDropDown/SortingDropDown";
+import DesktopVendor from "../../Component/VendorCard/DesktopVendorCard";
 import VendorCard from "../../Component/VendorCard/VendorCard";
 import { categoryData } from "../../Data/Main/categoryData";
 interface CategoryNameProps {
@@ -17,8 +18,8 @@ const CategoryName = ({markets}:CategoryNameProps) => {
     
         <Grid>
             <SortingDropDown/>
-            {markets.map(market=>
-              <VendorCard/>
+            {markets.map((market:{})=>
+              <DesktopVendor {...market}/>
             )}
             
             <CategorySidebarContainer/>
