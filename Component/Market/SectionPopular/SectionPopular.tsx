@@ -15,25 +15,27 @@ const SectionPopular=({market}:SectionPopularType)=>{
   //     behavior:"smooth"
   //   })
   // }
-  console.log(market[0].categories)
+  console.log(market[0])
     return(
       
 
      <Grid  border={"1px solid #EBEDF0"}  item xs={12} sm={6} >
       <Grid >
-      
-        {market[0].categories?.map(cat=>(
+      {market.map(res=>(
+        <Grid>
+        {res.categories?.map(cat=>(
           <>
                 <Grid xs={12} textAlign={'center'} p={2} >{cat}</Grid>
                   <Grid display={'flex'} flexWrap={'wrap'} >
-                    <Cardpopular/>
-                    <Cardpopular/>
-                    <Cardpopular/>
-                    <Cardpopular/>
+                    {res.foods.filter(food=>food.category===cat).map(food=>(
+                     <Cardpopular/>
+                    ))}
+          
                   </Grid>
            </>
         ))}
-   
+        </Grid>
+           ))}
 
         {/* <Grid xs={12} textAlign={'center'} p={2} >{' غذاها'}</Grid>
         <Grid display={'flex'} flexWrap={'wrap'} >
