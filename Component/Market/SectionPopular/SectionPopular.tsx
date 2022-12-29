@@ -1,4 +1,4 @@
-import { Grid } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import { wrap } from "module";
 import { useRef } from "react";
 import Cardpopular from "./CardPopular";
@@ -25,10 +25,10 @@ const SectionPopular=({market}:SectionPopularType)=>{
         <Grid>
         {res.categories?.map(cat=>(
           <>
-                <Grid xs={12} textAlign={'center'} p={2} >{cat}</Grid>
+                <Grid xs={12} textAlign={'center'} p={2} ><Typography variant="subtitle1"fontWeight={700} color={'rgb(83, 86, 92)'}>{cat}</Typography></Grid>
                   <Grid display={'flex'} flexWrap={'wrap'} >
                     {res.foods.filter(food=>food.category===cat).map(food=>(
-                     <Cardpopular/>
+                     <Cardpopular food={food}/>
                     ))}
           
                   </Grid>
