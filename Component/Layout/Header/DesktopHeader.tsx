@@ -10,6 +10,7 @@ import { useState } from "react";
 import SearchBar from "../../Home/SectionSearch/SearchBar";
 import ProfileDesktop from "../../Home/SectionProfile/ProfileDesktop";
 import SectionOrders from "../../Home/SectionOrders/SectionOrders";
+import Link from "next/link";
 
 const DesktopHeader = () => {
 
@@ -39,9 +40,11 @@ const DesktopHeader = () => {
         <Grid container position={'fixed'} zIndex={1200} justifyContent={'space-between'} alignItems={'center'} sx={{ bgcolor: '#F9FAFB', width: '100%', height: '4.5rem', p: '1rem' }}>
 
             <Grid item display={'flex'} gap={3} alignItems={'center'} >
+                <Link href='/'>
                 <Grid>
                     <Image src={SnappLogo} alt="" style={{ width: '68px', height: '34px' }} />
                 </Grid>
+                </Link>
                 <Grid>
                     <Typography variant="body2"> <Image src={ProfileIcon} alt="" />تهران، محله سعادت آباد، بلوار جوریکی،نبش کوچه نهم غربی</Typography>
                 </Grid>
