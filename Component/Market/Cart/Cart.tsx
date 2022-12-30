@@ -16,7 +16,7 @@ const Cart = () => {
 
         <Grid display={'flex'} flexDirection={'column'}
         gap={1}
-         sx={{maxWidth:'25%'}}>
+         sx={{maxWidth:'33%'}}>
             <Grid
             display={'flex'}
             alignItems='center'
@@ -105,7 +105,7 @@ const Cart = () => {
                         <Typography variant="body1" fontWeight={800}> ۱۹۱,۰۰۰ تومان</Typography>
                 </Grid>
                 <TextareaAutosize placeholder="توضیحات سفارش..." style={{backgroundColor:'white', color:'black', minWidth:'95%', maxWidth:'95%', minHeight:'7rem', marginTop:12}}/>
-                <Button sx={{my:2, bgcolor:'primary.main'}}><Typography sx={{color:'white'}}>ثبت سفارش</Typography></Button>
+                <Button sx={{my:2, bgcolor:'primary.main', width:'95%'}}><Typography sx={{color:'white'}}>ثبت سفارش</Typography></Button>
             </Grid>
         </Grid>
 
