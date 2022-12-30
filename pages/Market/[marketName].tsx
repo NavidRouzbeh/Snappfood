@@ -14,15 +14,16 @@ interface MarketNameProps {
 
 
 const MarketName = ({market}:MarketNameProps) => {
-    console.log(market)
+    // console.log(market)
     return(
     
         <Grid display={'flex'} pt={10} container>
-           <Rec/>
-           <SectionPopular/>
-           <Cart />
+           {/* <Rec/> */}
            <Comment  />
           <CommentDes/>
+           <SectionPopular/>
+           <Cart />
+         
         </Grid>
      
     )

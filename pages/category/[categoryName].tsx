@@ -12,7 +12,7 @@ interface CategoryNameProps {
 
 
 const CategoryName = ({markets}:CategoryNameProps) => {
-    console.log(markets)
+    // console.log(markets)
     return(
     
         <Grid>
