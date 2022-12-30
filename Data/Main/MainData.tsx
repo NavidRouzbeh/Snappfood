@@ -264,12 +264,12 @@ import Saharlogo from '../../Assets/Images/ImageDatabase/sahar/logosahar.jpg'
 import Sahar from '../../Assets/Images/ImageDatabase/sahar/sahar.jpg'
 import Sahar1 from '../../Assets/Images/ImageDatabase/sahar/crosan1.jpg'
 import Sahar2 from '../../Assets/Images/ImageDatabase/sahar/crosan2.jpg'
-import Sahar3 from '../../Assets/Images/ImageDatabase/sahar/nan1.jpg'
+// import Sahar3 from '../../Assets/Images/ImageDatabase/sahar/nan1.jpg'
 //-----------------------------------------------------------------------
-import Yas from '../../Assets/Images/ImageDatabase/yas.jpg'
-import Yaslogo from '../../Assets/Images/ImageDatabase/logoyas.jpg'
-import Yas1 from '../../Assets/Images/ImageDatabase/nan1.jpg'
-import Yas2 from '../../Assets/Images/ImageDatabase/nan2.jpg'
+// import Yas from '../../Assets/Images/ImageDatabase/yas.jpg'
+// import Yaslogo from '../../Assets/Images/ImageDatabase/logoyas.jpg'
+// import Yas1 from '../../Assets/Images/ImageDatabase/nan1.jpg'
+// import Yas2 from '../../Assets/Images/ImageDatabase/nan2.jpg'
 //nuts
 import Shaklogo from '../../Assets/Images/ImageDatabase/shak/logoshak.jpg'
 import Shak from '../../Assets/Images/ImageDatabase/shak/shak.jpg'
@@ -279,12 +279,12 @@ import Shak3 from '../../Assets/Images/ImageDatabase/shak/badam3.jpg'
 import Shak4 from '../../Assets/Images/ImageDatabase/shak/badam4.jpg'
 //-------------------------------------------------------------------
 //Papa
-import Papa from "../../Assets/Images/ImageDataBase/Confectionery/Papa/Papa.jpg"
-import PapaLogo from "../../Assets/Images/ImageDataBase/Confectionery/Papa/Papa-Logo.jpg"
-import PapaCake1 from "../../Assets/Images/ImageDataBase/Confectionery/Papa/Papa-Cake-1.jpg"
-import PapaCake2 from "../../Assets/Images/ImageDataBase/Confectionery/Papa/Papa-Cake-2.jpg"
-import PapaBirth1 from "../../Assets/Images/ImageDataBase/Confectionery/Papa/Papa-Birth-1.jpg"
-import PapaBirth2 from "../../Assets/Images/ImageDataBase/Confectionery/Papa/Papa-Birth-2.jpg"
+// import Papa from "../../Assets/Images/ImageDataBase/Confectionery/Papa/Papa.jpg"
+// import PapaLogo from "../../Assets/Images/ImageDataBase/Confectionery/Papa/Papa-Logo.jpg"
+// import PapaCake1 from "../../Assets/Images/ImageDataBase/Confectionery/Papa/Papa-Cake-1.jpg"
+// import PapaCake2 from "../../Assets/Images/ImageDataBase/Confectionery/Papa/Papa-Cake-2.jpg"
+// import PapaBirth1 from "../../Assets/Images/ImageDataBase/Confectionery/Papa/Papa-Birth-1.jpg"
+// import PapaBirth2 from "../../Assets/Images/ImageDataBase/Confectionery/Papa/Papa-Birth-2.jpg"
 //TavakoliFar
 
 import TavakliFar from "../../Assets/Images/ImageDataBase/Confectionery/TavakliFar/TavakliFar.jpg"
@@ -295,10 +295,10 @@ import TavakliFarChocolate1 from "../../Assets/Images/ImageDataBase/Confectioner
 import TavakliFarChocolate2 from "../../Assets/Images/ImageDataBase/Confectionery/TavakliFar/TavakliFar-Chocolate-2.jpeg"
 
 //Shahrivar
-import Shahrivar from "../../Assets/Images/ImageDataBase/juice/Shahrivar/Shahrivar.jpg"
-import ShahrivarLogo from "../../Assets/Images/ImageDataBase/juice/Shahrivar/Shahrivar0Logo.jpg"
-import IcePack1 from "../../Assets/Images/ImageDataBase/juice/Shahrivar/IcePack-1.jpg"
-import IcePack2 from "../../Assets/Images/ImageDataBase/juice/Shahrivar/IcePack-2.jpg"
+// import Shahrivar from "../../Assets/Images/ImageDataBase/juice/Shahrivar/Shahrivar.jpg"
+// import ShahrivarLogo from "../../Assets/Images/ImageDataBase/juice/Shahrivar/Shahrivar0Logo.jpg"
+// import IcePack1 from "../../Assets/Images/ImageDataBase/juice/Shahrivar/IcePack-1.jpg"
+// import IcePack2 from "../../Assets/Images/ImageDataBase/juice/Shahrivar/IcePack-2.jpg"
 
 //Bahar
 
@@ -787,26 +787,26 @@ export const MainData = [
       foods:[
           {id:1,category:'صبحانه',name:'کروسان شکلاتی',images:Sahar1,price:20000,material:'آرد گندم، تخم مرغ، کره مارگارین، کره لایه ای، شکلات،مخمر، نمک، شکر، بهبود دهنده، آب'},
           {id:2,category:'صبحانه',name:'شیرمال خرما و گردو',images:Sahar2,price:21000,material:'آرد گندم، وانیل، گردو، چیپس خرما، دارچین، کرمفیل، تخم مـرغ، کره مارگارین، مخمر، نمک، شکر، بهبود دهنده، آب'},
-          {id:3,category:'نان تیره و رژیمی',name:'نان جو دوسر',images:Sahar3,price:12000,material:'جو ،آرد،آب'},
+          {id:3,category:'نان تیره و رژیمی',name:'نان جو دوسر',images:Sahar2,price:12000,material:'جو ،آرد،آب'},
       ]
   },
-  { id: 18, 
-      category:'bakery',
-      name: "نان سنگک سنتی یاس", 
-      star:4.4,
-      score:558,
-      address:'پیروزی، صد دستگاه، نبش کوچه رشیدی، نان سنگک سنتی یاس',
-      delivery:20000,
-      logo:Yaslogo,
-      picture:Yas,
-      coupon:false,
-      discount:true,
-      categories: ["سنگک"] ,
-      foods:[
-          {id:1,category:'سنگک',name:'سنگک سنتی دو رو کنجد',images:Yas1,price:10000,material:'یک عدد'},
-          {id:2,category:'سنگک',name:'سنگک سنتی ساده بزرگ',images:Yas2,price:7000,material:'بک عدد'},
-      ]
-  },
+  // { id: 18, 
+  //     category:'bakery',
+  //     name: "نان سنگک سنتی یاس", 
+  //     star:4.4,
+  //     score:558,
+  //     address:'پیروزی، صد دستگاه، نبش کوچه رشیدی، نان سنگک سنتی یاس',
+  //     delivery:20000,
+  //     logo:Yaslogo,
+  //     picture:Yas,
+  //     coupon:false,
+  //     discount:true,
+  //     categories: ["سنگک"] ,
+  //     foods:[
+  //         {id:1,category:'سنگک',name:'سنگک سنتی دو رو کنجد',images:Yas1,price:10000,material:'یک عدد'},
+  //         {id:2,category:'سنگک',name:'سنگک سنتی ساده بزرگ',images:Yas2,price:7000,material:'بک عدد'},
+  //     ]
+  // },
   { id: 19, 
       category:'nuts',
       name: "آجیل و خشکبار شکپوی", 
@@ -826,25 +826,25 @@ export const MainData = [
           {id:4,category:'آجیل خام',name:'پسته احمد آقایی خام',images:Shak4,price:540000,material:'محصول: رفسنجان'},
       ]
   },
-  { id: 20, 
-    category:'confectionery', 
-    name: "شیرینی پاپا (ساعی)", 
-    star:4.6,
-    score:6927,
-    address:'یوسف آباد بین خیابان ۱۳ و ۱۵، پلاک ۱۲۵، سوسیس کالباس خوشمزه',
-    delivery:9500,
-    logo:PapaLogo,
-    picture:Papa,
-    coupon:false,
-    discount:true,
-    categories: ["کیک", " لوازم تولد"] ,
-    foods:[
-        {id:1,category:'کیک',name:'کیک شکلاتی (یخچالی) متوسط',images:PapaCake2,price:84400,material:'± ۵۰ گرم، طرح دکور متغیر  '},
-        {id:2,category:'کیک',name:'کیک اشکی شکلاتی بزرگ',images:PapaCake1,price:15000,material:'± ۵۰ گرم، طرح دکور متغیر'},
-        {id:3,category:' لوازم تولد',name:'فشفشه روی کیک',images:PapaBirth1,price:60000,material:'یک بسته'},
-        {id:4,category:' لوازم تولد',name:'ظروف یک بار مصرف کاغذی',images:PapaBirth2,price:35000,material:'۱۰ عدد'},
-    ]
-    },
+  // { id: 20, 
+  //   category:'confectionery', 
+  //   name: "شیرینی پاپا (ساعی)", 
+  //   star:4.6,
+  //   score:6927,
+  //   address:'یوسف آباد بین خیابان ۱۳ و ۱۵، پلاک ۱۲۵، سوسیس کالباس خوشمزه',
+  //   delivery:9500,
+  //   logo:PapaLogo,
+  //   picture:Papa,
+  //   coupon:false,
+  //   discount:true,
+  //   categories: ["کیک", " لوازم تولد"] ,
+  //   foods:[
+  //       {id:1,category:'کیک',name:'کیک شکلاتی (یخچالی) متوسط',images:PapaCake2,price:84400,material:'± ۵۰ گرم، طرح دکور متغیر  '},
+  //       {id:2,category:'کیک',name:'کیک اشکی شکلاتی بزرگ',images:PapaCake1,price:15000,material:'± ۵۰ گرم، طرح دکور متغیر'},
+  //       {id:3,category:' لوازم تولد',name:'فشفشه روی کیک',images:PapaBirth1,price:60000,material:'یک بسته'},
+  //       {id:4,category:' لوازم تولد',name:'ظروف یک بار مصرف کاغذی',images:PapaBirth2,price:35000,material:'۱۰ عدد'},
+  //   ]
+  //   },
     { id: 21, 
            category:'confectionery', 
             name: "قنادی توکلی فر تبریزی", 
@@ -867,24 +867,24 @@ export const MainData = [
 
 
 
-            { id: 22,
-                category:'juice',  
-                name: "آبمیوه و بستنی شهریور", 
-                star:4,
-                score:6056,
-                address:'خیابان ولیعصر، بالاتر از میدان ولیعصر، روبروی اداره گمرک، پلاک ۱۷۸۸ ، آبمیوه بستنی شهریور',
-                delivery:5000,
-                logo:ShahrivarLogo,
-                picture:Shahrivar,
-                coupon:false,
-                discount:true,
-                categories: ["آیس پک", "سوخاری",'نوشیدنی','پیش غدا','خاچاپوری','هات داگ'] ,
-                foods:[
-                    {id:1,category:'آیس پک',name:'آیس شکلات',images:IcePack1,price:145000,material:''},
-                    {id:2,category:'آیس پک',name:' آیس شاه توت',images:IcePack2,price:38000,material:'موز اسمارتیز خامه'},
+            // { id: 22,
+            //     category:'juice',  
+            //     name: "آبمیوه و بستنی شهریور", 
+            //     star:4,
+            //     score:6056,
+            //     address:'خیابان ولیعصر، بالاتر از میدان ولیعصر، روبروی اداره گمرک، پلاک ۱۷۸۸ ، آبمیوه بستنی شهریور',
+            //     delivery:5000,
+            //     logo:ShahrivarLogo,
+            //     picture:Shahrivar,
+            //     coupon:false,
+            //     discount:true,
+            //     categories: ["آیس پک", "سوخاری",'نوشیدنی','پیش غدا','خاچاپوری','هات داگ'] ,
+            //     foods:[
+            //         {id:1,category:'آیس پک',name:'آیس شکلات',images:IcePack1,price:145000,material:''},
+            //         {id:2,category:'آیس پک',name:' آیس شاه توت',images:IcePack2,price:38000,material:'موز اسمارتیز خامه'},
                                        
-            ]
-                },
+            // ]
+            //     },
 
 
 
