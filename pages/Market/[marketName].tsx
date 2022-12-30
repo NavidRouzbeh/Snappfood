@@ -7,6 +7,7 @@ import { getFoodMarket } from "../../API/getFoodMarket"
 import { MainData } from "../../Data/Main/MainData"
 import Comment from "../../Component/Market/Comment/Comment"
 import CommentDes from "../../Component/Market/Comment/CommentDes"
+import MarketSection from "../../Component/Market/MarketSection"
 
 interface MarketNameProps {
     market:{}

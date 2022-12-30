@@ -10,6 +10,7 @@ import { useMediaQuery } from '@mui/material';
 import MobileVendorCard from '../../VendorCard/MobileVendorCard';
 import CardResturantMobile from './CardResturantMobile';
 import HeaderCardResturant from './HeaderCardResturant';
+import { MainData } from '../../../Data/Main/MainData';
 
 const CardResturantDesktop =()=>{
   const m:number[]=[0,1,3,4,5,6,7,8];
@@ -20,8 +21,8 @@ const CardResturantDesktop =()=>{
                 <HeaderCardResturant {...item}/>
                 <Grid xs={11.5}>
                     <SwipperContainer>
-                        {m.map(item=>(
-                            <SwiperSlide><DesktopVendor/></SwiperSlide>
+                        {MainData.filter(res=>res.coupon===false).map(item=>(
+                            <SwiperSlide><DesktopVendor {...item}/></SwiperSlide>
                         ))}
                     </SwipperContainer>
                 </Grid>
