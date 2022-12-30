@@ -5,6 +5,7 @@ import { getMarkets } from "../../API/getMarkets";
 import CategorySidebarContainer from "../../Component/CategorySidebar/CategorySidebarContainer";
 import NavbarSection from "../../Component/Home/NavbarSection/NavbarSection";
 import SortingDropDown from "../../Component/SortingDropDown/SortingDropDown";
+import DesktopVendor from "../../Component/VendorCard/DesktopVendorCard";
 import VendorCard from "../../Component/VendorCard/VendorCard";
 import { categoryData } from "../../Data/Main/categoryData";
 interface CategoryNameProps {

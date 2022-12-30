@@ -92,7 +92,54 @@ import CafeFlorePotatoes3 from "../../Assets/Images/ImageDataBase/FloreCafe/Cafe
 import CafeFloreBeer from "../../Assets/Images/ImageDataBase/FloreCafe/CafeFlore-Beer.jpg"
 import CafeFlorePanini1 from "../../Assets/Images/ImageDataBase/FloreCafe/CafeFlore-Panini-1.jpeg"
 import CafeFlorePanini2 from "../../Assets/Images/ImageDataBase/FloreCafe/CafeFlore-Panini-2.jpeg"
- export const DataBase = [
+ 
+//lkjhg
+
+import SausageProtein1 from "../../Assets/Images/ImageDataBase/protein/Sausage/Sausage-Protein-1.jpg"
+import SausageProtein2 from "../../Assets/Images/ImageDataBase/protein/Sausage/Sausage-Protein-2.jpg"
+import Proteincocktail1 from "../../Assets/Images/ImageDataBase/protein/Sausage/Protein-cocktail-1.jpg"
+import Proteincocktail2 from "../../Assets/Images/ImageDataBase/protein/Sausage/Protein-cocktail-2.jpg"
+import Proteincocktail1  from "../../Assets/Images/ImageDataBase/protein/Sausage/Protein-cocktail-1.jpg"
+import Proteincocktail2  from "../../Assets/Images/ImageDataBase/protein/Sausage/Protein-cocktail-2.jpg"
+
+//Zikhorak
+import ZikhorakLogo from "../../Assets/Images/ImageDataBase/protein/Zikhorak/Zikhorak-Logo.jpeg"
+import Zikhorak from "../../Assets/Images/ImageDataBase/protein/Zikhorak/Zikhorak.jpeg"
+import ZikhorakRefrigerator1 from "../../Assets/Images/ImageDataBase/protein/Zikhorak/Zikhorak-Refrigerator-1.jpeg"
+import ZikhorakRefrigerator2 from "../../Assets/Images/ImageDataBase/protein/Zikhorak/Zikhorak-Refrigerator-2.jpeg"
+import ZikhorakMeat1 from "../../Assets/Images/ImageDataBase/protein/Zikhorak/Zikhorak-Meat-1.jpeg"
+import ZikhorakMeat2 from "../../Assets/Images/ImageDataBase/protein/Zikhorak/Zikhorak-Meat-2.jpeg"
+
+//Papa
+import Papa from "../../Assets/Images/ImageDataBase/Confectionery/Papa/Papa.jpg"
+import PapaLogo from "../../Assets/Images/ImageDataBase/Confectionery/Papa/Papa-Logo.jpg"
+import PapaCake1 from "../../Assets/Images/ImageDataBase/Confectionery/Papa/Papa-Cake-1.jpg"
+import PapaCake2 from "../../Assets/Images/ImageDataBase/Confectionery/Papa/Papa-Cake-2.jpg"
+import PapaBirth1 from "../../Assets/Images/ImageDataBase/Confectionery/Papa/Papa-Birth-1.jpg"
+import PapaBirth2 from "../../Assets/Images/ImageDataBase/Confectionery/Papa/Papa-Birth-2.jpg"
+//TavakoliFar
+
+import TavakliFar from "../../Assets/Images/ImageDataBase/Confectionery/TavakliFar/TavakliFar.jpg"
+import TavakliFarLogo from "../../Assets/Images/ImageDataBase/Confectionery/TavakliFar/TavakliFar-Logo.jpg"
+import TavakliFarmixed1 from "../../Assets/Images/ImageDataBase/Confectionery/TavakliFar/TavakliFar-mixed-1.jpeg"
+import TavakliFarmixed2 from "../../Assets/Images/ImageDataBase/Confectionery/TavakliFar/TavakliFar-mixed-2.jpeg"
+import TavakliFarChocolate1 from "../../Assets/Images/ImageDataBase/Confectionery/TavakliFar/TavakliFar-Chocolate-1.jpeg"
+import TavakliFarChocolate2 from "../../Assets/Images/ImageDataBase/Confectionery/TavakliFar/TavakliFar-Chocolate-2.jpeg"
+
+//Shahrivar
+import Shahrivar from "../../Assets/Images/ImageDataBase/juice/Shahrivar/Shahrivar.jpg"
+import ShahrivarLogo from "../../Assets/Images/ImageDataBase/juice/Shahrivar/Shahrivar0Logo.jpg"
+import IcePack1 from "../../Assets/Images/ImageDataBase/juice/Shahrivar/IcePack-1.jpg"
+import IcePack2 from "../../Assets/Images/ImageDataBase/juice/Shahrivar/IcePack-2.jpg"
+
+//Bahar
+
+import Bahar from "../../Assets/Images/ImageDataBase/juice/Bahar/Bahar.jpg"
+import BaharLogo from "../../Assets/Images/ImageDataBase/juice/Bahar/Bahar-Logo.jpg"
+import Icecream1 from "../../Assets/Images/ImageDataBase/juice/Bahar/Icecream-1.jpg"
+import Icecream2 from "../../Assets/Images/ImageDataBase/juice/Bahar/Icecream-2.jpg"
+
+export const DataBase = [
    
     { id: 1, 
       name: "آقاجون", 
@@ -224,6 +271,7 @@ import CafeFlorePanini2 from "../../Assets/Images/ImageDataBase/FloreCafe/CafeFl
                 ]   
                 },
                 { id: 5, 
+                   
                     name: "کافه رستوران فلوره", 
                     star:4.4,
                     score:398,
@@ -251,5 +299,124 @@ import CafeFlorePanini2 from "../../Assets/Images/ImageDataBase/FloreCafe/CafeFl
                         {id:14,category:'پنینی',name:'پنینی مرغ',images:CafeFlorePanini2,price:95000,material:'فیله مرغ، سس مخصوص، نان چاباتا، پنیر مطهر'},
                     ]
                     },
+                    { id: 6, 
+                        category:'protein', 
+                        name: "سوسیس کالباس خوشمزه", 
+                        star:4.4,
+                        score:398,
+                        address:'یوسف آباد بین خیابان ۱۳ و ۱۵، پلاک ۱۲۵، سوسیس کالباس خوشمزه',
+                        delivery:7500,
+                        logo:SausageProtein2,
+                        picture:SausageProtein1,
+                        coupon:false,
+                        discount:true,
+                        categories: ["سوسیس هات داگ", "برگر"] ,
+                        foods:[
+                            {id:1,category:'سوسیس هات داگ',name:'هات داگ ممتاز آندره (۷۰ درصد)',images:Proteincocktail1,price:58000,material:''},
+                            {id:2,category:'سوسیس هات داگ',name:'کوکتل ممتاز آرمن ۷۰ درصد',images:Proteincocktail2,price:75000,material:''},
+                            {id:3,category:'برگر',name:'رویال برگر ۹۵ درصد آندره ',images:Proteincocktail1,price:100000,material:''},
+                            {id:4,category:'برگر',name:'استیک برگر ۹۵ درصد ۲۰۲',images:Proteincocktail2,price:144300,material:''},
+                        ]
+                        },
+                        { id: 7, 
+                            category:'protein', 
+                            name: "پروتئین زی خوراک (شعبه ستارخان)ه", 
+                            star:4.6,
+                            score:13398,
+                            address:'یوسف آباد بین خیابان ۱۳ و ۱۵، پلاک ۱۲۵، سوسیس کالباس خوشمزه',
+                            delivery:9500,
+                            logo:ZikhorakLogo,
+                            picture:Zikhorak,
+                            coupon:false,
+                            discount:true,
+                            categories: ["منجمدویخچالی", "فرآورده گوشتی"] ,
+                            foods:[
+                                {id:1,category:'منجمد و یخچالی',name:'پیتزا گوشت و قارچ زی خوراک منجمد',images:ZikhorakRefrigerator1,price:84400,material:'± ۵۰ گرم'},
+                                {id:2,category:'منجمد و یخچالی',name:'کوکتل ممتاز آرمن ۷۰ درصد',images:ZikhorakRefrigerator2,price:139500,material:'منجمد و خام'},
+                                {id:3,category:'فرآورده گوشتی',name:'رویال فرآورده گوشتی ۹۵ درصد آندره ',images:ZikhorakMeat1,price:100000,material:''},
+                                {id:4,category:'فرآورده گوشتی',name:'استیک برگر ۹۵ درصد ۲۰۲',images:ZikhorakMeat2,price:144300,material:''},
+                            ]
+                            },
+                            { id: 8, 
+                                category:'confectionery', 
+                                name: "شیرینی پاپا (ساعی)", 
+                                star:4.6,
+                                score:6927,
+                                address:'یوسف آباد بین خیابان ۱۳ و ۱۵، پلاک ۱۲۵، سوسیس کالباس خوشمزه',
+                                delivery:9500,
+                                logo:PapaLogo,
+                                picture:Papa,
+                                coupon:false,
+                                discount:true,
+                                categories: ["کیک", " لوازم تولد"] ,
+                                foods:[
+                                    {id:1,category:'کیک',name:'کیک شکلاتی (یخچالی) متوسط',images:PapaCake2,price:84400,material:'± ۵۰ گرم، طرح دکور متغیر  '},
+                                    {id:2,category:'کیک',name:'کیک اشکی شکلاتی بزرگ',images:PapaCake1,price:15000,material:'± ۵۰ گرم، طرح دکور متغیر'},
+                                    {id:3,category:' لوازم تولد',name:'فشفشه روی کیک',images:PapaBirth1,price:60000,material:'یک بسته'},
+                                    {id:4,category:' لوازم تولد',name:'ظروف یک بار مصرف کاغذی',images:PapaBirth2,price:35000,material:'۱۰ عدد'},
+                                ]
+                                },
+                                { id: 9, 
+                                       category:'confectionery', 
+                                        name: "قنادی توکلی فر تبریزی", 
+                                        star:4.3,
+                                        score:3056,
+                                        address:'ولیعصر، ابتدای خیابان فاطمی، روبروی مترو جهاد پلاک ۱۱، قنادی توکلی فر تبریزی',
+                                        delivery:7500,
+                                        logo:TavakliFarLogo,
+                                        picture:TavakliFar,
+                                        coupon:false,
+                                        discount:true,
+                                        categories: ["شیرینی تر ", "شکلات"] ,
+                                        foods:[
+                                            {id:1,category:'شیرینی تر ',name:'شیرینی تر مخلوط',images:TavakliFarmixed1,price:162000,material:'± ۵۰ گرم، تشکیل شده از: انواع شیرینی تر مخلوط خامه ای'},
+                                            {id:2,category:'شیرینی تر ',name:'شیرینی ماکارون انواع طعم',images:TavakliFarmixed2,price:127000,material:'تشکیل شده از: انواع ماکارون'},
+                                            {id:3,category:'شکلات ',name:'آب نبات زنجبیل',images:TavakliFarChocolate1,price:145000,material:'500گرم'},
+                                            {id:4,category:'شکلات ',name:'شکلات تلخ فله ۷۸ درصد',images:TavakliFarChocolate2,price:130000,material:'برند صادراتی لوکاکو از معتبرترین برند های موجود در صنعت شکلات'},                      
+                                    ]
+                                        },
+
+
+
+                                        { id: 10,
+                                            category:'juice',  
+                                            name: "آبمیوه و بستنی شهریور", 
+                                            star:4,
+                                            score:6056,
+                                            address:'خیابان ولیعصر، بالاتر از میدان ولیعصر، روبروی اداره گمرک، پلاک ۱۷۸۸ ، آبمیوه بستنی شهریور',
+                                            delivery:5000,
+                                            logo:ShahrivarLogo,
+                                            picture:Shahrivar,
+                                            coupon:false,
+                                            discount:true,
+                                            categories: ["آیس پک", "سوخاری",'نوشیدنی','پیش غدا','خاچاپوری','هات داگ'] ,
+                                            foods:[
+                                                {id:1,category:'آیس پک',name:'آیس شکلات',images:IcePack1,price:145000,material:''},
+                                                {id:2,category:'آیس پک',name:' آیس شاه توت',images:IcePack2,price:38000,material:'موز اسمارتیز خامه'},
+                                                                   
+                                        ]
+                                            },
+
+
+
+                                            { id: 1, 
+                                                name: "بهار", 
+                                                star:5,
+                                                score:16056,
+                                                address:'خیابان بهار شمالی، روبروی منبع آب، نبش کوچه ابن سین، اپلاک ۴۶۹، آبمیوه بهار',
+                                                delivery:5000,
+                                                logo:BaharLogo,
+                                                picture:Bahar,
+                                                coupon:false,
+                                                discount:true,
+                                                categories: ["بستنی"],
+                                                foods:[
+                                                    {id:1,category:'بستنی',name:' بستنی میوه ای لیوانی',images:Icecream1,price:20000,material:'۴ اسکوپ بستنی شرکتی، در طعم های محتلف'},
+                                                    {id:2,category:'بستنی',name:'بستنی میوه ای اسکوپی',images:Icecream2,price:60000,material:'شرکتی، در طعم های محتلف'},
+                                                  
+                                            ]
+                                                },
+                                                
   ];
+
   

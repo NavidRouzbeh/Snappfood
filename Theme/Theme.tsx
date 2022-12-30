@@ -124,6 +124,13 @@ export const theme = createTheme({
         fontWeight:400,
         color:'rgb(166,170,173)',
         lineHeight:'0.75rem'
+    },
+
+    body1:{
+        fontSize:'0.875rem',
+        fontWeight:400,
+        color:'rgb(58, 61, 66)',
+        lineHeight:'1.25rem'
     }
   }
 });
