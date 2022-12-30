@@ -16,7 +16,7 @@ const Cart = () => {
 
         <Grid display={'flex'} flexDirection={'column'}
         gap={1}
-         sx={{ bgcolor:'red', maxWidth:'25%'}}>
+         sx={{maxWidth:'25%'}}>
             <Grid
             display={'flex'}
             alignItems='center'
@@ -30,7 +30,7 @@ const Cart = () => {
             >
                 <Grid display={'flex'} >
                     <Image src={DeliveryTime} alt='' />
-                    <Typography variant="subtitle1" sx={{pr:'5px'}}>دریافت در سریع‌ترین زمان ممکن</Typography>
+                    <Typography variant="body1" sx={{pr:'5px'}}>دریافت در سریع‌ترین زمان ممکن</Typography>
                 </Grid>
                 <Grid>
                     <Image src={CartDownArrow} alt='' />
@@ -50,7 +50,7 @@ const Cart = () => {
             >
                 <Grid display={'flex'} >
                     <Image src={Deliveryman} alt='' />
-                    <Typography variant="subtitle1" sx={{pr:'5px'}}>پیک فروشنده رایگان</Typography>
+                    <Typography variant="body1" sx={{pr:'5px'}}>پیک فروشنده رایگان</Typography>
                 </Grid>
             </Grid>
             <Grid
@@ -68,18 +68,18 @@ const Cart = () => {
             }}
             >
                 <Grid display={'flex'} alignItems={'center'} justifyContent={'space-between'} sx={{width:'100%'}}>
-                    <Typography variant="subtitle1">سبد خرید</Typography>
+                    <Typography variant="body1" fontWeight={800}>سبد خرید</Typography>
                     <IconButton>
                         <Image src={Delete} alt='' />
                     </IconButton>
                 </Grid>
                 <Grid display={'flex'} flexDirection={'column'} gap={1.5} sx={{width:'100%'}}>
-                    <Typography variant="subtitle1">ساندویج</Typography>
+                    <Typography variant="body1" fontWeight={800}>ساندویج</Typography>
                     <Grid display={'flex'} alignItems={'center'} justifyContent={'space-between'}>
-                        <Typography variant="subtitle1"> ۲۶۸,۰۰۰ تومان</Typography>
+                        <Typography variant="body1"> ۲۶۸,۰۰۰ تومان</Typography>
                         <Grid display={'flex'} alignItems={'center'} gap={2}>
                             <IconButton sx={{width:'1rem', height:'1rem', border: '0.09375rem solid rgba(255, 0, 166, 0.06)', borderRadius:50}}><RemoveIcon  /></IconButton>
-                            <Typography variant="subtitle1">1</Typography>
+                            <Typography variant="body1">1</Typography>
                             <IconButton sx={{ width:'1rem', height:'1rem', border: '0.09375rem solid rgba(255, 0, 166, 0.06)', borderRadius:50}}><AddIcon /></IconButton>
                         </Grid>
                     </Grid>
@@ -87,25 +87,25 @@ const Cart = () => {
                 <Divider sx={{color:'black', width:'90%'}}/>
                 <Grid display={'flex'} flexDirection={'column'} gap={1} sx={{width:'100%'}}>
                     <Grid display={'flex'} justifyContent={'space-between'} >
-                        <Typography variant="subtitle1">مجموع</Typography>
-                        <Typography variant="subtitle1"> ۱۹۱,۰۰۰ تومان</Typography>
+                        <Typography variant="body1">مجموع</Typography>
+                        <Typography variant="body1"> ۱۹۱,۰۰۰ تومان</Typography>
                     </Grid>
                     <Grid display={'flex'} justifyContent={'space-between'}>
-                        <Typography variant="subtitle1">مالیات</Typography>
-                        <Typography variant="subtitle1">رایگان</Typography>
+                        <Typography variant="body1">مالیات</Typography>
+                        <Typography variant="body1">رایگان</Typography>
                     </Grid>
                     <Grid display={'flex'} justifyContent={'space-between'}>
-                        <Typography variant="subtitle1">هزینه ارسال</Typography>
-                        <Typography variant="subtitle1">رایگان</Typography>
+                        <Typography variant="body1">هزینه ارسال</Typography>
+                        <Typography variant="body1">رایگان</Typography>
                     </Grid>
                 </Grid>
                 <Divider sx={{color:'black', width:'90%'}}/>
                 <Grid display={'flex'} justifyContent={'space-between'} sx={{width:'100%'}}>
-                        <Typography variant="subtitle1"> قابل پرداخت</Typography>
-                        <Typography variant="subtitle1"> ۱۹۱,۰۰۰ تومان</Typography>
+                        <Typography variant="body1" fontWeight={800}> قابل پرداخت</Typography>
+                        <Typography variant="body1" fontWeight={800}> ۱۹۱,۰۰۰ تومان</Typography>
                 </Grid>
                 <TextareaAutosize placeholder="توضیحات سفارش..." style={{backgroundColor:'white', color:'black', minWidth:'95%', maxWidth:'95%', minHeight:'7rem', marginTop:12}}/>
-                <Button sx={{my:2}}><Typography>ثبت سفارش</Typography></Button>
+                <Button sx={{my:2, bgcolor:'primary.main'}}><Typography sx={{color:'white'}}>ثبت سفارش</Typography></Button>
             </Grid>
         </Grid>
 
