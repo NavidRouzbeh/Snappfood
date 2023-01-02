@@ -22,7 +22,7 @@ const MarketName = ({market}:MarketNameProps) => {
            {/* <Rec/> */}
            <Comment  />
           <CommentDes/>
-           <SectionPopular/>
+           <SectionPopular market={market}/>
            <Cart />
          
         </Grid>

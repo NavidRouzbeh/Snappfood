@@ -5,6 +5,7 @@ interface CardpopularProps {
 }
 
 const Cardpopular=({food}:CardpopularProps)=>{
+
     return(
      <Grid border={1} borderColor={'#EBEDF0'} p={2} width={{xs:'100%',md:'50%'}}>
         <Grid display={'flex'} flexDirection={'column'}>
@@ -21,7 +22,7 @@ const Cardpopular=({food}:CardpopularProps)=>{
              <Grid><Typography>{`${food.price} تومان`}</Typography></Grid>
              <Grid boxShadow={2} ><Button > {'افزودن'}</Button></Grid>
            </Grid>
-      
+
         </Grid>
       </Grid>
     )

@@ -1,6 +1,6 @@
 import Divider  from "@mui/material/Divider";
-import Grid from "@mui/material/Grid/Grid";
-import Typography from "@mui/material/Typography/Typography";
+import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
 import Image from "next/image";
 import Cardimg from '../../../Assets/Images/HomeImages/SearchImages/kabab.jpeg'
 

@@ -1,5 +1,5 @@
-import Grid from "@mui/material/Grid/Grid";
-import Typography from "@mui/material/Typography/Typography";
+import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
 import KeyboardArrowLeftRoundedIcon from '@mui/icons-material/KeyboardArrowLeftRounded';
 
 interface NavbarSearchDataTypeProps{

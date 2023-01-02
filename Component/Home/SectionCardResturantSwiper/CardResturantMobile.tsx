@@ -1,5 +1,5 @@
-import Grid from "@mui/material/Grid/Grid";
-import Typography from "@mui/material/Typography/Typography";
+import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
 import MobileVendorCard from "../../VendorCard/MobileVendorCard";
 import { Cardtitleresturant } from "../../../Data/CardResturant/CardResturant";
 import HeaderCardResturant from "./HeaderCardResturant";
