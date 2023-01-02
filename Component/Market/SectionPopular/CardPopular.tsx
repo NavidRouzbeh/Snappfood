@@ -33,7 +33,7 @@ import {useDispatch} from "react-redux";
 import {addItems} from "../../../Redux/slice/cartSlice";
 
 interface CardpopularProps {
-    food: {}
+    food: any
 }
 
 const Cardpopular = ({food}: CardpopularProps) => {
@@ -47,7 +47,7 @@ const Cardpopular = ({food}: CardpopularProps) => {
                         <Typography variant="subtitle1">{food.material}</Typography>
                     </Grid>
                     <Grid>
-                        <Image src={food.image} alt={'food'} width={112} height={112} style={{borderRadius: 4}}/>
+                        <Image src={food.images} alt={'food'} width={112} height={112} style={{borderRadius: 4}}/>
                     </Grid>
                 </Grid>
                 <Grid display={'flex'} justifyContent={'space-between'}>

@@ -18,11 +18,12 @@ const CategoryName = ({markets}:CategoryNameProps) => {
     
         <Grid>
             <SortingDropDown/>
-            {markets.map((market:{})=>
-              <DesktopVendor {...market}/>
-            )}
-            
-            <CategorySidebarContainer/>
+            <Grid marginY={2} p={4}>
+                {markets.map((market:{})=>
+                    <DesktopVendor {...market}/>
+                )}
+            </Grid>
+            {/*<CategorySidebarContainer/>*/}
         </Grid>
     )
 

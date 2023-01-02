@@ -14,7 +14,7 @@ const NavbarSearch = ({num,title}:NavbarSearchDataTypeProps) =>{
                 <Typography variant={'subtitle1'} fontSize={'0.8rem'} color={'rgb(58, 61, 66)'}>{title}</Typography>
             </Grid>
             <Grid display={'flex'} alignItems={'center'}>
-                <Typography variant={'subtitle1'} fontSize={'0.8rem'} color={'success.main'}>مشاهده همه ({num})</Typography>
+                <Typography variant={'subtitle1'} fontSize={'0.8rem'} color={'success.main'}>تعداد ({num})</Typography>
                 <KeyboardArrowLeftRoundedIcon color="success"/>
             </Grid>
         </Grid>

@@ -9,19 +9,18 @@ const cartSlice = createSlice({
         addItems: (state, action) => {
             const {payload} = action
             const index = state.findIndex((item) => item.name === payload.name)
-            if (index !== -1 ){
+            if (index === -1) {
                 state.push({...payload, count: 1})
+            } else {
+                state[index].count = state[index].count + 1
             }
-            state[index].count = state[index].count + 1
         },
         decreaseItem: (state, action) => {
-            //payload => name
             const {payload} = action
             const index = state.findIndex((item) => item.name === payload)
             state[index].count = state[index].count - 1
         },
         increaseItem: (state, action) => {
-            //payload => name
             const {payload} = action
             const index = state.findIndex((item) => item.name === payload)
             state[index].count = state[index].count + 1
@@ -29,10 +28,10 @@ const cartSlice = createSlice({
         deleteItem: (state, action) => {
             const {payload} = action
             const index = state.findIndex((item) => item.name === payload)
-            state.slice(index, 1)
+            state.splice(index, 1)
         },
         deleteAll: (state, action) => {
-            state.slice(0, state.length)
+            state.splice(0, state.length)
         },
     }
 })

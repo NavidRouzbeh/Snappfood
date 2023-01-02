@@ -1,3 +1,4 @@
 export const handleTotalExpense = (cart: []) => {
-    return cart.reduce((init, item: any) => init = item.price + init, 0)
+    console.log(cart)
+    return cart.reduce((init, item: any) => init + (item.price * item.count), 0)
 }

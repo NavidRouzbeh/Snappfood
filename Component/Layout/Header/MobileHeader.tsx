@@ -42,10 +42,10 @@ const MobileHeader = () => {
                     </IconButton>
                 </Grid>
             </Grid>
-            <Grid item  >
-                <Grid>
+            <Grid item xs={12} display={'flex'} justifyContent={'center'} alignItems={'center'}>
+                <Grid p={2} width={'100%'}>
                 <Button onClick={handleOpen}
-                style={{ justifyContent:'space-between', color:'rgb(166, 170, 173)', backgroundColor:'rgb(235, 237, 240)', width: '90%', height: '3rem', borderRadius: '0.625rem' }}>
+                style={{ justifyContent:'space-between', color:'rgb(166, 170, 173)', backgroundColor:'rgb(235, 237, 240)', width: '100%', height: '3rem', borderRadius: '0.625rem' }}>
                     <Grid>جست‌وجو در اسنپ‌فود</Grid>
                     <Grid>
                         <SearchIcon/>

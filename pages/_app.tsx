@@ -3,8 +3,8 @@ import type {AppProps} from 'next/app'
 import {ThemeProvider} from '@mui/material'
 import {theme} from '../Theme/Theme'
 import Layout from '../Component/Layout/Layout'
-import store from "../Redux/store";
 import {Provider} from "react-redux";
+import {store} from "../Redux/slice/store";
 
 export default function App({Component, pageProps}: AppProps) {
     return (
