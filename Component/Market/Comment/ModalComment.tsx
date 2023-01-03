@@ -29,7 +29,7 @@ export interface ModalBoxProps {
     setOpen: (arg0: boolean) => boolean,
     handleClose: boolean
 }
-const ModalComment = ({ setOpen, open }: ModalBoxProps): JSX.Element => {
+const ModalComment = ({ setOpen, open }: any): JSX.Element => {
     const handleClose = () => setOpen(false);
     // console.log(open)
 

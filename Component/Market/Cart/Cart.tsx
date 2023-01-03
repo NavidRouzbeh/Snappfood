@@ -78,7 +78,7 @@ const Cart = () => {
             >
                 <Grid display={'flex'} alignItems={'center'} justifyContent={'space-between'} sx={{width: '100%'}}>
                     <Typography variant="subtitle1">سبد خرید</Typography>
-                    <IconButton onClick={() => dispatch(deleteAll())}>
+                    <IconButton onClick={() => dispatch(deleteAll('deleteAll'))}>
                         <DeleteOutlineOutlinedIcon sx={{color: '#FA284B'}} fontSize={'small'}/>
                     </IconButton>
                 </Grid>
