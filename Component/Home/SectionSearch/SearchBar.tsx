@@ -78,7 +78,7 @@ const SearchBar = () => {
                                     <Grid display={'flex'} alignItems={'center'} height={60}>
                                         <StorefrontIcon fontSize="small"/>
                                         <Typography mr={2} variant={'subtitle1'} fontSize={'0.8rem'}
-                                                     color={'rgb(58, 61, 66)'}>{FM.name}</Typography>
+                                                    color={'rgb(58, 61, 66)'}>{FM.name}</Typography>
                                     </Grid>
                                 ))}
                             </Grid>
