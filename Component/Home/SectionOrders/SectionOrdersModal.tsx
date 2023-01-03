@@ -12,7 +12,7 @@ const style = {
 };
 export interface ModalBoxProps {
     open: boolean,
-    setOpen:(arg0: boolean)=> boolean
+    setOpen:React.Dispatch<React.SetStateAction<boolean>>
 }
 
 const SectionOrdersModal = ({ setOpen, open }: ModalBoxProps): JSX.Element => {
