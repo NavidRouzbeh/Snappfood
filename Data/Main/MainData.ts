@@ -1,156 +1,156 @@
 
 // --------bamahas------------
-import bamahas98 from '../../Assets/Images/bamahas/bamahas.98.hot.jpeg';
-import bamahasargentina from '../../Assets/Images/bamahas/bamahas.agentina.hot.jpeg';
-import bamahaschicken from '../../Assets/Images/bamahas/bamahas.chicken.hot.jpeg';
-import bamahasbacon from '../../Assets/Images/bamahas/bamahas.bacon.cold.jpeg';
-import bamahasjambon from '../../Assets/Images/bamahas/bamahas.jambon.cold.jpeg';
-import bamahasmix from '../../Assets/Images/bamahas/bamahas.mix.cold.jpeg';
-import bamahaspasta from '../../Assets/Images/bamahas/bamahas.pasta.jpeg';
-import bamahassalad from '../../Assets/Images/bamahas/bamahas.salad.jpeg';
-import bamahastorshi from '../../Assets/Images/bamahas/bamahas.torshi.jpeg';
-import bamahasdrink from '../../Assets/Images/bamahas/bamahas.drink.jpeg';
-import bamahaslogo from '../../Assets/Images/bamahas/bamahas.logo.jpg';
-import bamahasbackground from '../../Assets/Images/bamahas/bamahas.background.jpeg';
+// import bamahas98 from '../../Assets/Images/bamahas/bamahas.98.hot.jpeg';
+// import bamahasargentina from '../../Assets/Images/bamahas/bamahas.agentina.hot.jpeg';
+// import bamahaschicken from '../../Assets/Images/bamahas/bamahas.chicken.hot.jpeg';
+// import bamahasbacon from '../../Assets/Images/bamahas/bamahas.bacon.cold.jpeg';
+// import bamahasjambon from '../../Assets/Images/bamahas/bamahas.jambon.cold.jpeg';
+// import bamahasmix from '../../Assets/Images/bamahas/bamahas.mix.cold.jpeg';
+// import bamahaspasta from '../../Assets/Images/bamahas/bamahas.pasta.jpeg';
+// import bamahassalad from '../../Assets/Images/bamahas/bamahas.salad.jpeg';
+// import bamahastorshi from '../../Assets/Images/bamahas/bamahas.torshi.jpeg';
+// import bamahasdrink from '../../Assets/Images/bamahas/bamahas.drink.jpeg';
+// import bamahaslogo from '../../Assets/Images/bamahas/bamahas.logo.jpg';
+// import bamahasbackground from '../../Assets/Images/bamahas/bamahas.background.jpeg';
 //--------baroj--------------
-import barojbella from '../../Assets/Images/baroj/baroj.pizza.bellachaw.jpeg';
-import barojstake from '../../Assets/Images/baroj/baroj.pizza.stake.jpeg';
-import barojpizza from '../../Assets/Images/baroj/baroj.pizza.jpeg';
-import barojfried2 from '../../Assets/Images/baroj/baroj.fried.2normal.jpeg';
-import barojfried2spice from '../../Assets/Images/baroj/baroj.fried.2spicy.jpeg';
-import barojfriedmeygoo from '../../Assets/Images/baroj/baroj.fried.meygoo.jpeg';
-import barojcoca from '../../Assets/Images/baroj/baroj.coca.jpeg';
-import barojfanta from '../../Assets/Images/baroj/baroj.fanta.jpeg';
-import barojsprite from '../../Assets/Images/baroj/baroj.sprite.jpeg';
-import barojfries from '../../Assets/Images/baroj/baroj.appit.fries.jpeg';
-import barojfries2 from '../../Assets/Images/baroj/baroj.appit.frieswithcheese.jpeg';
-import barojonion from '../../Assets/Images/baroj/baroj.appit.onion.jpeg';
-import barojlogo from '../../Assets/Images/baroj.logo.png';
-import barojbackground from '../../Assets/Images/baroj/baroj.background.jpeg';
+// import barojbella from '../../Assets/Images/baroj/baroj.pizza.bellachaw.jpeg';
+// import barojstake from '../../Assets/Images/baroj/baroj.pizza.stake.jpeg';
+// import barojpizza from '../../Assets/Images/baroj/baroj.pizza.jpeg';
+// import barojfried2 from '../../Assets/Images/baroj/baroj.fried.2normal.jpeg';
+// import barojfried2spice from '../../Assets/Images/baroj/baroj.fried.2spicy.jpeg';
+// import barojfriedmeygoo from '../../Assets/Images/baroj/baroj.fried.meygoo.jpeg';
+// import barojcoca from '../../Assets/Images/baroj/baroj.coca.jpeg';
+// import barojfanta from '../../Assets/Images/baroj/baroj.fanta.jpeg';
+// import barojsprite from '../../Assets/Images/baroj/baroj.sprite.jpeg';
+// import barojfries from '../../Assets/Images/baroj/baroj.appit.fries.jpeg';
+// import barojfries2 from '../../Assets/Images/baroj/baroj.appit.frieswithcheese.jpeg';
+// import barojonion from '../../Assets/Images/baroj/baroj.appit.onion.jpeg';
+// import barojlogo from '../../Assets/Images/baroj.logo.png';
+// import barojbackground from '../../Assets/Images/baroj/baroj.background.jpeg';
 //---------burgerland----------
-import burgerlandpizzaspecial from '../../Assets/Images/burgerland/burgerland.pizza.special.jpeg';
-import burgerlandpizzapeproni from '../../Assets/Images/burgerland/burgerland.pizza.peperoni.jpeg';
-import burgerlandpizzastake from '../../Assets/Images/burgerland/burgerland.pizza.stake.jpeg';
-import burgerlandfried from '../../Assets/Images/burgerland/burgerland.fried.chicken.jpeg';
-import burgerlandsandwichchicken from '../../Assets/Images/burgerland/burgerland.sandwich.chickenwrap.jpeg';
-import burgerlandsandwichrost from '../../Assets/Images/burgerland/burgerland.sandwich.rostbeef.jpeg';
-import burgerlandfries from '../../Assets/Images/burgerland/burgerland.appit.fries.jpeg';
-import burgerlandgarlicb from '../../Assets/Images/burgerland/burgerland.appit.garlicbread.jpeg';
-import burgerlandsalad from '../../Assets/Images/burgerland/burgerland.appit.salad.jpeg';
-import burgerlandsoda from '../../Assets/Images/burgerland/burgerland.drink.soda.jpeg';
-import burgerlandheydey from '../../Assets/Images/burgerland/burgerland.drink.heydey.jpeg';
-import burgerlandorengina from '../../Assets/Images/burgerland/burgerland.drink.orengina.jpeg';
-import burgerlandicon from '../../Assets/Images/burgerland/burgerland.logo.jpeg';
-import burgerlandback from '../../Assets/Images/burgerland/burgerland.background.jpeg';
+// import burgerlandpizzaspecial from '../../Assets/Images/burgerland/burgerland.pizza.special.jpeg';
+// import burgerlandpizzapeproni from '../../Assets/Images/burgerland/burgerland.pizza.peperoni.jpeg';
+// import burgerlandpizzastake from '../../Assets/Images/burgerland/burgerland.pizza.stake.jpeg';
+// import burgerlandfried from '../../Assets/Images/burgerland/burgerland.fried.chicken.jpeg';
+// import burgerlandsandwichchicken from '../../Assets/Images/burgerland/burgerland.sandwich.chickenwrap.jpeg';
+// import burgerlandsandwichrost from '../../Assets/Images/burgerland/burgerland.sandwich.rostbeef.jpeg';
+// import burgerlandfries from '../../Assets/Images/burgerland/burgerland.appit.fries.jpeg';
+// import burgerlandgarlicb from '../../Assets/Images/burgerland/burgerland.appit.garlicbread.jpeg';
+// import burgerlandsalad from '../../Assets/Images/burgerland/burgerland.appit.salad.jpeg';
+// import burgerlandsoda from '../../Assets/Images/burgerland/burgerland.drink.soda.jpeg';
+// import burgerlandheydey from '../../Assets/Images/burgerland/burgerland.drink.heydey.jpeg';
+// import burgerlandorengina from '../../Assets/Images/burgerland/burgerland.drink.orengina.jpeg';
+// import burgerlandicon from '../../Assets/Images/burgerland/burgerland.logo.jpeg';
+// import burgerlandback from '../../Assets/Images/burgerland/burgerland.background.jpeg';
 //---------------downtown----------
-import downtownback from '../../Assets/Images/downtown/downtown.back.jpeg';
-import downtownbuffalo from '../../Assets/Images/downtown/downtown.buffalo.jpeg';
-import downtownburger from '../../Assets/Images/downtown/downtown.burger.jpeg';
-import downtownmid from '../../Assets/Images/downtown/downtown.burger.midt.jpeg';
-import downtownup from '../../Assets/Images/downtown/downtown.burger.upt.jpeg';
-import downtowncoca from '../../Assets/Images/downtown/downtown.coca.jpeg';
-import downtownsalad from '../../Assets/Images/downtown/downtown.greecesalad.jpeg';
-import downtownlogo from '../../Assets/Images/downtown/downtown.logo.jpeg';
-import downtownallinone from '../../Assets/Images/downtown/downtown.pizza.allinone.jpeg';
-import downtownpeperoni from '../../Assets/Images/downtown/downtown.pizza.peperoni.jpeg';
-import downtownturkey from '../../Assets/Images/downtown/downtown.pizza.turkey.jpeg';
-import downtownring from '../../Assets/Images/downtown/downtown.rings.jpeg';
-import downtownsprite from '../../Assets/Images/downtown/downtown.sprite.jpeg';
-import downtownwater from '../../Assets/Images/downtown/downtown.water.jpeg';
+// import downtownback from '../../Assets/Images/downtown/downtown.back.jpeg';
+// import downtownbuffalo from '../../Assets/Images/downtown/downtown.buffalo.jpeg';
+// import downtownburger from '../../Assets/Images/downtown/downtown.burger.jpeg';
+// import downtownmid from '../../Assets/Images/downtown/downtown.burger.midt.jpeg';
+// import downtownup from '../../Assets/Images/downtown/downtown.burger.upt.jpeg';
+// import downtowncoca from '../../Assets/Images/downtown/downtown.coca.jpeg';
+// import downtownsalad from '../../Assets/Images/downtown/downtown.greecesalad.jpeg';
+// import downtownlogo from '../../Assets/Images/downtown/downtown.logo.jpeg';
+// import downtownallinone from '../../Assets/Images/downtown/downtown.pizza.allinone.jpeg';
+// import downtownpeperoni from '../../Assets/Images/downtown/downtown.pizza.peperoni.jpeg';
+// import downtownturkey from '../../Assets/Images/downtown/downtown.pizza.turkey.jpeg';
+// import downtownring from '../../Assets/Images/downtown/downtown.rings.jpeg';
+// import downtownsprite from '../../Assets/Images/downtown/downtown.sprite.jpeg';
+// import downtownwater from '../../Assets/Images/downtown/downtown.water.jpeg';
 //-------------grillguys--------------
-import grillfries from '../../Assets/Images/Grillguys/grill.appit.fries.jpg';
-import grillmac from '../../Assets/Images/Grillguys/grill.appit.mac.jpeg';
-import grillsalad from '../../Assets/Images/Grillguys/grill.appit.salad.jpg';
-import grilljossy from '../../Assets/Images/Grillguys/grill.burger.jossy.jpg';
-import grillmushroom from '../../Assets/Images/Grillguys/grill.burger.mushroom.jpg';
-import grillpatty from '../../Assets/Images/Grillguys/grill.burger.patty.jpg';
-import grillcoca from '../../Assets/Images/Grillguys/grill.drink.coca.jpg';
-import grillfanta from '../../Assets/Images/Grillguys/grill.drink.fanta.jpg';
-import grillwater from '../../Assets/Images/Grillguys/grill.drink.water.jpeg';
-import grillfried from '../../Assets/Images/Grillguys/grill.fried.jpg';
-import grillchicken from '../../Assets/Images/Grillguys/grill.sandwich.chicken.jpg';
-import grillrost from '../../Assets/Images/Grillguys/grill.sandwich.rostbeef.jpg';
-import grillback from '../../Assets/Images/Grillguys/Grillguys.back.jpg';
-import grilllogo from '../../Assets/Images/Grillguys/grillguys.logo.jpg';
+// import grillfries from '../../Assets/Images/Grillguys/grill.appit.fries.jpg';
+// import grillmac from '../../Assets/Images/Grillguys/grill.appit.mac.jpeg';
+// import grillsalad from '../../Assets/Images/Grillguys/grill.appit.salad.jpg';
+// import grilljossy from '../../Assets/Images/Grillguys/grill.burger.jossy.jpg';
+// import grillmushroom from '../../Assets/Images/Grillguys/grill.burger.mushroom.jpg';
+// import grillpatty from '../../Assets/Images/Grillguys/grill.burger.patty.jpg';
+// import grillcoca from '../../Assets/Images/Grillguys/grill.drink.coca.jpg';
+// import grillfanta from '../../Assets/Images/Grillguys/grill.drink.fanta.jpg';
+// import grillwater from '../../Assets/Images/Grillguys/grill.drink.water.jpeg';
+// import grillfried from '../../Assets/Images/Grillguys/grill.fried.jpg';
+// import grillchicken from '../../Assets/Images/Grillguys/grill.sandwich.chicken.jpg';
+// import grillrost from '../../Assets/Images/Grillguys/grill.sandwich.rostbeef.jpg';
+// import grillback from '../../Assets/Images/Grillguys/Grillguys.back.jpg';
+// import grilllogo from '../../Assets/Images/Grillguys/grillguys.logo.jpg';
 
 // ---------------------------------------------
 //------------------------------------------monina
-import sib from '.../../../Assets/Images/ImageDatabase/Sib/sib-image.jpeg'
-import sibLogo from '.../../../Assets/Images/ImageDatabase/Sib/sib-logo.png'
-import sibPiz1 from '.../../../Assets/Images/ImageDatabase/Sib/sib-piz1.jpg'
-import sibPiz2 from '.../../../Assets/Images/ImageDatabase/Sib/sib-piz2.jpg'
-import sibPiz3 from '.../../../Assets/Images/ImageDatabase/Sib/sib-piz3.jpg'
-import sibPiz4 from '.../../../Assets/Images/ImageDatabase/Sib/sib-piz4.jpg'
-import sibPiz5 from '.../../../Assets/Images/ImageDatabase/Sib/sib-piz5.jpg'
-import sibPiz6 from '.../../../Assets/Images/ImageDatabase/Sib/sib-piz6.jpg'
-import sibDri1 from '.../../../Assets/Images/ImageDatabase/Sib/sib-drink1.jpeg'
-import sibDri2 from '.../../../Assets/Images/ImageDatabase/Sib/sib-drink2.jpeg'
-import sibDri3 from '.../../../Assets/Images/ImageDatabase/Sib/sib-drink3.jpg'
-import sibFri1 from '.../../../Assets/Images/ImageDatabase/Sib/sib-fries1.jpg'
-import sibFri2 from '.../../../Assets/Images/ImageDatabase/Sib/sib-fries2.jpeg'
-import sibFri3 from '.../../../Assets/Images/ImageDatabase/Sib/sib-fries3.jpg'
-import sibBur1 from '.../../../Assets/Images/ImageDatabase/Sib/sib-burger1.jpg'
-import sibBur2 from '.../../../Assets/Images/ImageDatabase/Sib/sib-burger2.jpg'
-import sibBur3 from '.../../../Assets/Images/ImageDatabase/Sib/sib-burger3.jpg'
-import sibChi from '.../../../Assets/Images/ImageDatabase/Sib/sib-child.jpg'
+// import sib from '.../../../Assets/Images/ImageDatabase/Sib/sib-image.jpeg'
+// import sibLogo from '.../../../Assets/Images/ImageDatabase/Sib/sib-logo.png'
+// import sibPiz1 from '.../../../Assets/Images/ImageDatabase/Sib/sib-piz1.jpg'
+// import sibPiz2 from '.../../../Assets/Images/ImageDatabase/Sib/sib-piz2.jpg'
+// import sibPiz3 from '.../../../Assets/Images/ImageDatabase/Sib/sib-piz3.jpg'
+// import sibPiz4 from '.../../../Assets/Images/ImageDatabase/Sib/sib-piz4.jpg'
+// import sibPiz5 from '.../../../Assets/Images/ImageDatabase/Sib/sib-piz5.jpg'
+// import sibPiz6 from '.../../../Assets/Images/ImageDatabase/Sib/sib-piz6.jpg'
+// import sibDri1 from '.../../../Assets/Images/ImageDatabase/Sib/sib-drink1.jpeg'
+// import sibDri2 from '.../../../Assets/Images/ImageDatabase/Sib/sib-drink2.jpeg'
+// import sibDri3 from '.../../../Assets/Images/ImageDatabase/Sib/sib-drink3.jpg'
+// import sibFri1 from '.../../../Assets/Images/ImageDatabase/Sib/sib-fries1.jpg'
+// import sibFri2 from '.../../../Assets/Images/ImageDatabase/Sib/sib-fries2.jpeg'
+// import sibFri3 from '.../../../Assets/Images/ImageDatabase/Sib/sib-fries3.jpg'
+// import sibBur1 from '.../../../Assets/Images/ImageDatabase/Sib/sib-burger1.jpg'
+// import sibBur2 from '.../../../Assets/Images/ImageDatabase/Sib/sib-burger2.jpg'
+// import sibBur3 from '.../../../Assets/Images/ImageDatabase/Sib/sib-burger3.jpg'
+// import sibChi from '.../../../Assets/Images/ImageDatabase/Sib/sib-child.jpg'
 
-import viaLogo from '.../../../Assets/Images/ImageDatabase/Viana/viana-logo.jpeg'
-import via from '.../../../Assets/Images/ImageDatabase/Viana/viana-image.jpg'
-import viaPiz1 from '.../../../Assets/Images/ImageDatabase/Viana/viana-piz1.jpeg'
-import viaPiz2 from '.../../../Assets/Images/ImageDatabase/Viana/viana-piz2.jpeg'
-import viaPiz3 from '.../../../Assets/Images/ImageDatabase/Viana/viana-piz3.jpeg'
-import viaFri1 from '.../../../Assets/Images/ImageDatabase/Viana/viana-fied1.jpeg'
-import viaFri2 from '.../../../Assets/Images/ImageDatabase/Viana/viana-fied2.jpg'
-import viaFri3 from '.../../../Assets/Images/ImageDatabase/Viana/viana-fied3.jpg'
-import viaDri1 from '.../../../Assets/Images/ImageDatabase/Viana/viana-drink1.jpg'
-import viaDri2 from '.../../../Assets/Images/ImageDatabase/Viana/viana-drink2.jpg'
-import viaSal1 from '.../../../Assets/Images/ImageDatabase/Viana/viana-salad1.jpeg'
-import viaSal2 from '.../../../Assets/Images/ImageDatabase/Viana/viana-salad2.jpeg'
-import viaSta1 from '.../../../Assets/Images/ImageDatabase/Viana/viana-stake1.jpeg'
-import viaSta2 from '.../../../Assets/Images/ImageDatabase/Viana/viana-stake2.jpeg'
-import viaSta3 from '.../../../Assets/Images/ImageDatabase/Viana/viana-stake3.jpeg'
-import viaSan1 from '.../../../Assets/Images/ImageDatabase/Viana/viana-sand1.jpeg'
-import viaSan2 from '.../../../Assets/Images/ImageDatabase/Viana/viana-sand2.jpeg'
-import viaSan3 from '.../../../Assets/Images/ImageDatabase/Viana/viana-sand3.jpeg'
+// import viaLogo from '.../../../Assets/Images/ImageDatabase/Viana/viana-logo.jpeg'
+// import via from '.../../../Assets/Images/ImageDatabase/Viana/viana-image.jpg'
+// import viaPiz1 from '.../../../Assets/Images/ImageDatabase/Viana/viana-piz1.jpeg'
+// import viaPiz2 from '.../../../Assets/Images/ImageDatabase/Viana/viana-piz2.jpeg'
+// import viaPiz3 from '.../../../Assets/Images/ImageDatabase/Viana/viana-piz3.jpeg'
+// import viaFri1 from '.../../../Assets/Images/ImageDatabase/Viana/viana-fied1.jpeg'
+// import viaFri2 from '.../../../Assets/Images/ImageDatabase/Viana/viana-fied2.jpg'
+// import viaFri3 from '.../../../Assets/Images/ImageDatabase/Viana/viana-fied3.jpg'
+// import viaDri1 from '.../../../Assets/Images/ImageDatabase/Viana/viana-drink1.jpg'
+// import viaDri2 from '.../../../Assets/Images/ImageDatabase/Viana/viana-drink2.jpg'
+// import viaSal1 from '.../../../Assets/Images/ImageDatabase/Viana/viana-salad1.jpeg'
+// import viaSal2 from '.../../../Assets/Images/ImageDatabase/Viana/viana-salad2.jpeg'
+// import viaSta1 from '.../../../Assets/Images/ImageDatabase/Viana/viana-stake1.jpeg'
+// import viaSta2 from '.../../../Assets/Images/ImageDatabase/Viana/viana-stake2.jpeg'
+// import viaSta3 from '.../../../Assets/Images/ImageDatabase/Viana/viana-stake3.jpeg'
+// import viaSan1 from '.../../../Assets/Images/ImageDatabase/Viana/viana-sand1.jpeg'
+// import viaSan2 from '.../../../Assets/Images/ImageDatabase/Viana/viana-sand2.jpeg'
+// import viaSan3 from '.../../../Assets/Images/ImageDatabase/Viana/viana-sand3.jpeg'
 //------------------------------------------------------------------------------
 //------------------------------------------------------------------------maryam
-import shilap1 from '../../Assets/Images/ImageDatabase/shila/shila-pizaa-1.jpg'
-import shilap2 from '../../Assets/Images/ImageDatabase/shila/shila-pizaa-2.jpg'
-import shilap3 from '../../Assets/Images/ImageDatabase/shila/shila-pizaa-3.jpg'
-import shilap4 from '../../Assets/Images/ImageDatabase/shila/shila-chiken-1.jpg'
-import shilap5 from '../../Assets/Images/ImageDatabase/shila/shila-chiken-2.jpg'
-import shilap6 from '../../Assets/Images/ImageDatabase/shila/shila-chiken-3.jpg'
-import shilap7 from '../../Assets/Images/ImageDatabase/shila/shila-drink-1.jpg'
-import shilap8 from '../../Assets/Images/ImageDatabase/shila/shila-drink-2.jpg'
-import shilap9 from '../../Assets/Images/ImageDatabase/shila/shila-drink-3.jpg'
-import shilap10 from '../../Assets/Images/ImageDatabase/shila/shila-aptizer-1.jpg'
-import shilap11 from '../../Assets/Images/ImageDatabase/shila/shila-aptizer-2.jpg'
-import shilap12 from '../../Assets/Images/ImageDatabase/shila/shila-aptizer-3.jpg'
-import shilap13 from '../../Assets/Images/ImageDatabase/shila/shila-khaja-1.jpg'
-import shilap14 from '../../Assets/Images/ImageDatabase/shila/shila-khaja-2.jpg'
-import shilap15 from '../../Assets/Images/ImageDatabase/shila/shila-khaja-3.jpg'
-import shilap16 from '../../Assets/Images/ImageDatabase/shila/shila-hotdog-1.jpg'
-import shilap17 from '../../Assets/Images/ImageDatabase/shila/shila-hotdog-2.jpg'
-import shilap18 from '../../Assets/Images/ImageDatabase/shila/shila-hotdog-3.jpg'
-import shilalogo from '../../Assets/Images/ImageDatabase/shila/shila_logo.jpg'
-import shila from '../../Assets/Images/ImageDatabase/shila/shila.jpg'
+// import shilap1 from '../../Assets/Images/ImageDatabase/shila/shila-pizaa-1.jpg'
+// import shilap2 from '../../Assets/Images/ImageDatabase/shila/shila-pizaa-2.jpg'
+// import shilap3 from '../../Assets/Images/ImageDatabase/shila/shila-pizaa-3.jpg'
+// import shilap4 from '../../Assets/Images/ImageDatabase/shila/shila-chiken-1.jpg'
+// import shilap5 from '../../Assets/Images/ImageDatabase/shila/shila-chiken-2.jpg'
+// import shilap6 from '../../Assets/Images/ImageDatabase/shila/shila-chiken-3.jpg'
+// import shilap7 from '../../Assets/Images/ImageDatabase/shila/shila-drink-1.jpg'
+// import shilap8 from '../../Assets/Images/ImageDatabase/shila/shila-drink-2.jpg'
+// import shilap9 from '../../Assets/Images/ImageDatabase/shila/shila-drink-3.jpg'
+// import shilap10 from '../../Assets/Images/ImageDatabase/shila/shila-aptizer-1.jpg'
+// import shilap11 from '../../Assets/Images/ImageDatabase/shila/shila-aptizer-2.jpg'
+// import shilap12 from '../../Assets/Images/ImageDatabase/shila/shila-aptizer-3.jpg'
+// import shilap13 from '../../Assets/Images/ImageDatabase/shila/shila-khaja-1.jpg'
+// import shilap14 from '../../Assets/Images/ImageDatabase/shila/shila-khaja-2.jpg'
+// import shilap15 from '../../Assets/Images/ImageDatabase/shila/shila-khaja-3.jpg'
+// import shilap16 from '../../Assets/Images/ImageDatabase/shila/shila-hotdog-1.jpg'
+// import shilap17 from '../../Assets/Images/ImageDatabase/shila/shila-hotdog-2.jpg'
+// import shilap18 from '../../Assets/Images/ImageDatabase/shila/shila-hotdog-3.jpg'
+// import shilalogo from '../../Assets/Images/ImageDatabase/shila/shila_logo.jpg'
+// import shila from '../../Assets/Images/ImageDatabase/shila/shila.jpg'
 //----------------------------------------------------------
-import pitko1 from '../../Assets/Images/ImageDatabase/pitko/pitko-pizza-1.jpeg'
-import pitko2 from '../../Assets/Images/ImageDatabase/pitko/pitko-pizza-2.jpeg'
-import pitko3 from '../../Assets/Images/ImageDatabase/pitko/pitko-pizza-3.jpeg'
-import pitko4 from '../../Assets/Images/ImageDatabase/pitko/pitko-berger-1.jpeg'
-import pitko5 from '../../Assets/Images/ImageDatabase/pitko/pitko-berger-2.jpeg'
-import pitko6 from '../../Assets/Images/ImageDatabase/pitko/pitko-berger-3.jpeg'
-import pitko7 from '../../Assets/Images/ImageDatabase/pitko/pitko-sand-1.jpeg'
-import pitko8 from '../../Assets/Images/ImageDatabase/pitko/pitko-sand-2.jpeg'
-import pitko9 from '../../Assets/Images/ImageDatabase/pitko/pitko-sand-3.jpeg'
-import pitko10 from '../../Assets/Images/ImageDatabase/pitko/pitko-pasta-1.jpeg'
-import pitko11 from '../../Assets/Images/ImageDatabase/pitko/pitko-box-1.jpeg'
-import pitko12 from '../../Assets/Images/ImageDatabase/pitko/pitko-sokhari-1.jpeg'
-import pitko13 from '../../Assets/Images/ImageDatabase/pitko/pitko-sokhari-2.jpeg'
-import pitko14 from '../../Assets/Images/ImageDatabase/pitko/pitko-sokhari-3.jpeg'
-import pitkologo from '../../Assets/Images/ImageDatabase/pitko/pitko-logo.jpeg'
-import pitko from '../../Assets/Images/ImageDatabase/pitko/pitko.jpeg'
+// import pitko1 from '../../Assets/Images/ImageDatabase/pitko/pitko-pizza-1.jpeg'
+// import pitko2 from '../../Assets/Images/ImageDatabase/pitko/pitko-pizza-2.jpeg'
+// import pitko3 from '../../Assets/Images/ImageDatabase/pitko/pitko-pizza-3.jpeg'
+// import pitko4 from '../../Assets/Images/ImageDatabase/pitko/pitko-berger-1.jpeg'
+// import pitko5 from '../../Assets/Images/ImageDatabase/pitko/pitko-berger-2.jpeg'
+// import pitko6 from '../../Assets/Images/ImageDatabase/pitko/pitko-berger-3.jpeg'
+// import pitko7 from '../../Assets/Images/ImageDatabase/pitko/pitko-sand-1.jpeg'
+// import pitko8 from '../../Assets/Images/ImageDatabase/pitko/pitko-sand-2.jpeg'
+// import pitko9 from '../../Assets/Images/ImageDatabase/pitko/pitko-sand-3.jpeg'
+// import pitko10 from '../../Assets/Images/ImageDatabase/pitko/pitko-pasta-1.jpeg'
+// import pitko11 from '../../Assets/Images/ImageDatabase/pitko/pitko-box-1.jpeg'
+// import pitko12 from '../../Assets/Images/ImageDatabase/pitko/pitko-sokhari-1.jpeg'
+// import pitko13 from '../../Assets/Images/ImageDatabase/pitko/pitko-sokhari-2.jpeg'
+// import pitko14 from '../../Assets/Images/ImageDatabase/pitko/pitko-sokhari-3.jpeg'
+// import pitkologo from '../../Assets/Images/ImageDatabase/pitko/pitko-logo.jpeg'
+// import pitko from '../../Assets/Images/ImageDatabase/pitko/pitko.jpeg'
 //------------------------------------------------------------------------------------
 //fatemeh
 //resturan AghaJohn
@@ -175,24 +175,24 @@ import AghaJohnMushroomPizza from "../../Assets/Images/ImageDataBase/AghaJohn/Ag
 import AghaJohnMiixPizza from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-MiixPizza-19.jpeg"
 
 //resturan Launch box
-import  LaunchBox from "../../Assets/Images/ImageDataBase/AghaJohn/LaunchBox.jpg"
-import  LaunchBoxlogo from "../../Assets/Images/ImageDataBase/AghaJohn/LaunchBoxLogo.jpg"
-import  LunchBoxGrilledChicken from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-GrilledChicken-1.jpg"
-import  LunchBoxChalukbabDigi from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-ChalukbabDigi-2.jpg"
-import  LunchBoxChalukbabKardi from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-ChalukbabKardi-3.jpg"
-import  LunchBoxLentilRice from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-LentilRice-1.jpg"
-import  LunchBoxRice from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-Rice-2.jpg"
-import  LunchBoxChickenMix from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-ChickenMix-1.jpg"
-import  LunchBoxPoundedFood from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-PoundedFood-2.jpg"
-import  LunchBoxMilkSoup from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-MilkSoup-1.jpg"
-import  LunchBoxPickledPort from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-PickledPort-2.jpg"
-import  LunchBoxYogurt from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-Yogurt-3.jpg"
-import  LunchBoxSoftDrinks from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-SoftDrinks-1.jpg"
-import LunchBoxSoftDrinks1 from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-SoftDrinks-2.jpg"
-import LunchBoxDough   from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-Dough-3.jpg"
-import LunchoxEggplant from "../../Assets/Images/ImageDataBase/LaunchBox/Lunchox-Eggplant-1.jpg"
-import LunchBoxGheymeh from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-Gheymeh-3.jpg"
-import LunchBoxVegetable from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-vegetable-2.jpg"
+// import  LaunchBox from "../../Assets/Images/ImageDataBase/AghaJohn/LaunchBox.jpg"
+// import  LaunchBoxlogo from "../../Assets/Images/ImageDataBase/AghaJohn/LaunchBoxLogo.jpg"
+// import  LunchBoxGrilledChicken from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-GrilledChicken-1.jpg"
+// import  LunchBoxChalukbabDigi from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-ChalukbabDigi-2.jpg"
+// import  LunchBoxChalukbabKardi from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-ChalukbabKardi-3.jpg"
+// import  LunchBoxLentilRice from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-LentilRice-1.jpg"
+// import  LunchBoxRice from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-Rice-2.jpg"
+// import  LunchBoxChickenMix from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-ChickenMix-1.jpg"
+// import  LunchBoxPoundedFood from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-PoundedFood-2.jpg"
+// import  LunchBoxMilkSoup from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-MilkSoup-1.jpg"
+// import  LunchBoxPickledPort from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-PickledPort-2.jpg"
+// import  LunchBoxYogurt from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-Yogurt-3.jpg"
+// import  LunchBoxSoftDrinks from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-SoftDrinks-1.jpg"
+// import LunchBoxSoftDrinks1 from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-SoftDrinks-2.jpg"
+// import LunchBoxDough   from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-Dough-3.jpg"
+// import LunchoxEggplant from "../../Assets/Images/ImageDataBase/LaunchBox/Lunchox-Eggplant-1.jpg"
+// import LunchBoxGheymeh from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-Gheymeh-3.jpg"
+// import LunchBoxVegetable from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-vegetable-2.jpg"
 
 // resturan Gujri kitchen
 import GujriKitchen from "../../Assets/Images/ImageDataBase/LaunchBox/GujriKitchen.jpg"
@@ -233,20 +233,20 @@ import TurkishDenarpizza5 from "../../Assets/Images/ImageDataBase/TurkishDenar/T
 
 
 //Cafe Restaurant Flore
-import FloreCafe from "../../Assets/Images/ImageDataBase/FloreCafe/FloreCafe.jpg"
-import FloreCafeLogo from "../../Assets/Images/ImageDataBase/FloreCafe/FloreCafeLogo.jpg"
-import FloreCafePizza1 from "../../Assets/Images/ImageDataBase/FloreCafe/FloreCafe-Pizza-1.jpeg"
-import FloreCafePizza2 from "../../Assets/Images/ImageDataBase/FloreCafe/FloreCafe-Pizza-2.jpeg"
-import FloreCafePizza3 from "../../Assets/Images/ImageDataBase/FloreCafe/FloreCafe-Pizza-3.jpeg"
-import FloreCafeSandwich1 from "../../Assets/Images/ImageDataBase/FloreCafe/FloreCafe-Sandwich-1.jpeg"
-import FloreCafeSandwich2 from "../../Assets/Images/ImageDataBase/FloreCafe/FloreCafe-Sandwich-2.jpeg"
-import FloreCafeSandwich3 from "../../Assets/Images/ImageDataBase/FloreCafe/FloreCafe-Sandwich-3.jpeg"
-import CafeFlorePotatoes1 from "../../Assets/Images/ImageDataBase/FloreCafe/CafeFlore-Potatoes-1.jpeg"
-import CafeFlorePotatoes2 from "../../Assets/Images/ImageDataBase/FloreCafe/CafeFlore-Potatoes-2.jpeg"
-import CafeFlorePotatoes3 from "../../Assets/Images/ImageDataBase/FloreCafe/CafeFlore-Potatoes-3.jpeg"
-import CafeFloreBeer from "../../Assets/Images/ImageDataBase/FloreCafe/CafeFlore-Beer.jpg"
-import CafeFlorePanini1 from "../../Assets/Images/ImageDataBase/FloreCafe/CafeFlore-Panini-1.jpeg"
-import CafeFlorePanini2 from "../../Assets/Images/ImageDataBase/FloreCafe/CafeFlore-Panini-2.jpeg"
+// import FloreCafe from "../../Assets/Images/ImageDataBase/FloreCafe/FloreCafe.jpg"
+// import FloreCafeLogo from "../../Assets/Images/ImageDataBase/FloreCafe/FloreCafeLogo.jpg"
+// import FloreCafePizza1 from "../../Assets/Images/ImageDataBase/FloreCafe/FloreCafe-Pizza-1.jpeg"
+// import FloreCafePizza2 from "../../Assets/Images/ImageDataBase/FloreCafe/FloreCafe-Pizza-2.jpeg"
+// import FloreCafePizza3 from "../../Assets/Images/ImageDataBase/FloreCafe/FloreCafe-Pizza-3.jpeg"
+// import FloreCafeSandwich1 from "../../Assets/Images/ImageDataBase/FloreCafe/FloreCafe-Sandwich-1.jpeg"
+// import FloreCafeSandwich2 from "../../Assets/Images/ImageDataBase/FloreCafe/FloreCafe-Sandwich-2.jpeg"
+// import FloreCafeSandwich3 from "../../Assets/Images/ImageDataBase/FloreCafe/FloreCafe-Sandwich-3.jpeg"
+// import CafeFlorePotatoes1 from "../../Assets/Images/ImageDataBase/FloreCafe/CafeFlore-Potatoes-1.jpeg"
+// import CafeFlorePotatoes2 from "../../Assets/Images/ImageDataBase/FloreCafe/CafeFlore-Potatoes-2.jpeg"
+// import CafeFlorePotatoes3 from "../../Assets/Images/ImageDataBase/FloreCafe/CafeFlore-Potatoes-3.jpeg"
+// import CafeFloreBeer from "../../Assets/Images/ImageDataBase/FloreCafe/CafeFlore-Beer.jpg"
+// import CafeFlorePanini1 from "../../Assets/Images/ImageDataBase/FloreCafe/CafeFlore-Panini-1.jpeg"
+// import CafeFlorePanini2 from "../../Assets/Images/ImageDataBase/FloreCafe/CafeFlore-Panini-2.jpeg"
 //--------------------------------------------------------------
 import Zari2 from '../../Assets/Images/ImageDatabase/mamanzari/cake2.jpeg'
 import Zari3 from '../../Assets/Images/ImageDatabase/mamanzari/baghlava1.jpeg'
@@ -733,42 +733,42 @@ export const MainData = [
     //                     {id:14,category:'پنینی',name:'پنینی مرغ',images:CafeFlorePanini2,price:95000,material:'فیله مرغ، سس مخصوص، نان چاباتا، پنیر مطهر'},
     //                 ]
     //                 },
-    { id: 15, 
-      category:'cafe',
-      name: "کافه بستنی مامان زری", 
-      star:4.4,
-      score:958,
-      address:'پیروزی، صد دستگاه، نبش کوچه رشیدی، کافه بستنی مامان زری',
-      delivery:20000,
-      logo:Zari2,
-      picture:Zari2,
-      coupon:false,
-      discount:false,
-      categories: ["کیک", "باقلوا"] ,
-      foods:[
-          {id:1,category:'کیک',name:'کیک شکلاتی',images:Zari2,price:40000,material:'یک اسلایس'},
-          {id:2,category:'کیک',name:'کیک گردویی',images:Zari2,price:40000,material:'یک اسلایس کیک گردویی'},
-          {id:3,category:'باقلوا',name:'باقلوا ساده',images:Zari3,price:70000,material:'باقلوای ساده (چهار مغز)'},
-          {id:4,category:'باقلوا',name:'همبرگر',images:Zari4,price:95000,material:'ترکیبی از باقلوا بستنی وانیلی و مغزپسته'},
-      ]
-  },
-  { id: 16, 
-      category:'cafe',
-      name: "قهوه مسعود", 
-      star:4.8,
-      score:32,
-      address:'خیابان پیروزی، خیابان شکوفه، خیابان نور صالحی، پلاک ۸۱، قهوه مسعود',
-      delivery:30000,
-      logo:Masoodlogo,
-      picture:Masood,
-      coupon:false,
-      discount:false,
-      categories: ["نوشیدنی گرم"] ,
-      foods:[
-          {id:1,category:'نوشیدنی گرم',name:'هات چاکلت',images:Masood1,price:30000,material:'۲۵۰ میلی لیتر، پودر فوری هات چاکلت، پودر کاکایو، شیر'},
-          {id:2,category:'نوشیدنی گرم',name:'چای ماسالا',images:Masood2,price:30000,material:'۲۵۰ میلی لیتر، پودر ماسالا، شیر'},
-      ]
-  },
+  //   { id: 15,
+  //     category:'cafe',
+  //     name: "کافه بستنی مامان زری",
+  //     star:4.4,
+  //     score:958,
+  //     address:'پیروزی، صد دستگاه، نبش کوچه رشیدی، کافه بستنی مامان زری',
+  //     delivery:20000,
+  //     logo:Zari2,
+  //     picture:Zari2,
+  //     coupon:false,
+  //     discount:false,
+  //     categories: ["کیک", "باقلوا"] ,
+  //     foods:[
+  //         {id:1,category:'کیک',name:'کیک شکلاتی',images:Zari2,price:40000,material:'یک اسلایس'},
+  //         {id:2,category:'کیک',name:'کیک گردویی',images:Zari2,price:40000,material:'یک اسلایس کیک گردویی'},
+  //         {id:3,category:'باقلوا',name:'باقلوا ساده',images:Zari3,price:70000,material:'باقلوای ساده (چهار مغز)'},
+  //         {id:4,category:'باقلوا',name:'همبرگر',images:Zari4,price:95000,material:'ترکیبی از باقلوا بستنی وانیلی و مغزپسته'},
+  //     ]
+  // },
+  // { id: 16,
+  //     category:'cafe',
+  //     name: "قهوه مسعود",
+  //     star:4.8,
+  //     score:32,
+  //     address:'خیابان پیروزی، خیابان شکوفه، خیابان نور صالحی، پلاک ۸۱، قهوه مسعود',
+  //     delivery:30000,
+  //     logo:Masoodlogo,
+  //     picture:Masood,
+  //     coupon:false,
+  //     discount:false,
+  //     categories: ["نوشیدنی گرم"] ,
+  //     foods:[
+  //         {id:1,category:'نوشیدنی گرم',name:'هات چاکلت',images:Masood1,price:30000,material:'۲۵۰ میلی لیتر، پودر فوری هات چاکلت، پودر کاکایو، شیر'},
+  //         {id:2,category:'نوشیدنی گرم',name:'چای ماسالا',images:Masood2,price:30000,material:'۲۵۰ میلی لیتر، پودر ماسالا، شیر'},
+  //     ]
+  // },
   { id: 17, 
       category:'bakery',
       name: "نان سحر", 
