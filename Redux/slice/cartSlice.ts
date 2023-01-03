@@ -30,7 +30,7 @@ const cartSlice = createSlice({
             const index = state.findIndex((item) => item.name === payload)
             state.splice(index, 1)
         },
-        deleteAll: (state, action) => {
+        deleteAll: (state,  action) => {
             state.splice(0, state.length)
         },
     }
