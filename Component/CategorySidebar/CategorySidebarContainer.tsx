@@ -8,7 +8,7 @@ const CategorySidebarContainer = () => {
 
     return(
         <Grid sx={{
-            // maxWidth:'25%',
+            maxWidth:'25%',
             p:'1rem',
             borderRadius:'0.75rem',
             bgcolor:'white'

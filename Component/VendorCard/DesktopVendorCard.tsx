@@ -6,6 +6,7 @@ import Logo from "../../Assets/Images/shila_logo.jpg";
 import Background from "../../Assets/Images/shila.jpg";
 import CourierLogo from "../../Assets/Icons/CourierIcon.svg";
 import StarIcon from '@mui/icons-material/Star';
+import Link from 'next/link';
 interface DesktopVendorType{
   name:string
   star:number,
@@ -17,8 +18,8 @@ interface DesktopVendorType{
 const DesktopVendor = ({name,star,score,delivery,logo,picture}:DesktopVendorType) => {
 
     return(
-
-    <Card sx={{height:'21.3125rem', width:'21rem',my:2,cursor:'pointer'}}>
+      <Link href={`/Market/${name}`}>
+    <Card  sx={{height:'21.3125rem', width:'21rem',my:2,cursor:'pointer'}}>
       
       <Grid sx={{height:'40%'}}>
         <Image src={picture} alt="" style={{height: '100%',width:'100%', objectFit:'cover'}} />
@@ -66,7 +67,7 @@ const DesktopVendor = ({name,star,score,delivery,logo,picture}:DesktopVendorType
         </Grid>
       </Grid>
     </Card>
-
+    </Link>
     )
 
 }
