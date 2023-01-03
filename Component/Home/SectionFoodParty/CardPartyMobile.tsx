@@ -13,7 +13,7 @@ import ModalCartParty from "../SwipperPartySection/ModalCartParty/ModalCartParty
 export interface ModalBoxProps {
     open: boolean,
     // setOpen:(arg0: boolean)=> boolean
-    setOpen: any
+    setOpen: (arg0: boolean) => boolean
   }
 const CardPartyMobile = () => {
 
