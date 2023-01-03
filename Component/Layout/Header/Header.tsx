@@ -1,11 +1,11 @@
 import { Grid, useMediaQuery, useTheme } from '@mui/material';
 import DesktopHeader from './DesktopHeader';
 import MobileHeader from './MobileHeader';
-import {theme} from "../../../Theme/Theme";
 
 
 const Header = () => {
 
+    const theme = useTheme();
     const isDesktop = useMediaQuery(theme.breakpoints.up("sm"));
 
     return(
