@@ -10,7 +10,6 @@ import { useState } from "react";
 import SearchBar from "../../Home/SectionSearch/SearchBar";
 import ProfileDesktop from "../../Home/SectionProfile/ProfileDesktop";
 import SectionOrders from "../../Home/SectionOrders/SectionOrders";
-import Link from "next/link";
 
 const DesktopHeader = () => {
 
@@ -37,26 +36,24 @@ const DesktopHeader = () => {
 
     return (
 
-        <Grid container position={'fixed'} zIndex={1200} justifyContent={'space-between'} alignItems={'center'} sx={{ bgcolor: '#F9FAFB', width: '100%', height: '4.5rem', p: '1rem' }}>
+        <Grid display={'flex'} position={'fixed'} zIndex={1200} justifyContent={'space-between'} alignItems={'center'} sx={{ bgcolor: '#fff', width: '100%', height: '4.5rem', p: '1rem' }}>
 
             <Grid item display={'flex'} gap={3} alignItems={'center'} >
-                <Link href='/'>
                 <Grid>
                     <Image src={SnappLogo} alt="" style={{ width: '68px', height: '34px' }} />
                 </Grid>
-                </Link>
                 <Grid>
                     <Typography variant="body2"> <Image src={ProfileIcon} alt="" />تهران، محله سعادت آباد، بلوار جوریکی،نبش کوچه نهم غربی</Typography>
                 </Grid>
             </Grid>
 
-            <Grid display={{ sm: 'none', md: "flex" }}>
+            <Grid position={'relative'}  sx={{left:105}} display={{ sm: 'none', md: "flex" }}>
                 <Button onClick={handleOpen}
                     style={{ color: 'rgb(166, 170, 173)', backgroundColor: 'rgb(235, 237, 240)', width: '29vw', height: '3rem', borderRadius: '0.625rem' }}>
-                    <SearchIcon />
-
-
-                    جست‌وجو در اسنپ‌فود
+                    <Grid display={'flex'} justifyContent={'flex-start'} sx={{width:'100%'}}>
+                        <SearchIcon />
+                        جست‌وجو در اسنپ‌فود
+                    </Grid>
                 </Button>
                 <Modal
                     open={open}

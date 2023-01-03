@@ -1,24 +1,24 @@
 import { Grid, Typography } from "@mui/material";
 import Cardpopular from "./CardPopular";
 interface SectionPopularType {
-  market:any
+  market:{}
 }
 const SectionPopular=({market}:SectionPopularType)=>{
     return(
+      
 
-    <Grid item xs={12} sm={6} p={2}>
-     <Grid  border={"1px solid #EBEDF0"} borderRadius={2}>
+     <Grid  border={"1px solid #EBEDF0"}  item xs={12} sm={6} >
       <Grid >
-      {market.map((res:any)=>(
+      {market.map(res=>(
         <Grid>
-        {res.categories?.map((cat:any)=>(
+        {res.categories?.map(cat=>(
           <>
                 <Grid xs={12} textAlign={'center'} p={2} ><Typography variant="subtitle1"fontWeight={700} color={'rgb(83, 86, 92)'}>{cat}</Typography></Grid>
                   <Grid display={'flex'} flexWrap={'wrap'} >
-                    {res.foods.filter((food:any)=>food.category===cat).map((food:any)=>(
+                    {res.foods.filter(food=>food.category===cat).map(food=>(
                      <Cardpopular food={food}/>
                     ))}
-
+          
                   </Grid>
            </>
         ))}
@@ -26,7 +26,6 @@ const SectionPopular=({market}:SectionPopularType)=>{
            ))}
     </Grid>
   </Grid>
-    </Grid>
 
 
 

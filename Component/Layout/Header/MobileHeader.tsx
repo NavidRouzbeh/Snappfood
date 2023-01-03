@@ -16,8 +16,8 @@ const MobileHeader = () => {
     const handleClose = () => setOpen(false);
 
     return(
-        <Grid>
-            <Grid item display={'flex'} alignItems={'center'} justifyContent={'space-between'} sx={{ bgcolor:'#F9FAFB', height:'50px', width:'100%'}}>
+        <Grid display={'flex'} flexDirection={'column'}>
+            <Grid item display={'flex'} alignItems={'center'} justifyContent={'space-between'} sx={{ bgcolor:'#fff', height:'50px', width:'100%'}}>
                 <Grid zIndex={12000}>
                     <IconButton>
                         <Image src={HamMenu} alt="" />
@@ -42,10 +42,10 @@ const MobileHeader = () => {
                     </IconButton>
                 </Grid>
             </Grid>
-            <Grid item xs={12} display={'flex'} justifyContent={'center'} alignItems={'center'}>
-                <Grid p={2} width={'100%'}>
+            <Grid item display={'flex'} justifyContent={'center'} sx={{width:'100%'}} >
+                <Grid display={'flex'} justifyContent={'center'} sx={{width:'100%'}}>
                 <Button onClick={handleOpen}
-                style={{ justifyContent:'space-between', color:'rgb(166, 170, 173)', backgroundColor:'rgb(235, 237, 240)', width: '100%', height: '3rem', borderRadius: '0.625rem' }}>
+                style={{ justifyContent:'space-between', color:'rgb(166, 170, 173)', backgroundColor:'rgb(235, 237, 240)', width: '90%', height: '3rem', borderRadius: '0.625rem' }}>
                     <Grid>جست‌وجو در اسنپ‌فود</Grid>
                     <Grid>
                         <SearchIcon/>

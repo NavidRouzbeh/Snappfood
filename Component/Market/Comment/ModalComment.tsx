@@ -12,7 +12,7 @@ import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 const style = {
     position: "absolute",
     top: { sm: "50%", xs: "45%" },
-    width: { md: "80%", lg: "50%", sm: "95%" },
+    width: { md: "80%",lg:"50%" , sm: "95%" },
     left: "50%",
     borderRadius: { sm: "16px", xs: "0px" },
     boxShadow: "rgb(0 0 0 / 8%) 0px 2px 8px, rgb(0 0 0 / 16%) 0px 8px 32px",
@@ -21,17 +21,17 @@ const style = {
     height: "auto",
     bgcolor: { sm: "#EF4296", xs: "#fff" },
     zIndex: "5000",
-
+   
 };
 
 export interface ModalBoxProps {
     open: boolean,
     setOpen: (arg0: boolean) => boolean,
-    handleClose: boolean
+    handleClose:boolean
 }
-const ModalComment = ({ setOpen, open }: ModalBoxProps): JSX.Element => {
-    const handleClose = () => setOpen(false);
-    // console.log(open)
+const ModalComment = ({ setOpen, open , handleClose}: ModalBoxProps): JSX.Element => {
+    // const handleClose = () => setOpen(!open);
+    console.log(open)
 
     const [alignment, setAlignment] = React.useState('web');
 
@@ -51,11 +51,11 @@ const ModalComment = ({ setOpen, open }: ModalBoxProps): JSX.Element => {
             >
                 <Box sx={style} overflow={"hidden"} zIndex={60000} dir={"rtl"}  >
                     {/* <Header /> */}
-                    <Grid container borderRadius={{ sm: "16px", xs: "0px" }} bgcolor={"#fff"} height={"100%"} display={"flex"}>
-                        <Grid pr={3} pt={2}><CloseIcon /></Grid>
+                    <Grid container borderRadius={{ sm: "16px", xs: "0px" }} bgcolor={"#fff"} height={"100%"}  display={"flex"}>
+                        <Grid pr={3} pt={2}><CloseIcon/></Grid>
                         <CommentHeaderModal />
                         <Grid
-                            sx={{ maxHeight: "430px", overflowY: "auto", width: "100%", }}
+                            sx={{ maxHeight: "430px" , overflowY: "auto", width: "100%", }}
                             gap={2}
                             display={"flex"}
                             flexDirection={"column"}
@@ -72,7 +72,7 @@ const ModalComment = ({ setOpen, open }: ModalBoxProps): JSX.Element => {
                                         exclusive
                                         onChange={handleChange}
                                         aria-label="Platform"
-                                        sx={{ width: "75%", bgcolor: "#F3F4F4", p: "4px", borderRadius: "0.75rem" }}
+                                        sx={{ width: "75%", bgcolor: "#F3F4F4", p: "4px", borderRadius: "0.75rem"}}
 
                                     >
                                         <ToggleButton sx={{ border: "none", height: "40px", borderRadius: "0.75rem" }} value="web">{"جدیدترین"}</ToggleButton>

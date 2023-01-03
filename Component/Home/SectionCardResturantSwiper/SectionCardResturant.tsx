@@ -1,6 +1,6 @@
 import { useTheme } from "@emotion/react";
 import { useMediaQuery } from "@mui/material";
-import Grid from "@mui/material/Grid";
+import Grid from "@mui/material/Grid/Grid";
 import CardResturantDesktop from "./CardResturantDesktop";
 import CardResturantMobile from "./CardResturantMobile";
 

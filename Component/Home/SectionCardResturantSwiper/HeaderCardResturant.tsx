@@ -1,5 +1,5 @@
-import Grid from "@mui/material/Grid"
-import Typography from "@mui/material/Typography"
+import Grid from "@mui/material/Grid/Grid"
+import Typography from "@mui/material/Typography/Typography"
 import { Cardtitleresturant, CardtitleresturantType } from "../../../Data/CardResturant/CardResturant"
 import ArrowBackIosRoundedIcon from '@mui/icons-material/ArrowBackIosRounded';
 

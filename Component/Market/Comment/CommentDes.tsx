@@ -106,7 +106,7 @@ const CommentDes = ({open , setOpen}:any) => {
   const handleClose = () => setOpen(!open);
 
   return (
-    <Grid>
+    <div>
       {/* <Button onClick={handleOpen}>Open modal</Button> */}
       <Modal
         open={open}
@@ -146,7 +146,7 @@ const CommentDes = ({open , setOpen}:any) => {
          </Box>
         
       </Modal>
-    </Grid>
+    </div>
   );
 }
 

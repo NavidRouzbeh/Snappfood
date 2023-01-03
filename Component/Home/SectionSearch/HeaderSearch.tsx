@@ -1,5 +1,5 @@
-import Grid from "@mui/material/Grid";
-import Typography from "@mui/material/Typography";
+import Grid from "@mui/material/Grid/Grid";
+import Typography from "@mui/material/Typography/Typography";
 import GridViewOutlinedIcon from '@mui/icons-material/GridViewOutlined';
 
 const HeaderSearch =()=>{
@@ -7,6 +7,7 @@ const HeaderSearch =()=>{
         <Grid display={'flex'} p={2} alignItems={'center'}>
             <GridViewOutlinedIcon fontSize="small"/>
             <Typography mr={2} variant={'subtitle1'} fontSize={'0.8rem'} color={'rgb(58,61,66)'}>دسته‌بندی</Typography>
+            <Typography mr={'4px'} variant={'subtitle2'} fontSize={'0.8rem'}>جوجه کباب</Typography>
         </Grid>
     )
 }

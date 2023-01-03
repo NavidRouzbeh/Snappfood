@@ -1,5 +1,5 @@
-import Grid from "@mui/material/Grid";
-import Typography from "@mui/material/Typography";
+import Grid from "@mui/material/Grid/Grid";
+import Typography from "@mui/material/Typography/Typography";
 import KeyboardArrowLeftRoundedIcon from '@mui/icons-material/KeyboardArrowLeftRounded';
 
 interface NavbarSearchDataTypeProps{
@@ -14,7 +14,7 @@ const NavbarSearch = ({num,title}:NavbarSearchDataTypeProps) =>{
                 <Typography variant={'subtitle1'} fontSize={'0.8rem'} color={'rgb(58, 61, 66)'}>{title}</Typography>
             </Grid>
             <Grid display={'flex'} alignItems={'center'}>
-                <Typography variant={'subtitle1'} fontSize={'0.8rem'} color={'success.main'}>تعداد ({num})</Typography>
+                <Typography variant={'subtitle1'} fontSize={'0.8rem'} color={'success.main'}>مشاهده همه ({num})</Typography>
                 <KeyboardArrowLeftRoundedIcon color="success"/>
             </Grid>
         </Grid>

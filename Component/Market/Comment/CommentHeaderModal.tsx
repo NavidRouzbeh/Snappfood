@@ -12,9 +12,9 @@ const CommentHeaderModal = () => {
                     <Image src={pic} alt="" style={{ border: "1px solid rgba(58, 61, 66, 0.06)", borderRadius: "0.75rem", width: "7rem", height: "7.5rem"}} />
                 </Grid>
                 <Grid item md={6}  sm={10} pr={{sm:10 , md:0}} flexDirection={"column"} display={"flex"} justifyContent={"space-between"}  >
-                    <Typography fontWeight={700} fontSize={"25px"} color={"000"}>{"P.S (فیلیپر)"}</Typography>
-                    <Typography fontWeight={400} fontSize={"15px"} color={"#53565c"}>{"ایرانی, کباب, سنتی"}</Typography>
-                    <Typography fontWeight={400} fontSize={"15px"} color={"#53565c"}>{"خیابان جویبار، خیابان زرشت غربی، روبرو بانک سپه، پلاک۹، فیلیپر"}</Typography>
+                    <Typography>{"P.S (فیلیپر)"}</Typography>
+                    <Typography>{"ایرانی, کباب, سنتی"}</Typography>
+                    <Typography>{"خیابان جویبار، خیابان زرشت غربی، روبرو بانک سپه، پلاک۹، فیلیپر"}</Typography>
                 </Grid>
 
                 <Grid xs={4} display={{md:"flex" , sm:"none"}} justifyContent={"center"}>
