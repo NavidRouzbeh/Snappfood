@@ -84,7 +84,7 @@ const SearchBar = () => {
                             <Grid display={'flex'} flexDirection={'column'} p={2}>
                                 <NavbarSearch num={filterFood.length ?? 0}
                                               title={'محصولات'}/>
-                                {filterFood.map(market => market.map((food,index) => (
+                                {filterFood.map((market): any => market.map((food: any,index: any) => (
                                     <ProductDetailCardSearch key={index} food={food} market={market}/>
                                 )))}
                             </Grid>
