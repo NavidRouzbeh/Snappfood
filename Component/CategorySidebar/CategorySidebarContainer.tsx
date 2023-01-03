@@ -8,7 +8,7 @@ const CategorySidebarContainer = () => {
 
     return(
         <Grid sx={{
-            // maxWidth:'25%',
+            maxWidth:'25%',
             p:'1rem',
             borderRadius:'0.75rem',
             bgcolor:'white'
@@ -24,7 +24,7 @@ const CategorySidebarContainer = () => {
                 <Typography variant="subtitle2">همه دسته‌بندی‌ها</Typography>
             </Grid>
             <Grid>
-                {CategorySidebarData.map((item,index) => (<CategorySidebarItem key={index}{...item}/>))}
+                {CategorySidebarData.map((item:any,index:any) => (<CategorySidebarItem key={index}{...item}/>))}
             </Grid>
 
             

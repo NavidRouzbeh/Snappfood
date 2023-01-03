@@ -12,16 +12,16 @@ const CommentInformation = () => {
                     <Grid display={"flex"} flexDirection={"column"} width={"70%"}  >
                         <Typography mb={2}>{"پیتزا شیلا (میدان ولیعصر)"}</Typography>
                         <Grid display={"flex"} gap={4}>
-                            <Typography>{"نوع محصول :"}</Typography>
-                            <Typography>{"فست فود ,  برگر , ساندویچ"}</Typography>
+                            <Typography fontSize={"12px"} fontWeight={600}>{"نوع محصول :"}</Typography>
+                            <Typography fontSize={"12px"} >{"فست فود ,  برگر , ساندویچ"}</Typography>
                         </Grid>
                         <Grid display={"flex"} gap={3}>
-                            <Typography>{"حداقل سبد خرید:"}</Typography>
-                            <Typography>{"4000 تومان "}</Typography>
+                            <Typography fontSize={"12px"} fontWeight={600}>{"حداقل سبد خرید:"}</Typography>
+                            <Typography fontSize={"12px"}>{"4000 تومان "}</Typography>
                         </Grid>
                         <Grid display={"flex"} gap={4}>
-                            <Typography>{"روش پرداخت: "}</Typography>
-                            <Typography>{"آنلاین"}</Typography>
+                            <Typography fontSize={"12px"} fontWeight={600}>{"روش پرداخت: "}</Typography>
+                            <Typography fontSize={"12px"} >{"آنلاین"}</Typography>
                         </Grid>
 
 
@@ -33,7 +33,7 @@ const CommentInformation = () => {
                 <Grid display={"flex"} width={"100%"}>
                 <Grid display={"flex"} width={"60%"} dir={"rtl"} mt={2} gap={2}>
                     <RoomIcon />
-                    <Typography>
+                    <Typography fontSize={"15px"}>
                         {"ضلع جنوب شرقی میدان ولیعصر، نبش کوچه شقایق، پلاک ۴۶، پیتزا شیلا (میدان ولی عصر)"}
                     </Typography>
                 </Grid>

@@ -86,6 +86,7 @@ export const theme = createTheme({
         color:'rgb(58, 61, 66)',
         lineHeight:'2rem',
     },
+
     //title container
     h2:{
         fontSize:'1.5rem',

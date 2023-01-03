@@ -73,10 +73,10 @@ const SearchBar = () => {
                             <Grid display={'flex'} flexDirection={'column'} p={2}>
                                 <NavbarSearch num={filterMarket.length ?? 0} title={'فروشگاه‌ها'}/>
                                 {filterMarket.map((FM,index) => (
-                                    <Grid display={'flex'} alignItems={'center'} height={60} key={index}>
+                                    <Grid key={index} display={'flex'} alignItems={'center'} height={60}>
                                         <StorefrontIcon fontSize="small"/>
                                         <Typography mr={2} variant={'subtitle1'} fontSize={'0.8rem'}
-                                                     color={'rgb(58, 61, 66)'}>{FM.name}</Typography>
+                                                    color={'rgb(58, 61, 66)'}>{FM.name}</Typography>
                                     </Grid>
                                 ))}
                             </Grid>
@@ -84,7 +84,7 @@ const SearchBar = () => {
                             <Grid display={'flex'} flexDirection={'column'} p={2}>
                                 <NavbarSearch num={filterFood.length ?? 0}
                                               title={'محصولات'}/>
-                                {filterFood.map((market): any => market.map((food: any,index: any) => (
+                                {filterFood.map(market => market.map((food: any,index:any) => (
                                     <ProductDetailCardSearch key={index} food={food} market={market}/>
                                 )))}
                             </Grid>

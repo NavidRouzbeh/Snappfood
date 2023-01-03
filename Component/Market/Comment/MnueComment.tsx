@@ -8,19 +8,19 @@ import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 
 const MnueComment = () => {
   const [arow, setArow] = React.useState(false)
-  
+
   const handleClick = () => {
     setArow(!arow)
   }
- 
+
   return (
     <>
-      <Grid display={"flex"} justifyContent={"space-around"} dir={"rtl"} >
+      <Grid display={"flex"} justifyContent={"space-around"} pt={3} >
         <Grid display={"flex"} position={"relative"} justifyContent={"center"} alignItems={"center"} flexDirection={"column"}>
-          <AccessTimeIcon />
-          <Typography>ساعت کاری </Typography>
+          <AccessTimeIcon style={{ fontSize: "20px", fill: "rgb(103, 106, 112)" }} />
+          <Typography color={"#3a3d42"} fontSize={"13px"} >ساعت کاری </Typography>
           <Grid display={"flex"}>
-            <Typography display={"flex"} alignItems={"center"} gap={2} onClick={handleClick}>باز از ساعت 11:30 تا
+            <Typography color={"#3a3d42"} fontWeight={700} display={"flex"} alignItems={"center"} gap={2} onClick={handleClick}>باز از ساعت 11:30 تا
               23:00
               {arow ?
                 <>
@@ -63,24 +63,24 @@ const MnueComment = () => {
                     </Grid>
                     
                   </Grid> */}
-        </>
-        :
-        <ArrowDropDownIcon />}
-      </Typography>
-    </Grid>
-          
+                </>
+                :
+                <ArrowDropDownIcon />}
+            </Typography>
+          </Grid>
+
         </Grid >
 
         <Grid display={"flex"} justifyContent={"center"} alignItems={"center"} flexDirection={"column"}>
 
-          <CreditScoreIcon />
-          <Typography>شیوه پرداخت</Typography>
-          <Typography>آنلاین</Typography>
+          <CreditScoreIcon style={{ fontSize: "20px", fill: "rgb(103, 106, 112)" }} />
+          <Typography fontSize={"13px"} color={"#3a3d42"} >شیوه پرداخت</Typography>
+          <Typography color={"#3a3d42"} fontWeight={700} >آنلاین</Typography>
         </Grid>
         <Grid display={"flex"} justifyContent={"center"} alignItems={"center"} flexDirection={"column"}>
-          <AddShoppingCartIcon />
-          <Typography>حداقل سبد خرید</Typography>
-          <Typography>55،400 تومان </Typography>
+          <AddShoppingCartIcon style={{ fontSize: "20px", fill: "rgb(103, 106, 112)" }} />
+          <Typography color={"#3a3d42"} fontSize={"13px"} >حداقل سبد خرید</Typography>
+          <Typography color={"#3a3d42"} fontWeight={700} >55،400 تومان </Typography>
         </Grid>
       </Grid >
 

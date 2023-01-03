@@ -14,10 +14,11 @@ import arrow from "../../../Assets/Svgs/arrow.svg"
 
 export interface ModalBoxProps {
     open: boolean,
-    setOpen:  React.Dispatch<React.SetStateAction<boolean>>
+    setOpen:(arg0: boolean)=> boolean
 
 }
-const SectionOrdersCard = ({open, setOpen}: ModalBoxProps): JSX.Element => {
+const SectionOrdersCard = (): JSX.Element => {
+    const [open, setOpen] = useState<boolean>(false)
     const handelOpen = ()  => {
         setOpen(true)
       }

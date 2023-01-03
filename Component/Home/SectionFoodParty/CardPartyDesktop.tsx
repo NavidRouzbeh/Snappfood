@@ -9,7 +9,7 @@ import React, { useState } from "react";
 export interface ModalBoxProps {
   open: boolean,
   // setOpen:(arg0: boolean)=> boolean
-  setOpen: any
+  setOpen: (arg0: boolean) => boolean
 }
 // console.log(handleOpen)
 import star from "../../../Assets/Svgs/star.svg";

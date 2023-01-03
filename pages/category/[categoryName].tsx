@@ -3,7 +3,6 @@ import { Grid } from "@mui/material";
 import { GetStaticProps, GetStaticPropsContext } from "next";
 import { getMarkets } from "../../API/getMarkets";
 import CategorySidebarContainer from "../../Component/CategorySidebar/CategorySidebarContainer";
-import NavbarSection from "../../Component/Home/NavbarSection/NavbarSection";
 import SortingDropDown from "../../Component/SortingDropDown/SortingDropDown";
 import DesktopVendor from "../../Component/VendorCard/DesktopVendorCard";
 import VendorCard from "../../Component/VendorCard/VendorCard";
@@ -14,28 +13,18 @@ interface CategoryNameProps {
 
 
 const CategoryName = ({markets}:CategoryNameProps) => {
-    console.log(markets)
+    // console.log(markets)
     return(
-
-        <>
-        <NavbarSection/>
-        <Grid display={'flex'} flexDirection={'column'} sx={{py:10, px:2}}>
-          <Grid display={'flex'} justifyContent={'flex-end'} sx={{width:'100%'}}>
+    
+        <Grid>
             <SortingDropDown/>
-          </Grid>
-          <Grid display={'flex'} flexDirection={'row'} sx={{width:'100%'}}>
-            <Grid sx={{minWidth:'25%'}}>
-              <CategorySidebarContainer/>
+            <Grid marginY={2} p={4}>
+                {markets.map((market:{},index)=>
+                    <DesktopVendor key={index} {...market}/>
+                )}
             </Grid>
-            <Grid>
-              {markets.map((market,index)=>
-                <VendorCard key={index}/>
-              )}
-            </Grid>
-          </Grid>
+            {/*<CategorySidebarContainer/>*/}
         </Grid>
-        </>
-
     )
 
 }

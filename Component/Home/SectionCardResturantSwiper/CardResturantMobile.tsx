@@ -1,5 +1,5 @@
-import Grid from "@mui/material/Grid/Grid";
-import Typography from "@mui/material/Typography/Typography";
+import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
 import MobileVendorCard from "../../VendorCard/MobileVendorCard";
 import { Cardtitleresturant } from "../../../Data/CardResturant/CardResturant";
 import HeaderCardResturant from "./HeaderCardResturant";
@@ -12,11 +12,11 @@ const CardResturantMobile =()=>{
     return(
         <>
         {Cardtitleresturant.map((item,index)=>(
-            <main key={index}>
+            <>
             <HeaderCardResturant {...item}/>
-            <Grid display={'flex'} xs={11} p={2} sx={{overflow:'scroll'}} ml={1}>
+            <Grid display={'flex'} xs={11} p={2} sx={{overflow:'scroll'}} ml={1} key={index}>
                 <Grid display={'flex'}  gap={1}>
-                    {m.map((item, index)=>(
+                    {m.map((item:any,index:any)=>(
                         <MobileVendorCard key={index}/>
                     ))}
                     <Grid width={'11rem'} borderRadius={2} boxShadow={1}>
@@ -30,11 +30,11 @@ const CardResturantMobile =()=>{
                             </Grid>
                         </Grid>
                     </Grid>
-                </Grid>
-
+                </Grid> 
+                              
             </Grid>
-
-            </main>
+            
+            </>
         ))}
         </>
     )

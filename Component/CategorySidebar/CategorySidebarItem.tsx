@@ -10,8 +10,9 @@ const CategorySidebarItem = ({ image, title } : CategorySidebarType) => {
         <Grid>
             <Grid display={'flex'} alignItems={'center'} sx={{py:1.5}}>
                 <Image style={{ borderRadius:50, width:'2.5rem', height:'2.5rem'}} src={image} alt="" />
-                <Typography variant="body1" sx={{mr:2}} >{title}</Typography>
+                <Typography variant="subtitle1" sx={{mr:2}} >{title}</Typography>
             </Grid>
+            <Grid></Grid>
         </Grid>
 
     )

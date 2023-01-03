@@ -22,7 +22,7 @@ const CategoryContainer = () => {
         }}
         gap={{xs:2,sm:4}}
       >
-        {categorydata.map((item,index) => (
+        {categorydata.map((item:any,index:any) => (
           <CategoryCard key={index} {...item} />
         ))}
       </Grid>
