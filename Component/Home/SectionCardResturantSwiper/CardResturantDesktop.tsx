@@ -21,7 +21,7 @@ const CardResturantDesktop =()=>{
                 <HeaderCardResturant {...item}/>
                 <Grid xs={11.5}>
                     <SwipperContainer>
-                        {MainData.filter(res=>!res.coupon).map((item, index)=>(
+                        {MainData.filter(res=>res.coupon===false).map((item,index)=>(
                             <SwiperSlide key={index}><DesktopVendor {...item}/></SwiperSlide>
                         ))}
                     </SwipperContainer>
