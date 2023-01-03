@@ -28,8 +28,8 @@ const CategoryName = ({markets}:CategoryNameProps) => {
               <CategorySidebarContainer/>
             </Grid>
             <Grid>
-              {markets.map((market,index)=>
-                <VendorCard key={index}/>
+              {markets.map(market=>
+                <VendorCard/>
               )}
             </Grid>
           </Grid>

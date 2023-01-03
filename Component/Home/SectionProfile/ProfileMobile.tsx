@@ -20,8 +20,8 @@ const ProfileMobile =()=>{
                     </Grid>
                 </Grid>
                 <Divider/>
-                {ProfileMobileData.map((item,index)=>(
-                    <ProfileMobileRow key={index} {...item}/>
+                {ProfileMobileData.map(item=>(
+                    <ProfileMobileRow {...item}/>
                 ))}
                 <Grid display={'flex'} flexDirection={'row-reverse'} p={2}>
                     <Typography variant="body2">نسخه 5.6.6</Typography>

@@ -24,7 +24,7 @@ const CategorySidebarContainer = () => {
                 <Typography variant="subtitle2">همه دسته‌بندی‌ها</Typography>
             </Grid>
             <Grid>
-                {CategorySidebarData.map((item,index) => (<CategorySidebarItem key={index}{...item}/>))}
+                {CategorySidebarData.map((item) => (<CategorySidebarItem{...item}/>))}
             </Grid>
 
             

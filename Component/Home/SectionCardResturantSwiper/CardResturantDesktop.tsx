@@ -16,13 +16,13 @@ const CardResturantDesktop =()=>{
   const m:number[]=[0,1,3,4,5,6,7,8];
     return(
         <Grid>
-        {Cardtitleresturant.map((item,index)=>(
-            <Grid container  m={4} p={2} width={'100%'} flexShrink={0}  gap={2} key={index}>
+        {Cardtitleresturant.map(item=>(
+            <Grid container  m={4} p={2} width={'100%'} flexShrink={0}  gap={2}>
                 <HeaderCardResturant {...item}/>
                 <Grid xs={11.5}>
                     <SwipperContainer>
-                        {MainData.filter(res=>res.coupon===false).map((item,index)=>(
-                            <SwiperSlide key={index}><DesktopVendor {...item}/></SwiperSlide>
+                        {MainData.filter(res=>res.coupon===false).map(item=>(
+                            <SwiperSlide><DesktopVendor {...item}/></SwiperSlide>
                         ))}
                     </SwipperContainer>
                 </Grid>
