@@ -17,8 +17,7 @@ export interface ModalBoxProps {
     setOpen:(arg0: boolean)=> boolean
 
 }
-const SectionOrdersCard = (): JSX.Element => {
-    const [open, setOpen] = useState<boolean>(false)
+const SectionOrdersCard = ({open,setOpen}:any): JSX.Element => {
     const handelOpen = ()  => {
         setOpen(true)
       }
