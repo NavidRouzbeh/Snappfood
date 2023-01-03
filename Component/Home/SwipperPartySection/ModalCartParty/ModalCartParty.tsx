@@ -32,7 +32,7 @@ const style = {
 
 export interface ModalBoxProps {
     open: boolean,
-    setOpen: (arg0: boolean) => boolean
+    setOpen: React.Dispatch<React.SetStateAction<boolean>>
 }
 const ModalCartParty = ({ setOpen, open }: ModalBoxProps): JSX.Element => {
     const handleClose = () => setOpen(false);
