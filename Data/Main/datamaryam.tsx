@@ -37,9 +37,6 @@ import Pitkologo from '../../Assets/Images/ImageDatabase/pitko/pitko-logo.jpeg'
 import Pitko from '../../Assets/Images/ImageDatabase/pitko/pitko.jpeg'
 //------------------------------------------------------------------------------------
 //cafe
-import Zarilogo from '../../Assets/Images/ImageDatabase/mamanzari/logozari.jpg'
-import Zari from '../../Assets/Images/ImageDatabase/mamanzari/zari.jpg'
-import Zari1 from '../../Assets/Images/ImageDatabase/mamanzari/cake1.jpeg'
 import Zari2 from '../../Assets/Images/ImageDatabase/mamanzari/cake2.jpeg'
 import Zari3 from '../../Assets/Images/ImageDatabase/mamanzari/baghlava1.jpeg'
 import Zari4 from '../../Assets/Images/ImageDatabase/mamanzari/baghlava2.jpeg'
@@ -137,13 +134,13 @@ export const DataBase = [
             score:958,
             address:'پیروزی، صد دستگاه، نبش کوچه رشیدی، کافه بستنی مامان زری',
             delivery:20000,
-            logo:Zarilogo,
-            picture:Zari,
+            logo:Zari2,
+            picture:Zari2,
             coupon:false,
             discount:false,
             categories: ["کیک", "باقلوا"] ,
             foods:[
-                {id:1,category:'کیک',name:'کیک شکلاتی',images:Zari1,price:40000,material:'یک اسلایس'},
+                {id:1,category:'کیک',name:'کیک شکلاتی',images:Zari2,price:40000,material:'یک اسلایس'},
                 {id:2,category:'کیک',name:'کیک گردویی',images:Zari2,price:40000,material:'یک اسلایس کیک گردویی'},
                 {id:3,category:'باقلوا',name:'باقلوا ساده',images:Zari3,price:70000,material:'باقلوای ساده (چهار مغز)'},
                 {id:4,category:'باقلوا',name:'همبرگر',images:Zari4,price:95000,material:'ترکیبی از باقلوا بستنی وانیلی و مغزپسته'},
