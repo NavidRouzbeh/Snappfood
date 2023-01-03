@@ -11,15 +11,13 @@ const CardResturantMobile =()=>{
     const m:number[]=[1,2,3,4,5]
     return(
         <>
-        {Cardtitleresturant.map(item=>(
-            <>
+        {Cardtitleresturant.map((item,index)=>(
+            <main key={index}>
             <HeaderCardResturant {...item}/>
-            <Grid display={'flex'} xs={11} p={2} sx={{overflow:'scroll'}} ml={1}> 
+            <Grid display={'flex'} xs={11} p={2} sx={{overflow:'scroll'}} ml={1}>
                 <Grid display={'flex'}  gap={1}>
-                    {m.map(item=>(
-                        <>
-                        <MobileVendorCard/> 
-                    </>
+                    {m.map((item, index)=>(
+                        <MobileVendorCard key={index}/>
                     ))}
                     <Grid width={'11rem'} borderRadius={2} boxShadow={1}>
                         <Grid  height={'50%'} bgcolor='green' borderRadius={'6px 6px 0 0'} position={'relative'} zIndex={100000}>
@@ -32,11 +30,11 @@ const CardResturantMobile =()=>{
                             </Grid>
                         </Grid>
                     </Grid>
-                </Grid> 
-                              
+                </Grid>
+
             </Grid>
-            
-            </>
+
+            </main>
         ))}
         </>
     )

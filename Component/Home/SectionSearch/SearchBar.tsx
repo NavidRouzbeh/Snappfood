@@ -23,8 +23,6 @@ const SearchBar = () => {
     const filterMarket = useMemo(() => MainData.filter(item => item.name.toLowerCase().includes(valueSearch.toLowerCase())), [valueSearch])
     const filterFood = useMemo(() => MainData.map((item: any) => item.foods.filter((food: any) => food.name.toLowerCase().includes(valueSearch.toLowerCase()))), [valueSearch])
 
-    console.log(MainData.map((item: any) => item.foods.filter((food: any) => food.name.toLowerCase().includes(valueSearch.toLowerCase()))))
-
     return (
         <Grid display={'flex'} justifyContent={'center'}>
             <Grid position={'relative'} mt={2} width={{xs: '90%', sm: '45vw', md: '29vw'}}>
@@ -74,8 +72,8 @@ const SearchBar = () => {
                             <Divider/>
                             <Grid display={'flex'} flexDirection={'column'} p={2}>
                                 <NavbarSearch num={filterMarket.length ?? 0} title={'فروشگاه‌ها'}/>
-                                {filterMarket.map(FM => (
-                                    <Grid display={'flex'} alignItems={'center'} height={60}>
+                                {filterMarket.map((FM,index) => (
+                                    <Grid display={'flex'} alignItems={'center'} height={60} key={index}>
                                         <StorefrontIcon fontSize="small"/>
                                         <Typography mr={2} variant={'subtitle1'} fontSize={'0.8rem'}
                                                      color={'rgb(58, 61, 66)'}>{FM.name}</Typography>
@@ -86,8 +84,8 @@ const SearchBar = () => {
                             <Grid display={'flex'} flexDirection={'column'} p={2}>
                                 <NavbarSearch num={filterFood.length ?? 0}
                                               title={'محصولات'}/>
-                                {filterFood.map(market => market.map((food: any) => (
-                                    <ProductDetailCardSearch food={food} market={market}/>
+                                {filterFood.map(market => market.map((food,index) => (
+                                    <ProductDetailCardSearch key={index} food={food} market={market}/>
                                 )))}
                             </Grid>
                         </Grid>

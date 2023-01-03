@@ -11,8 +11,8 @@ const FoodPartyDesktop = () => {
               <TimerFoodPartyDesktop />
               <Grid xs={9} item>
                 <SwipperContainer>
-                  {m.map(item=>(
-                    <SwiperSlide><CardPartyDesktop/></SwiperSlide>
+                  {m.map((item,index)=>(
+                    <SwiperSlide key={index}><CardPartyDesktop/></SwiperSlide>
                   ))}
                 </SwipperContainer>
               </Grid>

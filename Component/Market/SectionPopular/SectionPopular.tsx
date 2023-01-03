@@ -5,15 +5,15 @@ interface SectionPopularType {
 }
 const SectionPopular=({market}:SectionPopularType)=>{
     return(
-      
+
 
      <Grid  border={"1px solid #EBEDF0"}  item xs={12} sm={6} >
       <Grid >
-      {market.map(res=>(
-        <Grid>
-        {res.categories?.map(cat=>(
+      {market.map((res,index)=>(
+        <Grid key={index}>
+        {res.categories?.map((cat,index)=>(
           <>
-                <Grid xs={12} textAlign={'center'} p={2} ><Typography variant="subtitle1"fontWeight={700} color={'rgb(83, 86, 92)'}>{cat}</Typography></Grid>
+                <Grid key={index} xs={12} textAlign={'center'} p={2} ><Typography variant="subtitle1"fontWeight={700} color={'rgb(83, 86, 92)'}>{cat}</Typography></Grid>
                   <Grid display={'flex'} flexWrap={'wrap'} >
                     {res.foods.filter(food=>food.category===cat).map(food=>(
                      <Cardpopular food={food}/>

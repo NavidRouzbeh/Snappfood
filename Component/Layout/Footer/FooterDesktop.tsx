@@ -26,15 +26,15 @@ const FooterDesktop = () => {
                 </Grid>
                 <Grid item display={'flex'} flexDirection={'column'}   md={2} xs={4}>
                     {
-                    footerItems1.map(item=>(
-                        <Grid p={1} sx={{cursor:'pointer'}}><Typography color={'#3A3D42'} variant="subtitle1">{item.title}</Typography></Grid>
+                    footerItems1.map((item,index)=>(
+                        <Grid key={index} p={1} sx={{cursor:'pointer'}}><Typography color={'#3A3D42'} variant="subtitle1">{item.title}</Typography></Grid>
                     ))
                 }
                 </Grid>
                 <Grid item display={'flex'} flexDirection={'column'}   md={2} xs={6}>
                     {
-                    footerItems2.map(item=>(
-                        <Grid p={1} sx={{cursor:'pointer'}} ><Typography variant="subtitle1" color={'#3A3D42'}>{item.title}</Typography></Grid>
+                    footerItems2.map((item,index)=>(
+                        <Grid key={index} p={1} sx={{cursor:'pointer'}} ><Typography variant="subtitle1" color={'#3A3D42'}>{item.title}</Typography></Grid>
                     ))
                 }
                 </Grid>
