@@ -769,24 +769,24 @@ export const MainData = [
   //         {id:2,category:'نوشیدنی گرم',name:'چای ماسالا',images:Masood2,price:30000,material:'۲۵۰ میلی لیتر، پودر ماسالا، شیر'},
   //     ]
   // },
-  { id: 17, 
-      category:'bakery',
-      name: "نان سحر", 
-      star:4.6,
-      score:968,
-      address:'خیابان پیروزی، نرسیده به چهارراه کوکاکولا، داخل مترو نبرد، نان سحر (نبرد)',
-      delivery:25000,
-      logo:Saharlogo,
-      picture:Sahar,
-      coupon:false,
-      discount:true,
-      categories: ["صبحانه", "نان تیره و رژیمی"] ,
-      foods:[
-          {id:1,category:'صبحانه',name:'کروسان شکلاتی',images:Sahar1,price:20000,material:'آرد گندم، تخم مرغ، کره مارگارین، کره لایه ای، شکلات،مخمر، نمک، شکر، بهبود دهنده، آب'},
-          {id:2,category:'صبحانه',name:'شیرمال خرما و گردو',images:Sahar2,price:21000,material:'آرد گندم، وانیل، گردو، چیپس خرما، دارچین، کرمفیل، تخم مـرغ، کره مارگارین، مخمر، نمک، شکر، بهبود دهنده، آب'},
-          {id:3,category:'نان تیره و رژیمی',name:'نان جو دوسر',images:Sahar2,price:12000,material:'جو ،آرد،آب'},
-      ]
-  },
+  // { id: 17,
+  //     category:'bakery',
+  //     name: "نان سحر",
+  //     star:4.6,
+  //     score:968,
+  //     address:'خیابان پیروزی، نرسیده به چهارراه کوکاکولا، داخل مترو نبرد، نان سحر (نبرد)',
+  //     delivery:25000,
+  //     logo:Saharlogo,
+  //     picture:Sahar,
+  //     coupon:false,
+  //     discount:true,
+  //     categories: ["صبحانه", "نان تیره و رژیمی"] ,
+  //     foods:[
+  //         {id:1,category:'صبحانه',name:'کروسان شکلاتی',images:Sahar1,price:20000,material:'آرد گندم، تخم مرغ، کره مارگارین، کره لایه ای، شکلات،مخمر، نمک، شکر، بهبود دهنده، آب'},
+  //         {id:2,category:'صبحانه',name:'شیرمال خرما و گردو',images:Sahar2,price:21000,material:'آرد گندم، وانیل، گردو، چیپس خرما، دارچین، کرمفیل، تخم مـرغ، کره مارگارین، مخمر، نمک، شکر، بهبود دهنده، آب'},
+  //         {id:3,category:'نان تیره و رژیمی',name:'نان جو دوسر',images:Sahar2,price:12000,material:'جو ،آرد،آب'},
+  //     ]
+  // },
   // { id: 18, 
   //     category:'bakery',
   //     name: "نان سنگک سنتی یاس", 
@@ -804,25 +804,25 @@ export const MainData = [
   //         {id:2,category:'سنگک',name:'سنگک سنتی ساده بزرگ',images:Yas2,price:7000,material:'بک عدد'},
   //     ]
   // },
-  { id: 19, 
-      category:'nuts',
-      name: "آجیل و خشکبار شکپوی", 
-      star:4.7,
-      score:723,
-      address:'دلگشا، کوچه شهید رضایی، بلوار نیکنام شرقی، پلاک ۴۶، آجیل و خشکبار شکپوی',
-      delivery:30000,
-      logo:Shaklogo,
-      picture:Shak,
-      coupon:false,
-      discount:true,
-      categories: ["آجیل شور","آجیل خام"] ,
-      foods:[
-          {id:1,category:'آجیل شور',name:'بادام هندی شور',images:Shak1,price:10000,material:'بادام هندی ۲۴۰ شور ۲۵۰ گرم'},
-          {id:2,category:'آجیل شور',name:'آجیل مغز شور',images:Shak2,price:510000,material:'مغز پسته، مغز فندق، مغز بادام، مغز بادام هندی سایز ۳۲۰'},
-          {id:3,category:'آجیل خام',name:'آجیل چهار مغز خام',images:Shak3,price:420000,material:'پسته احمد آقایی خام با پوست، فندق خام، بادام درختی خام، بادام هندی خام'},
-          {id:4,category:'آجیل خام',name:'پسته احمد آقایی خام',images:Shak4,price:540000,material:'محصول: رفسنجان'},
-      ]
-  },
+  // { id: 19,
+  //     category:'nuts',
+  //     name: "آجیل و خشکبار شکپوی",
+  //     star:4.7,
+  //     score:723,
+  //     address:'دلگشا، کوچه شهید رضایی، بلوار نیکنام شرقی، پلاک ۴۶، آجیل و خشکبار شکپوی',
+  //     delivery:30000,
+  //     logo:Shaklogo,
+  //     picture:Shak,
+  //     coupon:false,
+  //     discount:true,
+  //     categories: ["آجیل شور","آجیل خام"] ,
+  //     foods:[
+  //         {id:1,category:'آجیل شور',name:'بادام هندی شور',images:Shak1,price:10000,material:'بادام هندی ۲۴۰ شور ۲۵۰ گرم'},
+  //         {id:2,category:'آجیل شور',name:'آجیل مغز شور',images:Shak2,price:510000,material:'مغز پسته، مغز فندق، مغز بادام، مغز بادام هندی سایز ۳۲۰'},
+  //         {id:3,category:'آجیل خام',name:'آجیل چهار مغز خام',images:Shak3,price:420000,material:'پسته احمد آقایی خام با پوست، فندق خام، بادام درختی خام، بادام هندی خام'},
+  //         {id:4,category:'آجیل خام',name:'پسته احمد آقایی خام',images:Shak4,price:540000,material:'محصول: رفسنجان'},
+  //     ]
+  // },
   // { id: 20, 
   //   category:'confectionery', 
   //   name: "شیرینی پاپا (ساعی)", 
@@ -842,25 +842,25 @@ export const MainData = [
   //       {id:4,category:' لوازم تولد',name:'ظروف یک بار مصرف کاغذی',images:PapaBirth2,price:35000,material:'۱۰ عدد'},
   //   ]
   //   },
-    { id: 21, 
-           category:'confectionery', 
-            name: "قنادی توکلی فر تبریزی", 
-            star:4.3,
-            score:3056,
-            address:'ولیعصر، ابتدای خیابان فاطمی، روبروی مترو جهاد پلاک ۱۱، قنادی توکلی فر تبریزی',
-            delivery:7500,
-            logo:TavakliFarLogo,
-            picture:TavakliFar,
-            coupon:false,
-            discount:true,
-            categories: ["شیرینی تر ", "شکلات"] ,
-            foods:[
-                {id:1,category:'شیرینی تر ',name:'شیرینی تر مخلوط',images:TavakliFarmixed1,price:162000,material:'± ۵۰ گرم، تشکیل شده از: انواع شیرینی تر مخلوط خامه ای'},
-                {id:2,category:'شیرینی تر ',name:'شیرینی ماکارون انواع طعم',images:TavakliFarmixed2,price:127000,material:'تشکیل شده از: انواع ماکارون'},
-                {id:3,category:'شکلات ',name:'آب نبات زنجبیل',images:TavakliFarChocolate1,price:145000,material:'500گرم'},
-                {id:4,category:'شکلات ',name:'شکلات تلخ فله ۷۸ درصد',images:TavakliFarChocolate2,price:130000,material:'برند صادراتی لوکاکو از معتبرترین برند های موجود در صنعت شکلات'},                      
-        ]
-            },
+  //   { id: 21,
+  //          category:'confectionery',
+  //           name: "قنادی توکلی فر تبریزی",
+  //           star:4.3,
+  //           score:3056,
+  //           address:'ولیعصر، ابتدای خیابان فاطمی، روبروی مترو جهاد پلاک ۱۱، قنادی توکلی فر تبریزی',
+  //           delivery:7500,
+  //           logo:TavakliFarLogo,
+  //           picture:TavakliFar,
+  //           coupon:false,
+  //           discount:true,
+  //           categories: ["شیرینی تر ", "شکلات"] ,
+  //           foods:[
+  //               {id:1,category:'شیرینی تر ',name:'شیرینی تر مخلوط',images:TavakliFarmixed1,price:162000,material:'± ۵۰ گرم، تشکیل شده از: انواع شیرینی تر مخلوط خامه ای'},
+  //               {id:2,category:'شیرینی تر ',name:'شیرینی ماکارون انواع طعم',images:TavakliFarmixed2,price:127000,material:'تشکیل شده از: انواع ماکارون'},
+  //               {id:3,category:'شکلات ',name:'آب نبات زنجبیل',images:TavakliFarChocolate1,price:145000,material:'500گرم'},
+  //               {id:4,category:'شکلات ',name:'شکلات تلخ فله ۷۸ درصد',images:TavakliFarChocolate2,price:130000,material:'برند صادراتی لوکاکو از معتبرترین برند های موجود در صنعت شکلات'},
+  //       ]
+  //           },
 
 
 
@@ -885,23 +885,23 @@ export const MainData = [
 
 
 
-                { id: 23, 
-                    name: "بهار", 
-                    star:5,
-                    score:16056,
-                    address:'خیابان بهار شمالی، روبروی منبع آب، نبش کوچه ابن سین، اپلاک ۴۶۹، آبمیوه بهار',
-                    delivery:5000,
-                    logo:BaharLogo,
-                    picture:Bahar,
-                    coupon:false,
-                    discount:true,
-                    categories: ["بستنی"],
-                    foods:[
-                        {id:1,category:'بستنی',name:' بستنی میوه ای لیوانی',images:Icecream1,price:20000,material:'۴ اسکوپ بستنی شرکتی، در طعم های محتلف'},
-                        {id:2,category:'بستنی',name:'بستنی میوه ای اسکوپی',images:Icecream2,price:60000,material:'شرکتی، در طعم های محتلف'},
-                      
-                ]
-                    },     
+                // { id: 23,
+                //     name: "بهار",
+                //     star:5,
+                //     score:16056,
+                //     address:'خیابان بهار شمالی، روبروی منبع آب، نبش کوچه ابن سین، اپلاک ۴۶۹، آبمیوه بهار',
+                //     delivery:5000,
+                //     logo:BaharLogo,
+                //     picture:Bahar,
+                //     coupon:false,
+                //     discount:true,
+                //     categories: ["بستنی"],
+                //     foods:[
+                //         {id:1,category:'بستنی',name:' بستنی میوه ای لیوانی',images:Icecream1,price:20000,material:'۴ اسکوپ بستنی شرکتی، در طعم های محتلف'},
+                //         {id:2,category:'بستنی',name:'بستنی میوه ای اسکوپی',images:Icecream2,price:60000,material:'شرکتی، در طعم های محتلف'},
+                //
+                // ]
+                //     },
     
     ]
 // export const DataBase = [
