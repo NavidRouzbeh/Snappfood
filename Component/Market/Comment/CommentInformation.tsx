@@ -1,9 +1,9 @@
 import { Grid, Typography } from '@mui/material'
 import React from 'react'
 import Image from 'next/image'
-import Pic from "../../../assets/images/food.jpg"
+// import Pic from "../../../assets/images/food.jpg"
 import RoomIcon from '@mui/icons-material/Room';
-import Loc from "../../../assets/images/loction.png"
+// import Loc from "../../../assets/images/loction.png"
 const CommentInformation = () => {
     return (
         <>
@@ -27,7 +27,7 @@ const CommentInformation = () => {
 
                     </Grid>
                     <Grid display={"flex"} width={"30%"} justifyContent={"flex-end"} >
-                        <Image src={Pic} alt="" style={{ border: "1px solid rgba(58, 61, 66, 0.06)", borderRadius: "8px", width: "5.5rem", height: "5.5rem" }} />
+                        {/*<Image src={Pic} alt="" style={{ border: "1px solid rgba(58, 61, 66, 0.06)", borderRadius: "8px", width: "5.5rem", height: "5.5rem" }} />*/}
                     </Grid>
                 </Grid>
                 <Grid display={"flex"} width={"100%"}>
@@ -38,7 +38,7 @@ const CommentInformation = () => {
                     </Typography>
                 </Grid>
                 <Grid display={"flex"} width={"40%"} justifyContent={"flex-end"} mt={2} >
-                    <Image src={Loc} alt="" style={{ border: "1px solid rgba(58, 61, 66, 0.06)", borderRadius: "8px", width: "6.5rem", height: "6.5rem" }} />
+                    {/*<Image src={Loc} alt="" style={{ border: "1px solid rgba(58, 61, 66, 0.06)", borderRadius: "8px", width: "6.5rem", height: "6.5rem" }} />*/}
                 </Grid>
                 </Grid>
                 

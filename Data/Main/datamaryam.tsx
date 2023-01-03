@@ -37,9 +37,9 @@ import Pitkologo from '../../Assets/Images/ImageDatabase/pitko/pitko-logo.jpeg'
 import Pitko from '../../Assets/Images/ImageDatabase/pitko/pitko.jpeg'
 //------------------------------------------------------------------------------------
 //cafe
-import Zari2 from '../../Assets/Images/ImageDatabase/mamanzari/cake2.jpeg'
-import Zari3 from '../../Assets/Images/ImageDatabase/mamanzari/baghlava1.jpeg'
-import Zari4 from '../../Assets/Images/ImageDatabase/mamanzari/baghlava2.jpeg'
+import Zari2 from '../../Assets/Images/ImageDatabase/pitko/pitko.jpeg'
+import Zari3 from '../../Assets/Images/ImageDatabase/pitko/pitko.jpeg'
+import Zari4 from '../../Assets/Images/ImageDatabase/pitko/pitko.jpeg'
 //----------------------------------------------------------------------------
 import Masoodlogo from '../../Assets/Images/ImageDatabase/masood/logomasood.jpg'
 import Masood from '../../Assets/Images/ImageDatabase/masood/masood.jpg'
