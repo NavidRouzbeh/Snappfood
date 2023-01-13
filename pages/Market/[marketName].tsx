@@ -18,9 +18,9 @@ const MarketName = ({market}: MarketNameProps) => {
     return (
 
         <Grid display={'flex'} pt={10} container sx={{backgroundColor:'#F9FAFB'}}>
-            {/* <Rec/> */}
+             {/*<Rec/>*/}
             <Comment market={market[0]}/>
-            <CommentDes/>
+            {/*<CommentDes/>*/}
             <SectionPopular market={market}/>
             <Cart/>
         </Grid>

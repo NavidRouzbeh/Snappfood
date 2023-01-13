@@ -1,4 +1,3 @@
-
 // --------bamahas------------
 // import bamahas98 from '../../Assets/Images/bamahas/bamahas.98.hot.jpeg';
 // import bamahasargentina from '../../Assets/Images/bamahas/bamahas.agentina.hot.jpeg';
@@ -154,82 +153,82 @@
 //------------------------------------------------------------------------------------
 //fatemeh
 //resturan AghaJohn
-import AghaJohnPizza from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-Pizza-1.jpg"
-import AghaJohnPizzaLogo from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-Pizza-2.jpg"
-import AghaJohnSpecialHamburger from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-SpecialHamburger-3.jpg"
-import AghaJohnDoubleBurger from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-DoubleBurger-4.png"
-import AghaJohnMcDonald from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-McDonald-5.jpeg"
-import AghaJohnGrilledWings from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-GrilledWings-6.jpeg"
-import AghaJohnPatchin from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-Patchin-7.jpeg"
-import AghaJohnJaggerySandwich from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-JaggerySandwich-8.jpg"
-import AghaJohnMeatSandwich from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-MeatSandwich-9.jpg"
-import AghaJohnTongueSandwich from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-TongueSandwich-10.jpeg"
-import AghaJohnPortSandwich from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-PortSandwich-11.jpeg"
-import AghaJohnSausageSandwich from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-SausageSandwich-12.jpg"
-import AghaJohnHotDogSandwich from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-HotDogSandwich-13.jpeg"
-import AghaJohnPotatoPizza from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-PotatoPizza-14.jpeg"
-import AghaJohnMixPizza from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-MixPizza-15.jpeg"
-import AghaJohnChickenPizza from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-ChickenPizza-16.jpeg"
-import AghaJohnMeatPizza from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-MeatPizza-17.jpeg"
-import AghaJohnMushroomPizza from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-MushroomPizza-18.jpeg"
-import AghaJohnMiixPizza from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-MiixPizza-19.jpeg"
+// import AghaJohnPizza from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-Pizza-1.jpg"
+// import AghaJohnPizzaLogo from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-Pizza-2.jpg"
+// import AghaJohnSpecialHamburger from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-SpecialHamburger-3.jpg"
+// import AghaJohnDoubleBurger from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-DoubleBurger-4.png"
+// import AghaJohnMcDonald from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-McDonald-5.jpeg"
+// import AghaJohnGrilledWings from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-GrilledWings-6.jpeg"
+// import AghaJohnPatchin from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-Patchin-7.jpeg"
+// import AghaJohnJaggerySandwich from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-JaggerySandwich-8.jpg"
+// import AghaJohnMeatSandwich from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-MeatSandwich-9.jpg"
+// import AghaJohnTongueSandwich from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-TongueSandwich-10.jpeg"
+// import AghaJohnPortSandwich from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-PortSandwich-11.jpeg"
+// import AghaJohnSausageSandwich from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-SausageSandwich-12.jpg"
+// import AghaJohnHotDogSandwich from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-HotDogSandwich-13.jpeg"
+// import AghaJohnPotatoPizza from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-PotatoPizza-14.jpeg"
+// import AghaJohnMixPizza from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-MixPizza-15.jpeg"
+// import AghaJohnChickenPizza from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-ChickenPizza-16.jpeg"
+// import AghaJohnMeatPizza from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-MeatPizza-17.jpeg"
+// import AghaJohnMushroomPizza from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-MushroomPizza-18.jpeg"
+// import AghaJohnMiixPizza from "../../Assets/Images/ImageDataBase/AghaJohn/AghaJohn-MiixPizza-19.jpeg"
 
 //resturan Launch box
-// import  LaunchBox from "../../Assets/Images/ImageDataBase/AghaJohn/LaunchBox.jpg"
-// import  LaunchBoxlogo from "../../Assets/Images/ImageDataBase/AghaJohn/LaunchBoxLogo.jpg"
-// import  LunchBoxGrilledChicken from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-GrilledChicken-1.jpg"
-// import  LunchBoxChalukbabDigi from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-ChalukbabDigi-2.jpg"
-// import  LunchBoxChalukbabKardi from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-ChalukbabKardi-3.jpg"
-// import  LunchBoxLentilRice from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-LentilRice-1.jpg"
-// import  LunchBoxRice from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-Rice-2.jpg"
-// import  LunchBoxChickenMix from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-ChickenMix-1.jpg"
-// import  LunchBoxPoundedFood from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-PoundedFood-2.jpg"
-// import  LunchBoxMilkSoup from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-MilkSoup-1.jpg"
-// import  LunchBoxPickledPort from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-PickledPort-2.jpg"
-// import  LunchBoxYogurt from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-Yogurt-3.jpg"
-// import  LunchBoxSoftDrinks from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-SoftDrinks-1.jpg"
+// import LaunchBox from "../../Assets/Images/ImageDataBase/AghaJohn/LaunchBox.jpg"
+// import LaunchBoxlogo from "../../Assets/Images/ImageDataBase/AghaJohn/LaunchBoxLogo.jpg"
+// import LunchBoxGrilledChicken from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-GrilledChicken-1.jpg"
+// import LunchBoxChalukbabDigi from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-ChalukbabDigi-2.jpg"
+// import LunchBoxChalukbabKardi from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-ChalukbabKardi-3.jpg"
+// import LunchBoxLentilRice from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-LentilRice-1.jpg"
+// import LunchBoxRice from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-Rice-2.jpg"
+// import LunchBoxChickenMix from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-ChickenMix-1.jpg"
+// import LunchBoxPoundedFood from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-PoundedFood-2.jpg"
+// import LunchBoxMilkSoup from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-MilkSoup-1.jpg"
+// import LunchBoxPickledPort from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-PickledPort-2.jpg"
+// import LunchBoxYogurt from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-Yogurt-3.jpg"
+// import LunchBoxSoftDrinks from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-SoftDrinks-1.jpg"
 // import LunchBoxSoftDrinks1 from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-SoftDrinks-2.jpg"
-// import LunchBoxDough   from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-Dough-3.jpg"
+// import LunchBoxDough from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-Dough-3.jpg"
 // import LunchoxEggplant from "../../Assets/Images/ImageDataBase/LaunchBox/Lunchox-Eggplant-1.jpg"
 // import LunchBoxGheymeh from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-Gheymeh-3.jpg"
 // import LunchBoxVegetable from "../../Assets/Images/ImageDataBase/LaunchBox/LunchBox-vegetable-2.jpg"
 
 // resturan Gujri kitchen
-import GujriKitchen from "../../Assets/Images/ImageDataBase/LaunchBox/GujriKitchen.jpg"
-import GujriKitchenLogo from "../../Assets/Images/ImageDataBase/LaunchBox/GujriKitchenLogo.jpg"
-import GujrikitchenKofteGhor from "../../Assets/Images/ImageDataBase/GujriKitchen/GujrikitchenKofteGhor.jpg"
-import GujrikitchenGoAhead from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-GoAhead-1.jpeg"
-import GujriKitchenVaziri from "../../Assets/Images/ImageDataBase/GujriKitchen/GujriKitchen-Vaziri-2.jpeg"
-import GujrikitchenMaglesi from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-Maglesi-3.jpeg"
-import GujrikitchenWater from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-Water-3.jpg"
-import GujrikitchenCannedSoda from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-CannedSoda-2.jpg"
-import GujrikitchenCannedSoda1 from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-CannedSoda.jpg"
-import GujrikitchenFarengiSalad from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-FarengiSalad.jpeg"
-import GujrikitchenseasonsSalad from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-season'sSalad-1.jpeg"
-import GujrikitchenYogurt from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-Yogurt-3.jpeg"
-import GujrikitchenKebab from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-Kebab-1.png"
-import GujrikitchenChickenKebab2 from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-ChickenKebab-2.png"
-import GujrikitchenKebab3 from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-Kebab-3.png"
-import GujrikitchenBarberry from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-Barberry-1.jpeg"
-import GujrikitchenhahNazs from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen--ShahNazs-3.jpeg"
+// import GujriKitchen from "../../Assets/Images/ImageDataBase/LaunchBox/GujriKitchen.jpg"
+// import GujriKitchenLogo from "../../Assets/Images/ImageDataBase/LaunchBox/GujriKitchenLogo.jpg"
+// import GujrikitchenKofteGhor from "../../Assets/Images/ImageDataBase/GujriKitchen/GujrikitchenKofteGhor.jpg"
+// import GujrikitchenGoAhead from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-GoAhead-1.jpeg"
+// import GujriKitchenVaziri from "../../Assets/Images/ImageDataBase/GujriKitchen/GujriKitchen-Vaziri-2.jpeg"
+// import GujrikitchenMaglesi from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-Maglesi-3.jpeg"
+// import GujrikitchenWater from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-Water-3.jpg"
+// import GujrikitchenCannedSoda from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-CannedSoda-2.jpg"
+// import GujrikitchenCannedSoda1 from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-CannedSoda.jpg"
+// import GujrikitchenFarengiSalad from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-FarengiSalad.jpeg"
+// import GujrikitchenseasonsSalad from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-season'sSalad-1.jpeg"
+// import GujrikitchenYogurt from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-Yogurt-3.jpeg"
+// import GujrikitchenKebab from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-Kebab-1.png"
+// import GujrikitchenChickenKebab2 from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-ChickenKebab-2.png"
+// import GujrikitchenKebab3 from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-Kebab-3.png"
+// import GujrikitchenBarberry from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen-Barberry-1.jpeg"
+// import GujrikitchenhahNazs from "../../Assets/Images/ImageDataBase/GujriKitchen/Gujrikitchen--ShahNazs-3.jpeg"
 
 // resturan Turkish Denar
-import TurkishDenar from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar.jpg"
-import TurkishDenarLogo from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenarLogo.jpg"
-import TurkishDenarSandwich1 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Sandwich-1.jpeg"
-import TurkishDenarSandwich2 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Sandwich-2.jpeg"
-import TurkishDenarSandwich3 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Sandwich-3.jpeg"
-import TurkishDenarPizza1 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Pizza-1.jpeg"
-import TurkishDenarPizza2 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Pizza-2.jpeg"
-import TurkishDenarPizza3 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Pizza-3.jpeg"
-import TurkishDenarKebab1 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Kebab-1.jpeg"
-import TurkishDenarKebab2 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Kebab-2.jpeg"
-import TurkishDenarKebab3 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Kebab-3.jpeg"
-import TurkishDenarPotato1 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Potato-1.jpeg"
-import TurkishDenarPotato2 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Potato-2.jpeg"
-import TurkishDenarBread3 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Bread-3.jpeg"
-import TurkishDenarpizza1 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-pizza-1jpeg.jpeg"
-import TurkishDenarpizza5 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-pizza-5.jpeg"
+// import TurkishDenar from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar.jpg"
+// import TurkishDenarLogo from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenarLogo.jpg"
+// import TurkishDenarSandwich1 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Sandwich-1.jpeg"
+// import TurkishDenarSandwich2 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Sandwich-2.jpeg"
+// import TurkishDenarSandwich3 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Sandwich-3.jpeg"
+// import TurkishDenarPizza1 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Pizza-1.jpeg"
+// import TurkishDenarPizza2 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Pizza-2.jpeg"
+// import TurkishDenarPizza3 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Pizza-3.jpeg"
+// import TurkishDenarKebab1 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Kebab-1.jpeg"
+// import TurkishDenarKebab2 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Kebab-2.jpeg"
+// import TurkishDenarKebab3 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Kebab-3.jpeg"
+// import TurkishDenarPotato1 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Potato-1.jpeg"
+// import TurkishDenarPotato2 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Potato-2.jpeg"
+// import TurkishDenarBread3 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-Bread-3.jpeg"
+// import TurkishDenarpizza1 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-pizza-1jpeg.jpeg"
+// import TurkishDenarpizza5 from "../../Assets/Images/ImageDataBase/TurkishDenar/TurkishDenar-pizza-5.jpeg"
 
 
 //Cafe Restaurant Flore
@@ -248,19 +247,19 @@ import TurkishDenarpizza5 from "../../Assets/Images/ImageDataBase/TurkishDenar/T
 // import CafeFlorePanini1 from "../../Assets/Images/ImageDataBase/FloreCafe/CafeFlore-Panini-1.jpeg"
 // import CafeFlorePanini2 from "../../Assets/Images/ImageDataBase/FloreCafe/CafeFlore-Panini-2.jpeg"
 //--------------------------------------------------------------
-import Zari2 from '../../Assets/Images/ImageDatabase/mamanzari/cake2.jpeg'
-import Zari3 from '../../Assets/Images/ImageDatabase/mamanzari/baghlava1.jpeg'
-import Zari4 from '../../Assets/Images/ImageDatabase/mamanzari/baghlava2.jpeg'
+// import Zari2 from '../../Assets/Images/ImageDatabase/mamanzari/cake2.jpeg'
+// import Zari3 from '../../Assets/Images/ImageDatabase/mamanzari/baghlava1.jpeg'
+// import Zari4 from '../../Assets/Images/ImageDatabase/mamanzari/baghlava2.jpeg'
 //----------------------------------------------------------------------------
-import Masoodlogo from '../../Assets/Images/ImageDatabase/masood/logomasood.jpg'
-import Masood from '../../Assets/Images/ImageDatabase/masood/masood.jpg'
-import Masood1 from '../../Assets/Images/ImageDatabase/masood/drink1.jpeg'
-import Masood2 from '../../Assets/Images/ImageDatabase/masood/drink2.jpg'
+// import Masoodlogo from '../../Assets/Images/ImageDatabase/masood/logomasood.jpg'
+// import Masood from '../../Assets/Images/ImageDatabase/masood/masood.jpg'
+// import Masood1 from '../../Assets/Images/ImageDatabase/masood/drink1.jpeg'
+// import Masood2 from '../../Assets/Images/ImageDatabase/masood/drink2.jpg'
 //bakery
-import Saharlogo from '../../Assets/Images/ImageDatabase/sahar/logosahar.jpg'
-import Sahar from '../../Assets/Images/ImageDatabase/sahar/sahar.jpg'
-import Sahar1 from '../../Assets/Images/ImageDatabase/sahar/crosan1.jpg'
-import Sahar2 from '../../Assets/Images/ImageDatabase/sahar/crosan2.jpg'
+// import Saharlogo from '../../Assets/Images/ImageDatabase/sahar/logosahar.jpg'
+// import Sahar from '../../Assets/Images/ImageDatabase/sahar/sahar.jpg'
+// import Sahar1 from '../../Assets/Images/ImageDatabase/sahar/crosan1.jpg'
+// import Sahar2 from '../../Assets/Images/ImageDatabase/sahar/crosan2.jpg'
 // import Sahar3 from '../../Assets/Images/ImageDatabase/sahar/nan1.jpg'
 //-----------------------------------------------------------------------
 // import Yas from '../../Assets/Images/ImageDatabase/yas.jpg'
@@ -268,12 +267,12 @@ import Sahar2 from '../../Assets/Images/ImageDatabase/sahar/crosan2.jpg'
 // import Yas1 from '../../Assets/Images/ImageDatabase/nan1.jpg'
 // import Yas2 from '../../Assets/Images/ImageDatabase/nan2.jpg'
 //nuts
-import Shaklogo from '../../Assets/Images/ImageDatabase/shak/logoshak.jpg'
-import Shak from '../../Assets/Images/ImageDatabase/shak/shak.jpg'
-import Shak1 from '../../Assets/Images/ImageDatabase/shak/badam1.jpg'
-import Shak2 from '../../Assets/Images/ImageDatabase/shak/badam2.jpg'
-import Shak3 from '../../Assets/Images/ImageDatabase/shak/badam3.jpg'
-import Shak4 from '../../Assets/Images/ImageDatabase/shak/badam4.jpg'
+// import Shaklogo from '../../Assets/Images/ImageDatabase/shak/logoshak.jpg'
+// import Shak from '../../Assets/Images/ImageDatabase/shak/shak.jpg'
+// import Shak1 from '../../Assets/Images/ImageDatabase/shak/badam1.jpg'
+// import Shak2 from '../../Assets/Images/ImageDatabase/shak/badam2.jpg'
+// import Shak3 from '../../Assets/Images/ImageDatabase/shak/badam3.jpg'
+// import Shak4 from '../../Assets/Images/ImageDatabase/shak/badam4.jpg'
 //-------------------------------------------------------------------
 //Papa
 // import Papa from "../../Assets/Images/ImageDataBase/Confectionery/Papa/Papa.jpg"
@@ -284,12 +283,14 @@ import Shak4 from '../../Assets/Images/ImageDatabase/shak/badam4.jpg'
 // import PapaBirth2 from "../../Assets/Images/ImageDataBase/Confectionery/Papa/Papa-Birth-2.jpg"
 //TavakoliFar
 
-import TavakliFar from "../../Assets/Images/ImageDataBase/Confectionery/TavakliFar/TavakliFar.jpg"
-import TavakliFarLogo from "../../Assets/Images/ImageDataBase/Confectionery/TavakliFar/TavakliFar-Logo.jpg"
-import TavakliFarmixed1 from "../../Assets/Images/ImageDataBase/Confectionery/TavakliFar/TavakliFar-mixed-1.jpeg"
-import TavakliFarmixed2 from "../../Assets/Images/ImageDataBase/Confectionery/TavakliFar/TavakliFar-mixed-2.jpeg"
-import TavakliFarChocolate1 from "../../Assets/Images/ImageDataBase/Confectionery/TavakliFar/TavakliFar-Chocolate-1.jpeg"
-import TavakliFarChocolate2 from "../../Assets/Images/ImageDataBase/Confectionery/TavakliFar/TavakliFar-Chocolate-2.jpeg"
+// import TavakliFar from "../../Assets/Images/ImageDataBase/Confectionery/TavakliFar/TavakliFar.jpg"
+// import TavakliFarLogo from "../../Assets/Images/ImageDataBase/Confectionery/TavakliFar/TavakliFar-Logo.jpg"
+// import TavakliFarmixed1 from "../../Assets/Images/ImageDataBase/Confectionery/TavakliFar/TavakliFar-mixed-1.jpeg"
+// import TavakliFarmixed2 from "../../Assets/Images/ImageDataBase/Confectionery/TavakliFar/TavakliFar-mixed-2.jpeg"
+// import TavakliFarChocolate1
+//     from "../../Assets/Images/ImageDataBase/Confectionery/TavakliFar/TavakliFar-Chocolate-1.jpeg"
+// import TavakliFarChocolate2
+//     from "../../Assets/Images/ImageDataBase/Confectionery/TavakliFar/TavakliFar-Chocolate-2.jpeg"
 
 //Shahrivar
 // import Shahrivar from "../../Assets/Images/ImageDataBase/juice/Shahrivar/Shahrivar.jpg"
@@ -299,10 +300,11 @@ import TavakliFarChocolate2 from "../../Assets/Images/ImageDataBase/Confectioner
 
 //Bahar
 
-import Bahar from "../../Assets/Images/ImageDataBase/juice/Bahar/Bahar.jpg"
-import BaharLogo from "../../Assets/Images/ImageDataBase/juice/Bahar/Bahar-Logo.jpg"
-import Icecream1 from "../../Assets/Images/ImageDataBase/juice/Bahar/Icecream-1.jpg"
-import Icecream2 from "../../Assets/Images/ImageDataBase/juice/Bahar/Icecream-2.jpg"
+// import Bahar from "../../Assets/Images/ImageDataBase/juice/Bahar/Bahar.jpg"
+// import BaharLogo from "../../Assets/Images/ImageDataBase/juice/Bahar/Bahar-Logo.jpg"
+// import Icecream1 from "../../Assets/Images/ImageDataBase/juice/Bahar/Icecream-1.jpg"
+// import Icecream2 from "../../Assets/Images/ImageDataBase/juice/Bahar/Icecream-2.jpg"
+
 export const MainData = [
 
 // { id: 1, 
@@ -444,39 +446,39 @@ export const MainData = [
 //                 {id:12,category:'پیش غذا',name:'سالاد فکتوری چاپد',images:{grillsalad},price:67800,material:'کاهو فرانسه، کاهو پیچ، کاهو رسمی، سینه مرغ گریل شده، بیکن گریل شده، ذرت  گریل شده،  زیتون سیاه، جوانه شبدر، هویج، گشنیز، سس رنچ'},
 //             ]
 //             },
-            // { id: 6,     category:'resturant' ,
+    // { id: 6,     category:'resturant' ,
 
-            //   name: "پیتزا سیب ۳۶۰", 
-            //   star:3.9,
-            //   score:1485,
-            //   address:'چهارراه یافت آباد، بالاتر از بازار مبل ایران ۳، جنب بوستان جوان، پلاک ۶۸۷، پیتزا سیب ۳۶۰ (یافت آباد)',
-            //   delivery:5000,
-            //   logo:sibLogo,
-            //   picture:sib,
-            //   coupon:false,
-            //   discount:true,
-            //   categories: ["پیتزا آمریکایی", "برگر",'نوشیدنی','پیش غدا','غذای کودک','پیتزا ایتالیایی '] ,
-            //   foods:[
-            //       {id:1,category:'پیتزا آمریکایی',name:'  پیتزا میکس (آمریکایی)',images:sibPiz1,price:149000,material:'خمیر پیتزا آمریکایی مثلثی، مرغ گریل شده، گوشت قرمز پروسس، سس مخصوص ،سس بیانز، ژامبون، فلفل دلمه ای، زیتون، قارچ، گوجه، پنیر پیتزای...'},
-            //       {id:2,category:'پیتزا آمریکایی',name:'پیتزا مکزیکو (آمریکایی)',images:sibPiz2,price:147000,material:'خمیر پیتزای آمریکایی مثلثی، مرغ گریل شده تند ، ژامبون مرغ، فلفل هالوپینو، گوجه، فلفل دلمه ای سس مخصوص، پنیر پیتزای مخصوص'},
-            //       {id:3,category:'پیتزا آمریکایی',name:'پیتزا میکس کالزون (آمریکایی)',images:sibPiz3,price:139000,material:'خمیر پیتزای آمریکایی مثلثی، مرغ گریل شده، مخلوط ژامبون مرغ و پپرونی، فلفل دلمه ای، کنجد، سس سیر ایتالیایی، پنیر پیتزای مخصوص '},
-            //       {id:4,category:'پیتزا ایتالیایی',name:'پیتزا چهارفصل (ایتالیایی)',images:sibPiz4,price:172000,material:'چهار پیتزای کنی باله، چیکن گورمه، سبزیجات و پپرونی (به صورت تفکیک شده)، ادویه مخصوص    '},
-            //       {id:5,category:'پیتزا ایتالیایی',name:'پیتزا بیکن (ایتالیایی)',images:sibPiz5,price:172000,material:'خمیر نازک ایتالیایی، سس سیر مخصوص، بیکن، اسفناج، قارچ، پیاز، پنیر پیتزای مخصوص'},
-            //       {id:6,category:'پیتزا ایتالیایی',name:'پیتزا کاپریچیوزا (ایتالیایی)',images:sibPiz6,price:154000,material:'خمیر نازک ایتالیایی، سس مخصوص، ژامبون مرغ ، قارچ، زیتون، گوجه، فلفل دلمه ای، سس بیانز، پنیر پیتزای مخصوص، ادویه مخصوص'},
-            //       {id:7,category:'نوشیدنی',name:'دوغ قوطی خوشگوار',images:sibDri1,price:12845,material:'۳۳۰ میلی لیتر، هی دی'},
-            //       {id:8,category:'نوشیدنی',name:'آب معدنی کوچک',images:sibDri2,price:2981,material:'۰.۵ لیتر '},
-            //       {id:9,category:'نوشیدنی',name:'نوشابه قوطی',images:sibDri3,price:12000,material:'۳۳۰ میلی لیتر'},
-            //       {id:10,category:'پیش غذا',name:'میکس فرایز',images:sibFri1,price:78000,material:'سیب زمینی سوپر فرایز، بیکن، پپرونی، پنیر دیپ چدار، ادویه سیب زمینی'},
-            //       {id:11,category:'پیش غذا',name:'پاپ فرایز',images:sibFri2,price:78000,material:'سیب زمینی سوپر فرایز، چیکن پاپ کورن پنیری، پنیر دیپ چدار، مخلوط کرانچی و ادویه سیب زمینی  '},
-            //       {id:12,category:'پیش غذا',name:'سیب زمینی پنیری ویژه',images:sibFri3,price:62000,material:'۱۸۰ گرم سیب زمینی سرخ کرده، پنیر دیپ چدار'},
-            //       {id:13,category:' برگر',name:'چیکوچی',images:sibBur1,price:96000,material:'شنیسل مرغ ویژه، بیکن، سبزیجات معطر، پنیر چدار، کاهو، گوجه، خیارشور، سس مخصوص، سس سالسا، نان مک'},
-            //       {id:14,category:' برگر',name:'هالوپینو برگر',images:sibBur2,price:114000,material:'گوشت برگر مخصوص، کاهو، گوجه، فلفل هالوپینو، پنیر دیپ چدار، خیارشور، سس مخصوص ، نان مک'},
-            //       {id:15,category:' برگر',name:'ماشروم برگر',images:sibBur3,price:119000,material:'گوشت برگر مخصوص، پنیر پروسس، قارچ، کاهو، گوجه، خیارشور، سس مخصوص ، نان مک'},
-            //       {id:16,category:' غذای کودک',name:'غذای کودک (پسرانه)',images:sibChi,price:162000,material:'خمیر پیتزا آمریکایی مثلثی، مرغ گریل شده، قارچ، گوجه، زیتون،  فلفل دلمه ای، ذرت، سس مخصوص، پنیر پیتزای مخصوص، ۱۲۰ گرم سیب زمینی سرخ...'},
-            //       {id:17,category:' غذای کودک',name:'غذای کودک (دخترانه)',images:sibChi,price:162000,material:'خمیر پیتزا آمریکایی مثلثی، مرغ گریل شده، قارچ، گوجه، زیتون،  فلفل دلمه ای، ذرت، سس مخصوص، پنیر پیتزای مخصوص، ۱۲۰ گرم سیب زمینی سرخ...'},
-        
-            //     ]
-            //   },
+    //   name: "پیتزا سیب ۳۶۰",
+    //   star:3.9,
+    //   score:1485,
+    //   address:'چهارراه یافت آباد، بالاتر از بازار مبل ایران ۳، جنب بوستان جوان، پلاک ۶۸۷، پیتزا سیب ۳۶۰ (یافت آباد)',
+    //   delivery:5000,
+    //   logo:sibLogo,
+    //   picture:sib,
+    //   coupon:false,
+    //   discount:true,
+    //   categories: ["پیتزا آمریکایی", "برگر",'نوشیدنی','پیش غدا','غذای کودک','پیتزا ایتالیایی '] ,
+    //   foods:[
+    //       {id:1,category:'پیتزا آمریکایی',name:'  پیتزا میکس (آمریکایی)',images:sibPiz1,price:149000,material:'خمیر پیتزا آمریکایی مثلثی، مرغ گریل شده، گوشت قرمز پروسس، سس مخصوص ،سس بیانز، ژامبون، فلفل دلمه ای، زیتون، قارچ، گوجه، پنیر پیتزای...'},
+    //       {id:2,category:'پیتزا آمریکایی',name:'پیتزا مکزیکو (آمریکایی)',images:sibPiz2,price:147000,material:'خمیر پیتزای آمریکایی مثلثی، مرغ گریل شده تند ، ژامبون مرغ، فلفل هالوپینو، گوجه، فلفل دلمه ای سس مخصوص، پنیر پیتزای مخصوص'},
+    //       {id:3,category:'پیتزا آمریکایی',name:'پیتزا میکس کالزون (آمریکایی)',images:sibPiz3,price:139000,material:'خمیر پیتزای آمریکایی مثلثی، مرغ گریل شده، مخلوط ژامبون مرغ و پپرونی، فلفل دلمه ای، کنجد، سس سیر ایتالیایی، پنیر پیتزای مخصوص '},
+    //       {id:4,category:'پیتزا ایتالیایی',name:'پیتزا چهارفصل (ایتالیایی)',images:sibPiz4,price:172000,material:'چهار پیتزای کنی باله، چیکن گورمه، سبزیجات و پپرونی (به صورت تفکیک شده)، ادویه مخصوص    '},
+    //       {id:5,category:'پیتزا ایتالیایی',name:'پیتزا بیکن (ایتالیایی)',images:sibPiz5,price:172000,material:'خمیر نازک ایتالیایی، سس سیر مخصوص، بیکن، اسفناج، قارچ، پیاز، پنیر پیتزای مخصوص'},
+    //       {id:6,category:'پیتزا ایتالیایی',name:'پیتزا کاپریچیوزا (ایتالیایی)',images:sibPiz6,price:154000,material:'خمیر نازک ایتالیایی، سس مخصوص، ژامبون مرغ ، قارچ، زیتون، گوجه، فلفل دلمه ای، سس بیانز، پنیر پیتزای مخصوص، ادویه مخصوص'},
+    //       {id:7,category:'نوشیدنی',name:'دوغ قوطی خوشگوار',images:sibDri1,price:12845,material:'۳۳۰ میلی لیتر، هی دی'},
+    //       {id:8,category:'نوشیدنی',name:'آب معدنی کوچک',images:sibDri2,price:2981,material:'۰.۵ لیتر '},
+    //       {id:9,category:'نوشیدنی',name:'نوشابه قوطی',images:sibDri3,price:12000,material:'۳۳۰ میلی لیتر'},
+    //       {id:10,category:'پیش غذا',name:'میکس فرایز',images:sibFri1,price:78000,material:'سیب زمینی سوپر فرایز، بیکن، پپرونی، پنیر دیپ چدار، ادویه سیب زمینی'},
+    //       {id:11,category:'پیش غذا',name:'پاپ فرایز',images:sibFri2,price:78000,material:'سیب زمینی سوپر فرایز، چیکن پاپ کورن پنیری، پنیر دیپ چدار، مخلوط کرانچی و ادویه سیب زمینی  '},
+    //       {id:12,category:'پیش غذا',name:'سیب زمینی پنیری ویژه',images:sibFri3,price:62000,material:'۱۸۰ گرم سیب زمینی سرخ کرده، پنیر دیپ چدار'},
+    //       {id:13,category:' برگر',name:'چیکوچی',images:sibBur1,price:96000,material:'شنیسل مرغ ویژه، بیکن، سبزیجات معطر، پنیر چدار، کاهو، گوجه، خیارشور، سس مخصوص، سس سالسا، نان مک'},
+    //       {id:14,category:' برگر',name:'هالوپینو برگر',images:sibBur2,price:114000,material:'گوشت برگر مخصوص، کاهو، گوجه، فلفل هالوپینو، پنیر دیپ چدار، خیارشور، سس مخصوص ، نان مک'},
+    //       {id:15,category:' برگر',name:'ماشروم برگر',images:sibBur3,price:119000,material:'گوشت برگر مخصوص، پنیر پروسس، قارچ، کاهو، گوجه، خیارشور، سس مخصوص ، نان مک'},
+    //       {id:16,category:' غذای کودک',name:'غذای کودک (پسرانه)',images:sibChi,price:162000,material:'خمیر پیتزا آمریکایی مثلثی، مرغ گریل شده، قارچ، گوجه، زیتون،  فلفل دلمه ای، ذرت، سس مخصوص، پنیر پیتزای مخصوص، ۱۲۰ گرم سیب زمینی سرخ...'},
+    //       {id:17,category:' غذای کودک',name:'غذای کودک (دخترانه)',images:sibChi,price:162000,material:'خمیر پیتزا آمریکایی مثلثی، مرغ گریل شده، قارچ، گوجه، زیتون،  فلفل دلمه ای، ذرت، سس مخصوص، پنیر پیتزای مخصوص، ۱۲۰ گرم سیب زمینی سرخ...'},
+
+    //     ]
+    //   },
     //           { id: 7,     category:'resturant' ,
 
     //             name: "فست فود ویانا", 
@@ -570,41 +572,168 @@ export const MainData = [
     //             {id:14,category:'سوخاری',name:'چیکن استریپس',images:pitko14,price:169000,material:'۴ عدد فیله مرغ، سالاد کلم، سیب زمینی سرخ کرده، نان بروچن، سس سیر ،سس سانتافه(مخصوص تند) ،سس انار'},
     //         ]
     //         },
-        
-    { id: 10,     category:'resturant' ,
 
-      name: "آقاجون", 
-      star:4,
-      score:4936,
-      address:'میدان خیام، خیابان مدرس، پیتزا ساندویچ آقاجون',
-      delivery:12000,
-      logo:AghaJohnPizzaLogo,
-      picture:AghaJohnPizza,
-      coupon:false,
-      discount:true,
-      categories: ["برگر", "غذای پرسی ",'ساندویچ ','ساندویچ نیم متری ','پیتزا آمریکایی متوسط','پیتزا آمریکایی خانوادگی  '] ,
-      foods:[
-          {id:1,category:'برگر',name:'همبرگر مخصوص',images:AghaJohnSpecialHamburger,price:33000,material:'یک عدد برگر گوشت گوساله دست ساز ۱۴۰ گرمی، گوجه، خیارشور، کلم سفید، نان به انتخاب شما'},
-          {id:2,category:'برگر',name:'دوبل برگر',images:AghaJohnDoubleBurger,price:21000,material:'۲ عدد برگر شرکتی ۳۰%، گوجه، خیارشور، کلم سفید، نان به انتخاب شما'},
-          {id:3,category:'برگر',name:'مک دونالد',images:AghaJohnMcDonald,price:55000,material:'یک عدد برگر گوشت شرکتی ۳۰%، ۱۵۰ گرم کالباس گوشت ۴۰%، ۸۰ گرم قارچ، ۸۰ گرم پنیر پیتزا، گوجه، خیارشور، کلم سفید، نان به انتخاب شما'},
-          {id:4,category:'غذای پرسی ',name:'بال کبابی (پرسی)',images:AghaJohnGrilledWings,price:70000,material:'۷۰۰ گرم بال کبابی با حرارت غیر مستقیم'},
-          {id:5,category:'غذای پرسی ',name:'بشقاب داغ',images:AghaJohnPatchin,price:60000,material:'۲۰۰ گرم سیب زمینی سرخ شده، کالباس گوشت ۴۰%، قارچ، پنیر پیتزا، ذرت، نخود فرنگی، کنجد، به همراه یک عدد سس یک نفره، یک عدد نوشابه بطری'},
-          {id:6,category:'غذای پرسی ',name:'پاچین',images:AghaJohnPatchin,price:70000,material:'۷۰۰ گرم پاچین کبابی با حرارت غیر مستقیم'},
-          {id:7,category:'ساندویچ',name:'ساندویچ جگر',images:AghaJohnJaggerySandwich,price:20000,material:'۱۵۰ گرم جگر مرغ، گوجه، خیارشور، کلم سفید، نان به انتخاب شما'},
-          {id:8,category:'ساندویچ',name:'ساندویچ گوشت',images:AghaJohnMeatSandwich,price:44000,material:'۱۰۰ گرم گوشت گوساله ریش ریش شده، گوجه، خیارشور، کلم سفید، نان به انتخاب شما'},
-          {id:9,category:'ساندویچ',name:'ساندویچ زبان',images:AghaJohnTongueSandwich ,price:27000,material:'۱۰۰ گرم زبان گوساله، گوجه، خیارشور، کلم سفید، نان به انتخاب شما'},
-          {id:10,category:'ساندویچ نیم متری ',name:'ساندویچ بندری (نیم متری)',images:AghaJohnPortSandwich ,price:39000,material:'۴۰۰ گرم سوسیس بندری، خیارشور، گوجه، کلم سفید، نان باگت نیم متری'},
-          {id:11,category:'ساندویچ نیم متری ',name:'ساندویچ سوسیس (نیم متری)',images:AghaJohnSausageSandwich ,price:31000,material:'۳۰۰ گرم سوسیس آلمانی ۴۰%، خیارشور، گوجه، کلم سفید، نان باگت نیم متر'},
-          {id:12,category:'ساندویچ نیم متری ',name:'ساندویچ هات داگ (نیم متری)',images:AghaJohnHotDogSandwich ,price:47000,material:'۴۰۰ گرم هات داگ ۵۵%، خیارشور، گوجه، کلم سفید، نان باگت نیم متری'},
-          {id:13,category:'پیتزا آمریکایی متوسط',name:'پیتزا سیب زمینی با قارچ آمریکایی',images:AghaJohnPotatoPizza ,price:70000,material:'خمیر پیتزا آمریکایی ، ۱۰۰ گرم سیب زمینی، قارچ، پنیر پیتزا، فلفل دلمه ای، ذرت'},
-          {id:14,category:'پیتزا آمریکایی متوسط',name:'پیتزا مخلوط آمریکایی',images:AghaJohnMixPizza ,price:50000,material:'خمیر پیتزا آمریکایی، کالباس گوشت ۶۰%، هات داگ ۵۵%، قارچ، پنیر پیتزا، فلفل دلمه ای'},
-          {id:11,category:'پیتزا آمریکایی متوسط',name:'پیتزا مرغ و قارچ آمریکایی',images:AghaJohnChickenPizza ,price:100000,material:'خمیر پیتزا آمریکایی، سینه مرغ، قارچ، پنیر پیتزا، فلفل دلمه ای، ذرت، زیتون، کنجد'},
-          {id:10,category:'پیتزا آمریکایی خانوادگی',name:'پیتزا گوشت و قارچ آمریکایی',images:AghaJohnMeatPizza,price:220000,material:'خمیر پیتزا آمریکایی، گوشت گوساله چرخ شده، قارچ، پنیر پیتزا، فلفل دلمه ای، ذرت، زیتون'},
-          {id:11,category:'پیتزا آمریکایی خانوادگی',name:'پیتزا مرغ و قارچ آمریکایی',images:AghaJohnMushroomPizza,price:180000,material:'خمیر پیتزا آمریکایی، سینه مرغ، قارچ، پنیر پیتزا، فلفل دلمه ای، ذرت، زیتون، کنجد'},
-          {id:11,category:'پیتزا آمریکایی خانوادگی',name:'پیتزا مخلوط آمریکایی',images:AghaJohnMiixPizza ,price:150000,material:'خمیر پیتزا آمریکایی، کالباس گوشت ۶۰%، هات داگ ۵۵%، قارچ، پنیر پیتزا، فلفل دلمه ای'},
-          
-      ]
-      },
+    {
+        id: 10, category: 'resturant',
+
+        name: "پیتزا شیلا (مطهری)",
+        star: 4,
+        score: 4936,
+        address: 'میدان خیام، خیابان مدرس، پیتزا ساندویچ آقاجون',
+        delivery: 12000,
+        logo: 'https://cdn.snappfood.ir/media/cache/vendor_logo/uploads/images/vendors/logos/5e425b53b8b09.jpg',
+        picture: 'https://cdn.snappfood.ir/media/cache/vendor_logo/uploads/images/vendors/logos/5e425b53b8b09.jpg',
+        coupon: false,
+        discount: true,
+        categories: ["برگر", 'ساندویچ نیم متری ', 'پیتزا آمریکایی متوسط',],
+        foods: [
+            {
+                id: 1,
+                category: 'برگر',
+                name: 'همبرگر مخصوص',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/93/45/product_image/zoodfood/5eaed45802569.jpg',
+                price: 33000,
+                material: 'یک عدد برگر گوشت گوساله دست ساز ۱۴۰ گرمی، گوجه، خیارشور، کلم سفید، نان به انتخاب شما'
+            },
+            {
+                id: 2,
+                category: 'برگر',
+                name: 'دوبل برگر',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/93/45/product_image/zoodfood/5e7eea46b2aef.jpg',
+                price: 21000,
+                material: '۲ عدد برگر شرکتی ۳۰%، گوجه، خیارشور، کلم سفید، نان به انتخاب شما'
+            },
+            {
+                id: 3,
+                category: 'برگر',
+                name: 'مک دونالد',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/93/45/product_image/zoodfood/5e7da8fd4ad34.jpg',
+                price: 55000,
+                material: 'یک عدد برگر گوشت شرکتی ۳۰%، ۱۵۰ گرم کالباس گوشت ۴۰%، ۸۰ گرم قارچ، ۸۰ گرم پنیر پیتزا، گوجه، خیارشور، کلم سفید، نان به انتخاب شما'
+            },
+            // {
+            //     id: 4,
+            //     category: 'غذای پرسی ',
+            //     name: 'استرامبولی ژامبون پنیری',
+            //     images: 'src="https://cdn.snappfood.ir/200x201/cdn/93/45/product_image/zoodfood/6344091ba4afb.jpg"',
+            //     price: 70000,
+            //     material: '۷۰۰ گرم بال کبابی با حرارت غیر مستقیم'
+            // },
+            // {
+            //     id: 5,
+            //     category: 'غذای پرسی ',
+            //     name: 'استرامبولی چیکن آلفردو',
+            //     images: 'https://cdn.snappfood.ir/200x201/cdn/93/45/product_image/zoodfood/6344090f3ebd3.jpg',
+            //     price: 60000,
+            //     material: '۲۰۰ گرم سیب زمینی سرخ شده، کالباس گوشت ۴۰%، قارچ، پنیر پیتزا، ذرت، نخود فرنگی، کنجد، به همراه یک عدد سس یک نفره، یک عدد نوشابه بطری'
+            // },
+            // {
+            //     id: 6,
+            //     category: 'غذای پرسی ',
+            //     name: 'استرامبولی مرغ و اسفناج پنیری',
+            //     images: 'https://cdn.snappfood.ir/200x201/cdn/93/45/product_image/zoodfood/6097cfa4af8e9.jpg',
+            //     price: 70000,
+            //     material: '۷۰۰ گرم پاچین کبابی با حرارت غیر مستقیم'
+            // },
+            // {
+            //     id: 7,
+            //     category: 'ساندویچ',
+            //     name: 'ساندویچ جگر',
+            //     images: AghaJohnJaggerySandwich,
+            //     price: 20000,
+            //     material: '۱۵۰ گرم جگر مرغ، گوجه، خیارشور، کلم سفید، نان به انتخاب شما'
+            // },
+            // {
+            //     id: 8,
+            //     category: 'ساندویچ',
+            //     name: 'ساندویچ گوشت',
+            //     images: AghaJohnMeatSandwich,
+            //     price: 44000,
+            //     material: '۱۰۰ گرم گوشت گوساله ریش ریش شده، گوجه، خیارشور، کلم سفید، نان به انتخاب شما'
+            // },
+            // {
+            //     id: 9,
+            //     category: 'ساندویچ',
+            //     name: 'ساندویچ زبان',
+            //     images: AghaJohnTongueSandwich,
+            //     price: 27000,
+            //     material: '۱۰۰ گرم زبان گوساله، گوجه، خیارشور، کلم سفید، نان به انتخاب شما'
+            // },
+            // {
+            //     id: 10,
+            //     category: 'ساندویچ نیم متری ',
+            //     name: 'ساندویچ بندری (نیم متری)',
+            //     images: AghaJohnPortSandwich,
+            //     price: 39000,
+            //     material: '۴۰۰ گرم سوسیس بندری، خیارشور، گوجه، کلم سفید، نان باگت نیم متری'
+            // },
+            {
+                id: 11,
+                category: 'ساندویچ نیم متری ',
+                name: 'ساندویچ سوسیس (نیم متری)',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/93/45/product_image/zoodfood/634408b684d7e.jpg',
+                price: 31000,
+                material: '۳۰۰ گرم سوسیس آلمانی ۴۰%، خیارشور، گوجه، کلم سفید، نان باگت نیم متر'
+            },
+            {
+                id: 12,
+                category: 'ساندویچ نیم متری ',
+                name: 'ساندویچ هات داگ (نیم متری)',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/93/45/product_image/zoodfood/634408b684d7e.jpg',
+                price: 47000,
+                material: '۴۰۰ گرم هات داگ ۵۵%، خیارشور، گوجه، کلم سفید، نان باگت نیم متری'
+            },
+            {
+                id: 13,
+                category: 'پیتزا آمریکایی متوسط',
+                name: 'پیتزا سیب زمینی با قارچ آمریکایی',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/93/45/product_image/zoodfood/634408b684d7e.jpg',
+                price: 70000,
+                material: 'خمیر پیتزا آمریکایی ، ۱۰۰ گرم سیب زمینی، قارچ، پنیر پیتزا، فلفل دلمه ای، ذرت'
+            },
+            {
+                id: 14,
+                category: 'پیتزا آمریکایی متوسط',
+                name: 'پیتزا مخلوط آمریکایی',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/93/45/product_image/zoodfood/63440aa2c2913.jpg',
+                price: 50000,
+                material: 'خمیر پیتزا آمریکایی، کالباس گوشت ۶۰%، هات داگ ۵۵%، قارچ، پنیر پیتزا، فلفل دلمه ای'
+            },
+            {
+                id: 11,
+                category: 'پیتزا آمریکایی متوسط',
+                name: 'پیتزا مرغ و قارچ آمریکایی',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/93/45/product_image/zoodfood/63440aa2c2913.jpg',
+                price: 100000,
+                material: 'خمیر پیتزا آمریکایی، سینه مرغ، قارچ، پنیر پیتزا، فلفل دلمه ای، ذرت، زیتون، کنجد'
+            },
+            {
+                id: 10,
+                category: 'پیتزا آمریکایی خانوادگی',
+                name: 'پیتزا گوشت و قارچ آمریکایی',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/93/45/product_image/zoodfood/63440aa2c2913.jpg',
+                price: 220000,
+                material: 'خمیر پیتزا آمریکایی، گوشت گوساله چرخ شده، قارچ، پنیر پیتزا، فلفل دلمه ای، ذرت، زیتون'
+            },
+            {
+                id: 11,
+                category: 'پیتزا آمریکایی خانوادگی',
+                name: 'پیتزا مرغ و قارچ آمریکایی',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/93/45/product_image/zoodfood/63440aa2c2913.jpg',
+                price: 180000,
+                material: 'خمیر پیتزا آمریکایی، سینه مرغ، قارچ، پنیر پیتزا، فلفل دلمه ای، ذرت، زیتون، کنجد'
+            },
+            // {
+            //     id: 11,
+            //     category: 'پیتزا آمریکایی خانوادگی',
+            //     name: 'پیتزا مخلوط آمریکایی',
+            //     images: AghaJohnMiixPizza,
+            //     price: 150000,
+            //     material: 'خمیر پیتزا آمریکایی، کالباس گوشت ۶۰%، هات داگ ۵۵%، قارچ، پنیر پیتزا، فلفل دلمه ای'
+            // },
+
+        ]
+    },
     //   { id: 11,     category:'resturant' ,
 
     //     name: "لانچ باکس ( فلسطین ) ", 
@@ -666,7 +795,7 @@ export const MainData = [
     //             {id:13,category:'غذای ایرانی',name:'چلو زرشک غورابیج',images:GujrikitchenKebab ,price:140000,material:'۳۵۰ گرم ران مرغ طعم دار شده با آبغوره، سس مخصوص، ۴۵۰ گرم برنج ایرانی، زرشک، خلال بادام، در ظرف ماکروویو'},
     //             {id:14,category:'غذای ایرانی',name:' باقالی پلو با ماهیچه معمولی (۳۵۰ گرمی)',images:GujrikitchenBarberry,price:"۱۳۵,۰۰۰",material:'ماهیچه گوسفندی طعم دار شده، ۴۵۰ گرم برنج ایرانی، بادمجان مزه دار شده، گوجه تفت داده شده در ظرف ماکروویو'},
     //             {id:15,category:'غذای ایرانی',name:' طعام شاه ناز   ',images:GujrikitchenhahNazs ,price:145000,material:'۳۵۰ گرم ران مرغ، ۴۵۰ گرم برنج ایرانی، خلال بادام، خلال پسته، خلال نارنج، زعفران، در ظرف ماکروویو'},
-                
+
     //         ]
     //         },
     //         { id: 13,     category:'resturant' ,
@@ -700,8 +829,8 @@ export const MainData = [
     //                 {id:13,category:'پیتزا آمریکایی',name:'پیتزا استیک بره',images:TurkishDenarpizza1,price:172000,material:'گوشت بره استیک شده، سس مخصوص، قارچ، پنیر پیتزا ترکیبی، ذرت، فلفل دلمه، زیتون سیاه'},
     //                 {id:14,category:'پیتزا آمریکایی',name:'پیتزا مخلوط ',images:TurkishDenarpizza5,price:110000,material:'خمیر پیتزا آمریکایی ۲۶ ساتی متری، سوسیس، کالباس، پنیر مرغوب، سس مخصوص، فلفل دلمه ای'},
     //                 {id:15,category:'پیتزا آمریکایی',name:'پیتزا پپرونی',images:TurkishDenarpizza5,price:148000,material:'خمیر پیتزا آمریکایی ۲۶ سانتی متری، پپرونی فراوان، پنیر مرغوب، سس مخصوص، فلفل دلمه ای، زیتون'},
-                
-                
+
+
     //             ]   
     //             },
     //             { id: 14,     category:'resturant' ,
@@ -733,177 +862,314 @@ export const MainData = [
     //                     {id:14,category:'پنینی',name:'پنینی مرغ',images:CafeFlorePanini2,price:95000,material:'فیله مرغ، سس مخصوص، نان چاباتا، پنیر مطهر'},
     //                 ]
     //                 },
-  //   { id: 15,
-  //     category:'cafe',
-  //     name: "کافه بستنی مامان زری",
-  //     star:4.4,
-  //     score:958,
-  //     address:'پیروزی، صد دستگاه، نبش کوچه رشیدی، کافه بستنی مامان زری',
-  //     delivery:20000,
-  //     logo:Zari2,
-  //     picture:Zari2,
-  //     coupon:false,
-  //     discount:false,
-  //     categories: ["کیک", "باقلوا"] ,
-  //     foods:[
-  //         {id:1,category:'کیک',name:'کیک شکلاتی',images:Zari2,price:40000,material:'یک اسلایس'},
-  //         {id:2,category:'کیک',name:'کیک گردویی',images:Zari2,price:40000,material:'یک اسلایس کیک گردویی'},
-  //         {id:3,category:'باقلوا',name:'باقلوا ساده',images:Zari3,price:70000,material:'باقلوای ساده (چهار مغز)'},
-  //         {id:4,category:'باقلوا',name:'همبرگر',images:Zari4,price:95000,material:'ترکیبی از باقلوا بستنی وانیلی و مغزپسته'},
-  //     ]
-  // },
-  // { id: 16,
-  //     category:'cafe',
-  //     name: "قهوه مسعود",
-  //     star:4.8,
-  //     score:32,
-  //     address:'خیابان پیروزی، خیابان شکوفه، خیابان نور صالحی، پلاک ۸۱، قهوه مسعود',
-  //     delivery:30000,
-  //     logo:Masoodlogo,
-  //     picture:Masood,
-  //     coupon:false,
-  //     discount:false,
-  //     categories: ["نوشیدنی گرم"] ,
-  //     foods:[
-  //         {id:1,category:'نوشیدنی گرم',name:'هات چاکلت',images:Masood1,price:30000,material:'۲۵۰ میلی لیتر، پودر فوری هات چاکلت، پودر کاکایو، شیر'},
-  //         {id:2,category:'نوشیدنی گرم',name:'چای ماسالا',images:Masood2,price:30000,material:'۲۵۰ میلی لیتر، پودر ماسالا، شیر'},
-  //     ]
-  // },
-  // { id: 17,
-  //     category:'bakery',
-  //     name: "نان سحر",
-  //     star:4.6,
-  //     score:968,
-  //     address:'خیابان پیروزی، نرسیده به چهارراه کوکاکولا، داخل مترو نبرد، نان سحر (نبرد)',
-  //     delivery:25000,
-  //     logo:Saharlogo,
-  //     picture:Sahar,
-  //     coupon:false,
-  //     discount:true,
-  //     categories: ["صبحانه", "نان تیره و رژیمی"] ,
-  //     foods:[
-  //         {id:1,category:'صبحانه',name:'کروسان شکلاتی',images:Sahar1,price:20000,material:'آرد گندم، تخم مرغ، کره مارگارین، کره لایه ای، شکلات،مخمر، نمک، شکر، بهبود دهنده، آب'},
-  //         {id:2,category:'صبحانه',name:'شیرمال خرما و گردو',images:Sahar2,price:21000,material:'آرد گندم، وانیل، گردو، چیپس خرما، دارچین، کرمفیل، تخم مـرغ، کره مارگارین، مخمر، نمک، شکر، بهبود دهنده، آب'},
-  //         {id:3,category:'نان تیره و رژیمی',name:'نان جو دوسر',images:Sahar2,price:12000,material:'جو ،آرد،آب'},
-  //     ]
-  // },
-  // { id: 18, 
-  //     category:'bakery',
-  //     name: "نان سنگک سنتی یاس", 
-  //     star:4.4,
-  //     score:558,
-  //     address:'پیروزی، صد دستگاه، نبش کوچه رشیدی، نان سنگک سنتی یاس',
-  //     delivery:20000,
-  //     logo:Yaslogo,
-  //     picture:Yas,
-  //     coupon:false,
-  //     discount:true,
-  //     categories: ["سنگک"] ,
-  //     foods:[
-  //         {id:1,category:'سنگک',name:'سنگک سنتی دو رو کنجد',images:Yas1,price:10000,material:'یک عدد'},
-  //         {id:2,category:'سنگک',name:'سنگک سنتی ساده بزرگ',images:Yas2,price:7000,material:'بک عدد'},
-  //     ]
-  // },
-  // { id: 19,
-  //     category:'nuts',
-  //     name: "آجیل و خشکبار شکپوی",
-  //     star:4.7,
-  //     score:723,
-  //     address:'دلگشا، کوچه شهید رضایی، بلوار نیکنام شرقی، پلاک ۴۶، آجیل و خشکبار شکپوی',
-  //     delivery:30000,
-  //     logo:Shaklogo,
-  //     picture:Shak,
-  //     coupon:false,
-  //     discount:true,
-  //     categories: ["آجیل شور","آجیل خام"] ,
-  //     foods:[
-  //         {id:1,category:'آجیل شور',name:'بادام هندی شور',images:Shak1,price:10000,material:'بادام هندی ۲۴۰ شور ۲۵۰ گرم'},
-  //         {id:2,category:'آجیل شور',name:'آجیل مغز شور',images:Shak2,price:510000,material:'مغز پسته، مغز فندق، مغز بادام، مغز بادام هندی سایز ۳۲۰'},
-  //         {id:3,category:'آجیل خام',name:'آجیل چهار مغز خام',images:Shak3,price:420000,material:'پسته احمد آقایی خام با پوست، فندق خام، بادام درختی خام، بادام هندی خام'},
-  //         {id:4,category:'آجیل خام',name:'پسته احمد آقایی خام',images:Shak4,price:540000,material:'محصول: رفسنجان'},
-  //     ]
-  // },
-  // { id: 20, 
-  //   category:'confectionery', 
-  //   name: "شیرینی پاپا (ساعی)", 
-  //   star:4.6,
-  //   score:6927,
-  //   address:'یوسف آباد بین خیابان ۱۳ و ۱۵، پلاک ۱۲۵، سوسیس کالباس خوشمزه',
-  //   delivery:9500,
-  //   logo:PapaLogo,
-  //   picture:Papa,
-  //   coupon:false,
-  //   discount:true,
-  //   categories: ["کیک", " لوازم تولد"] ,
-  //   foods:[
-  //       {id:1,category:'کیک',name:'کیک شکلاتی (یخچالی) متوسط',images:PapaCake2,price:84400,material:'± ۵۰ گرم، طرح دکور متغیر  '},
-  //       {id:2,category:'کیک',name:'کیک اشکی شکلاتی بزرگ',images:PapaCake1,price:15000,material:'± ۵۰ گرم، طرح دکور متغیر'},
-  //       {id:3,category:' لوازم تولد',name:'فشفشه روی کیک',images:PapaBirth1,price:60000,material:'یک بسته'},
-  //       {id:4,category:' لوازم تولد',name:'ظروف یک بار مصرف کاغذی',images:PapaBirth2,price:35000,material:'۱۰ عدد'},
-  //   ]
-  //   },
-  //   { id: 21,
-  //          category:'confectionery',
-  //           name: "قنادی توکلی فر تبریزی",
-  //           star:4.3,
-  //           score:3056,
-  //           address:'ولیعصر، ابتدای خیابان فاطمی، روبروی مترو جهاد پلاک ۱۱، قنادی توکلی فر تبریزی',
-  //           delivery:7500,
-  //           logo:TavakliFarLogo,
-  //           picture:TavakliFar,
-  //           coupon:false,
-  //           discount:true,
-  //           categories: ["شیرینی تر ", "شکلات"] ,
-  //           foods:[
-  //               {id:1,category:'شیرینی تر ',name:'شیرینی تر مخلوط',images:TavakliFarmixed1,price:162000,material:'± ۵۰ گرم، تشکیل شده از: انواع شیرینی تر مخلوط خامه ای'},
-  //               {id:2,category:'شیرینی تر ',name:'شیرینی ماکارون انواع طعم',images:TavakliFarmixed2,price:127000,material:'تشکیل شده از: انواع ماکارون'},
-  //               {id:3,category:'شکلات ',name:'آب نبات زنجبیل',images:TavakliFarChocolate1,price:145000,material:'500گرم'},
-  //               {id:4,category:'شکلات ',name:'شکلات تلخ فله ۷۸ درصد',images:TavakliFarChocolate2,price:130000,material:'برند صادراتی لوکاکو از معتبرترین برند های موجود در صنعت شکلات'},
-  //       ]
-  //           },
+    {
+        id: 15,
+        category: 'cafe',
+        name: "کافه بستنی مامان زری",
+        star: 4.4,
+        score: 958,
+        address: 'پیروزی، صد دستگاه، نبش کوچه رشیدی، کافه بستنی مامان زری',
+        delivery: 20000,
+        logo: 'https://cdn.snappfood.ir/media/cache/vendor_logo/uploads/images/vendors/logos/5f43a74c646d6.jpeg',
+        picture: 'https://cdn.snappfood.ir/media/cache/vendor_logo/uploads/images/vendors/logos/5f43a74c646d6.jpeg',
+        coupon: false,
+        discount: false,
+        categories: [ "قهوه"],
+        foods: [
+            {
+                id: 1,
+                category: 'قهوه',
+                name: 'کافه لته',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/60/15/4/vendor/5f86e652d6bf7.jpeg',
+                price: 40000,
+                material: 'یک اسلایس'
+            },
+            {
+                id: 2,
+                category: 'قهوه',
+                name: 'موکا',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/60/15/4/vendor/5f86e5822eab3.jpeg',
+                price: 40000,
+                material: 'یک اسلایس کیک گردویی'
+            },
+            {
+                id: 3,
+                category: 'قهوه',
+                name: '',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/60/15/4/vendor/5f86e5bb7999b.jpeg',
+                price: 70000,
+                material: 'باقلوای ساده (چهار مغز)'
+            },
+            // {
+            //     id: 4,
+            //     category: 'باقلوا',
+            //     name: 'همبرگر',
+            //     images: Zari4,
+            //     price: 95000,
+            //     material: 'ترکیبی از باقلوا بستنی وانیلی و مغزپسته'
+            // },
+        ]
+    },
+    // {
+    //     id: 16,
+    //     category: 'cafe',
+    //     name: "قهوه مسعود",
+    //     star: 4.8,
+    //     score: 32,
+    //     address: 'خیابان پیروزی، خیابان شکوفه، خیابان نور صالحی، پلاک ۸۱، قهوه مسعود',
+    //     delivery: 30000,
+    //     logo: Masoodlogo,
+    //     picture: Masood,
+    //     coupon: false,
+    //     discount: false,
+    //     categories: ["نوشیدنی گرم"],
+    //     foods: [
+    //         {
+    //             id: 1,
+    //             category: 'نوشیدنی گرم',
+    //             name: 'هات چاکلت',
+    //             images: Masood1,
+    //             price: 30000,
+    //             material: '۲۵۰ میلی لیتر، پودر فوری هات چاکلت، پودر کاکایو، شیر'
+    //         },
+    //         {
+    //             id: 2,
+    //             category: 'نوشیدنی گرم',
+    //             name: 'چای ماسالا',
+    //             images: Masood2,
+    //             price: 30000,
+    //             material: '۲۵۰ میلی لیتر، پودر ماسالا، شیر'
+    //         },
+    //     ]
+    // },
+    {
+        id: 17,
+        category: 'bakery',
+        name: "نان سحر",
+        star: 4.6,
+        score: 968,
+        address: 'خیابان پیروزی، نرسیده به چهارراه کوکاکولا، داخل مترو نبرد، نان سحر (نبرد)',
+        delivery: 25000,
+        logo: 'https://cdn.snappfood.ir/media/cache/vendor_logo/uploads/images/vendors/logos/638b78c56340d.jpg',
+        picture: 'https://cdn.snappfood.ir/media/cache/vendor_logo/uploads/images/vendors/logos/638b78c56340d.jpg',
+        coupon: false,
+        discount: true,
+        categories: ["صبحانه", "نان تیره و رژیمی"],
+        foods: [
+            {
+                id: 1,
+                category: 'صبحانه',
+                name: 'کیک یزدی',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/28/07/17/product_image/zoodfood/6397233d44a25.jpg',
+                price: 20000,
+                material: 'آرد گندم، تخم مرغ، کره مارگارین، کره لایه ای، شکلات،مخمر، نمک، شکر، بهبود دهنده، آب'
+            },
+            {
+                id: 2,
+                category: 'صبحانه',
+                name: 'پای سیب',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/28/07/17/product_image/zoodfood/6397233c9602d.jpg',
+                price: 21000,
+                material: 'آرد گندم، وانیل، گردو، چیپس خرما، دارچین، کرمفیل، تخم مـرغ، کره مارگارین، مخمر، نمک، شکر، بهبود دهنده، آب'
+            },
+            {
+                id: 3,
+                category: 'نان تیره و رژیمی',
+                name: 'شیرینی زبان',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/28/07/17/product_image/zoodfood/6397233bd1eac.jpg',
+                price: 12000,
+                material: 'جو ،آرد،آب'
+            },
+        ]
+    },
+    // { id: 18,
+    //     category:'bakery',
+    //     name: "نان سنگک سنتی یاس",
+    //     star:4.4,
+    //     score:558,
+    //     address:'پیروزی، صد دستگاه، نبش کوچه رشیدی، نان سنگک سنتی یاس',
+    //     delivery:20000,
+    //     logo:Yaslogo,
+    //     picture:Yas,
+    //     coupon:false,
+    //     discount:true,
+    //     categories: ["سنگک"] ,
+    //     foods:[
+    //         {id:1,category:'سنگک',name:'سنگک سنتی دو رو کنجد',images:Yas1,price:10000,material:'یک عدد'},
+    //         {id:2,category:'سنگک',name:'سنگک سنتی ساده بزرگ',images:Yas2,price:7000,material:'بک عدد'},
+    //     ]
+    // },
+    {
+        id: 19,
+        category: 'nuts',
+        name: "آجیل تواضع (نمایندگی)",
+        star: 4.7,
+        score: 723,
+        address: 'دلگشا، کوچه شهید رضایی، بلوار نیکنام شرقی، پلاک ۴۶، آجیل تواضع (نمایندگی)',
+        delivery: 30000,
+        logo: 'https://cdn.snappfood.ir/media/cache/vendor_logo/uploads/images/vendors/logos/5f0999f316b21.png',
+        picture: 'https://cdn.snappfood.ir/media/cache/vendor_logo/uploads/images/vendors/logos/5f0999f316b21.png',
+        coupon: false,
+        discount: true,
+        categories: ["آجیل شور", "آجیل خام"],
+        foods: [
+            {
+                id: 1,
+                category: 'آجیل شور',
+                name: 'آجیل نمک دریایی',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/59/01/6/vendor/5f258b58b0d36.jpeg',
+                price: 10000,
+                material: 'بادام هندی ۲۴۰ شور ۲۵۰ گرم'
+            },
+            {
+                id: 2,
+                category: 'آجیل شور',
+                name: 'تخمه کدو گوشتی ممتاز ایرانی',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/59/01/6/vendor/5f1c50c63b9ac.jpeg',
+                price: 510000,
+                material: 'مغز پسته، مغز فندق، مغز بادام، مغز بادام هندی سایز ۳۲۰'
+            },
+            {
+                id: 3,
+                category: 'آجیل خام',
+                name: 'خلال پسته',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/59/01/6/product_image/zoodfood/637a2ddb4b67f.jpg',
+                price: 420000,
+                material: 'پسته احمد آقایی خام با پوست، فندق خام، بادام درختی خام، بادام هندی خام'
+            },
+            {
+                id: 4,
+                category: 'آجیل خام',
+                name: 'آجیل مغز شیرین',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/59/01/6/vendor/5f258a524fc4d.jpeg',
+                price: 540000,
+                material: 'محصول: رفسنجان'
+            },
+        ]
+    },
+    // { id: 20,
+    //   category:'confectionery',
+    //   name: "شیرینی پاپا (ساعی)",
+    //   star:4.6,
+    //   score:6927,
+    //   address:'یوسف آباد بین خیابان ۱۳ و ۱۵، پلاک ۱۲۵، سوسیس کالباس خوشمزه',
+    //   delivery:9500,
+    //   logo:PapaLogo,
+    //   picture:Papa,
+    //   coupon:false,
+    //   discount:true,
+    //   categories: ["کیک", " لوازم تولد"] ,
+    //   foods:[
+    //       {id:1,category:'کیک',name:'کیک شکلاتی (یخچالی) متوسط',images:PapaCake2,price:84400,material:'± ۵۰ گرم، طرح دکور متغیر  '},
+    //       {id:2,category:'کیک',name:'کیک اشکی شکلاتی بزرگ',images:PapaCake1,price:15000,material:'± ۵۰ گرم، طرح دکور متغیر'},
+    //       {id:3,category:' لوازم تولد',name:'فشفشه روی کیک',images:PapaBirth1,price:60000,material:'یک بسته'},
+    //       {id:4,category:' لوازم تولد',name:'ظروف یک بار مصرف کاغذی',images:PapaBirth2,price:35000,material:'۱۰ عدد'},
+    //   ]
+    //   },
+    {
+        id: 21,
+        category: 'confectionery',
+        name: "لاریسا (امیر آباد)",
+        star: 4.3,
+        score: 3056,
+        address: 'ولیعصر، ابتدای خیابان فاطمی، روبروی مترو جهاد پلاک ۱۱، لاریسا (امیر آباد)',
+        delivery: 7500,
+        logo: 'https://cdn.snappfood.ir/media/cache/vendor_logo/uploads/images/vendors/logos/5dfe275b5882c.jpg',
+        picture: 'https://cdn.snappfood.ir/media/cache/vendor_logo/uploads/images/vendors/logos/5dfe275b5882c.jpg',
+        coupon: false,
+        discount: true,
+        categories: ["شیرینی تر ", "شکلات"],
+        foods: [
+            {
+                id: 1,
+                category: 'شیرینی تر ',
+                name: 'شیرینی دانمارکی',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/22/44/7/product_image/zoodfood/5a87fe9434f62.jpg',
+                price: 162000,
+                material: '± ۵۰ گرم، تشکیل شده از: انواع شیرینی تر مخلوط خامه ای'
+            },
+            {
+                id: 2,
+                category: 'شیرینی تر ',
+                name: 'باقلوا استانبولی',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/22/44/7/vendor/60a918b56b19b.jpeg',
+                price: 127000,
+                material: 'تشکیل شده از: انواع ماکارون'
+            },
+            {
+                id: 3,
+                category: 'شکلات',
+                name: 'پای سیب',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/22/44/7/vendor/609fdb5806068.jpeg',
+                price: 145000,
+                material: '500گرم'
+            },
+            {
+                id: 4,
+                category: 'شکلات',
+                name: 'کیک شکلاتی',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/22/44/7/vendor/61670fc19b455.jpeg',
+                price: 130000,
+                material: 'برند صادراتی لوکاکو از معتبرترین برند های موجود در صنعت شکلات'
+            },
+        ]
+    },
 
 
+    // { id: 22,
+    //     category:'juice',
+    //     name: "آبمیوه و بستنی شهریور",
+    //     star:4,
+    //     score:6056,
+    //     address:'خیابان ولیعصر، بالاتر از میدان ولیعصر، روبروی اداره گمرک، پلاک ۱۷۸۸ ، آبمیوه بستنی شهریور',
+    //     delivery:5000,
+    //     logo:ShahrivarLogo,
+    //     picture:Shahrivar,
+    //     coupon:false,
+    //     discount:true,
+    //     categories: ["آیس پک", "سوخاری",'نوشیدنی','پیش غدا','خاچاپوری','هات داگ'] ,
+    //     foods:[
+    //         {id:1,category:'آیس پک',name:'آیس شکلات',images:IcePack1,price:145000,material:''},
+    //         {id:2,category:'آیس پک',name:' آیس شاه توت',images:IcePack2,price:38000,material:'موز اسمارتیز خامه'},
 
-            // { id: 22,
-            //     category:'juice',  
-            //     name: "آبمیوه و بستنی شهریور", 
-            //     star:4,
-            //     score:6056,
-            //     address:'خیابان ولیعصر، بالاتر از میدان ولیعصر، روبروی اداره گمرک، پلاک ۱۷۸۸ ، آبمیوه بستنی شهریور',
-            //     delivery:5000,
-            //     logo:ShahrivarLogo,
-            //     picture:Shahrivar,
-            //     coupon:false,
-            //     discount:true,
-            //     categories: ["آیس پک", "سوخاری",'نوشیدنی','پیش غدا','خاچاپوری','هات داگ'] ,
-            //     foods:[
-            //         {id:1,category:'آیس پک',name:'آیس شکلات',images:IcePack1,price:145000,material:''},
-            //         {id:2,category:'آیس پک',name:' آیس شاه توت',images:IcePack2,price:38000,material:'موز اسمارتیز خامه'},
-                                       
-            // ]
-            //     },
-
+    // ]
+    //     },
 
 
-                // { id: 23,
-                //     name: "بهار",
-                //     star:5,
-                //     score:16056,
-                //     address:'خیابان بهار شمالی، روبروی منبع آب، نبش کوچه ابن سین، اپلاک ۴۶۹، آبمیوه بهار',
-                //     delivery:5000,
-                //     logo:BaharLogo,
-                //     picture:Bahar,
-                //     coupon:false,
-                //     discount:true,
-                //     categories: ["بستنی"],
-                //     foods:[
-                //         {id:1,category:'بستنی',name:' بستنی میوه ای لیوانی',images:Icecream1,price:20000,material:'۴ اسکوپ بستنی شرکتی، در طعم های محتلف'},
-                //         {id:2,category:'بستنی',name:'بستنی میوه ای اسکوپی',images:Icecream2,price:60000,material:'شرکتی، در طعم های محتلف'},
-                //
-                // ]
-                //     },
-    
-    ]
+    // {
+    //     id: 23,
+    //     name: "بهار",
+    //     star: 5,
+    //     score: 16056,
+    //     address: 'خیابان بهار شمالی، روبروی منبع آب، نبش کوچه ابن سین، اپلاک ۴۶۹، آبمیوه بهار',
+    //     delivery: 5000,
+    //     logo: BaharLogo,
+    //     picture: Bahar,
+    //     coupon: false,
+    //     discount: true,
+    //     categories: ["بستنی"],
+    //     foods: [
+    //         {
+    //             id: 1,
+    //             category: 'بستنی',
+    //             name: ' بستنی میوه ای لیوانی',
+    //             images: Icecream1,
+    //             price: 20000,
+    //             material: '۴ اسکوپ بستنی شرکتی، در طعم های محتلف'
+    //         },
+    //         {
+    //             id: 2,
+    //             category: 'بستنی',
+    //             name: 'بستنی میوه ای اسکوپی',
+    //             images: Icecream2,
+    //             price: 60000,
+    //             material: 'شرکتی، در طعم های محتلف'
+    //         },
+    //
+    //     ]
+    // },
+
+]
 // export const DataBase = [
 //   { id: 1, 
 //     name: "شیلا", 

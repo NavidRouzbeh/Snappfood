@@ -22,11 +22,11 @@ const DesktopVendor = ({name,star,score,delivery,logo,picture}:any) => {
     <Card  sx={{height:'21.3125rem', width:'21rem',my:2,cursor:'pointer'}}>
       
       <Grid sx={{height:'40%'}}>
-        <Image src={picture} alt="" style={{height: '100%',width:'100%', objectFit:'cover'}} />
+        <Image src={picture} width={25} height={25} alt="" style={{height: '100%',width:'100%', objectFit:'cover'}} />
       </Grid>
       <Grid sx={{position:'relative', height:'%60'}} display={'flex'} justifyContent={'center'}>
         <Grid sx={{position:'absolute', right:100, top:-66}} boxShadow={2} >
-          <Image src={logo} alt="" style={{ 
+          <Image src={logo} alt="" width={25} height={25} style={{
             width:'5.5rem',
             height: '5.5rem',
             border: '1px solid rgba(58, 61, 66, 0.06)',

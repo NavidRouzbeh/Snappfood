@@ -16,7 +16,7 @@ const Comment = ({market}: any) => {
             <Grid item xs={12} sm={6} md={3} p={2} height={"200px"} display={{ sm: "flex", xs: "none" }} flexDirection={"column"}>
                 <Grid item xs={12} display={"flex"} gap={2}>
                     <Grid xs={4}  display={"flex"}  alignItems={"center"} justifyContent={"center"} boxShadow={"rgb(58 61 66 / 6%) 0px 1px 0px, rgb(0 0 0 / 30%) 0px 8px 32px -16px"} borderRadius={"0.75rem"} >
-                        <Image src={market.picture} alt="" style={{ border: "1px solid rgba(58, 61, 66, 0.06)", borderRadius: "0.75rem", width: "95%", height: "95%" }} />
+                        <Image src={market.picture} alt="" style={{ border: "1px solid rgba(58, 61, 66, 0.06)", borderRadius: "0.75rem", width: "95%", height: "95%" }} width={25} height={25}/>
                     </Grid>
                     <Grid item xs={8.9} >
                         <Grid item xs={12}  mt={2} display={"flex"} justifyContent={"space-between"} alignItems={"center"} justifyItems={"center"}>
