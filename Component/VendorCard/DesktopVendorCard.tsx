@@ -26,7 +26,7 @@ const DesktopVendor = ({name,star,score,delivery,logo,picture}:any) => {
       </Grid>
       <Grid sx={{position:'relative', height:'%60'}} display={'flex'} justifyContent={'center'}>
         <Grid sx={{position:'absolute', right:100, top:-66}} boxShadow={2} >
-          <Image src={logo} alt="" width={25} height={25} style={{
+          <img src={logo} alt="" width={25} height={25} style={{
             width:'5.5rem',
             height: '5.5rem',
             border: '1px solid rgba(58, 61, 66, 0.06)',
@@ -57,7 +57,7 @@ const DesktopVendor = ({name,star,score,delivery,logo,picture}:any) => {
                 boxShadow: 'rgb(58 61 66 / 16%) 0px 1px 0px'
               }}>
                 <Grid display={'flex'} gap={1} >
-                  <Image src={CourierLogo} alt="" />
+                  <img src={CourierLogo} alt="" />
                   <Typography variant='subtitle1'>پیک فروشنده</Typography>
                   <Typography variant='subtitle1'> {delivery} </Typography>
                   <Typography variant='subtitle1'>تومان</Typography>

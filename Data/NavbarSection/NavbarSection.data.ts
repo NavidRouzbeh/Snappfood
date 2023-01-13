@@ -11,7 +11,7 @@ import sweet from "../../Assets/Images/navbar/sweet.png"
 export interface NavbarSectionType{
     id:number
     title:string,
-    image:StaticImageData,
+    image:StaticImageData | string,
     href:string
 }
 
