@@ -910,6 +910,150 @@ export const MainData = [
             // },
         ]
     },
+    {
+        id: 19,
+        category: 'juice',
+        name: "کافه بستنی مامان زری",
+        star: 4.4,
+        score: 958,
+        address: 'پیروزی، صد دستگاه، نبش کوچه رشیدی، کافه بستنی مامان زری',
+        delivery: 20000,
+        logo: 'https://cdn.snappfood.ir/media/cache/vendor_logo/uploads/images/vendors/logos/5f43a74c646d6.jpeg',
+        picture: 'https://cdn.snappfood.ir/media/cache/vendor_logo/uploads/images/vendors/logos/5f43a74c646d6.jpeg',
+        coupon: false,
+        discount: false,
+        categories: [ "قهوه"],
+        foods: [
+            {
+                id: 1,
+                category: 'قهوه',
+                name: 'کافه لته',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/60/15/4/vendor/5f86e652d6bf7.jpeg',
+                price: 40000,
+                material: 'یک اسلایس'
+            },
+            {
+                id: 2,
+                category: 'قهوه',
+                name: 'موکا',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/60/15/4/vendor/5f86e5822eab3.jpeg',
+                price: 40000,
+                material: 'یک اسلایس کیک گردویی'
+            },
+            {
+                id: 3,
+                category: 'قهوه',
+                name: '',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/60/15/4/vendor/5f86e5bb7999b.jpeg',
+                price: 70000,
+                material: 'باقلوای ساده (چهار مغز)'
+            },
+            // {
+            //     id: 4,
+            //     category: 'باقلوا',
+            //     name: 'همبرگر',
+            //     images: Zari4,
+            //     price: 95000,
+            //     material: 'ترکیبی از باقلوا بستنی وانیلی و مغزپسته'
+            // },
+        ]
+    },
+    {
+        id: 192,
+        category: 'protein',
+        name: "کافه بستنی مامان زری",
+        star: 4.4,
+        score: 958,
+        address: 'پیروزی، صد دستگاه، نبش کوچه رشیدی، کافه بستنی مامان زری',
+        delivery: 20000,
+        logo: 'https://cdn.snappfood.ir/media/cache/vendor_logo/uploads/images/vendors/logos/5f43a74c646d6.jpeg',
+        picture: 'https://cdn.snappfood.ir/media/cache/vendor_logo/uploads/images/vendors/logos/5f43a74c646d6.jpeg',
+        coupon: false,
+        discount: false,
+        categories: [ "قهوه"],
+        foods: [
+            {
+                id: 1,
+                category: 'قهوه',
+                name: 'کافه لته',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/60/15/4/vendor/5f86e652d6bf7.jpeg',
+                price: 40000,
+                material: 'یک اسلایس'
+            },
+            {
+                id: 2,
+                category: 'قهوه',
+                name: 'موکا',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/60/15/4/vendor/5f86e5822eab3.jpeg',
+                price: 40000,
+                material: 'یک اسلایس کیک گردویی'
+            },
+            {
+                id: 3,
+                category: 'قهوه',
+                name: '',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/60/15/4/vendor/5f86e5bb7999b.jpeg',
+                price: 70000,
+                material: 'باقلوای ساده (چهار مغز)'
+            },
+            // {
+            //     id: 4,
+            //     category: 'باقلوا',
+            //     name: 'همبرگر',
+            //     images: Zari4,
+            //     price: 95000,
+            //     material: 'ترکیبی از باقلوا بستنی وانیلی و مغزپسته'
+            // },
+        ]
+    },
+    {
+        id: 192,
+        category: 'fruit',
+        name: "کافه بستنی مامان زری",
+        star: 4.4,
+        score: 958,
+        address: 'پیروزی، صد دستگاه، نبش کوچه رشیدی، کافه بستنی مامان زری',
+        delivery: 20000,
+        logo: 'https://cdn.snappfood.ir/media/cache/vendor_logo/uploads/images/vendors/logos/5f43a74c646d6.jpeg',
+        picture: 'https://cdn.snappfood.ir/media/cache/vendor_logo/uploads/images/vendors/logos/5f43a74c646d6.jpeg',
+        coupon: false,
+        discount: false,
+        categories: [ "قهوه"],
+        foods: [
+            {
+                id: 1,
+                category: 'قهوه',
+                name: 'کافه لته',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/60/15/4/vendor/5f86e652d6bf7.jpeg',
+                price: 40000,
+                material: 'یک اسلایس'
+            },
+            {
+                id: 2,
+                category: 'قهوه',
+                name: 'موکا',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/60/15/4/vendor/5f86e5822eab3.jpeg',
+                price: 40000,
+                material: 'یک اسلایس کیک گردویی'
+            },
+            {
+                id: 3,
+                category: 'قهوه',
+                name: '',
+                images: 'https://cdn.snappfood.ir/200x201/cdn/60/15/4/vendor/5f86e5bb7999b.jpeg',
+                price: 70000,
+                material: 'باقلوای ساده (چهار مغز)'
+            },
+            // {
+            //     id: 4,
+            //     category: 'باقلوا',
+            //     name: 'همبرگر',
+            //     images: Zari4,
+            //     price: 95000,
+            //     material: 'ترکیبی از باقلوا بستنی وانیلی و مغزپسته'
+            // },
+        ]
+    },
     // {
     //     id: 16,
     //     category: 'cafe',

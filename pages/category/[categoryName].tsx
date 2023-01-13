@@ -1,11 +1,11 @@
-import { PanoramaSharp } from "@mui/icons-material";
+// import { PanoramaSharp } from "@mui/icons-material";
 import { Grid } from "@mui/material";
-import { GetStaticProps, GetStaticPropsContext } from "next";
+import { GetStaticPropsContext } from "next";
 import { getMarkets } from "../../API/getMarkets";
-import CategorySidebarContainer from "../../Component/CategorySidebar/CategorySidebarContainer";
+// import CategorySidebarContainer from "../../Component/CategorySidebar/CategorySidebarContainer";
 import SortingDropDown from "../../Component/SortingDropDown/SortingDropDown";
 import DesktopVendor from "../../Component/VendorCard/DesktopVendorCard";
-import VendorCard from "../../Component/VendorCard/VendorCard";
+// import VendorCard from "../../Component/VendorCard/VendorCard";
 import { categoryData } from "../../Data/Main/categoryData";
 interface CategoryNameProps {
     markets:[]
@@ -44,7 +44,7 @@ export async function getStaticProps(context:GetStaticPropsContext) {
   export async function getStaticPaths() {
     return {
       paths: categoryData.map(item => ({params:{categoryName:item}})) ,
-      fallback: true,
+      fallback: 'blocking',
     }
   }
   

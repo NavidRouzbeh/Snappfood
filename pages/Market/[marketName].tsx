@@ -1,13 +1,13 @@
 import {Grid} from "@mui/material"
 import {GetStaticPropsContext} from "next"
 import SectionPopular from "../../Component/Market/SectionPopular/SectionPopular"
-import Rec from "../../Component/Market/rectangular/Rec"
+// import Rec from "../../Component/Market/rectangular/Rec"
 import Cart from "../../Component/Market/Cart/Cart"
 import {getFoodMarket} from "../../API/getFoodMarket"
 import {MainData} from "../../Data/Main/MainData"
 import Comment from "../../Component/Market/Comment/Comment"
-import CommentDes from "../../Component/Market/Comment/CommentDes"
-import MarketSection from "../../Component/Market/MarketSection"
+// import CommentDes from "../../Component/Market/Comment/CommentDes"
+// import MarketSection from "../../Component/Market/MarketSection"
 
 interface MarketNameProps {
     market: any[]
@@ -42,7 +42,7 @@ export async function getStaticProps(context: GetStaticPropsContext) {
 export async function getStaticPaths() {
     return {
         paths: MainData.map(item => ({params: {marketName: item.name}})),
-        fallback: true,
+        fallback: 'blocking',
     }
 }
 
